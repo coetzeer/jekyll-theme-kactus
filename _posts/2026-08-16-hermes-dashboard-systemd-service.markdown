@@ -53,7 +53,7 @@ WantedBy=default.target
 
 ### Design notes
 
-- **Absolute paths everywhere.** `ExecStart`/`ExecStop` and `WorkingDirectory` use absolute paths because, in a systemd unit, the working directory and `$PATH` are *not* what you'd get in an interactive shell. The venv `hermes` binary resolves to `/home/raymondcoettsee/.hermes/hermes-agent/venv/bin/hermes`.
+- **Absolute paths everywhere.** `ExecStart`/`ExecStop` and `WorkingDirectory` use absolute paths because, in a systemd unit, the working directory and `$PATH` are *not* what you'd get in an interactive shell. The venv `hermes` binary resolves to `/home/USER/.hermes/hermes-agent/venv/bin/hermes`.
 - **`--no-open`** — headless-safe. The dashboard would otherwise try to spawn a browser; in a server or SSH context that's noise (or a failure).
 - **`--host 127.0.0.1`** — the dashboard binds loopback only. The June 2026 hardening means a public bind *always* requires an auth provider; loopback + an SSH tunnel is the recommended pattern for remote access.
 - **`ExecStop` runs the project's own stop command** (`hermes dashboard --stop`) rather than relying on a bare `KillSignal`. This lets the dashboard tear down its server cleanly. `KillMode=mixed` is the fallback: systemd sends `SIGTERM` to the main process after `TimeoutStopSec`, and `SIGKILL` is reserved for forked children only.
@@ -82,13 +82,13 @@ Failed to connect to bus: No medium found
 The fix is **user lingering**, which tells `systemd --user` / `logind` to spin up and keep alive a persistent user manager instance (`user@UID.service`) plus its D-Bus session, even when no one is logged in:
 
 ```bash
-sudo loginctl enable-linger raymondcoetzee
+sudo loginctl enable-linger USER
 ```
 
 After that runs, `/run/user/1000/` is created, including the `bus` socket at `/run/user/1000/bus`. You can verify with:
 
 ```bash
-loginctl show-user raymondcoetzee          # should show Linger=yes
+loginctl show-user USR          # should show Linger=yes
 ls -la /run/user/1000                       # should contain bus, systemd/
 ```
 
@@ -96,7 +96,7 @@ ls -la /run/user/1000                       # should contain bus, systemd/
 
 ### Connecting when the login shell doesn't set `XDG_RUNTIME_DIR`
 
-Even after enabling linger, a `sudo -u raymondcoettsee systemctl --user …` invocation can still fail — `sudo -u` doesn't propagate `XDG_RUNTIME_DIR` or `DBUS_SESSION_BUS_ADDRESS`, so systemctl doesn't know where the bus socket is. If you ever run into that, point the environment at the user's runtime dir explicitly:
+Even after enabling linger, a `sudo -u USER systemctl --user …` invocation can still fail — `sudo -u` doesn't propagate `XDG_RUNTIME_DIR` or `DBUS_SESSION_BUS_ADDRESS`, so systemctl doesn't know where the bus socket is. If you ever run into that, point the environment at the user's runtime dir explicitly:
 
 ```bash
 export XDG_RUNTIME_DIR=/run/user/1000
