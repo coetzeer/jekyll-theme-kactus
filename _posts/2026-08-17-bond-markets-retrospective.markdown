@@ -5,10 +5,10 @@ description: "A plain-English 2-day retrospective on US Treasuries, UK gilts and
 categories: [markets, finance]
 tags: [bonds, treasuries, gilts, bunds, macro]
 layout: post
-image: /assets/images/2026-08-17-bond-markets-retrospective.svg
+image: /jekyll-theme-kactus/assets/images/2026-08-17-bond-markets-retrospective.svg
 ---
 
-![Bond markets retrospective header](/assets/images/2026-08-17-bond-markets-retrospective.svg)
+![Bond markets retrospective header](/jekyll-theme-kactus/assets/images/2026-08-17-bond-markets-retrospective.svg)
 
 Over the last two days, government bond markets in the US, UK and Europe sent a clear, unified message: investors are nervous about inflation, and that nervousness is pushing borrowing costs around the world.
 

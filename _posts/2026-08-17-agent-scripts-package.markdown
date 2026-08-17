@@ -5,10 +5,10 @@ description: "How agent_scripts wraps Open-Meteo weather lookups and a SQLite-ba
 categories: [self-hosted, python, knowledge-management]
 tags: [agent_scripts, open-meteo, sqlite, jekyll, markdown, kb]
 layout: post
-image: /assets/images/agent-scripts-architecture.svg
+image: /jekyll-theme-kactus/assets/images/agent-scripts-architecture.svg
 ---
 
-![agent_scripts architecture diagram](/assets/images/agent-scripts-architecture.svg)
+![agent_scripts architecture diagram](/jekyll-theme-kactus/assets/images/agent-scripts-architecture.svg)
 
 I've been building a small Python package called **agent_scripts** to handle routine lookups and knowledge-base work for the Hermes agent. Rather than scattering one-off scripts around the repo, I wanted a single installable package with a clean CLI that does three things well: fetches weather without an API key, stores and searches markdown articles in a SQLite-backed knowledge base, and supports a lightweight entity-directory model for tracking things like people or places over time.
 
