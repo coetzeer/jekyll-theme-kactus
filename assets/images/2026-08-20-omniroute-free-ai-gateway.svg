@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 520" width="1400" height="520">
+  <defs>
+    <style>
+      .bg { fill: #0f172a; }
+      .panel { fill: #1e293b; stroke: #334155; stroke-width: 1.5; rx: 8; }
+      .title { fill: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 18px; font-weight: 700; }
+      .label { fill: #e2e8f0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; font-weight: 600; }
+      .sub { fill: #94a3b8; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11px; }
+      .code { fill: #cbd5e1; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 11px; }
+      .arrow { fill: none; stroke: #64748b; stroke-width: 1.5; marker-end: url(#arrowhead); }
+      .dashed { fill: none; stroke: #475569; stroke-width: 1.2; stroke-dasharray: 4 3; marker-end: url(#arrowhead); }
+      .blue { fill: #3b82f6; }
+      .cyan { fill: #06b6d4; }
+      .violet { fill: #8b5cf6; }
+      .amber { fill: #f59e0b; }
+      .rose { fill: #f43f5e; }
+      .emerald { fill: #10b981; }
+      .orange { fill: #f97316; }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#64748b" />
+    </marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="1400" height="520" />
+  <text x="700" y="36" text-anchor="middle" class="title">OmniRoute — Free AI Gateway Architecture</text>
+  <text x="700" y="56" text-anchor="middle" class="sub">one OpenAI-compatible endpoint · 290+ providers · 90+ free tiers · 4-tier auto-fallback</text>
+
+  <!-- Clients column (left) -->
+  <rect class="panel" x="40" y="80" width="250" height="300" />
+  <text x="165" y="104" text-anchor="middle" class="label">Clients</text>
+  <rect x="60" y="120" width="210" height="34" rx="6" class="blue" />
+  <text x="165" y="142" text-anchor="middle" class="label">Claude Code</text>
+  <rect x="60" y="162" width="210" height="34" rx="6" class="blue" />
+  <text x="165" y="184" text-anchor="middle" class="label">Codex CLI</text>
+  <rect x="60" y="204" width="210" height="34" rx="6" class="blue" />
+  <text x="165" y="226" text-anchor="middle" class="label">Any OpenAI-compatible tool</text>
+  <text x="165" y="262" text-anchor="middle" class="sub">curl / IDE / agent CLI</text>
+
+  <!-- Router column (middle) -->
+  <rect class="panel" x="430" y="80" width="380" height="340" />
+  <text x="620" y="104" text-anchor="middle" class="label">OmniRoute (localhost:20128/v1)</text>
+  <rect x="450" y="122" width="340" height="34" rx="6" class="violet" />
+  <text x="620" y="144" text-anchor="middle" class="label">Smart Router · model: auto</text>
+  <rect x="450" y="164" width="340" height="34" rx="6" class="cyan" />
+  <text x="620" y="186" text-anchor="middle" class="label">19 routing strategies</text>
+  <rect x="450" y="206" width="340" height="34" rx="6" class="cyan" />
+  <text x="620" y="228" text-anchor="middle" class="label">RTK + Caveman compression</text>
+  <rect x="450" y="248" width="340" height="34" rx="6" class="cyan" />
+  <text x="620" y="270" text-anchor="middle" class="label">Circuit breakers · cooldowns · lockouts</text>
+  <rect x="450" y="290" width="340" height="34" rx="6" class="emerald" />
+  <text x="620" y="312" text-anchor="middle" class="label">Dashboard · free-tier budget · analytics</text>
+  <rect x="450" y="332" width="340" height="34" rx="6" class="emerald" />
+  <text x="620" y="354" text-anchor="middle" class="label">OAuth flows · key vault (AES-256-GCM)</text>
+
+  <!-- Providers column (right) -->
+  <rect class="panel" x="940" y="80" width="420" height="340" />
+  <text x="1150" y="104" text-anchor="middle" class="label">290+ Providers · 500+ models</text>
+  <rect x="960" y="118" width="380" height="40" rx="6" class="orange" />
+  <text x="1150" y="136" text-anchor="middle" class="label">Tier 1 · Subscription</text>
+  <text x="1150" y="152" text-anchor="middle" class="sub">Claude Code · Codex · Copilot · Cursor plans</text>
+  <rect x="960" y="166" width="380" height="40" rx="6" class="rose" />
+  <text x="1150" y="184" text-anchor="middle" class="label">Tier 2 · API Key</text>
+  <text x="1150" y="200" text-anchor="middle" class="sub">DeepSeek · Groq · xAI · Mistral · Gemini</text>
+  <rect x="960" y="214" width="380" height="40" rx="6" class="amber" />
+  <text x="1150" y="232" text-anchor="middle" class="label">Tier 3 · Cheap</text>
+  <text x="1150" y="248" text-anchor="middle" class="sub">GLM · MiniMax · low-cost inference</text>
+  <rect x="960" y="262" width="380" height="40" rx="6" class="emerald" />
+  <text x="1150" y="280" text-anchor="middle" class="label">Tier 4 · Free</text>
+  <text x="1150" y="296" text-anchor="middle" class="sub">OpenCode Free · Felo · Kiro · SiliconFlow · Z.AI</text>
+  <text x="1150" y="340" text-anchor="middle" class="sub">~1.53B documented free tokens / month</text>
+  <text x="1150" y="356" text-anchor="middle" class="sub">43 deduped free pools · uncapped no-cap providers listed</text>
+
+  <!-- Legend at bottom -->
+  <rect class="panel" x="40" y="445" width="1320" height="52" />
+  <rect x="70" y="462" width="16" height="16" rx="3" class="blue" />
+  <text x="94" y="475" class="sub">Clients</text>
+  <rect x="250" y="462" width="16" height="16" rx="3" class="violet" />
+  <text x="274" y="475" class="sub">Router core</text>
+  <rect x="420" y="462" width="16" height="16" rx="3" class="cyan" />
+  <text x="444" y="475" class="sub">Routing/compression</text>
+  <rect x="650" y="462" width="16" height="16" rx="3" class="emerald" />
+  <text x="674" y="475" class="sub">Storage/free tiers</text>
+  <rect x="870" y="462" width="16" height="16" rx="3" class="orange" />
+  <text x="894" y="475" class="sub">Provider tiers</text>
+</svg>
