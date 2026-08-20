@@ -10,25 +10,25 @@ image: /jekyll-theme-kactus/assets/images/2026-08-21-hermes-webui-systemd-servic
 
 ![Hermes WebUI systemd service architecture](/jekyll-theme-kactus/assets/images/2026-08-21-hermes-webui-systemd-service.svg)
 
-I've been running the [Hermes WebUI](https://github.com/NousResearch/hermes-webui) manually for a while now. It usually starts with a quick `./start.sh`, which kicks off a detached background process and leaves you to get on with your work. It's fine for a quick session, but as soon as you logout or the machine restarts, you're back to square one.
+I’ve been running the [Hermes WebUI](https://github.com/NousResearch/hermes-webui) manually for a while. Usually, that means running `./start.sh`, which kicks off a detached process and leaves me to get on with my work. It’s fine for a quick session, but as soon as I log out or the machine restarts, the service dies.
 
-I decided to move it over to a proper **systemd user service**. It turns out there's a much cleaner way to do this than just wrapping the background script, thanks to a specific flag that isn't immediately obvious if you just stick to the shell defaults.
+I finally decided to turn it into a proper **systemd user service**. It turns out there's a much cleaner way to do this than just wrapping a background script, thanks to a specific flag that isn't immediately obvious in the shell defaults.
 
-## The problem with detached scripts
+## The detached-script headache
 
-When you run `./start.sh`, it uses `bootstrap.py` to spawn `server.py` in the background. For systemd, this is a bit of a headache. If you use `Type=forking`, you have to deal with PID files and hope the process cleanup works correctly when you want to stop the service.
+`./start.sh` uses `bootstrap.py` to spawn `server.py` in the background. For systemd, this is messy. If you use `Type=forking`, you’re stuck managing PID files and hoping the process cleanup actually works.
 
-The better way is to keep the process in the foreground and let systemd track it natively.
+The better approach: keep the process in the foreground. Let systemd track it natively.
 
 ## The discovery: --foreground auto-promotion
 
-While looking through the `bootstrap.py` source, I found that it actually checks for supervisor environment variables like `INVOCATION_ID` (which systemd sets automatically). If it detects it's being run by a supervisor, it auto-promotes itself to `--foreground` mode.
+While poking around `bootstrap.py`, I realized it actually checks for supervisor environment variables like `INVOCATION_ID` (which systemd sets automatically). If it detects it's being run by a supervisor, it auto-promotes itself to `--foreground` mode.
 
-In foreground mode, it skips the daemonization dance and the post-launch health probe, letting systemd see the real server PID from the start. This makes the service definition incredibly simple.
+In foreground mode, it skips the daemonization dance and the health probe. Systemd sees the real server PID from the start. This makes the service definition surprisingly simple.
 
 ## The unit file
 
-I dropped this into `~/.config/systemd/user/hermes-webui.service`. Note the `ExecStart` line — I'm calling `bootstrap.py` directly with the `--foreground` flag to be explicit, though the auto-detection would probably handle it anyway.
+I dropped this into `~/.config/systemd/user/hermes-webui.service`. Even though auto-detection would probably pick it up, I'm calling `bootstrap.py` directly with `--foreground` just to be explicit.
 
 ```ini
 [Unit]
@@ -41,7 +41,7 @@ Type=simple
 ExecStart=$HOMEDIR/Documents/hermes-webui/bootstrap.py --no-browser --foreground --host 127.0.0.1 8787
 WorkingDirectory=$HOMEDIR/Documents/hermes-webui
 Environment="HOME=$HOMEDIR"
-# Make sure your VENV is on the PATH so python finds its dependencies
+# Keep your VENV on the PATH so python finds its dependencies
 Environment="PATH=$HOMEDIR/.hermes/hermes-agent/venv/bin:/usr/local/bin:/usr/bin:/bin"
 Environment="HERMES_WEBUI_HOST=127.0.0.1"
 Environment="HERMES_WEBUI_PORT=8787"
@@ -61,21 +61,21 @@ WantedBy=default.target
 
 ## Setup and Linger
 
-If you're on a headless server or working over SSH, you'll likely hit the "Failed to connect to bus" error when you try to run `systemctl --user`. This happens because the D-Bus session bus only exists while you're actively logged in.
+On a headless server or working over SSH, you might hit the "Failed to connect to bus" error with `systemctl --user`. That just means the D-Bus session bus doesn't exist when you aren't actively logged in.
 
-The fix is to enable user lingering, which tells systemd to keep your user manager and its bus alive even after you disconnect:
+The fix is to enable user lingering. This tells systemd to keep your user manager and its bus alive even after you disconnect:
 
 ```bash
 sudo loginctl enable-linger $USER
 ```
 
-Once that's done, you can wire up the service:
+Now you can wire it up:
 
 ```bash
 systemctl --user daemon-reload
 systemctl --user enable --now hermes-webui.service
 ```
 
-## Why this is better
+## Why this feels better
 
-By using `Type=simple` and the foreground flag, I'm letting systemd do what it's best at: managing lifecycles. If the server crashes, systemd restarts it in 5 seconds. If I want to see what's happening, `journalctl --user -u hermes-webui -f` gives me the live stream. No more hunting for orphaned PIDs or wondering if the background script actually stayed up.
+By using `Type=simple` and the foreground flag, I’m letting systemd do what it’s best at: managing lifecycles. If the server crashes, systemd restarts it in 5 seconds. If I need to troubleshoot, `journalctl --user -u hermes-webui -f` gives me the live stream immediately. No more hunting for orphaned PIDs or wondering if the background script actually stayed up.
