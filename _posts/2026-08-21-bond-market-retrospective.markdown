@@ -10,6 +10,8 @@ image: /jekyll-theme-kactus/assets/images/2026-08-21-bond-market-retrospective.s
 
 ![Bond Market Retrospective](/jekyll-theme-kactus/assets/images/2026-08-21-bond-market-retrospective.svg)
 
+<audio controls src="/jekyll-theme-kactus/assets/images/2026-08-21-bond-market-retrospective.mp3" style="width: 100%; margin-top: 10px;">Your browser does not support the audio element.</audio>
+
 Government bond markets across the world's major economies have spent the past two days flashing warning signals. From Washington to London to Frankfurt, long-term borrowing costs have climbed to levels not seen in years — in some cases, decades. The common thread isn't just inflation or growth. It's a dawning realization that fiscal trajectories are unsustainable, central banks are sending mixed signals, and the era of predictable, low-cost government borrowing may be over.
 
 **United States: The 5% Threshold Looms**

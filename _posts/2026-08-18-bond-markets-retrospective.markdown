@@ -10,6 +10,8 @@ image: /jekyll-theme-kactus/assets/images/2026-08-18-bond-markets-retrospective.
 
 ![Bond Markets Retrospective](/jekyll-theme-kactus/assets/images/2026-08-18-bond-markets-retrospective.svg)
 
+<audio controls src="/jekyll-theme-kactus/assets/images/2026-08-18-bond-markets-retrospective.mp3" style="width: 100%; margin-top: 10px;">Your browser does not support the audio element.</audio>
+
 Government bond markets across the major advanced economies have spent the past two days digesting a familiar but potent mix of geopolitical risk, stubborn inflation, and a wall of new debt supply. The result: yields — the effective interest rate governments pay to borrow — have climbed or held near multi-year highs in the United States, the United Kingdom, and across the euro area, from the safety of German Bunds to the riskier debt of Italy and France.
 
 ### United States: The Long End Leads the Sell-Off

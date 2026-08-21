@@ -10,6 +10,8 @@ image: /jekyll-theme-kactus/assets/images/2026-08-17-bond-markets-retrospective.
 
 ![Bond markets retrospective header](/jekyll-theme-kactus/assets/images/2026-08-17-bond-markets-retrospective.svg)
 
+<audio controls src="/jekyll-theme-kactus/assets/images/2026-08-17-bond-markets-retrospective.mp3" style="width: 100%; margin-top: 10px;">Your browser does not support the audio element.</audio>
+
 Over the last two days, government bond markets in the US, UK and Europe sent a clear, unified message: investors are nervous about inflation, and that nervousness is pushing borrowing costs around the world.
 
 ## What happened

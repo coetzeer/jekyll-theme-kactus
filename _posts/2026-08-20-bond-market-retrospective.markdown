@@ -8,9 +8,9 @@ layout: post
 image: /jekyll-theme-kactus/assets/images/bond-market-retrospective.svg
 ---
 
-<audio controls src="/jekyll-theme-kactus/assets/images/bond-market-retrospective.mp3" style="width: 100%; margin-top: 20px;">Your browser does not support the audio element.</audio>
-
 ![Bond Market Retrospective](/jekyll-theme-kactus/assets/images/bond-market-retrospective.svg)
+
+<audio controls src="/jekyll-theme-kactus/assets/images/bond-market-retrospective.mp3" style="width: 100%; margin-top: 10px;">Your browser does not support the audio element.</audio>
 
 Government bond markets across the United States, United Kingdom, and eurozone experienced significant volatility over the past two days, driven by a mix of geopolitical tension, fiscal policy moves, and shifting expectations about central bank interest rate paths. The common thread: yields — the interest rates governments pay to borrow — have been climbing toward multi-year highs, prompting policy responses from finance ministries and central banks alike.
 

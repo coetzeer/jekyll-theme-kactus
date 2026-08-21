@@ -10,6 +10,8 @@ image: /jekyll-theme-kactus/assets/images/2026-08-19-bond-market-retrospective.s
 
 ![Bond Market Retrospective](/jekyll-theme-kactus/assets/images/2026-08-19-bond-market-retrospective.svg)
 
+<audio controls src="/jekyll-theme-kactus/assets/images/2026-08-19-bond-market-retrospective.mp3" style="width: 100%; margin-top: 10px;">Your browser does not support the audio element.</audio>
+
 Government bond yields across the major advanced economies moved higher over the past two trading sessions, extending a trend that has been building through the summer. From Washington to London to Frankfurt, the message from the bond market is consistent: investors are demanding more compensation to lend to governments, and the reasons trace back to a mix of sticky inflation, heavy government borrowing, and central banks that are no longer buying bonds to suppress yields.
 
 **United States: The 10-Year Touches 4.75%**
