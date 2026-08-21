@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="50%" style="stop-color:#161b22"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff"/>
+      <stop offset="50%" style="stop-color:#a371f7"/>
+      <stop offset="100%" style="stop-color:#f78166"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0"/>
+      <stop offset="10%" style="stop-color:#58a6ff;stop-opacity:1"/>
+      <stop offset="90%" style="stop-color:#f78166;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#f78166;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="textGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#21262d" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.4"/>
+
+  <!-- Top accent line -->
+  <line x1="0" y1="0" x2="1200" y2="0" stroke="url(#accentGrad)" stroke-width="3"/>
+
+  <!-- Bottom accent line -->
+  <line x1="0" y1="630" x2="1200" y2="630" stroke="url(#accentGrad)" stroke-width="3"/>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="6" height="630" fill="url(#accentGrad)"/>
+
+  <!-- Decorative circuit lines -->
+  <g stroke="#30363d" stroke-width="1" fill="none" opacity="0.3">
+    <path d="M 100 150 Q 200 100 300 150 T 500 150 T 700 150 T 900 150 T 1100 150"/>
+    <path d="M 50 480 Q 150 530 250 480 T 450 480 T 650 480 T 850 480 T 1050 480"/>
+    <path d="M 200 315 Q 300 265 400 315 T 600 315 T 800 315 T 1000 315"/>
+  </g>
+
+  <!-- Yield curve chart visualization -->
+  <g transform="translate(850, 100)" filter="url(#glow)">
+    <!-- Axes -->
+    <line x1="0" y1="0" x2="0" y2="250" stroke="#30363d" stroke-width="2"/>
+    <line x1="0" y1="250" x2="300" y2="250" stroke="#30363d" stroke-width="2"/>
+
+    <!-- Grid lines -->
+    <g stroke="#21262d" stroke-width="0.5" stroke-dasharray="4,4">
+      <line x1="0" y1="50" x2="300" y2="50"/>
+      <line x1="0" y1="100" x2="300" y2="100"/>
+      <line x1="0" y1="150" x2="300" y2="150"/>
+      <line x1="0" y1="200" x2="300" y2="200"/>
+      <line x1="60" y1="0" x2="60" y2="250"/>
+      <line x1="120" y1="0" x2="120" y2="250"/>
+      <line x1="180" y1="0" x2="180" y2="250"/>
+      <line x1="240" y1="0" x2="240" y2="250"/>
+    </g>
+
+    <!-- Previous curve (dashed, lower) -->
+    <path d="M 0 200 Q 75 180 150 160 T 300 150" fill="none" stroke="#58a6ff" stroke-width="2" stroke-dasharray="6,4" opacity="0.5"/>
+
+    <!-- Current curve (solid, higher) -->
+    <path d="M 0 180 Q 75 140 150 110 T 300 90" fill="none" stroke="url(#accentGrad)" stroke-width="3"/>
+
+    <!-- Data points on current curve -->
+    <circle cx="0" cy="180" r="5" fill="#58a6ff"/>
+    <circle cx="60" cy="150" r="5" fill="#a371f7"/>
+    <circle cx="120" cy="120" r="5" fill="#f78166"/>
+    <circle cx="180" cy="100" r="5" fill="#f78166"/>
+    <circle cx="240" cy="95" r="5" fill="#f78166"/>
+    <circle cx="300" cy="90" r="5" fill="#f78166"/>
+
+    <!-- Labels -->
+    <text x="150" y="275" font-family="system-ui, sans-serif" font-size="11" fill="#8b949e" text-anchor="middle">Maturity →</text>
+    <text x="-30" y="130" font-family="system-ui, sans-serif" font-size="11" fill="#8b949e" text-anchor="middle" transform="rotate(-90 -30,130)">Yield ↑</text>
+
+    <!-- "RISING YIELDS" label -->
+    <text x="150" y="-15" font-family="system-ui, sans-serif" font-size="12" fill="#f78166" text-anchor="middle" font-weight="600">RISING YIELD CURVE</text>
+  </g>
+
+  <!-- Main title -->
+  <text x="80" y="140" font-family="system-ui, sans-serif" font-size="42" font-weight="700" fill="#e6edf3" filter="url(#textGlow)">
+    BOND MARKETS
+  </text>
+  <text x="80" y="195" font-family="system-ui, sans-serif" font-size="42" font-weight="700" fill="url(#accentGrad)" filter="url(#textGlow)">
+    ON EDGE
+  </text>
+
+  <!-- Subtitle -->
+  <text x="80" y="260" font-family="system-ui, sans-serif" font-size="18" fill="#8b949e" font-weight="400">
+    US Treasuries • UK Gilts • European Bunds
+  </text>
+
+  <!-- Divider -->
+  <line x1="80" y1="275" x2="300" y2="275" stroke="url(#lineGrad)" stroke-width="2"/>
+
+  <!-- Key metrics row -->
+  <g font-family="system-ui, sans-serif">
+    <!-- US -->
+    <g transform="translate(80, 300)">
+      <rect x="0" y="0" width="180" height="90" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="10" y="25" font-size="11" fill="#58a6ff" font-weight="600">US 10Y</text>
+      <text x="10" y="55" font-size="28" fill="#e6edf3" font-weight="700">4.71%</text>
+      <text x="10" y="78" font-size="11" fill="#f78166" font-weight="500">▲ Multi-decade high</text>
+    </g>
+
+    <!-- UK -->
+    <g transform="translate(280, 300)">
+      <rect x="0" y="0" width="180" height="90" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="10" y="25" font-size="11" fill="#58a6ff" font-weight="600">UK 10Y</text>
+      <text x="10" y="55" font-size="28" fill="#e6edf3" font-weight="700">4.57%</text>
+      <text x="10" y="78" font-size="11" fill="#f78166" font-weight="500">▲ BoE split decision</text>
+    </g>
+
+    <!-- Germany -->
+    <g transform="translate(480, 300)">
+      <rect x="0" y="0" width="180" height="90" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="10" y="25" font-size="11" fill="#58a6ff" font-weight="600">DE 10Y</text>
+      <text x="10" y="55" font-size="28" fill="#e6edf3" font-weight="700">3.25%</text>
+      <text x="10" y="78" font-size="11" fill="#f78166" font-weight="500">▲ Highest since 2011</text>
+    </g>
+
+    <!-- France -->
+    <g transform="translate(680, 300)">
+      <rect x="0" y="0" width="180" height="90" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+      <text x="10" y="25" font-size="11" fill="#58a6ff" font-weight="600">FR 10Y</text>
+      <text x="10" y="55" font-size="28" fill="#e6edf3" font-weight="700">3.65%</text>
+      <text x="10" y="78" font-size="11" fill="#f78166" font-weight="500">▲ Highest since 2008</text>
+    </g>
+  </g>
+
+  <!-- Bottom info bar -->
+  <g transform="translate(80, 420)">
+    <rect x="0" y="0" width="780" height="80" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+
+    <text x="20" y="30" font-family="system-ui, sans-serif" font-size="13" fill="#58a6ff" font-weight="600">KEY DRIVERS</text>
+
+    <g font-family="system-ui, sans-serif" font-size="12" fill="#8b949e">
+      <text x="20" y="55">📈 Fiscal deficits widening (US $2.1T, UK Autumn Budget, France political risk)</text>
+      <text x="400" y="55">🤖 AI capex crowding out sovereign demand</text>
+      <text x="20" y="72">❓ Central bank uncertainty (Warsh Fed, BoE split, ECB hawkish hold)</text>
+      <text x="400" y="72">⛽ Geopolitics: Iran war, oil >$90, tariff risks</text>
+    </g>
+  </g>
+
+  <!-- Date badge -->
+  <g transform="translate(950, 550)">
+    <rect x="0" y="0" width="220" height="50" rx="25" fill="url(#accentGrad)" opacity="0.2" stroke="url(#accentGrad)" stroke-width="1"/>
+    <text x="110" y="32" font-family="system-ui, sans-serif" font-size="14" fill="#e6edf3" font-weight="600" text-anchor="middle">AUGUST 21, 2026</text>
+  </g>
+
+  <!-- Source attribution -->
+  <text x="1150" y="615" font-family="system-ui, sans-serif" font-size="10" fill="#484f58" text-anchor="end">
+    Sources: Axios, CNBC, Reuters, Fortune
+  </text>
+
+  <!-- Corner decorative elements -->
+  <g fill="none" stroke="url(#accentGrad)" stroke-width="2" opacity="0.3">
+    <path d="M 20 20 L 80 20 M 20 20 L 20 80"/>
+    <path d="M 1180 20 L 1120 20 M 1180 20 L 1180 80"/>
+    <path d="M 20 610 L 80 610 M 20 610 L 20 550"/>
+    <path d="M 1180 610 L 1120 610 M 1180 610 L 1180 550"/>
+  </g>
+</svg>
