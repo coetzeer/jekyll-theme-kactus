@@ -22,6 +22,7 @@ author:         'Your Name'
 authorTwitter:  'YourTwitterUsername'
 
 permalink:       /:year/:title/
+future:          true
 
 defaults:
     -
