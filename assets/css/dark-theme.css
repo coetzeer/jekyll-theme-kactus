@@ -1,0 +1,209 @@
+/* Dark Theme for Kactus — Tokyo Night inspired */
+body.dark-theme {
+	background: #1a1b26;
+	color: #9aa0b0;
+}
+
+body.dark-theme h1 {
+	color: #c0caf5;
+}
+
+body.dark-theme h2 {
+	color: #565f89;
+}
+
+body.dark-theme h3, body.dark-theme h4, body.dark-theme h5 {
+	color: #a9b1d6;
+}
+
+body.dark-theme h6 {
+	color: #565f89;
+}
+
+body.dark-theme b, body.dark-theme strong {
+	color: #c0caf5;
+}
+
+body.dark-theme p.small {
+	color: #565f89;
+}
+
+body.dark-theme .post h1 {
+	color: #c0caf5;
+}
+
+body.dark-theme .post h2 {
+	color: #a9b1d6;
+}
+
+body.dark-theme .post h2.headline {
+	color: #565f89;
+}
+
+body.dark-theme #post-list h2 {
+	color: #565f89;
+}
+
+body.dark-theme a,
+body.dark-theme #title,
+body.dark-theme #post-list a:hover,
+body.dark-theme #post-list li:hover .dates,
+body.dark-theme #title:hover {
+	color: #7aa2f7;
+}
+
+body.dark-theme p a {
+	color: #7aa2f7;
+}
+
+body.dark-theme nav.main-nav {
+	background: #1a1b26;
+	background: rgba(26,27,38,.92);
+}
+
+body.dark-theme nav.main-nav a {
+	color: #7aa2f7;
+}
+
+body.dark-theme nav.main-nav a.cta {
+	background: #7aa2f7;
+	color: #1a1b26;
+}
+
+body.dark-theme hr {
+	background: #2f3346;
+}
+
+body.dark-theme .profile #header {
+	border-bottom: 1px solid #2f3346;
+}
+
+body.dark-theme #header {
+	border-bottom: 1px solid #2f3346;
+}
+
+body.dark-theme #post-list li+li {
+	border-top: 1px solid #2f3346;
+}
+
+body.dark-theme #post-list-footer {
+	border-top: 1px solid #2f3346;
+}
+
+body.dark-theme #footer {
+	box-shadow: inset 0 1px 0 #2f3346;
+}
+
+body.dark-theme #post-meta {
+	border-top: 1px solid #2f3346;
+	border-bottom: 1px solid #2f3346;
+	color: #9aa0b0;
+}
+
+body.dark-theme #post-meta div span.dark {
+	color: #c0caf5;
+}
+
+body.dark-theme #post-nav {
+	border-top: 1px solid #2f3346;
+}
+
+body.dark-theme blockquote {
+	border-left: 3px solid #2f3346;
+}
+
+body.dark-theme h2.month {
+	border-bottom: 1px solid #2f3346;
+}
+
+body.dark-theme #post-list a {
+	color: #a9b1d6;
+}
+
+body.dark-theme #post-list .dates {
+	color: #565f89;
+}
+
+body.dark-theme #archive-list a {
+	color: #a9b1d6;
+}
+
+body.dark-theme #archive-list .dates {
+	color: #565f89;
+}
+
+body.dark-theme #archive-link {
+	box-shadow: 0 0 0 1px #2f3346;
+}
+
+body.dark-theme #archive-link:hover {
+	background: #7aa2f7;
+	color: #1a1b26;
+	box-shadow: 0 0 0 1px #7aa2f7;
+}
+
+body.dark-theme tr>td {
+	border-top: 1px solid #2f3346;
+}
+
+body.dark-theme tr:nth-child(odd)>td {
+	background: #1f2233;
+}
+
+body.dark-theme thead th, body.dark-theme th {
+	color: #a9b1d6;
+	border-bottom: 1px solid #2f3346;
+}
+
+body.dark-theme table td, body.dark-theme td {
+	border-color: #2f3346;
+}
+
+body.dark-theme span.code {
+	background-color: #1f2233;
+	color: #c0caf5;
+}
+
+body.dark-theme pre {
+	background: #1a1b26;
+	color: #c0caf5;
+}
+
+body.dark-theme #post-meta img.avatar {
+	box-shadow: 0 0 0 3px #1a1b26, 0 0 0 4px #2f3346;
+}
+
+body.dark-theme #sharing a {
+	color: #1a1b26;
+}
+
+body.dark-theme .profile h1 {
+	color: #c0caf5;
+}
+
+body.dark-theme .profile h2 {
+	color: #565f89;
+}
+
+body.dark-theme .home h1 {
+	color: #c0caf5;
+}
+
+body.dark-theme .home h2 {
+	color: #565f89;
+}
+
+/* Theme toggle button */
+body.dark-theme .theme-toggle {
+	color: #9aa0b0;
+	border: 1px solid #2f3346;
+}
+
+body.dark-theme .theme-toggle:hover {
+	background: #2f3346;
+	color: #c0caf5;
+}
+
+@media screen and (max-width: 540px) {
+	body.dark-theme #header { border-bottom: 1px solid #2f3346; }
+}
