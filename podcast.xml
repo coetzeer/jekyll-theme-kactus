@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Keeping track of everything</title>
+    <link>https://coetzeer.github.io/jekyll-theme-kactus</link>
+    <description>Blogging about stuffs</description>
+    <language>en-us</language>
+    <copyright>© 2026 Your Name</copyright>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Jekyll Podcast Feed Generator</generator>
+    <atom:link href="https://coetzeer.github.io/jekyll-theme-kactus/podcast.xml" rel="self" type="application/rss+xml"/>
+    <itunes:author>Your Name</itunes:author>
+    <itunes:summary>Blogging about stuffs</itunes:summary>
+    <itunes:type>episodic</itunes:type>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:language>en-us</itunes:language>
+    <item>
+      <title>Bond Market Retrospective August 2026</title>
+      <link>https://coetzeer.github.io/jekyll-theme-kactus/assets/images/bond-market-retrospective-august-2026.mp3</link>
+      <description></description>
+      <pubDate>Sun, 23 Aug 2026 06:35:38 +0200</pubDate>
+      <guid isPermaLink="false">urn:sha256:a410f67314ef5f237ca0eb189f7ca9e8</guid>
+      <enclosure url="https://coetzeer.github.io/jekyll-theme-kactus/assets/images/bond-market-retrospective-august-2026.mp3" length="3610173" type="audio/mpeg"/>
+      <itunes:title>Bond Market Retrospective August 2026</itunes:title>
+      <itunes:summary></itunes:summary>
+      <itunes:duration>10:01</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:guid>urn:sha256:a410f67314ef5f237ca0eb189f7ca9e8</itunes:guid>
+    </item>
+    <item>
+      <title>2026 08 22 Bond Market Retrospective</title>
+      <link>https://coetzeer.github.io/jekyll-theme-kactus/assets/images/2026-08-22-bond-market-retrospective.mp3</link>
+      <description></description>
+      <pubDate>Sat, 22 Aug 2026 06:35:58 +0200</pubDate>
+      <guid isPermaLink="false">urn:sha256:fb3b101cb353ed3b99dd4779d3776c08</guid>
+      <enclosure url="https://coetzeer.github.io/jekyll-theme-kactus/assets/images/2026-08-22-bond-market-retrospective.mp3" length="3364221" type="audio/mpeg"/>
+      <itunes:title>2026 08 22 Bond Market Retrospective</itunes:title>
+      <itunes:summary></itunes:summary>
+      <itunes:duration>9:20</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:guid>urn:sha256:fb3b101cb353ed3b99dd4779d3776c08</itunes:guid>
+    </item>
+    <item>
+      <title>2026 08 21 Bond Market Retrospective</title>
+      <link>https://coetzeer.github.io/jekyll-theme-kactus/assets/images/2026-08-21-bond-market-retrospective.mp3</link>
+      <description></description>
+      <pubDate>Fri, 21 Aug 2026 06:39:49 +0200</pubDate>
+      <guid isPermaLink="false">urn:sha256:cf756e79a3cb9c88e0d3f9f53f40f9cb</guid>
+      <enclosure url="https://coetzeer.github.io/jekyll-theme-kactus/assets/images/2026-08-21-bond-market-retrospective.mp3" length="3652797" type="audio/mpeg"/>
+      <itunes:title>2026 08 21 Bond Market Retrospective</itunes:title>
+      <itunes:summary></itunes:summary>
+      <itunes:duration>10:08</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:guid>urn:sha256:cf756e79a3cb9c88e0d3f9f53f40f9cb</itunes:guid>
+    </item>
+    <item>
+      <title>Bond Market Retrospective</title>
+      <link>https://coetzeer.github.io/jekyll-theme-kactus/assets/images/bond-market-retrospective.mp3</link>
+      <description></description>
+      <pubDate>Thu, 20 Aug 2026 09:37:34 +0200</pubDate>
+      <guid isPermaLink="false">urn:sha256:e004e9f25211da1992b28b3d04057890</guid>
+      <enclosure url="https://coetzeer.github.io/jekyll-theme-kactus/assets/images/bond-market-retrospective.mp3" length="2703405" type="audio/mpeg"/>
+      <itunes:title>Bond Market Retrospective</itunes:title>
+      <itunes:summary></itunes:summary>
+      <itunes:duration>7:30</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:guid>urn:sha256:e004e9f25211da1992b28b3d04057890</itunes:guid>
+    </item>
+    <item>
+      <title>2026 08 20 Bond Market Retrospective</title>
+      <link>https://coetzeer.github.io/jekyll-theme-kactus/assets/images/2026-08-20-bond-market-retrospective.mp3</link>
+      <description></description>
+      <pubDate>Thu, 20 Aug 2026 06:34:14 +0200</pubDate>
+      <guid isPermaLink="false">urn:sha256:588226358e4a6a19380dbba182be56ea</guid>
+      <enclosure url="https://coetzeer.github.io/jekyll-theme-kactus/assets/images/2026-08-20-bond-market-retrospective.mp3" length="1862064" type="audio/mpeg"/>
+      <itunes:title>2026 08 20 Bond Market Retrospective</itunes:title>
+      <itunes:summary></itunes:summary>
+      <itunes:duration>5:10</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:guid>urn:sha256:588226358e4a6a19380dbba182be56ea</itunes:guid>
+    </item>
+    <item>
+      <title>Episode 2: Advanced Jekyll Techniques</title>
+      <link>https://coetzeer.github.io/jekyll-theme-kactus/assets/audio/episode-002.mp3</link>
+      <description>In this episode we dive deeper into Jekyll plugins, custom generators, and advanced deployment strategies.</description>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">urn:sha256:9b36de3307227370a2d2dff95675680c</guid>
+      <enclosure url="https://coetzeer.github.io/jekyll-theme-kactus/assets/audio/episode-002.mp3" length="204800" type="audio/mpeg"/>
+      <itunes:title>Episode 2: Advanced Jekyll Techniques</itunes:title>
+      <itunes:summary>In this episode we dive deeper into Jekyll plugins, custom generators, and advanced deployment strategies.</itunes:summary>
+      <itunes:duration>52:15</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:guid>urn:sha256:9b36de3307227370a2d2dff95675680c</itunes:guid>
+    </item>
+    <item>
+      <title>2026 08 19 Bond Market Retrospective</title>
+      <link>https://coetzeer.github.io/jekyll-theme-kactus/assets/images/2026-08-19-bond-market-retrospective.mp3</link>
+      <description></description>
+      <pubDate>Wed, 19 Aug 2026 06:34:48 +0200</pubDate>
+      <guid isPermaLink="false">urn:sha256:02c7ae54af5dbd107280334affba9427</guid>
+      <enclosure url="https://coetzeer.github.io/jekyll-theme-kactus/assets/images/2026-08-19-bond-market-retrospective.mp3" length="2408637" type="audio/mpeg"/>
+      <itunes:title>2026 08 19 Bond Market Retrospective</itunes:title>
+      <itunes:summary></itunes:summary>
+      <itunes:duration>6:41</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:guid>urn:sha256:02c7ae54af5dbd107280334affba9427</itunes:guid>
+    </item>
+    <item>
+      <title>2026 08 18 Bond Markets Retrospective</title>
+      <link>https://coetzeer.github.io/jekyll-theme-kactus/assets/images/2026-08-18-bond-markets-retrospective.mp3</link>
+      <description></description>
+      <pubDate>Tue, 18 Aug 2026 09:36:51 +0200</pubDate>
+      <guid isPermaLink="false">urn:sha256:8afe2c905d72f61c487a902ae0322993</guid>
+      <enclosure url="https://coetzeer.github.io/jekyll-theme-kactus/assets/images/2026-08-18-bond-markets-retrospective.mp3" length="3125469" type="audio/mpeg"/>
+      <itunes:title>2026 08 18 Bond Markets Retrospective</itunes:title>
+      <itunes:summary></itunes:summary>
+      <itunes:duration>8:40</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:guid>urn:sha256:8afe2c905d72f61c487a902ae0322993</itunes:guid>
+    </item>
+    <item>
+      <title>2026 08 17 Bond Markets Retrospective</title>
+      <link>https://coetzeer.github.io/jekyll-theme-kactus/assets/images/2026-08-17-bond-markets-retrospective.mp3</link>
+      <description></description>
+      <pubDate>Mon, 17 Aug 2026 18:02:58 +0200</pubDate>
+      <guid isPermaLink="false">urn:sha256:b4acd68e194aacf2eb32a701013d15f5</guid>
+      <enclosure url="https://coetzeer.github.io/jekyll-theme-kactus/assets/images/2026-08-17-bond-markets-retrospective.mp3" length="1900653" type="audio/mpeg"/>
+      <itunes:title>2026 08 17 Bond Markets Retrospective</itunes:title>
+      <itunes:summary></itunes:summary>
+      <itunes:duration>3:01</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:guid>urn:sha256:b4acd68e194aacf2eb32a701013d15f5</itunes:guid>
+    </item>
+    <item>
+      <title>Episode 1: Getting Started with Jekyll</title>
+      <link>https://coetzeer.github.io/jekyll-theme-kactus/assets/audio/episode-001.mp3</link>
+      <description>In this episode we discuss the basics of setting up a Jekyll site, choosing themes, and deploying to GitHub Pages.</description>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0200</pubDate>
+      <guid isPermaLink="false">urn:sha256:33ab64184b81c77f5921c74969ee7241</guid>
+      <enclosure url="https://coetzeer.github.io/jekyll-theme-kactus/assets/audio/episode-001.mp3" length="102400" type="audio/mpeg"/>
+      <itunes:title>Episode 1: Getting Started with Jekyll</itunes:title>
+      <itunes:summary>In this episode we discuss the basics of setting up a Jekyll site, choosing themes, and deploying to GitHub Pages.</itunes:summary>
+      <itunes:duration>45:30</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:guid>urn:sha256:33ab64184b81c77f5921c74969ee7241</itunes:guid>
+    </item>
+  </channel>
+</rss>
