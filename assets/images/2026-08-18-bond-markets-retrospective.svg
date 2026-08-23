@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 520" width="1400" height="520">
+  <defs>
+    <style>
+      .bg { fill: #0f172a; }
+      .panel { fill: #1e293b; stroke: #334155; stroke-width: 1.5; rx: 8; }
+      .title { fill: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 20px; font-weight: 700; }
+      .label { fill: #e2e8f0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; font-weight: 600; }
+      .sub { fill: #94a3b8; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; }
+      .value { fill: #38bdf8; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 14px; font-weight: 700; }
+      .arrow { fill: none; stroke: #64748b; stroke-width: 1.5; marker-end: url(#arrowhead); }
+      .dashed { fill: none; stroke: #475569; stroke-width: 1.2; stroke-dasharray: 4 3; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#64748b" />
+    </marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="1400" height="520" />
+  <!-- Header -->
+  <text x="700" y="40" text-anchor="middle" class="title">Bond Markets Retrospective</text>
+  <text x="700" y="62" text-anchor="middle" class="sub">US Treasuries · UK Gilts · European Bunds/BTPs — 2-day snapshot, Aug 18 2026</text>
+
+  <!-- Blocks -->
+  <rect class="panel" x="60" y="90" width="340" height="340" />
+  <text x="80" y="120" class="label">US Treasuries</text>
+  <text x="80" y="148" class="value">10Y ≈ 4.74%</text>
+  <text x="80" y="170" class="value">30Y ≈ 5.32%</text>
+  <text x="80" y="200" class="sub">Theme: long-end selloff</text>
+  <text x="80" y="220" class="sub">Driver: oil, AI debt, sticky CPI</text>
+  <text x="80" y="260" class="sub">Fed rate: 3.50–3.75%</text>
+  <text x="80" y="280" class="sub">Sept hike odds: ~38%</text>
+  <text x="80" y="300" class="sub">Core PCE est. >3%</text>
+  <text x="80" y="320" class="sub">AI corps issued $1.5T bonds YTD</text>
+  <text x="80" y="340" class="sub">Hormuz blockade lifts energy</text>
+
+  <rect class="panel" x="440" y="90" width="340" height="340" />
+  <text x="460" y="120" class="label">UK Gilts</text>
+  <text x="460" y="148" class="value">10Y ≈ 5.09%</text>
+  <text x="460" y="170" class="value">30Y ≈ 5.84%</text>
+  <text x="460" y="200" class="sub">Theme: stagflation bind</text>
+  <text x="460" y="220" class="sub">Driver: 4% CPI peak, weak jobs</text>
+  <text x="460" y="260" class="sub">BoE rate: 3.75% (held Jul)</text>
+  <text x="460" y="280" class="sub">Aug 2025 vote: 4 hold, 4 cut</text>
+  <text x="460" y="300" class="sub">Yields track oil/Hormuz news</text>
+  <text x="460" y="320" class="sub">Pound firm with yields</text>
+  <text x="460" y="340" class="sub">Fiscal risk still in background</text>
+
+  <rect class="panel" x="820" y="90" width="340" height="340" />
+  <text x="840" y="120" class="label">Europe Bunds / Periphery</text>
+  <text x="840" y="148" class="value">DE 10Y ≈ 3.25% (15-yr high)</text>
+  <text x="840" y="170" class="value">IT 10Y ≈ 4.06%</text>
+  <text x="840" y="192" class="value">FR 10Y ≈ 4.10% (17-yr high)</text>
+  <text x="840" y="220" class="sub">Theme: ECB pivot to hike</text>
+  <text x="840" y="240" class="sub">Driver: oil pass-through, weak EUR</text>
+  <text x="840" y="280" class="sub">ECB deposit: 2.25%</text>
+  <text x="840" y="300" class="sub">Sept hike priced >90%</text>
+  <text x="840" y="320" class="sub">Terminal seen 2.76% by Mar'27</text>
+  <text x="840" y="340" class="sub">DE CPI 2.8%, FR 2.1%, IT 2.9%</text>
+
+  <!-- Arrows -->
+  <path class="arrow" d="M 240 240 L 360 240" />
+  <path class="dashed" d="M 620 240 L 720 240" />
+  <path class="arrow" d="M 820 240 L 940 240" />
+
+  <!-- Legend -->
+  <rect class="panel" x="60" y="460" width="340" height="40" />
+  <text x="80" y="485" class="sub">Legend: direct theme flow — dashed indirect driver link</text>
+
+</svg>

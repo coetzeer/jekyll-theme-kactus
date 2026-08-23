@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 520" width="1400" height="520">
+  <defs>
+    <style>
+      .bg { fill: #0f172a; }
+      .panel { fill: #1e293b; stroke: #334155; stroke-width: 1.5; rx: 8; }
+      .title { fill: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 18px; font-weight: 700; }
+      .subtitle { fill: #94a3b8; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; }
+      .label { fill: #e2e8f0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; font-weight: 600; }
+      .sub { fill: #94a3b8; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11px; }
+      .code { fill: #cbd5e1; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 11px; }
+      .arrow { fill: none; stroke: #64748b; stroke-width: 1.5; marker-end: url(#arrowhead); }
+      .dashed { fill: none; stroke: #475569; stroke-width: 1.2; stroke-dasharray: 4 3; marker-end: url(#arrowhead); }
+      .accent-blue { fill: #3b82f6; }
+      .accent-cyan { fill: #06b6d4; }
+      .accent-violet { fill: #8b5cf6; }
+      .accent-amber { fill: #f59e0b; }
+      .accent-rose { fill: #f43f5e; }
+      .accent-emerald { fill: #10b981; }
+      .accent-orange { fill: #f97316; }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#64748b" />
+    </marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="1400" height="520" />
+  
+  <!-- Header -->
+  <text x="700" y="36" text-anchor="middle" class="title">This Week in AI Tools — Agents, Routers, Terminal Wars</text>
+  <text x="700" y="56" text-anchor="middle" class="subtitle">Computer use GA · Model routing free · Local agents rise · Aug 11–21, 2026</text>
+  
+  <!-- Category: Coding Agents (Terminal) -->
+  <rect x="40" y="85" width="300" height="180" class="panel" />
+  <text x="190" y="110" text-anchor="middle" class="label" fill="#3b82f6">CODING AGENTS (TERMINAL)</text>
+  <text x="60" y="135" class="sub">Droid (Factory AI)</text>
+  <text x="60" y="150" class="code">Open source · Terminal Bench top · Neovim/tmux</text>
+  <text x="60" y="170" class="sub">TrueForge (TrueFoundry)</text>
+  <text x="60" y="185" class="code">MIT · Agent harness · BYOK · ½ cost vs Claude</text>
+  <text x="60" y="205" class="sub">agent-of-empires</text>
+  <text x="60" y="220" class="code">TUI/Web multi-agent manager</text>
+  <text x="60" y="240" class="sub">cumora / Prevail</text>
+  <text x="60" y="255" class="code">Agent teammates · Multi-model council</text>
+  
+  <!-- Category: Computer Use / Platform -->
+  <rect x="370" y="85" width="320" height="180" class="panel" />
+  <text x="530" y="110" text-anchor="middle" class="label" fill="#06b6d4">COMPUTER USE / PLATFORM</text>
+  <text x="390" y="135" class="sub">Anthropic (GA Aug 20)</text>
+  <text x="390" y="150" class="code">Computer Use multi-action · Browser Use Tool (DOM)</text>
+  <text x="390" y="170" class="code">Skills API (sandboxed) · Files API (1TB)</text>
+  <text x="390" y="190" class="sub">Binance Agent OS</text>
+  <text x="390" y="205" class="code">MCP · Crypto trading agents · x402 payments</text>
+  <text x="390" y="225" class="sub">Ghost in the Droid</text>
+  <text x="390" y="240" class="code">Android ADB / iPhone WDA · 62 MCP tools</text>
+  
+  <!-- Category: Model Routing -->
+  <rect x="720" y="85" width="300" height="180" class="panel" />
+  <text x="870" y="110" text-anchor="middle" class="label" fill="#f59e0b">MODEL ROUTING</text>
+  <text x="740" y="135" class="sub">Ramp Router (router.com)</text>
+  <text x="740" y="150" class="code">Free 2026 · 2.75T tokens/mo internal</text>
+  <text x="740" y="170" class="code">OpenAI-compatible · Auto fallback</text>
+  <text x="740" y="190" class="sub">Stripe ← OpenRouter ($7B+)</text>
+  <text x="740" y="205" class="code">Aug 16 · Giants' game now</text>
+  
+  <!-- Category: Open Models (Local-First) -->
+  <rect x="1050" y="85" width="310" height="180" class="panel" />
+  <text x="1205" y="110" text-anchor="middle" class="label" fill="#10b981">OPEN MODELS (LOCAL-FIRST)</text>
+  <text x="1070" y="135" class="sub">Nemotron 3.5 Lightning</text>
+  <text x="1070" y="150" class="code">30B MoE · 3B active · 4x speed · OpenMDW</text>
+  <text x="1070" y="170" class="sub">Muse Glimmer (Meta)</text>
+  <text x="1070" y="185" class="code">30B Apache 2.0 · Single GPU · Always-on</text>
+  <text x="1070" y="205" class="sub">UI-Mate-27B (Tencent)</text>
+  <text x="1070" y="220" class="code">OSWorld 77.0 · Computer use · Apache 2.0</text>
+  <text x="1070" y="240" class="sub">Qwen 3.8 / DeepSeek Vision-Exp</text>
+  <text x="1070" y="255" class="code">Local practical · Multimodal agent benchmarks</text>
+  
+  <!-- Category: Frontier Models (Commercial) -->
+  <rect x="40" y="295" width="420" height="185" class="panel" />
+  <text x="250" y="320" text-anchor="middle" class="label" fill="#8b5cf6">FRONTIER MODELS (COMMERCIAL)</text>
+  <text x="60" y="345" class="sub">Grok 4.6 (xAI)</text>
+  <text x="60" y="360" class="code">Long-running agents · $2/6 per 1M · Cursor</text>
+  <text x="60" y="380" class="sub">Gemini 3.7 Flash (Google)</text>
+  <text x="60" y="395" class="code">$0.75/3.75 intro · Spark agent · Antigravity</text>
+  <text x="60" y="415" class="sub">GPT-5.6 Sol/Luna (OpenAI)</text>
+  <text x="60" y="430" class="code">Effort slider · Ultrafast (Cerebras) invite</text>
+  <text x="60" y="450" class="sub">DeepSeek-V4-Flash-Vision-Exp</text>
+  <text x="60" y="465" class="code">Beats Opus-4.8 on 3/11 · $0.22/1M</text>
+  
+  <!-- Category: Consumer / Platform Integrations -->
+  <rect x="490" y="295" width="420" height="185" class="panel" />
+  <text x="700" y="320" text-anchor="middle" class="label" fill="#f43f5e">CONSUMER / PLATFORM</text>
+  <text x="510" y="345" class="sub">ChatGPT Messages Plugin</text>
+  <text x="510" y="360" class="code">Apple Messages · Local · Codex/Work</text>
+  <text x="510" y="380" class="sub">Meta AI Mac App</text>
+  <text x="510" y="395" class="code">System dictation · Screen context · Business</text>
+  <text x="510" y="415" class="sub">Binance / Kraken / Coinbase / OKX</text>
+  <text x="510" y="430" class="code">Agent trading · MCP · x402 / DeFi wallet</text>
+  
+  <!-- What I'm Watching -->
+  <rect x="940" y="295" width="420" height="185" class="panel" />
+  <text x="1150" y="320" text-anchor="middle" class="label" fill="#f97316">WATCHING THIS MONTH</text>
+  <text x="960" y="345" class="code">1. Model routing economics (Router, OpenRouter)</text>
+  <text x="960" y="365" class="code">2. Local agent models (Glimmer, Lightning, UI-Mate)</text>
+  <text x="960" y="385" class="code">3. Browser DOM computer use (Anthropic)</text>
+  <text x="960" y="405" class="code">4. Terminal agent harness standardization</text>
+  <text x="960" y="425" class="code">5. Multi-model synthesis (Prevail pattern)</text>
+  <text x="960" y="450" class="code">6. Agent-as-teammate (cumora)</text>
+  
+  <!-- Legend -->
+  <rect x="40" y="490" width="1320" height="25" class="panel" />
+  <text x="60" y="508" class="sub">■ Coding Agents (Blue)</text>
+  <text x="260" y="508" class="sub">■ Computer Use/Platform (Cyan)</text>
+  <text x="490" y="508" class="sub">■ Model Routing (Amber)</text>
+  <text x="680" y="508" class="sub">■ Open/Local Models (Emerald)</text>
+  <text x="920" y="508" class="sub">■ Frontier Commercial (Violet)</text>
+  <text x="1130" y="508" class="sub">■ Consumer/Platform (Rose)</text>
+  <text x="1280" y="508" class="sub">■ Watchlist (Orange)</text>
+</svg>

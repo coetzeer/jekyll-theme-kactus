@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 520" width="1400" height="520">
+  <defs>
+    <style>
+      .bg { fill: #0f172a; }
+      .panel { fill: #1e293b; stroke: #334155; stroke-width: 1.5; rx: 8; }
+      .title { fill: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 14px; font-weight: 700; }
+      .label { fill: #e2e8f0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; font-weight: 600; }
+      .sub { fill: #94a3b8; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11px; }
+      .code { fill: #cbd5e1; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 11px; }
+      .arrow { fill: none; stroke: #64748b; stroke-width: 1.5; marker-end: url(#arrowhead); }
+      .dashed { fill: none; stroke: #475569; stroke-width: 1.2; stroke-dasharray: 4 3; marker-end: url(#arrowhead); }
+      .accent-blue { fill: #3b82f6; }
+      .accent-emerald { fill: #10b981; }
+      .accent-amber { fill: #f59e0b; }
+      .accent-violet { fill: #8b5cf6; }
+      .accent-rose { fill: #f43f5e; }
+      .accent-cyan { fill: #06b6d4; }
+      .accent-orange { fill: #f97316; }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#64748b" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" x="0" y="0" width="1400" height="520" />
+
+  <!-- Header -->
+  <text x="700" y="36" text-anchor="middle" class="title" style="font-size: 18px;">agent_scripts — Architecture Overview</text>
+  <text x="700" y="56" text-anchor="middle" class="sub">hermes CLI · weather · knowledge base · daily reports</text>
+
+  <!-- ===== USER / CLI ===== -->
+  <g transform="translate(60, 80)">
+    <rect class="panel" x="0" y="0" width="220" height="90" />
+    <text x="110" y="28" text-anchor="middle" class="label">User / Terminal</text>
+    <text x="110" y="52" text-anchor="middle" class="code">hermes weather &lt;city&gt;</text>
+    <text x="110" y="70" text-anchor="middle" class="code">hermes kb add &lt;kb_name&gt;</text>
+    <text x="110" y="86" text-anchor="middle" class="code">hermes kb search &lt;query&gt;</text>
+  </g>
+
+  <!-- ===== CLI LAYER ===== -->
+  <g transform="translate(340, 80)">
+    <rect class="panel" x="0" y="0" width="200" height="90" />
+    <text x="100" y="28" text-anchor="middle" class="label">CLI — cli.py</text>
+    <text x="100" y="52" text-anchor="middle" class="sub">argparse subparsers</text>
+    <text x="100" y="70" text-anchor="middle" class="sub">entry: hermes = "…cli:main"</text>
+    <text x="100" y="86" text-anchor="middle" class="sub">stdout / exit 0</text>
+  </g>
+
+  <!-- Arrow: User → CLI -->
+  <line x1="280" y1="125" x2="340" y2="125" class="arrow" />
+
+  <!-- Arrow: CLI → Weather -->
+  <line x1="420" y1="110" x2="490" y2="110" class="arrow" />
+
+  <!-- Arrow: CLI → KB -->
+  <line x1="420" y1="140" x2="490" y2="140" class="arrow" />
+
+  <!-- ===== WEATHER MODULE ===== -->
+  <g transform="translate(490, 80)">
+    <rect class="panel" x="0" y="0" width="260" height="120" />
+    <text x="130" y="26" text-anchor="middle" class="label">weather.py</text>
+    <text x="14" y="50" class="sub">get_weather(city) → str</text>
+    <text x="14" y="68" class="sub">· geocode() → lat/lon</text>
+    <text x="14" y="84" class="sub">· fetch_weather() → current</text>
+    <text x="14" y="100" class="sub">· weather_description()</text>
+    <text x="14" y="116" class="sub">httpx + Open-Meteo APIs</text>
+    <circle cx="244" cy="18" r="8" class="accent-cyan" />
+  </g>
+
+  <!-- ===== KB MODULE ===== -->
+  <g transform="translate(490, 230)">
+    <rect class="panel" x="0" y="0" width="260" height="210" />
+    <text x="130" y="26" text-anchor="middle" class="label">kb.py</text>
+    <text x="14" y="50" class="sub">Frontmatter / YAML parser</text>
+    <text x="14" y="66" class="sub">add_article() → markdown</text>
+    <text x="14" y="82" class="sub">search_articles() → list[dict]</text>
+    <text x="14" y="98" class="sub">reindex_kb() → count</text>
+    <text x="14" y="114" class="sub">init_entity() → card + index</text>
+    <text x="14" y="130" class="sub">update_card() / add_note()</text>
+    <text x="14" y="146" class="sub">list_entity_notes()</text>
+    <text x="14" y="162" class="sub">_index_article() → SQLite</text>
+    <text x="14" y="178" class="sub">_slugify() / _read_excerpt()</text>
+    <circle cx="244" cy="18" r="8" class="accent-violet" />
+  </g>
+
+  <!-- Arrow: Weather → KB (daily script usage) -->
+  <line x1="620" y1="200" x2="620" y2="230" class="dashed" />
+
+  <!-- ===== DAILY SCRIPT ===== -->
+  <g transform="translate(810, 130)">
+    <rect class="panel" x="0" y="0" width="240" height="110" />
+    <text x="120" y="26" text-anchor="middle" class="label">scripts/daily_weather.py</text>
+    <text x="14" y="50" class="sub">Cron: every day at 07:00</text>
+    <text x="14" y="66" class="sub">Cities: Dublin, London,</text>
+    <text x="14" y="82" class="sub">Wivenhoe, Seattle, Texas</text>
+    <text x="14" y="98" class="sub">Writes → daily_wather KB</text>
+    <circle cx="218" cy="18" r="8" class="accent-amber" />
+  </g>
+
+  <!-- Arrow: KB → Daily script -->
+  <line x1="620" y1="340" x2="810" y2="185" class="dashed" />
+
+  <!-- Arrow: Weather → Daily script -->
+  <line x1="750" y1="140" x2="810" y2="140" class="arrow" />
+
+  <!-- ===== EXTERNAL DATA SOURCES ===== -->
+  <g transform="translate(1100, 80)">
+    <rect class="panel" x="0" y="0" width="240" height="120" />
+    <text x="120" y="26" text-anchor="middle" class="label">External APIs</text>
+    <text x="14" y="52" class="sub">Open-Meteo Geocoding</text>
+    <text x="14" y="68" class="sub">api.open-meteo.com/v1/search</text>
+    <text x="14" y="86" class="sub">Open-Meteo Forecast</text>
+    <text x="14" y="102" class="sub">api.open-meteo.com/v1/forecast</text>
+    <circle cx="218" cy="18" r="8" class="accent-rose" />
+  </g>
+
+  <!-- Arrow: Weather → APIs -->
+  <line x1="750" y1="125" x2="1100" y2="125" class="arrow" />
+
+  <!-- ===== FILE SYSTEM ===== -->
+  <g transform="translate(1100, 230)">
+    <rect class="panel" x="0" y="0" width="240" height="100" />
+    <text x="120" y="26" text-anchor="middle" class="label">File System</text>
+    <text x="14" y="52" class="sub">~/Documents/knowledge_bases/</text>
+    <text x="14" y="68" class="sub">·index.db (SQLite)</text>
+    <text x="14" y="84" class="sub">YYYY/MM/DD/*.md</text>
+    <circle cx="218" cy="18" r="8" class="accent-emerald" />
+  </g>
+
+  <!-- Arrow: KB → FS -->
+  <line x1="620" y1="310" x2="1100" y2="280" class="arrow" />
+
+  <!-- Arrow: Daily script → FS -->
+  <line x1="930" y1="240" x2="1100" y2="280" class="dashed" />
+
+  <!-- ===== BOTTOM LEGEND ===== -->
+  <g transform="translate(60, 420)">
+    <circle cx="10" cy="10" r="6" class="accent-blue" />
+    <text x="24" y="14" class="sub">Entry point</text>
+    <circle cx="110" cy="10" r="6" class="accent-cyan" />
+    <text x="124" y="14" class="sub">Weather</text>
+    <circle cx="190" cy="10" r="6" class="accent-violet" />
+    <text x="204" y="14" class="sub">Knowledge base</text>
+    <circle cx="300" cy="10" r="6" class="accent-amber" />
+    <text x="314" y="14" class="sub">Scheduled script</text>
+    <circle cx="420" cy="10" r="6" class="accent-rose" />
+    <text x="434" y="14" class="sub">External API</text>
+    <circle cx="520" cy="10" r="6" class="accent-emerald" />
+    <text x="534" y="14" class="sub">File system / SQLite</text>
+    <line x1="80" y1="20" x2="680" y2="20" stroke="#334155" stroke-width="1" />
+    <text x="680" y="14" class="sub" style="fill:#64748b;">httpx ≥ 0.27 · Python ≥ 3.11 · stdlib sqlite3</text>
+  </g>
+</svg>
