@@ -24,6 +24,29 @@ authorTwitter:  'YourTwitterUsername'
 permalink:       /:year/:title/
 future:          true
 
+# Podcast RSS Feed Configuration
+podcast:
+  title: "My Podcast"
+  description: "Weekly thoughts on tech and life"
+  author: "Raymond Coetzee"
+  author_email: "raymond@example.com"
+  language: "en-us"
+  categories:
+    - "Technology"
+    - "Software Engineering"
+  explicit: false
+  image: "/jekyll-theme-kactus/assets/images/avatar.png"
+  site_url: "https://coetzeer.github.io/jekyll-theme-kactus"
+  feed_path: "podcast.xml"
+  audio_dir: "assets/images"
+  # Optional iTunes fields
+  itunes:
+    owner_name: "Raymond Coetzee"
+    owner_email: "raymond@example.com"
+    category: "Technology"
+    subcategory: "Software Engineering"
+    keywords: "tech, programming, ruby, jekyll"
+
 defaults:
     -
         scope:
