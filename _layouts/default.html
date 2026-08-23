@@ -6,6 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{{ site.name }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+  {% if page.image %}
+  {% assign page_image_url = page.image | replace_first: site.baseurl, '' | relative_url | prepend: site.url %}
+  <meta property="og:image" content="{{ page_image_url }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ page_image_url }}">
+  {% endif %}
   <link rel="shortcut icon" href="{{ "/" | relative_url  }}assets/images/favicon.ico">
   <link rel="stylesheet" href="{{ "/" | relative_url  }}assets/css/style.css">
   <link rel="stylesheet" href="{{ "/" | relative_url  }}assets/css/dark-theme.css">

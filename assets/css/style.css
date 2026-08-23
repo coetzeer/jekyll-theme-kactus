@@ -232,6 +232,14 @@ em, i { font-style: italic; }
 	font: 300 32px/1.4em "Helvetica Neue", Helvetica,Arial,sans-serif;
 }
 
+.post-header-image {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: -15px 0 40px 0;
+	border-radius: 4px;
+}
+
 .post h2 {
 	margin-bottom: 40px;
 	  font: 300 24px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
