@@ -4,25 +4,21 @@ module Jekyll
     priority :low
 
     def generate(site)
-      config = site.config['podcast'] || {}
-      return unless config['audio_dir']
-
-      audio_files = find_audio_files(site, config['audio_dir'])
+      audio_files = find_audio_files(site)
       return if audio_files.empty?
 
-      feed = build_feed(site, config, audio_files)
-      write_feed(site, feed, config['feed_path'] || 'podcast.xml')
+      feed = build_feed(site, audio_files)
+      write_feed(site, feed)
     end
 
     private
 
-    def find_audio_files(site, audio_dir)
-      # Get the absolute path to the audio directory
-      audio_path = File.join(site.source, audio_dir)
-      return [] unless Dir.exist?(audio_path)
+    def find_audio_files(site)
+      assets_path = File.join(site.source, 'assets')
+      return [] unless Dir.exist?(assets_path)
 
-      # Find all .mp3 files recursively
-      mp3_files = Dir.glob(File.join(audio_path, '**', '*.mp3')).sort
+      # Find all .mp3 files recursively under assets/
+      mp3_files = Dir.glob(File.join(assets_path, '**', '*.mp3')).sort
 
       episodes = mp3_files.map do |file_path|
         # Get relative path from site source
@@ -51,8 +47,8 @@ module Jekyll
         # Determine duration: YAML > ID3 > empty
         duration = yaml_data['duration'] || id3_data[:duration] || ''
 
-        # Determine explicit: YAML > ID3 > config default > false
-        explicit = yaml_data.key?('explicit') ? yaml_data['explicit'] : (id3_data[:explicit] || config['explicit'] || false)
+        # Determine explicit: YAML > ID3 > false
+        explicit = yaml_data.key?('explicit') ? yaml_data['explicit'] : (id3_data[:explicit] || false)
 
         # Determine episode number: YAML > ID3 track > 0
         episode_number = yaml_data['episode'] || id3_data[:track] || 0
@@ -92,7 +88,7 @@ module Jekyll
       return {} unless File.exist?(yaml_path)
 
       require 'yaml'
-      YAML.load_file(yaml_path) || {}
+      YAML.safe_load_file(yaml_path, permitted_classes: [Date, Time]) || {}
     rescue => e
       Jekyll.logger.warn "PodcastFeedGenerator:", "Error reading companion YAML for #{file_path}: #{e.message}"
       {}
@@ -110,7 +106,7 @@ module Jekyll
         data[:genre] = mp3.tag.genre
         data[:comments] = mp3.tag.comments
         data[:duration] = format_duration(mp3.length)
-        data[:explicit] = false # Could be inferred from genre or comments
+        data[:explicit] = false
 
         # Try to get cover art
         if mp3.tag2 && mp3.tag2.pictures && mp3.tag2.pictures.any?
@@ -136,7 +132,6 @@ module Jekyll
       when String
         Time.parse(value) rescue nil
       when Integer
-        # Assume year
         Time.new(value) rescue nil
       else
         nil
@@ -161,18 +156,19 @@ module Jekyll
     end
 
     def build_guid(relative_path)
-      # Stable GUID based on file path
       require 'digest'
       "urn:sha256:#{Digest::SHA256.hexdigest(relative_path)[0..31]}"
     end
 
-    def build_feed(site, config, episodes)
+    def build_feed(site, episodes)
       require 'builder'
 
-      feed_config = config
       baseurl = site.config['baseurl'] || ''
       site_url = site.config['url'] || ''
-      feed_url = "#{site_url}#{baseurl}/#{feed_config['feed_path'] || 'podcast.xml'}"
+      feed_url = "#{site_url}#{baseurl}/podcast.xml"
+      site_title = site.config['title'] || 'Podcast'
+      site_desc = site.config['description'] || ''
+      site_author = site.config['author'] || ''
 
       xml = Builder::XmlMarkup.new(indent: 2)
       xml.instruct! :xml, version: '1.0', encoding: 'UTF-8'
@@ -182,53 +178,29 @@ module Jekyll
               'xmlns:atom' => 'http://www.w3.org/2005/Atom') do
         xml.channel do
           # Feed-level metadata
-          xml.title feed_config['title'] || site.config['title'] || 'Podcast'
+          xml.title site_title
           xml.link "#{site_url}#{baseurl}"
-          xml.description feed_config['description'] || site.config['description'] || ''
-          xml.language feed_config['language'] || 'en-us'
-          xml.copyright feed_config['copyright'] || "© #{Time.now.year} #{feed_config['author'] || site.config['author']}"
+          xml.description site_desc
+          xml.language 'en-us'
+          xml.copyright "© #{Time.now.year} #{site_author}"
           xml.docs 'http://www.rssboard.org/rss-specification'
           xml.generator 'Jekyll Podcast Feed Generator'
           xml.tag! 'atom:link', href: feed_url, rel: 'self', type: 'application/rss+xml'
 
           # iTunes feed-level tags
-          xml.tag! 'itunes:author', feed_config['author'] || site.config['author'] || ''
-          xml.tag! 'itunes:email', feed_config['author_email'] || ''
-          xml.tag! 'itunes:summary', feed_config['description'] || site.config['description'] || ''
+          xml.tag! 'itunes:author', site_author
+          xml.tag! 'itunes:summary', site_desc
           xml.tag! 'itunes:type', 'episodic'
-          xml.tag! 'itunes:explicit', feed_config['explicit'] ? 'true' : 'false'
-          xml.tag! 'itunes:language', feed_config['language'] || 'en-us'
+          xml.tag! 'itunes:explicit', 'false'
+          xml.tag! 'itunes:language', 'en-us'
 
-          # iTunes categories
-          if feed_config['categories']
-            feed_config['categories'].each do |cat|
-              xml.tag! 'itunes:category', text: cat
-            end
-          elsif feed_config.dig('itunes', 'category')
-            xml.tag! 'itunes:category', text: feed_config.dig('itunes', 'category') do
-              if feed_config.dig('itunes', 'subcategory')
-                xml.tag! 'itunes:category', text: feed_config.dig('itunes', 'subcategory')
-              end
-            end
-          end
-
-          # iTunes image (cover art)
-          if feed_config['image']
-            image_url = "#{site_url}#{baseurl}#{feed_config['image']}"
-            xml.tag! 'itunes:image', href: image_url
-          end
-
-          # iTunes owner
-          if feed_config.dig('itunes', 'owner_name') || feed_config.dig('itunes', 'owner_email')
-            xml.tag! 'itunes:owner' do
-              xml.tag! 'itunes:name', feed_config.dig('itunes', 'owner_name') || feed_config['author'] || ''
-              xml.tag! 'itunes:email', feed_config.dig('itunes', 'owner_email') || feed_config['author_email'] || ''
-            end
-          end
-
-          # iTunes keywords
-          if feed_config.dig('itunes', 'keywords')
-            xml.tag! 'itunes:keywords', feed_config.dig('itunes', 'keywords')
+          # iTunes image (look for podcast cover in assets/images/)
+          cover_path = File.join(site.source, 'assets', 'images', 'podcast-cover.jpg')
+          cover_png = File.join(site.source, 'assets', 'images', 'podcast-cover.png')
+          if File.exist?(cover_path)
+            xml.tag! 'itunes:image', href: "#{site_url}#{baseurl}/assets/images/podcast-cover.jpg"
+          elsif File.exist?(cover_png)
+            xml.tag! 'itunes:image', href: "#{site_url}#{baseurl}/assets/images/podcast-cover.png"
           end
 
           # Episodes
@@ -237,7 +209,7 @@ module Jekyll
               xml.title episode['title']
               xml.link episode['url']
               xml.description episode['description']
-              xml.pubDate episode['pub_date'].rfc822
+              xml.pubDate episode['pub_date'].respond_to?(:rfc822) ? episode['pub_date'].rfc822 : episode['pub_date'].to_s
               xml.guid episode['guid'], isPermaLink: 'false'
               xml.enclosure url: episode['url'],
                            length: episode['file_size'].to_s,
@@ -252,12 +224,6 @@ module Jekyll
               xml.tag! 'itunes:season', episode['season'] if episode['season'] > 0
               xml.tag! 'itunes:episodeType', episode['episode_type']
               xml.tag! 'itunes:guid', episode['guid']
-
-              # iTunes image for episode (fallback to feed image)
-              if episode['image'] && episode['image'][:data]
-                # Would need to save image data to a file and reference it
-                # For now, use feed-level image
-              end
             end
           end
         end
@@ -265,18 +231,18 @@ module Jekyll
       xml.target!
     end
 
-    def write_feed(site, feed_xml, feed_path)
+    def write_feed(site, feed_xml)
       # Write to _site/ (for local preview)
-      dest_path = File.join(site.dest, feed_path)
+      dest_path = File.join(site.dest, 'podcast.xml')
       FileUtils.mkdir_p(File.dirname(dest_path))
       File.write(dest_path, feed_xml)
 
       # Write to source root (for GitHub Pages commit)
-      source_path = File.join(site.source, feed_path)
+      source_path = File.join(site.source, 'podcast.xml')
       FileUtils.mkdir_p(File.dirname(source_path))
       File.write(source_path, feed_xml)
 
-      Jekyll.logger.info "PodcastFeedGenerator:", "Generated #{feed_path} with #{feed_xml.lines.count} lines"
+      Jekyll.logger.info "PodcastFeedGenerator:", "Generated podcast.xml with #{feed_xml.lines.count} lines from #{feed_xml.scan('<item>').size} episodes"
     end
   end
 end
