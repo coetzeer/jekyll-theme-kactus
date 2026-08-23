@@ -5,9 +5,11 @@ date: 2026-08-23 21:30:00 +0200
 description: "How I wired local sentence embeddings into my agent's SQLite-backed knowledge bases: fastembed + sqlite-vec, schema v3 migration across 8 live databases, a latent FTS5 trigger corruption bug, an autocommit fsync trap, and why the backfill was genuinely CPU-bound."
 categories: [self-hosted, python, knowledge-management]
 tags: [agent_scripts, embeddings, sqlite-vec, fastembed, fts5, rag, hybrid-search]
+image: /jekyll-theme-kactus/assets/images/2026-08-23-kb-semantic-search-embeddings.svg
+
 ---
 
-My [Hermes agent scripts]({{ site.baseurl }}/2026/08/21/hermes-kb-search-audit-deprecated-usage/) package maintains several SQLite-backed knowledge bases (date-based article collections and entity cards/notes) searched via FTS5 keyword matching. Keyword search works, but it fails exactly when you'd want it most: "first computer program" doesn't match an article that says *algorithm intended for a machine*. This post documents the full implementation of local embedding-based and hybrid search — requirements, design decisions, the bugs found along the way, and an honest accounting of the performance work.
+My [Hermes agent scripts]({{ site.baseurl }}/2026/08/21/hermes-kb-search-audit-deprecated-usage/) package maintains several SQLite-backed knowledge bases (date-based article collections and entity cards/notes) searched via FTS5 keyword matching. Keyword search works, but it fails exactly when you'd want it most: "first computer program" doesn't match an article that says *algorithm intended for a machine*. This post documents the full build of local embedding-based and hybrid search — requirements, design decisions, the bugs found along the way, and an honest accounting of the performance work.
 
 Everything runs **locally**: no API keys, no network calls at query time, no vector database service. Just SQLite files.
 
@@ -25,7 +27,7 @@ The work followed a research document evaluating storage options (Chroma, Qdrant
 
 One requirement changed mid-design. The original plan was opt-in embeddings: an `[embeddings]` extra in `pyproject.toml`, `--semantic` flags that degrade gracefully when dependencies were missing. I flipped it: **embeddings are mandatory infrastructure**. All dependencies became required, every knowledge base gets vectors, and the only graceful degradation left is when an embedding computation *fails at write time* — more on that below.
 
-Two hard rules shaped the whole implementation:
+Two hard rules shaped the whole build:
 
 1. **A write must never fail because embedding failed.** If the model can't load or inference crashes, the article is still persisted; its chunks are marked pending and healed later.
 2. **Existing KBs must migrate transparently**, including databases created before schema versioning existed.
@@ -34,7 +36,7 @@ Two hard rules shaped the whole implementation:
 
 ```
 markdown file ──► frontmatter parse ──► articles table ──► FTS5 (keyword)
-                                  └────► chunk_text() ──► article_chunks ──► fastembed ──► chunks_vec (vec0)
+└────► chunk_text() ──► article_chunks ──► fastembed ──► chunks_vec (vec0)
 ```
 
 Three new modules/pieces:
@@ -45,20 +47,20 @@ Three new modules/pieces:
 
 ```sql
 CREATE TABLE IF NOT EXISTS kb_meta (
-    key TEXT PRIMARY KEY,
-    value TEXT NOT NULL
+key TEXT PRIMARY KEY,
+value TEXT NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS article_chunks (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    article_id INTEGER NOT NULL REFERENCES articles(id) ON DELETE CASCADE,
-    chunk_index INTEGER NOT NULL,
-    content TEXT NOT NULL,
-    content_hash TEXT NOT NULL,
-    heading_path TEXT,
-    embedded_at REAL,
-    embedding_model TEXT,
-    UNIQUE(article_id, chunk_index)
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+article_id INTEGER NOT NULL REFERENCES articles(id) ON DELETE CASCADE,
+chunk_index INTEGER NOT NULL,
+content TEXT NOT NULL,
+content_hash TEXT NOT NULL,
+heading_path TEXT,
+embedded_at REAL,
+embedding_model TEXT,
+UNIQUE(article_id, chunk_index)
 );
 ```
 
@@ -66,7 +68,7 @@ plus a lazily-created virtual table once the first embedding lands:
 
 ```sql
 CREATE VIRTUAL TABLE IF NOT EXISTS chunks_vec USING vec0(
-    embedding float[384]
+embedding float[384]
 );
 ```
 
@@ -83,7 +85,7 @@ All three modes share one hydration layer returning `SearchResult` objects (now 
 - **hybrid** — both of the above, fused with Reciprocal Rank Fusion:
 
 ```text
-score(d) = Σ_over_rankings  1 / (k + rank_i(d)),   k = 60
+score(d) = Σ_over_rankings 1 / (k + rank_i(d)), k = 60
 ```
 
 Hybrid degrades to keyword-only ranks when the vector index is absent or empty. Pure semantic search on an empty index raises a clear error telling you to run `kb admin embed` — silently returning nothing would be worse.
@@ -103,7 +105,7 @@ While reviewing how to keep FTS5 in sync during migration, I found that the v2 s
 
 ```sql
 CREATE TRIGGER articles_fts_update AFTER UPDATE ON articles BEGIN
-    UPDATE articles_fts SET title=new.title WHERE rowid=old.rowid;  -- WRONG
+UPDATE articles_fts SET title=new.title WHERE rowid=old.rowid; -- WRONG
 END;
 ```
 
@@ -113,19 +115,19 @@ The fix is the documented command-style sync protocol:
 
 ```sql
 CREATE TRIGGER articles_fts_insert AFTER INSERT ON articles BEGIN
-    INSERT INTO articles_fts(articles_fts, rowid, title, tags, url, author, body)
-    VALUES ('insert', new.id, new.title, new.tags, new.url, new.author, new.body);
+INSERT INTO articles_fts(articles_fts, rowid, title, tags, url, author, body)
+VALUES ('insert', new.id, new.title, new.tags, new.url, new.author, new.body);
 END;
 
 CREATE TRIGGER articles_fts_delete BEFORE DELETE ON articles BEGIN
-    INSERT INTO articles_fts(articles_fts, rowid, title, tags, url, author, body)
-    VALUES ('delete', old.id, old.title, old.tags, old.url, old.author, old.body);
+INSERT INTO articles_fts(articles_fts, rowid, title, tags, url, author, body)
+VALUES ('delete', old.id, old.title, old.tags, old.url, old.author, old.body);
 END;
 ```
 
 The update trigger does `'delete'` (old row) + `'insert'` (new row). Because the corrupted indexes were unrecoverable in place, the v3 migration drops and recreates the FTS table with a `'rebuild'` command backfill, and swaps out any legacy triggers it finds. Every existing KB got fresh, correctly-synced FTS indexes as a side effect of upgrading.
 
-This bug shipped months ago and would have bitten eventually — likely as a mysterious "corrupt database" during some innocent future update. Migrations that touch trigger definitions should always diff against known-good text, not assume presence implies correctness.
+This bug shipped months ago and would have bitten eventually — as a mysterious "corrupt database" during some innocent future update. Migrations that touch trigger definitions should always diff against known-good text, not assume presence implies correctness.
 
 ## Bug #2: Autocommit fsync-per-statement (mine, immediately)
 
@@ -144,16 +146,16 @@ Fix: wrap the whole backfill in one explicit transaction and set WAL-appropriate
 
 ```python
 conn.execute("PRAGMA journal_mode=WAL")
-conn.execute("PRAGMA synchronous=NORMAL")   # safe under WAL; huge win
+conn.execute("PRAGMA synchronous=NORMAL") # safe under WAL; huge win
 ...
 conn.execute("BEGIN IMMEDIATE")
 try:
-    for article_id, body in rows:          # chunk → insert → batch-embed
-        ...
-    flush()
+for article_id, body in rows: # chunk → insert → batch-embed
+...
+flush()
 except Exception:
-    conn.execute("ROLLBACK")
-    raise
+conn.execute("ROLLBACK")
+raise
 conn.execute("COMMIT")
 ```
 
@@ -164,10 +166,10 @@ With batching in place, the remainder of performers2 took **10m07s for 1294 chun
 `cProfile` on a controlled copy (wipe chunks for a few articles, rerun):
 
 ```
-stats: {'articles_scanned': 8, 'chunks_embedded': 50}  wall=61.7s
-   ncalls   tottime  filename/function
-        1   59.849   {built-in method onnxruntime...run}
-        1    0.280   {onnxruntime...initialize_session}
+stats: {'articles_scanned': 8, 'chunks_embedded': 50} wall=61.7s
+ncalls tottime filename/function
+1 59.849 {built-in method onnxruntime...run}
+1 0.280 {onnxruntime...initialize_session}
 ```
 
 One single `session.run()` call consumed **59.8 of 61.7 seconds**. Tokenization was 0.03s. So it really was transformer inference — but 1.2 seconds per ~300-character chunk is 10–30× slower than bge-small should be. Prime suspect: ONNX Runtime spawning intra-op threads per core and spinning. Benchmarked thread counts on 64 real chunks:
@@ -183,7 +185,7 @@ Marginal gains — no oversubscription cliff. Hardware checks: x86_64 with AVX2+
 Verdict: not a bug, a hardware budget. And the architecture already contains it:
 
 - Backfills are one-time costs (2963 chunks for performers2, done).
-- Routine writes embed incrementally — typically 1–3 chunks, sub-second to ~2s.
+- Routine writes embed incrementally — 1–3 chunks, sub-second to ~2s.
 - Query embedding is a single short string, imperceptible inside a search round-trip.
 - The transaction batching means even worst-case rebuilds spend their time in compute, not fsyncs.
 
@@ -192,27 +194,27 @@ Verdict: not a bug, a hardware budget. And the architecture already contains it:
 Eight production databases existed across three generations of schema (including one predating the `schema_version` table entirely — the migrator handles version 0 by replaying v1→v2→v3 idempotently). Before touching anything real, every KB was copied to a temp directory and migrated there:
 
 ```
-daily_wather:    v3, articles=11,    integrity=ok, triggers replaced
-ai_tools:        v3, articles=24,    integrity=ok, triggers replaced
-test_legacy:     v3, articles=1,     integrity=ok, triggers replaced   ← no version table originally
-performers2:     v3, articles=2911,  integrity=ok, triggers replaced
+daily_wather: v3, articles=11, integrity=ok, triggers replaced
+ai_tools: v3, articles=24, integrity=ok, triggers replaced
+test_legacy: v3, articles=1, integrity=ok, triggers replaced ← no version table originally
+performers2: v3, articles=2911, integrity=ok, triggers replaced
 ...all 8 green
 ```
 
 Only after all copies passed `PRAGMA integrity_check` did the real backfills run. Final state of performers2:
 
 ```
-Chunks total:      2963
-Chunks pending:       0
-Articles embedded: 2121 / 2122   ← one empty-body article, zero chunks by design
-Vectors stored:    2963
+Chunks total: 2963
+Chunks pending: 0
+Articles embedded: 2121 / 2122 ← one empty-body article, zero chunks by design
+Vectors stored: 2963
 ```
 
 And the end-to-end payoff, the query that motivated all of this:
 
 ```text
 $ kb entity search e2e "first computer program" --hybrid
-Ada Lovelace   ← matched via "algorithm intended for a machine"
+Ada Lovelace ← matched via "algorithm intended for a machine"
 ```
 
 Keyword search returns nothing for that query. Hybrid finds it.
@@ -228,3 +230,4 @@ The suite grew to **125 tests, all passing** — 31 new in `test_kb_embeddings.p
 3. **Profile before blaming threading.** The "obvious" ONNX thread-contention story collapsed under a benchmark; the model just costs half a second per chunk on this box.
 4. **Never-block write hooks need a healing story.** Pending-chunk states plus incremental backfill selection turn embedding outages into non-events.
 5. **Dry-run migrations against copies.** Eight databases, three schema generations, zero surprises on the real ones.
+
