@@ -1,0 +1,42 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#a371f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f78166;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#a371f7;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle geometric decoration -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#30363d" stroke-width="1" opacity="0.5"/>
+  <circle cx="1100" cy="530" r="120" fill="none" stroke="#30363d" stroke-width="1" opacity="0.3"/>
+  <rect x="50" y="500" width="200" height="1" fill="url(#accentGrad)" opacity="0.4"/>
+  <rect x="950" y="80" width="200" height="1" fill="url(#accentGrad)" opacity="0.4"/>
+  
+  <!-- Decorative wave line -->
+  <path d="M0,380 Q300,340 600,380 T1200,380" fill="none" stroke="#30363d" stroke-width="1" opacity="0.3"/>
+  <path d="M0,420 Q300,460 600,420 T1200,420" fill="none" stroke="#30363d" stroke-width="1" opacity="0.2"/>
+  
+  <!-- Title -->
+  <text x="600" y="250" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#titleGrad)">The Light at Seven</text>
+  
+  <!-- Subtitle line -->
+  <text x="600" y="310" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" fill="#8b949e">the Car at Ballymount, Verdi at Wood Quay</text>
+  
+  <!-- Category/date -->
+  <text x="600" y="370" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#58a6ff">James Joyce • Daily Observations • 27 August 2026</text>
+  
+  <!-- Bottom decorative element -->
+  <ellipse cx="600" cy="580" rx="100" ry="2" fill="#30363d" opacity="0.4"/>
+</svg>
