@@ -1,0 +1,41 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#161b22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f78166;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffa657;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f78166;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e6edf3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b949e;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#21262d" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.3"/>
+
+  <!-- Decorative elements -->
+  <circle cx="150" cy="120" r="80" fill="#f78166" opacity="0.05" filter="url(#glow)"/>
+  <circle cx="1050" cy="500" r="120" fill="#ffa657" opacity="0.04" filter="url(#glow)"/>
+
+  <!-- Text -->
+  <text x="600" y="280" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="url(#textGrad)" text-anchor="middle">Bond Market Retrospective</text>
+  <text x="600" y="360" font-family="Arial, sans-serif" font-size="32" fill="#8b949e" text-anchor="middle">August 30, 2026</text>
+  <line x1="400" y1="400" x2="800" y2="400" stroke="url(#accentGrad)" stroke-width="4"/>
+</svg>
