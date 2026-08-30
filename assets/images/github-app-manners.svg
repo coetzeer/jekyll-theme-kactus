@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#0d1117"/>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#bg)" />
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117" stop-opacity="1"/>
+      <stop offset="1" stop-color="#161b22" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1200" height="630" fill="#0d1117"/>
+  <g stroke="#30363d" stroke-width="1" fill="none">
+    <rect x="0" y="0" width="1200" height="630"/>
+  </g>
+  <!-- GitHub octicon: octocat + gear motif -->
+  <g transform="translate(120, 120) scale(1.4)">
+    <!-- Simplified octocat body -->
+    <path d="M 70 30
+             C 70 20, 80 15, 95 15
+             C 110 15, 120 22, 120 33
+             C 120 42, 112 49, 100 52
+             C 105 57, 108 64, 108 72
+             C 108 90, 92 104, 70 104
+             C 48 104, 32 90, 32 72
+             C 32 58, 40 46, 55 38
+             C 38 35, 28 27, 28 16
+             C 28 10, 34 4, 42 2
+             C 50 0, 60 4, 65 10
+             C 66 11, 67 12, 68 13
+             C 70 13, 72 12, 73 11
+             C 77 12, 80 10, 83 7
+             C 88 2, 98 0, 106 2
+             C 114 4, 120 10, 120 18
+             C 120 29, 110 38, 100 42
+             C 105 44, 108 47, 108 50
+             C 108 62, 96 72, 80 72
+             C 64 72, 52 62, 52 50
+             C 52 47, 55 44, 60 42
+             C 50 38, 42 29, 42 18
+             C 42 13, 46 8, 52 6
+             C 58 4, 63 9, 65 15
+             Z" fill="#58a6ff"/>
+    <!-- Eyes -->
+    <circle cx="60" cy="48" r="5" fill="#0d1117"/>
+    <circle cx="80" cy="48" r="5" fill="#0d1117"/>
+  </g>
+  <!-- Gear icon -->
+  <g transform="translate(880, 480)">
+    <circle cx="0" cy="0" r="50" fill="#0d1117" stroke="#58a6ff" stroke-width="2"/>
+    <rect x="-2" y="-65" width="4" height="26" fill="#58a6ff"/>
+    <rect x="-2" y="39" width="4" height="26" fill="#58a6ff"/>
+    <rect x="-65" y="-2" width="26" height="4" fill="#58a6ff" transform="rotate(30)"/>
+    <rect x="39" y="-2" width="26" height="4" fill="#58a6ff" transform="rotate(30)"/>
+  </g>
+  <!-- Title -->
+  <text x="600" y="430" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">Teaching Your GitHub App</text>
+  <text x="600" y="490" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">Some Manners</text>
+  <!-- Subtitle -->
+  <text x="600" y="550" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#8b949e">Tokens, clocks, and the one rule nobody tells you</text>
+  <!-- Decorative wave -->
+  <path d="M 0 120 Q 300 180 600 120 T 1200 120 L 1200 0 L 0 0 Z" fill="#0d1117" opacity="0.3"/>
+</svg>
