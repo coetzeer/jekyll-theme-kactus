@@ -1,0 +1,97 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#161b22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="riverGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a2a3a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2a3a4a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2a3a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lightGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.15" />
+      <stop offset="50%" style="stop-color:#a371f7;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#f78166;stop-opacity:0.15" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#skyGradient)"/>
+  
+  <!-- Subtle atmospheric texture -->
+  <g opacity="0.03">
+    <circle cx="200" cy="150" r="300" fill="#58a6ff"/>
+    <circle cx="900" cy="400" r="400" fill="#a371f7"/>
+    <circle cx="600" cy="500" r="200" fill="#f78166"/>
+  </g>
+  
+  <!-- River Liffey suggestion -->
+  <path d="M0,450 Q300,430 600,450 Q900,470 1200,450 L1200,630 L0,630 Z" fill="url(#riverGradient)" opacity="0.6"/>
+  <path d="M0,450 Q300,430 600,450 Q900,470 1200,450" stroke="#30363d" stroke-width="2" fill="none" opacity="0.5"/>
+  
+  <!-- Light rays breaking through clouds -->
+  <g fill="url(#lightGradient)" opacity="0.4">
+    <path d="M550,0 L580,200 L520,200 Z"/>
+    <path d="M650,0 L690,180 L610,180 Z"/>
+    <path d="M480,0 L520,160 L440,160 Z"/>
+  </g>
+  
+  <!-- Bridge suggestion (Ha'penny) -->
+  <path d="M300,450 Q450,380 600,450 Q750,520 900,450" stroke="#30363d" stroke-width="3" fill="none" opacity="0.4"/>
+  <path d="M350,450 Q450,400 550,450" stroke="#30363d" stroke-width="1.5" fill="none" opacity="0.3"/>
+  <path d="M550,450 Q600,400 650,450" stroke="#30363d" stroke-width="1.5" fill="none" opacity="0.3"/>
+  <path d="M650,450 Q700,400 750,450" stroke="#30363d" stroke-width="1.5" fill="none" opacity="0.3"/>
+  <path d="M750,450 Q800,400 850,450" stroke="#30363d" stroke-width="1.5" fill="none" opacity="0.3"/>
+  
+  <!-- Spire -->
+  <path d="M850,150 L855,140 L870,150 L860,280 L860,300 L850,300 L850,280 Z" fill="#30363d" opacity="0.6"/>
+  <line x1="860" y1="140" x2="860" y2="120" stroke="#58a6ff" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Gulls -->
+  <g fill="#8b949e" opacity="0.7">
+    <path d="M150,120 Q160,115 170,120 Q165,118 160,115 Q155,118 150,120" transform="scale(0.8)"/>
+    <path d="M200,100 Q210,95 220,100 Q215,98 210,95 Q205,98 200,100" transform="scale(0.6)"/>
+    <path d="M1000,180 Q1010,175 1020,180 Q1015,178 1010,175 Q1005,178 1000,180" transform="scale(0.7)"/>
+    <path d="M1050,200 Q1060,195 1070,200 Q1065,198 1060,195 Q1055,198 1050,200" transform="scale(0.5)"/>
+  </g>
+  
+  <!-- Rain streaks -->
+  <g stroke="#30363d" stroke-width="0.5" opacity="0.3">
+    <line x1="100" y1="100" x2="95" y2="120"/>
+    <line x1="200" y1="80" x2="195" y2="100"/>
+    <line x1="300" y1="120" x2="295" y2="140"/>
+    <line x1="400" y1="60" x2="395" y2="80"/>
+    <line x1="500" y1="90" x2="495" y2="110"/>
+    <line x1="700" y1="110" x2="695" y2="130"/>
+    <line x1="800" y1="70" x2="795" y2="90"/>
+    <line x1="900" y1="130" x2="895" y2="150"/>
+    <line x1="1000" y1="90" x2="995" y2="110"/>
+    <line x1="1100" y1="100" x2="1095" y2="120"/>
+  </g>
+  
+  <!-- Title text -->
+  <text x="600" y="200" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="0.5px">The City Breathes</text>
+  <text x="600" y="260" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" fill="#8b949e" text-anchor="middle" letter-spacing="0.3px">in September</text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="330" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" fill="#58a6ff" text-anchor="middle" opacity="0.8">Rain warning · Kinahan in court · Two concerts tonight</text>
+  
+  <!-- Date -->
+  <text x="600" y="370" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#6a737d" text-anchor="middle">02 September 2026 · Dublin</text>
+  
+  <!-- Decorative line -->
+  <line x1="500" y1="400" x2="700" y2="400" stroke="#30363d" stroke-width="1"/>
+  <circle cx="600" cy="400" r="3" fill="#58a6ff" opacity="0.6"/>
+  
+  <!-- James Joyce signature -->
+  <text x="600" y="440" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#a371f7" text-anchor="middle" font-style="italic">James Joyce</text>
+</svg>
