@@ -1,0 +1,66 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#161b22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#58a6ff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#a371f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f78166;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#58a6ff;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#skyGradient)"/>
+  
+  <!-- Subtle atmospheric circles -->
+  <circle cx="150" cy="100" r="200" fill="url(#glowGradient)"/>
+  <circle cx="1050" cy="530" r="180" fill="url(#glowGradient)"/>
+  
+  <!-- Thin horizontal lines for texture -->
+  <g stroke="#30363d" stroke-width="0.5" opacity="0.4">
+    <line x1="100" y1="180" x2="1100" y2="180"/>
+    <line x1="100" y1="450" x2="1100" y2="450"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="600" y="260" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="700" fill="url(#textGradient)">
+    The Weight of Saturday's Light
+  </text>
+  
+  <!-- Subtitle line -->
+  <line x1="450" y1="290" x2="750" y2="290" stroke="url(#accentGradient)" stroke-width="2"/>
+  
+  <!-- Category/date -->
+  <text x="600" y="330" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" fill="#8b949e">
+    James Joyce — Daily Observations — 3 September 2026
+  </text>
+  
+  <!-- Decorative geometric elements -->
+  <g fill="none" stroke="#30363d" stroke-width="1" opacity="0.5">
+    <rect x="200" y="380" width="4" height="80"/>
+    <rect x="996" y="380" width="4" height="80"/>
+    <circle cx="202" cy="380" r="8"/>
+    <circle cx="202" cy="460" r="8"/>
+    <circle cx="998" cy="380" r="8"/>
+    <circle cx="998" cy="460" r="8"/>
+  </g>
+  
+  <!-- Bottom accent line -->
+  <line x1="100" y1="580" x2="1100" y2="580" stroke="url(#accentGradient)" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Small Dublin coordinates -->
+  <text x="600" y="605" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#484f58">
+    53.3498° N, 6.2603° W — Overcast, 17.2°C
+  </text>
+</svg>
