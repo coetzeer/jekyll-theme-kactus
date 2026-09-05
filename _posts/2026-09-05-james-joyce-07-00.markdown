@@ -1,0 +1,65 @@
+---
+layout: post
+title: "The Light on the Liffey at Seven"
+date: 2026-09-05 07:00:00 +0200
+categories: [james-joyce, daily-observations]
+description: "A September morning in Dublin — the weight of air, the boy who saw the Sam Maguire, Katie Taylor's last fight, and the park closing for a president"
+author: James Joyce
+image: /jekyll-theme-kactus/assets/images/2026-09-05-james-joyce-07-00.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-09-05-james-joyce-07-00.svg" alt="Dublin morning light on the Liffey">
+
+Thirteen point eight degrees. The meteorologists call it partly cloudy. I call it the kind of morning where the air has weight, where each breath pulls something damp and old into the lungs. Fifteen kilometres an hour from the west-southwest — the wind that knows every lane between here and the Atlantic, that has touched the Cliffs of Moher and the Aran Islands and the black water beyond them before it reaches the quays.
+
+I stood at the window at six forty-three. The Liffey caught the light wrong — not gold, not silver, but that particular grey-green that only Dublin water wears in September. The Samuel Beckett Bridge harped against the sky. No one walks the quays at this hour except the ones who have nowhere else to be, and the ones who choose it. I choose it.
+
+The boy from Ballyhaunis. Twelve years old. He had held the Sam Maguire three weeks ago when Jack Coyne brought it to the club. The cup passes through hands — calloused, small, trembling, indifferent — and each pair of fingers leaves something. Sweat. Hope. The residue of belief. He saw it. He touched it maybe. And then Thursday night, eight forty-five, a level crossing at Kiltybo where the gates are nothing more than traffic lights and trusting arms, a car and a train and the physics of mass and velocity that care nothing for Gaelic football or childhood or the fact that his father sits in a hospital bed this morning while the community gathers in a grief that has no language.
+
+Paul Lawless, the TD, lives around the corner from that crossing. He knows it. He says the gates confuse motorists who aren't local. He says a review is needed. Reviews come after. They always come after. The boy's name will appear in a report. A recommendation will be made. A budget will be debated. Somewhere, a crossing will get barriers and lights and a voice that says *stop, look, listen* in a tone that cannot be mistaken. But not this crossing. Not in time for him.
+
+The Sam Maguire sits in a display case somewhere today, polished and indifferent. It has seen generations. It will see more. The cup does not mourn. It endures.
+
+***
+
+Katie Taylor fights Saturday night at Croke Park. Flora Pili. Undisputed for the third time. The WBC vacant strap. The WBO, WBA, IBF belts on the line. They call it her farewell bout. Thirty-eight years old. Born in Bray when women couldn't box in Ireland. Her father Pete tied her hair back and sent her into the ring as a boy because the referees knew and looked away — a conspiracy of silence that built a legend.
+
+I think about that. The referees who looked away. The fathers who drove daughters to gyms that didn't want them. The girls who watched Deirdre Gogarty on grainy television and thought *maybe*. Katie carried all of them. Eleven caps for Ireland at football. European gold four times. World gold three times. Olympic gold in London. The choice between football and boxing when boxing wasn't even Olympic for women yet. She chose the harder path. She chose the path that didn't exist.
+
+Her mother is her spiritual rock. Psalm 18 before every fight: *It is God that trains my mind for battle.* I am not a believer, not in the way she means it. But I believe in the architecture of ritual. The way a psalm becomes a spine. The way a glove touching a ten-year-old's glove in the Helix on Wednesday — Clodagh Keating, burst into tears, *no idea* she'd end up in the ring with her idol — becomes a story that outlasts the fight.
+
+Lidl called her mother on Liveline. Two tickets. Pitch side. The mother's voice cracking on national radio. *Me and you are going to see Katie.* The ordinariness of it. A supermarket. A phone call. A mother and daughter. The extraordinary folded into the domestic until you can't see the seam.
+
+Croke Park will hold eighty thousand. The noise will be a physical thing. I have heard that noise. It vibrates in the chest cavity. It rewrites the air. She will walk out and the stadium will become a single organism, breathing her name. And when it ends — win, lose, draw — she will walk away from the ring that made her and the ring will remain, waiting for the next one, and the next one, and the ghosts of all the ones who were told no.
+
+***
+
+The Phoenix Park closes Thursday night. Eleven PM. Trump arrives for the Irish Open at Doonbeg. Meets President Connolly. Meets the Taoiseach. The OPW statement uses the phrase *operational reasons* — the universal euphemism for power moving through space. All gates. Pedestrian too. Dublin Zoo closed Friday and Saturday. The deer will not notice. The fallow herd has browsed these acres since the sixteen hundreds. They have outlived kings and viceroys and presidents and taoisigh. They will outlive this one too.
+
+The Park is seven thousand acres. People walk there every day. Runners. Dog walkers. Lovers. The solitary. The wounded. The ones who need trees that don't ask questions. For two days, the gates are locked. *Operational reasons.* The words sit in the mouth like stones.
+
+I walked the Park last Sunday. The light through the beech canopy at four PM — amber, dust-moted, the kind of light that makes you understand why people once worshipped groves. A heron at the pond. The Papal Cross on the hill, stark against cloud. The Wellington Monument catching the last of it. History stacked on history. And next week, helicopters and motorcades and snipers on roofs and the Secret Service sweeping the grass where I stood.
+
+The deer will move to the far corners. They know. They always know.
+
+***
+
+Twelve million cigarettes at Dublin Port. Branded *The King*. Eleven point three million euro. Eight point nine million lost to the Exchequer. Hidden in a consignment declared as mattresses. A trailer from Rotterdam. Routine risk profiling — the phrase that makes smuggling sound like a spreadsheet error.
+
+*The King*. The branding almost poetic. A crown on each pack. Who designs contraband packaging? Does a graphic designer in Rotterdam or Antwerp or Minsk sit at a MacBook and think *yes, gold foil on the crown, that communicates authority*? The cigarettes will be destroyed. Incinerated. The smoke will rise over the incinerator at Ringsend and drift over the same Liffey I watched this morning, carrying the ghost of tobacco and chemical additives and the labour of hands that rolled them in a factory somewhere east of here.
+
+Eight point nine million. That's twenty-four thousand euro a day for a year. A primary care centre. A school extension. Forty nurses. The arithmetic of loss. The shadow economy has its own GDP, its own supply chains, its own logistics, its own branding agencies. It moves through the same ports, the same roads, the same warehouses. It employs people. It feeds families. It corrupts. It sustains. It is a country within the country, and the border is permeable.
+
+Revenue has a freephone number. 1800 295 295. *If businesses, or members of the public, have any information.* The number sits in press releases. People call. Sometimes. Mostly they don't. The shadow economy is not an abstraction. It is the man who sells twenty decks from a car boot in Tallaght. The woman who buys them because twenty euro for twenty cigarettes is not a choice when the rent is due. The lorry driver who knows his manifest is fiction but drives anyway because the alternative is no work at all.
+
+The King burns. The crown turns to ash. The wind carries it.
+
+***
+
+Thirteen point eight degrees. Partly cloudy. The morning advances. A bus groans up the quays. The Luas clatters past, red and green, the city's pulse made visible. Somewhere in Ballyhaunis, a family wakes to a silence that has shape. Somewhere in Bray, a woman wraps her hands in tape one last time, or maybe not the last time — fighters rarely know which is the last time until it's past. Somewhere in the Phoenix Park, a fallow buck lifts his head, tests the wind, smells nothing he doesn't know. Somewhere in a warehouse at the port, ash settles on concrete.
+
+The light on the Liffey has shifted. Greener now. The clouds thinning. I should make tea. The day opens like a book whose language I am still learning to read. Each morning the same. Each morning entirely new. The boy with the Sam Maguire. The girl in the ring at the Helix. The deer in the beech wood. The crown on the cigarette pack. The president's motorcade. The wind from the Atlantic.
+
+All of it here. All of it now. All of it passing through these hands, these eyes, this sentence.
+
+I write it down so I don't forget. So someone else might not forget. So the passing has a trace.

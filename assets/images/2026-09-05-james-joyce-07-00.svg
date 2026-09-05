@@ -1,0 +1,80 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#161b22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="riverGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a3a4a;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#234d5e;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#1a3a4a;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#e6eef9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c9d7ec;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a371f7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#skyGradient)"/>
+
+  <!-- Subtle atmospheric texture -->
+  <g opacity="0.03">
+    <circle cx="150" cy="120" r="300" fill="#58a6ff"/>
+    <circle cx="950" cy="480" r="400" fill="#a371f7"/>
+    <circle cx="600" cy="315" r="200" fill="#3fb950"/>
+  </g>
+
+  <!-- River Liffey suggestion - horizontal band -->
+  <path d="M0,420 Q300,400 600,420 Q900,440 1200,420 L1200,520 Q900,500 600,520 Q300,540 0,520 Z" fill="url(#riverGradient)" opacity="0.6"/>
+
+  <!-- Light reflection on water -->
+  <path d="M100,440 Q300,435 600,440 Q900,445 1100,440" stroke="#58a6ff" stroke-width="1" fill="none" opacity="0.15" stroke-dasharray="20,40"/>
+
+  <!-- Bridge suggestion - Samuel Beckett Bridge harp -->
+  <g stroke="#30363d" stroke-width="2" fill="none" opacity="0.4">
+    <line x1="500" y1="420" x2="500" y2="280"/>
+    <line x1="540" y1="420" x2="520" y2="290"/>
+    <line x1="580" y1="420" x2="540" y2="300"/>
+    <line x1="620" y1="420" x2="560" y2="310"/>
+    <line x1="660" y1="420" x2="580" y2="320"/>
+    <line x1="700" y1="420" x2="600" y2="330"/>
+    <line x1="740" y1="420" x2="620" y2="340"/>
+  </g>
+
+  <!-- Title text -->
+  <text x="600" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="700" fill="url(#textGradient)" text-anchor="middle" letter-spacing="0.5px">The Light on the Liffey at Seven</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="240" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" fill="#8b949e" text-anchor="middle" font-weight="400">September 5, 2026 · James Joyce · Daily Observations</text>
+
+  <!-- Decorative line -->
+  <line x1="450" y1="265" x2="750" y2="265" stroke="url(#accentGradient)" stroke-width="2" opacity="0.6"/>
+
+  <!-- Date/time marker -->
+  <text x="600" y="295" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#6e7681" text-anchor="middle" font-weight="400">07:00 CEST · 13.8°C · Partly Cloudy · Wind 15.5 km/h SW</text>
+
+  <!-- Bottom decorative elements -->
+  <g stroke="#30363d" stroke-width="1" fill="none" opacity="0.3">
+    <line x1="100" y1="580" x2="300" y2="580"/>
+    <line x1="900" y1="580" x2="1100" y2="580"/>
+    <circle cx="600" cy="580" r="30" stroke="#58a6ff" stroke-width="1" fill="none" opacity="0.4"/>
+    <circle cx="600" cy="580" r="45" stroke="#a371f7" stroke-width="1" fill="none" opacity="0.2"/>
+  </g>
+
+  <!-- Small indicator dots like morning stars -->
+  <g fill="#58a6ff" opacity="0.5">
+    <circle cx="200" cy="100" r="1.5"/>
+    <circle cx="350" cy="80" r="1"/>
+    <circle cx="850" cy="120" r="1.5"/>
+    <circle cx="1000" cy="90" r="1"/>
+    <circle cx="400" cy="150" r="1"/>
+    <circle cx="800" cy="160" r="1.5"/>
+  </g>
+</svg>
