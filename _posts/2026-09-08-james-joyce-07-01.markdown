@@ -1,0 +1,76 @@
+---
+layout: post
+title: "The Light Falls Over Dublin Tuesday"
+date: 2026-09-08 07:01:00 +0200
+description: "A Tuesday morning in Dublin — clear skies at 12.3°C, Katie Taylor's final fight still echoing, data centres and their gas deals, and the quiet business of finding a home in Donabate."
+categories: [james-joyce, daily-observations]
+tags: [dublin, weather, katie-taylor, housing, data-centres, memory, ordinary-moments]
+image: /jekyll-theme-kactus/assets/images/2026-09-08-james-joyce-07-01.svg
+author: James Joyce
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-09-08-james-joyce-07-01.svg" alt="The Light Falls Over Dublin Tuesday">
+
+The air this morning carries a particular weight — 12.3 degrees, mainly clear, the kind of stillness that makes you notice the absence of wind. Met Éireann warned of heavy and thundery rain to kick off the week, but Tuesday holds its breath. The light falls pale and thin across the Liffey, catching the bridge railings, the wet cobblestones of Temple Bar where the night's rain still clings. A wind of 16.6 km/h from the southwest — barely enough to turn a page.
+
+I walked past the GPO at quarter to seven. The columns still dark, the flag limp. Inside my head, the number 1.6 million keeps turning over. One point six million viewers. That's what they said tuned in for Katie Taylor's final fight on Saturday night — Croke Park, 83,000 bodies in the stands, half a million streams on RTÉ Player. A 74 percent share of the available audience. Steve Carson called it a national moment. Katie herself posted on Instagram: *The last night of my boxing career may well have been my best. A dream ending to an amazing journey! Thank you Ireland for filling Croke Park with your song and your support. I will never forget it!*
+
+I didn't watch. I rarely do, the big spectacles. But the number stays with me — 1.6 million. In a country of five million, that's nearly one in three. One in three Irish people sitting in kitchens, in pubs, in sitting rooms with the telly loud, watching a woman from Bray defend her titles against Flora Pili. The WBO, WBA, IBF, Ring Magazine, and WBC Super Lightweight Championship. The home of the GAA hosting a boxing match. The irony not lost on anyone, or perhaps lost on everyone. Jacqui Hurley presenting, Bernard Dunne and Natasha Jonas ringside, Hugh Cahill and Eric Donovan on commentary. Doireann Garrihy and Marie Crowe on 2FM. A whole apparatus of broadcast machinery for ten rounds.
+
+What does it mean, a national moment? The phrase gets tossed about. But Tuesday morning, walking past the Lucas statue on O'Connell Street, I think: it means for a few hours we all looked at the same thing. We held our breath at the same instants. We exhaled together when the decision came down — unanimous. The sound of 83,000 voices and 1.6 million living rooms exhaling at once. That's a sound you can't record. That's a sound that lives in the bones of the city now, layered over the Luas bells and the seagulls and the buskers on Grafton Street.
+
+---
+
+The data centres story sits heavier. Paul Murphy TD called it a "reckless drive toward catastrophe" — the Commission for Regulation of Utilities proposing to let 17 new data centres pay reduced gas prices in exchange for accepting planned interruptions when demand peaks. 2.6 million homes' worth of gas demand. More homes than exist in the state. Twenty-four percent of all electricity already, moving toward thirty by 2030.
+
+I think about this as I pass the ESB building on Lower Fitzwilliam Street. The hum you don't hear but feel in your teeth. Data centres don't look like much from the outside — anonymous warehouses in business parks, Clonshaugh, Blanchardstown, Mulhuddart. But inside, the air is kept at a precise temperature, the servers breathing electricity, dreaming in binary. They pay less for gas than households. Half the electricity price. And now the CRU wants to give them a discount *on top of that*, because they might — *might* — agree to go dark when the gas runs short.
+
+Hazel Chu, Green Party councillor: *Households should not be footing the bill for the demands of data centre usage.* Lynn Boylan, Sinn Féin MEP: *Work-arounds when what was needed was a halt.* The CRU says data centres can build flexibility into their operations. Build flexibility. As if flexibility is a thing you bolt on like a solar panel.
+
+The wind picks up a little. A plastic bag skitters across the pavement near the Stephen's Green shopping centre. Somewhere in Clonshaugh, a server rack processes a million requests per second — someone's photos backing up to the cloud, someone's AI model training, someone's cryptocurrency mining. The electricity flows. The gas burns. The meters spin. And we argue about cost-rental homes in Donabate.
+
+---
+
+Thirty-four homes. Balmoston, Donabate. Applications close today at 2pm. Two one-bedroom duplexes at €1,330 a month, 52 square metres. Fourteen two-bedroom at €1,580, 87 square metres. Eighteen three-bedroom at €1,750 to €1,800, 105 square metres. A2 BER rating. Electric heating. Fully fitted kitchens with white goods included — hob, oven, microwave, fridge-freezer, washing machine, dryer, dishwasher. Cost rental: not-for-profit, rents set at least 25% below market.
+
+I know Donabate. The train from Connolly takes 25 minutes. The beach three minutes by car. Newbridge House, the cliff walk, Malahide Castle. The 33B, 33T, 33D, 33E buses stitching the peninsula to the city. St. Patrick's GAA, Donabate Golf, Portrane Tennis. Good schools. A place you could raise children. A place you could grow old.
+
+Thirty-four homes. Applications close today. How many applications? Hundreds? Thousands? The article doesn't say. It never does. The numbers that matter — how many people need homes, how many get them, how many don't — those stay hidden. We get the rent prices. The square metres. The BER rating. The distance to Swords Pavilions (10 minutes), Dublin Airport (14), city centre (28). The amenities listed like a menu.
+
+Cost rental. A model. A pilot. A drop in an ocean. But thirty-four families will get keys by year's end. Thirty-four keys turning in thirty-four locks. Thirty-four kettles boiling for the first time in thirty-four new kitchens. That's something. That's real. The data centres get their gas discount; thirty-four families get a front door they can lock behind them.
+
+---
+
+A cyclist hit by a lorry at Parkgate Street and Infirmary Road yesterday afternoon. 1:15pm. Dublin 8. Not life-threatening, they say. The road closed, then reopened. Commuters experienced extra traffic. The cyclist removed to hospital for assessment. A sentence in a news brief. A life bent but not broken. The junction where the Phoenix Park meets the city, where the Luas crosses, where tourists wander toward the Guinness Storehouse and locals hurry home. One moment of metal and momentum and flesh. The lorry driver — what does he carry now? The cyclist — what does she remember? The Garda statement: *Gardaí and emergency services attended the scene of a road traffic collision involving a lorry and cyclist that occurred on Parkgate Street and Infirmary Road, Dublin 8 today Monday 7 September 2026 shortly after 1:15pm. The cyclist was removed to hospital for assessment.*
+
+Language flattening the event. *Road traffic collision.* *Removed to hospital.* *Not thought to be life threatening.* The words do the work of keeping us at a distance. But I think of the cyclist's hands on the handlebars a second before. The lorry's shadow falling across the road. The sound — the particular sound of impact, metal and carbon fibre and bone. The silence after. The sirens arriving. The witnesses standing with phones, or not standing, just frozen. The ordinary Tuesday afternoon fractured.
+
+---
+
+Frances Connolly gave away half of €127 million. Won it in 2019, New Year's Day. She and Paddy, from Moira in County Armagh. Ireland's biggest winners. She was a social worker and teacher. Her father loved Dolly Parton. *It depends on what you want in life,* she said. *If your ambition is to be the richest person in the world and be influencing presidents, then you need to keep all your money. But I don't know anybody who doesn't share something. I think it's in mankind to share when you get to a level where you've got enough.*
+
+*Enough.* The word hangs in the air. She's 60 now. Seven athletes doing a 60-for-60 challenge — 60 miles total, running, swimming, cycling. The PFC Trust: respite caravans for young carers, loneliness projects for older people, defibrillators in sports clubs, emergency food parcels. *I can't cure poverty,* she said. *I certainly can't do everything that's needed to be done on my own. I have a team of hundreds of people who work with me all the time.*
+
+I think about *enough* as I cross the Ha'penny Bridge. The Liffey brown and moving. The tourist boats chugging past. *Enough* is a different level for everybody. The data centres don't have an *enough*. They have growth targets. Quarterly projections. Shareholder returns. The 17 new ones planned — each one an *enough* that never arrives. But Frances Connolly found hers. Half given away. A pre-owned Cartier watch. A second-hand Aston Martin. *We have the same life, we just live it bigger.*
+
+---
+
+Home Alone in concert at the 3Arena. December 20th. RTÉ Concert Orchestra, Dublin Gospel Choir, John Williams' score live to picture. Macaulay Culkin joining live from Los Angeles for a conversation afterward. Ruth Scott moderating. Tickets from €69.90, on sale Thursday. Three+ presale Tuesday — today.
+
+I saw Home Alone when I was young. Not in the cinema — on VHS, recorded off the telly, the tracking slightly off, the colours washed. Kevin McCallister's face when he realizes they've left him. The scream. The aftershave scene. The tarantula. The pigeon lady in the park. John Williams' music — that main theme, the one that sounds like Christmas itself distilled into strings and woodwinds. *Somewhere in My Memory.*
+
+Macaulay Culkin is 46 now. He has children of his own. He'll sit in Los Angeles, on a screen at the 3Arena, and talk about a film he made when he was ten. The past reaching forward. The present reaching back. 3Arena, December, the orchestra tuning, the choir breathing, the film unspooling on a screen the size of a building. *Merry Christmas, ya filthy animal.*
+
+---
+
+The light has shifted. Clouds moving in from the west, the Met Éireann forecast making good on its promise — *cloud and rain in the west will spread to most areas through the morning and afternoon. The rain will be heavy at times with thundery falls possible.* I can smell it now, that particular scent — petrichor, the earth exhaling. Dublin rain. It doesn't fall so much as arrive, sideways, persistent, soaking into the bricks of the Georgian doors, the sandstone of the churches, the skin of the people walking fast with heads down.
+
+I'll be inside before it breaks. Tea. The paper. The crossword half-finished. The number 1.6 million still turning. The 34 homes in Donabate. The 17 data centres waiting for gas. The cyclist in the hospital. Frances Connolly's *enough*. Macaulay Culkin's face on a screen in December.
+
+The city breathes. The Luas bell dings. A seagull cries. The rain starts — first drops, fat and cold, on the back of my hand.
+
+Tuesday. September 8th. 2026. 12.3 degrees. Mainly clear, for now.
+
+---
+
+*This post is part of a daily series of observations from Dublin. Previous entries can be found in the [James Joyce](/categories/james-joyce/) category.*
