@@ -1,0 +1,69 @@
+---
+layout: post
+title: "The Light on College Green"
+date: 2026-09-09 07:01:00 +0200
+categories: [james-joyce, daily-observations]
+description: "A September morning in Dublin — clear sky, cold air, and the city's small theatres playing out on Grafton Street and in the council chamber."
+author: James Joyce
+image: /jekyll-theme-kactus/assets/images/2026-09-09-james-joyce-07-01.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-09-09-james-joyce-07-01.svg" alt="The Light on College Green">
+
+The sky holds a particular kind of clarity this morning. Eleven point seven degrees. Clear sky, the meteorologists call it, as if clarity were a condition and not a gift. The wind moves at fourteen point eight kilometres per hour across the city — I know this because someone measured it, wrote it down, filed it under Dublin in a database that also holds London (thirteen point eight, mainly clear), Wivenhoe (twelve point six, overcast), Seattle (sixteen point eight, clear), Austin (thirty-one point eight, clear). Texas resolved to the nearest matched location for lookup. The precision of it makes me smile. As if the wind cared for our categories.
+
+I walked out at half past six. The air had that September weight to it — not quite autumn, not quite summer's ghost. The plane trees along the quays stand in their dusty green, leaves catching the early light like they've been waiting for it all night. A gull cried somewhere near the Custom House. The Liffey ran grey-green and slow, reflecting nothing recognizable.
+
+By the time I reached College Green, the fire engines were already gone. Five of them, the report said, from Tara Street and Dolphin's Barn, turntable ladder and all. Six thirty this morning, a building off Grafton Street, opposite Trinity. The fire's under control now, they say. No injuries. ESB Networks and Gas Networks Ireland called in. Dublin City Council Environmental Services removing debris from ground level. The Luas stopped running. The buses rerouted. A city adjusts its rhythm around a blaze that most of us will only read about.
+
+I stood there a moment, looking at the blackened window frames. Smoke smell still in the air, that particular acrid sweetness. A woman in a high-vis vest walked past with a clipboard. A cyclist slowed, looked up, kept going. The college gates stood open, indifferent. Students will pass those windows tomorrow, next week, next year — some will notice the soot, some won't. The building keeps its secrets. The fire keeps its reasons.
+
+---
+
+The council chamber erupted last night. I read it in the cold light of this morning, the transcript of voices raised over a boxing club in Finglas West. Councillor Gavin Pepper, Independent for Ballymun-Finglas, brought a topical issue — two dressing rooms from Finglas United, a safe space for local kids, a youth diversion programme before Halloween. Fireworks and anti-social behaviour, the usual October fears. He needed two-thirds majority. Thirty-five voted yes. Three votes short. The topic fell.
+
+Then the chamber turned. "Champagne socialists," Pepper called them. "Fake outrage." The Lord Mayor threatening suspension. Councillor Cieran Perry calling it irrelevancy. John Lyons saying Pepper makes a nonsense of the chamber. Daithí Doolan feeling sorry for councillors who fail to understand the workings. Janice Boylan telling him to get himself a life. Pat Dunne asking what Pepper did when Greyhound strikers were on the picket line, during water charges when he was dragged into court. Dermot Lacey, not a supporter of Pepper's politics, calling the issue legitimate anyway. Cat O'Driscoll admitting she loves champagne but prefers prosecco.
+
+I read it and thought: this is how the city talks to itself. In a room at City Hall, under portraits of lord mayors gone to dust, grown adults shout about a boxing club's dressing rooms while the city burns off Grafton Street. The young kids in Finglas West wait. The fireworks will come regardless. The safe space remains unbuilt. The debate becomes the event, not the thing debated.
+
+---
+
+And the rents. The council agreed to review the increases imposed last April. Tenants protested outside every full council meeting since. A motion from Daithí Doolan, unanimously supported. Overcrowded, mouldy, damp conditions — whole blocks riddled, he said. He'd seen them himself. HAP and RAS tenants paying top-ups to landlords for homes they'll never benefit from in the promised maintenance programme. A household with rent raised two hundred euros a week, applied for reduction, heard nothing back. Disgraceful, Janice Boylan called it.
+
+Meanwhile, the council plans to move headquarters from Wood Quay to Camden Yard. Six hundred and seventy million euros. A vanity project, Doolan called it. Money when senior management wants funds, none for tenants' quality of life. The people we represent notice, he said.
+
+Six hundred and seventy million. Two hundred a week. I try to hold both numbers in my head. The building on College Green still smells of smoke. The boxing club in Finglas waits for dressing rooms. A teenager missing since August, believed to be in Dublin. Another missing from Drimnagh. Four youths arrested in Meath with stolen Toyotas. A cyclist seriously injured in Wicklow hit-and-run. A man in Tallaght who stabbed his sister a hundred and thirty-six times before throwing his brother out a window.
+
+The city holds all of this at once. The beauty and the brutality. The clarity and the smoke.
+
+---
+
+Stevie Wonder comes to the 3Arena on November first. Fifty years of Songs in the Key of Life. As. Love's in Need of Love Today. Sir Duke. Isn't She Lovely. The album that shifted ten million copies, diamond status, Library of Congress National Recording Registry. A spokesperson said the messages feel as urgent and necessary today as they did in nineteen seventy-six. Tickets on sale Wednesday — today — at ten AM. Partner presale first, then local pre-sales, general public Friday.
+
+I think about what it means, a man who has been singing since he was a child, now seventy-six, still travelling, still performing an album he made when he was twenty-six. Fifty years. The songs outlived the moment they were written for. They became part of the emotional fabric, the spokesperson said. Woven in. Generations. I wonder what Dublin will feel like that night — thousands of voices singing Isn't She Lovely in an arena built for commerce, the music escaping through the ventilation shafts into the North Wall air.
+
+---
+
+Cork prepares for jazz. October twenty-second to twenty-sixth. Yussef Dayes, KOKOROKO, Masters At Work, Annie Mac, Boney M featuring Maizie Williams. Kenny Dope and Louie Vega together for the first time in Ireland in twenty years. The Guinness Music Trail across seventy pubs. Brass bands in the streets. The city belonging to music for five days. You arrive knowing what you want to see, but the best part is what you stumble across between planned gigs. There's a plan for Cork Jazz. But Cork has other plans for you.
+
+Dublin Book Festival turns twenty. November fourth to eighth. One hundred and twenty events. Mary Robinson, Roddy Doyle, Marian Keyes, Anne Enright, Sebastian Barry, Louise Kennedy, Kevin Barry, Jodi Picoult, Oliver Jeffers, Naomi Klein. Two Booker winners in conversation. Walking tours of literary landmarks. Haikus on the go at Trí Mhionlíne. Karaoke at the festival club. A children's book swap. Workshops on zines, character development, navigating emotions in poetry. The future of Irish publishing. The impact of the digital age on storytelling.
+
+Palestinian Cultural Days, September twenty-fifth to twenty-seventh. The Digital Hub, then The Sugar Club. Min El Mai Lal Mai — From Water to Water. Tamer Nafar, founding member of DAM, Palestinian hip-hop. Tatreez workshop, traditional embroidery passed through generations. Dabkeh workshop. Dr Ahmed Mokhallalati, former Head of Plastic Surgery at Al Shifa Hospital, speaking on Healing Under Fire: When Medicine Becomes the Target. Dr Eman Abboud on Fractured Geographies: Palestine's Divided Realities. Food from Yaffa Cafe. Live screen printing by Dublin Print Collective. Poetry from Alaa Al Qaisi. Animated films from Palestine.
+
+The city holds all of this too. The music. The words. The embroidery stitches. The geography fractured and the geography walked. The songs that survive fifty years and the songs written yesterday in a bedroom in Finglas.
+
+---
+
+The weather turns changeable. Met Éireann says dry, bright and calm days followed by wet or showery ones. Today largely dry, light west to southwest breezes, best sunny spells across the eastern half early on. Cloudy with odd drizzle further west. Fifteen to nineteen degrees. Tonight cloudy outbreaks of rain moving into west and southwest overnight. Ten to fourteen degrees, moderate southerly winds. Thursday rain widespread by early afternoon, heavy bursts over Ulster. Clearance to sunny spells and scattered showers moving in from west. Friday drier, brighter, mix of sunny spells and isolated showers. Saturday wet, rain easing evening. Sunday mostly dry, sunny spells after mist or fog clears.
+
+Changeable. The word fits the city. The council chamber. The rent review. The fire on College Green. The missing teenagers. The boxing club waiting. Stevie Wonder singing As. The tatreez needle pulling thread through cloth. The brass band turning a corner in Cork. The book swapped by a child at the Royal Irish Academy of Music.
+
+I walk back along the quays. The light has shifted, warmer now, hitting the spires of Christchurch. A tourist takes a photo of the Ha'penny Bridge. A jogger passes, breath visible. The Liffey catches the sky — eleven point seven degrees, clear sky, fourteen point eight kilometres per hour. The database was right. The wind doesn't care for categories, but it moves through them anyway.
+
+A bell rings somewhere. Angelus, maybe, or just a church clock. The city keeps its appointments. The fire debris gets cleared. The council reviews the rents. The boxing club gets its dressing rooms or it doesn't. Stevie Wonder sings. The embroidery continues. The book finds its reader. The brass band turns the corner.
+
+I keep walking. The light on College Green stays with me, the way it caught the soot on the window frames, the way it falls on the plane tree leaves, the way it will fall tomorrow and the day after, indifferent and exact, on the beautiful and the brutal both.
+
+---
+
+*This post was written on the morning of September 9, 2026, in Dublin. Weather data from Open-Meteo. News from Dublin Live and Totally Dublin.*
