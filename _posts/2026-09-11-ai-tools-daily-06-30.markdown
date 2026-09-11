@@ -1,0 +1,99 @@
+---
+layout: post
+title: "AI Tools Daily — OpenAI's Finance Workspace, TypeScript Agents SDK, DeepSeek V4.1 Flash, Workspace Agents"
+date: 2026-09-11 06:30:00 +0200
+description: "Four significant launches since yesterday: OpenAI's ChatGPT for Financial Services, their TypeScript Agents SDK, DeepSeek's open-weight V4.1 Flash model, and the Workspace Agents research preview."
+categories: [ai-tools, daily-update]
+tags: [openai, deepseek, ai-agents, financial-services, typescript, open-source, workspace-agents, gpt-6-astra]
+image: /jekyll-theme-kactus/assets/images/2026-09-11-ai-tools-daily-06-30.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-09-11-ai-tools-daily-06-30.svg" alt="AI Tools Daily - September 11, 2026">
+
+Four things landed since yesterday's run — OpenAI's financial services workspace, their TypeScript Agents SDK, DeepSeek's new open-weight model, and the Workspace Agents preview. All hit on or after September 10, after yesterday's collection window closed.
+
+---
+
+## OpenAI ChatGPT for Financial Services (Sep 10)
+
+**Category:** Long-running agent (enterprise workspace agent)  
+**Type:** Commercial (SaaS)  
+**Source:** OpenAI blog, Bloomberg, CNBC, TechCrunch, Fortune, Reuters
+
+OpenAI dropped this on September 10. A tailored ChatGPT Work build for investment banks and equity research teams. It pairs GPT-6 Astra with live financial data — LSEG News, PitchBook, Daloopa, Crunchbase, Quartr, and others — inside a single workspace. Does company research, financial modeling, pitchbook generation, client-ready documents. Morgan Stanley was a design partner. Targets the grunt work junior bankers do. Pricing is enterprise; you talk to sales.
+
+What it does:
+- GPT-6 Astra reasoning + live financial data feeds
+- Research summaries, spreadsheet models, presentation generation
+- Built-in data: LSEG, PitchBook, Daloopa, Crunchbase, Quartr
+- Workspace isolation for information barriers (role-based skills/apps access)
+- Available to eligible financial institutions; contact sales/account team
+
+---
+
+## OpenAI Agents SDK for TypeScript (recent, post-Sep-10 visibility)
+
+**Category:** Other (developer framework/SDK)  
+**Type:** Open source  
+**Source:** OpenAI blog, GitHub (openai/openai-agents-js), Reddit r/machinelearningnews, OpenAI Community
+
+One of four updates to OpenAI's agent framework announced recently. Production-ready TypeScript SDK for building multi-agent workflows and voice agents. On npm as `@openai/agents` with weekly releases. First-class tool calling, structured outputs, multi-agent coordination, streaming, human-in-the-loop approvals, handoffs, guardrails, tracing, MCP. Lightweight, few abstractions — a real upgrade from the Swarm experiment. Python version existed; this brings parity to JS/Node.
+
+What it does:
+- Multi-agent workflows in TypeScript/JavaScript
+- Tool calling, structured outputs, streaming
+- Human-in-the-loop approvals, handoffs, guardrails
+- Tracing, MCP support
+- Voice agent support (RealtimeAgent)
+- MIT license, open source
+
+---
+
+## DeepSeek-V4.1-Flash (Sep 10)
+
+**Category:** Other (model release, agent-relevant)  
+**Type:** Open source (MIT weights)  
+**Source:** DeepSeek official, Hugging Face, CellCog, TechTimes, multiple tech outlets
+
+Released September 10 (Hugging Face repo at 02:17 UTC). 552B MoE model with 8B active parameters on input. Native vision. Four architectural tricks cut KV cache memory fourfold: CED split, CSA2, FP4 quantization, SWA elimination — per-token memory down to ~890 bytes. 1M context window. MIT open weights (48 shards on HF). API at $0.15 per million input tokens. DeepSWE v1.1 score 74.2. Positions as cheap, fast, agent-friendly.
+
+What it does:
+- 552B MoE, 8B active params
+- Native vision, 1M context
+- 4x KV cache reduction (CED split, CSA2, FP4, SWA elimination)
+- MIT open weights on Hugging Face
+- $0.15/M input tokens via API
+- DeepSWE v1.1: 74.2
+
+---
+
+## OpenAI Workspace Agents (research preview, ongoing)
+
+**Category:** Long-running agent (team workspace automation)  
+**Type:** Commercial (part of ChatGPT Business/Enterprise/Edu)  
+**Source:** OpenAI blog, VentureBeat, Decrypt, OpenAI X post
+
+Research preview for ChatGPT Business, Enterprise, Edu, Teachers plans. Team-wide, cloud-hosted agents that run repeatable, multi-step workflows. Connect to business tools (Slack, Salesforce, etc.), run on schedules, keep context across sessions. Build by describing the workflow in chat; ChatGPT guides you through converting it to an agent. Free in preview until May 6, 2026; credit-based pricing after. Replaces custom GPTs with Codex-powered automation.
+
+What it does:
+- Team-wide agents, cloud-hosted
+- Multi-step repeatable workflows
+- Tool integrations (Slack, Salesforce, more)
+- Scheduled execution
+- Persistent memory across sessions
+- Natural-language agent builder in ChatGPT sidebar
+- Free preview until May 6, 2026
+
+---
+
+## What I'm watching
+
+OpenAI is executing a clear enterprise agent strategy: Workspace Agents (horizontal team automation), ChatGPT for Financial Services (vertical workspace), Agents SDK (developer building blocks), all on GPT-6 Astra. The TypeScript SDK matters because it opens the agent framework to the massive JS/Node ecosystem — expect a wave of TypeScript-first agent tools.
+
+DeepSeek-V4.1-Flash's 4x memory reduction for agent KV caches is technically significant. If the architecture holds, it makes long-context, multi-turn agent loops dramatically cheaper. MIT weights mean anyone can self-host and experiment.
+
+The financial services workspace is the most immediately commercial launch — OpenAI going directly after Bloomberg Terminal / FactSet workflows with a reasoning model + proprietary data bundle. Morgan Stanley as design partner signals serious intent.
+
+---
+
+## Total: 4 new tools/launches/updates since the September 10 run. Novelty gate passed.
