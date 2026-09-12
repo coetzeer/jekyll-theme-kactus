@@ -1,0 +1,113 @@
+---
+layout: post
+title: "AI Tools Daily — Sakana Fugu Max/Ultra v2, GPT-Live-1, Agents API, MiniCPM5-2B"
+date: 2026-09-12 07:00:00 +0200
+description: "Five significant launches since yesterday: Sakana's two orchestration models, OpenAI's full-duplex voice API and Agents API public beta, plus OpenBMB's on-device MiniCPM5-2B."
+categories: [ai-tools, daily-update]
+tags: [sakana, openai, voice, agents, openbmb, open-source, orchestration, gpt-live, on-device]
+image: /jekyll-theme-kactus/assets/images/2026-09-12-ai-tools-daily-07-00.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-09-12-ai-tools-daily-07-00.svg" alt="AI Tools Daily - September 12, 2026">
+
+Five things dropped since yesterday — Sakana's two orchestration models, OpenAI's voice and agent APIs (both landed Sep 10 but visibility came late), and a small open model from OpenBMB that showed up in this week's eval round.
+
+---
+
+## Sakana AI Fugu Max (Sep 11)
+
+**Category:** Long-running agent (orchestration agent)  
+**Type:** Commercial (hosted API)  
+**Source:** Sakana AI blog, AI/TLDR, MarkTechPost, Forkast
+
+Sakana released this on September 11. It's the cost-first tier of their Fugu family — an orchestration model that routes each request to the right model from a swappable pool and gives you one synthesized answer through a single OpenAI-compatible API. Same architecture as Fugu Ultra v2 (the capability-first tier), just optimized for price. $2/M input, $6/M output — they claim 40-60% below Sonnet. Hosted only, no open weights.
+
+What it does:
+- Routes tasks to the optimal model from a pool behind the scenes
+- OpenAI-compatible API (Chat Completions, Responses, Models) plus Anthropic Messages API
+- Cost-first pricing: $2/M in, $6/M out
+- Drop-in replacement: single parameter change from existing Fugu
+- All the multi-agent logic (selection, delegation, checks, synthesis) runs inside the model
+
+---
+
+## Sakana AI Fugu Ultra v2 (Sep 11)
+
+**Category:** Long-running agent (orchestration agent)  
+**Type:** Commercial (hosted API)  
+**Source:** Sakana AI blog, AI/TLDR, MarkTechPost, Forkast, ORCARouter
+
+Also September 11. The capability-first sibling — same orchestration architecture, tuned for benchmark scores instead of price. Hits 48.3 on Chartography. Same API, same drop-in swap. Pricing not broken out separately; subscription tiers at $20/$100/$200 a month include both models.
+
+What it does:
+- Same routing architecture as Max, optimized for complex reasoning
+- Chartography 48.3 (they lead with this number)
+- Same API surface, same one-line migration
+- Hosted only, no weights release
+
+---
+
+## OpenAI GPT-Live-1 (Sep 10)
+
+**Category:** Other (voice model API)  
+**Type:** Commercial (API)  
+**Source:** OpenAI blog, Progressive Robot, TestingCatalog, Blockchain.news, GIGAZINE, Unite.AI, byteiota
+
+Launched September 10. The full-duplex voice model that's powered ChatGPT Voice since 2025, now on the API. Listens and speaks at the same time — no speech-to-text handoff, no pipeline latency. $0.05 per minute. Replaces the Realtime API Beta (deprecated May 12). Customizable voice, interruption handling, natural back-and-forth.
+
+What it does:
+- Full-duplex: listens while speaking, actual conversation rhythm
+- $0.05/minute (audio in + out)
+- Works with existing OpenAI clients
+- Voice customization built in
+- End-to-end voice model, not ASR + TTS chained together
+
+---
+
+## OpenAI Agents API (Public Beta, Sep 10)
+
+**Category:** Other (developer framework/API)  
+**Type:** Commercial (API, public beta)  
+**Source:** OpenAI API changelog, Progressive Robot, AiCybr, TestingCatalog, OpenAI Developers
+
+Also September 10. Hosted Codex harness for agent workflows. Managed sessions with hosted or BYO sandboxes, MCP and custom tools, automatic context compaction, subagents. Standard token/tool pricing, no separate agent fee. Replaces the Assistants API (shut down Aug 26).
+
+What it does:
+- Managed Codex execution environments
+- Hosted sandboxes or bring your own
+- MCP support for tool integration
+- Custom tools, automatic context compaction, subagents
+- Token + tool pricing, no agent surcharge in beta
+
+---
+
+## OpenBMB MiniCPM5-2B (Sep 7)
+
+**Category:** Other (model release, agent-relevant)  
+**Type:** Open source (Apache 2.0)  
+**Source:** OpenBMB, Artificial Analysis, MarkTechPost, DataNorth, AI/TLDR, Hugging Face
+
+Dropped September 7, surfaced in this week's 404K weekly eval. 2.52B dense reasoning model built to run on-device — phone, laptop, edge box. Apache 2.0 with training data and checkpoints published. Averages 53.9 across 34 benchmarks, beats several 4B-class models on coding, math, tool use, agentic tasks. 131K context. Runs on Ollama, llama.cpp, LM Studio, vLLM.
+
+What it does:
+- 2.52B params: small enough for on-device
+- Apache 2.0: fully open weights, data, checkpoints
+- 131K context
+- Beats 4B models on agentic benchmarks (53.9 avg)
+- Training transparency: data and intermediate checkpoints published
+
+---
+
+## What I'm watching
+
+Sakana's orchestration-as-a-model is a real architectural shift. You don't pick a model; you call one endpoint that routes to the right tool for the job. The cost-first/capability-first split is smart — different workloads, different budgets. $2/$6 per million is aggressive if the routing quality holds.
+
+GPT-Live-1 at $0.05/min makes voice agents economically viable for way more use cases. The full-duplex architecture (no STT handoff) is the differentiator — latency kills voice UX more than people admit.
+
+The Agents API public beta finally gives developers a hosted Codex harness with MCP. The Assistants API shutdown (Aug 26) forced migration; this is the replacement with better sandboxing and context compaction.
+
+MiniCPM5-2B at 2.5B beating 4B models continues the open-source small-model story. Apache 2.0 with training data published is the gold standard. If you need on-device agentic capabilities, this is the one to watch.
+
+---
+
+## Total: 5 new tools/launches/updates since the September 11 run. Novelty gate passed.
