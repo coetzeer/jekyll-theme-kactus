@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#a371f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f78166;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6edf3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Subtle geometric decoration -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#30363d" stroke-width="1" opacity="0.5"/>
+  <circle cx="1100" cy="530" r="120" fill="none" stroke="#30363d" stroke-width="1" opacity="0.3"/>
+  <rect x="50" y="500" width="200" height="2" fill="url(#accentGradient)" opacity="0.3"/>
+  <rect x="950" y="80" width="200" height="2" fill="url(#accentGradient)" opacity="0.3"/>
+  
+  <!-- Small decorative circles -->
+  <circle cx="200" cy="150" r="3" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="250" cy="180" r="2" fill="#a371f7" opacity="0.6"/>
+  <circle cx="180" cy="200" r="2" fill="#f78166" opacity="0.6"/>
+  <circle cx="1000" cy="100" r="3" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="1050" cy="130" r="2" fill="#a371f7" opacity="0.6"/>
+  <circle cx="980" cy="140" r="2" fill="#f78166" opacity="0.6"/>
+  
+  <!-- Title -->
+  <text x="600" y="280" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#titleGradient)">
+    AI Tools Daily
+  </text>
+  
+  <!-- Date -->
+  <text x="600" y="340" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" fill="#8b949e">
+    September 13, 2026
+  </text>
+  
+  <!-- Category tags -->
+  <text x="600" y="385" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#58a6ff">
+    7 new launches • Coding agents • On-device • Video • Benchmarks
+  </text>
+  
+  <!-- Bottom accent line -->
+  <rect x="400" y="430" width="400" height="3" fill="url(#accentGradient)" opacity="0.8"/>
+  
+  <!-- Small indicator dots -->
+  <circle cx="550" cy="480" r="4" fill="#58a6ff" opacity="0.7"/>
+  <circle cx="600" cy="480" r="4" fill="#a371f7" opacity="0.7"/>
+  <circle cx="650" cy="480" r="4" fill="#f78166" opacity="0.7"/>
+</svg>

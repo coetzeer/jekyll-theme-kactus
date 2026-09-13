@@ -1,0 +1,156 @@
+---
+layout: post
+title: "AI Tools Daily — SWE-2, EasySpecs, Google Edge Gallery Mac, Real-SWE, Kling 3.0, NASA-IBM Lunar, Graphify C#"
+date: 2026-09-13 07:00:00 +0200
+description: "Seven significant launches since yesterday: Cognition's SWE-2 coding model, EasySpecs spec review platform, Google's on-device Mac app with Gemma 4 12B, Real-SWE private-codebase benchmark, Kling 3.0 AI Director video, NASA-IBM open lunar model, Graphify C# compiler-accurate tooling."
+categories: [ai-tools, daily-update]
+tags: [cognition, swe-2, easyspecs, google-ai-edge, gemma, real-swe, kling, nasa-ibm, graphify, coding-agents, benchmarks, video, on-device, open-source]
+image: /jekyll-theme-kactus/assets/images/2026-09-13-ai-tools-daily-07-00.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-09-13-ai-tools-daily-07-00.svg" alt="AI Tools Daily - September 13, 2026">
+
+Seven things dropped since yesterday — Cognition's SWE-2 (actually Sep 10 but the coverage landed this week), EasySpecs.ai, Google's on-device Mac app with a 12B Gemma, a benchmark that uses private production code, Kling's leap to "AI Director" video, NASA-IBM's open lunar model, and a C# tool that gives agents compiler-accurate symbol resolution.
+
+---
+
+## Cognition SWE-2 (Sep 10)
+
+**Category:** Coding agent (model)  
+**Type:** Commercial (proprietary, Devin-only)  
+**Source:** Cognition blog, ORCA Router, On The Wire, Creative AI News, TechTimes, Lookonchain, Samcodeman
+
+Cognition dropped this on September 10 but the real coverage hit this week. Post-trained from Kimi K3 (Moonshot's 2.8T MoE) with RL. Hits 50.0% on FrontierCode 1.1 Main — within a point of Fable 5.1 at 64% lower cost. Leads Terminal-Bench 2.1 at 92.8%. Collapses on Terminal-Bench 4 at 27.3% (Fable 55.8%, Astra 57.9%). No weights, no API, Devin-only.
+
+What it does:
+- RL adds 4.5-5.8 points across every benchmark — flat lift, not shape change
+- Medium effort: 58% fewer turns, 81% less cost vs SWE-1.7 on FrontierCode
+- First real edit at step 18 (was 48) — fixed the over-exploration problem
+- Selectable reasoning effort (medium/high/max) trained in one RL run
+- Locked to Devin: Desktop, CLI, Web, Fusion
+
+The benchmarks are Cognition's own, on Cognition's benchmark. No independent replication yet. The 64% cheaper claim is per-task on FrontierCode, not a token price — there is no token price because there's no API.
+
+---
+
+## EasySpecs.ai (Sep 12)
+
+**Category:** Other (spec review platform)  
+**Type:** Commercial (SaaS)  
+**Source:** ohsem.me, TechBullion, easyspecs.ai
+
+Spaii Labs (Barcelona) launched this morning. Documents your codebase, turns change requests into specs with built-in verification checks. The pitch: AI writes code faster than humans can review it. The bottleneck moved from writing to reviewing. Move the gate upstream — verify the spec before code exists.
+
+What it does:
+- Auto-documents existing systems
+- Generates structured specs from change requests
+- Each spec ships with automated verification checks
+- Centralized platform for Spec-Driven Development company-wide
+- Intent Critique: built-in critique of spec intent before implementation
+
+Available at easyspecs.ai. Pricing not published.
+
+---
+
+## Google AI Edge Gallery (macOS) (Sep 13)
+
+**Category:** Other (on-device AI platform)  
+**Type:** Open source models (Apache 2.0), free app  
+**Source:** Google Developers Blog, 9to5Mac, TechTimes, SquaredTech, iClarified, Memeburn, AIBase, AppleInsider, Let's Data Science, MacObserver
+
+Google's experimental Mac app. Runs Gemma models locally — offline, private, no cloud. Standout is Gemma 4 12B: 12B multimodal (text, vision, audio) optimized for macOS, runs on 16GB RAM. Also includes Eloquent, a free offline voice dictation app that strips filler words and cleans up text locally.
+
+What it does:
+- Gemma 4 12B on-device: multimodal, strong local coding/logic
+- Runs on 16GB Macs
+- Fully offline: no Wi-Fi, no cloud, no data leaving device
+- Dynamic Python execution and visualization
+- Eloquent: offline voice dictation with cleanup
+- Five tuned Gemma variants (12B, 9B, 8B, 2B)
+
+Free app. Open weights (Apache 2.0).
+
+---
+
+## Real-SWE Benchmark (Sep 12)
+
+**Category:** Other (coding agent benchmark)  
+**Type:** Open source (benchmark, open evaluation)  
+**Source:** RuntimeWire, Specific Labs
+
+Specific Labs (Janak Sunil, Siddhant Paliwal) launched a benchmark on licensed, private production codebases. Not public repo puzzles — billing, taxes, migrations, infrastructure changes. Leaderboard: Fable 5.1 + Claude Code 38.8%, GPT-6 Astra + Codex CLI 33.8%, Gemini 3.8 Flash + Gemini CLI 31.2%, GLM 5.3 + Claude Code 28.8%.
+
+What it does:
+- Private production code, not public repos
+- Real-world tasks: billing, taxes, migrations, infra
+- Open evaluation: labs submit models, businesses contribute codebases (anonymized)
+- YC launch page invites submissions
+
+First place at 38% is honest. The field has a long way to go.
+
+---
+
+## Kling AI 3.0 (Sep 11/12)
+
+**Category:** Other (video generation platform)  
+**Type:** Commercial (SaaS, API)  
+**Source:** AWNews, kling.ai
+
+Kuaishou's leap from clip generation to "AI Director" cinematic system. Native 4K 60fps, multi-shot storyboarding, motion control, 5-language lip sync. Available via kling.ai and API.
+
+What it does:
+- AI Director paradigm: plan and generate sequences, not clips
+- 4K 60fps native
+- Multi-shot storyboarding
+- Fine-grained motion control
+- 5-language lip sync
+- API access
+
+---
+
+## NASA-IBM Lunar Foundation Model (Sep 12)
+
+**Category:** Other (scientific AI model)  
+**Type:** Open source (open weights, open code)  
+**Source:** NASA, IBM Research, Hugging Face, GitHub, CompleteAI Training
+
+Trained on 2M image tiles from 17 years of Lunar Reconnaissance Orbiter data. Open on Hugging Face, code on GitHub. Purpose-built for lunar science — crater detection, surface mapping, geology. Open science done right.
+
+---
+
+## Graphify C# (Sep 12)
+
+**Category:** Coding agent (tooling for agents)  
+**Type:** Open source (MIT)  
+**Source:** Glonce, Hacker News
+
+Free tool that gives agents compiler-accurate "Find Usages" for C#. Loads project via MSBuild, queries Roslyn, outputs JSON of nodes/edges/hyperedges. Solves the text-search problem: which overload, which project, which implementation.
+
+What it does:
+- Compiler-accurate via Roslyn/MSBuild
+- JSON output queryable by agents/scripts/humans
+- No IDE, no compiled DLLs needed
+- MIT licensed
+- Built for Codex, Claude Code, other agents
+
+---
+
+## What I'm Watching
+
+SWE-2 is the story. A post-train on Kimi K3 that lands near the frontier at a fraction of the cost, locked inside Devin. The efficiency gains (58% fewer turns, 81% less cost) are the real headline. The Terminal-Bench 4 collapse (27% vs 55% for Fable) tells you where the ceiling still is: long-horizon work.
+
+EasySpecs is the workflow play I've been waiting for. Code review is broken because AI writes faster than humans read. Moving the gate to spec review makes structural sense — verify intent before code exists.
+
+Google's Edge Gallery on Mac is a quiet milestone. A 12B multimodal model running locally on 16GB RAM, offline, with Python execution. That's a genuine developer tool, not a demo. Eloquent (offline voice dictation with cleanup) is the kind of utility that sticks.
+
+Real-SWE is the benchmark the field needed — private production code, not public repo puzzles. The scores are low across the board (38% is first place), which is honest.
+
+Kling 3.0 pushes video from clips to "director" workflows. 4K60, multi-shot, lip sync — the generational leap is real.
+
+NASA-IBM Lunar model is open science done right: 17 years of orbiter data, open weights, open code, purpose-built for planetary science.
+
+Graphify C# solves a real agent pain point: compiler-accurate symbol resolution via Roslyn, output as JSON. MIT licensed, no IDE needed. This is how agent tooling should work.
+
+---
+
+## Total: 7 new tools/launches/updates since the September 12 run. Novelty gate passed.
