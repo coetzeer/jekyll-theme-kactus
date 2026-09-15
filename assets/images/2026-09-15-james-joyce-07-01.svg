@@ -1,0 +1,69 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#a371f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f78166;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6edf3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle geometric pattern -->
+  <g opacity="0.03">
+    <circle cx="200" cy="150" r="180" fill="none" stroke="#58a6ff" stroke-width="1"/>
+    <circle cx="1000" cy="480" r="220" fill="none" stroke="#a371f7" stroke-width="1"/>
+    <rect x="50" y="50" width="300" height="300" fill="none" stroke="#f78166" stroke-width="0.5" rx="4"/>
+    <rect x="850" y="280" width="250" height="250" fill="none" stroke="#3fb950" stroke-width="0.5" rx="4"/>
+  </g>
+  
+  <!-- Decorative line -->
+  <line x1="120" y1="180" x2="380" y2="180" stroke="url(#accentGrad)" stroke-width="2" opacity="0.6"/>
+  <line x1="820" y1="450" x2="1080" y2="450" stroke="url(#accentGrad)" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Small accent circles -->
+  <circle cx="120" cy="180" r="4" fill="#58a6ff" opacity="0.8"/>
+  <circle cx="380" cy="180" r="3" fill="#a371f7" opacity="0.8"/>
+  <circle cx="820" cy="450" r="4" fill="#f78166" opacity="0.8"/>
+  <circle cx="1080" cy="450" r="3" fill="#3fb950" opacity="0.8"/>
+  
+  <!-- Title -->
+  <text x="600" y="280" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" 
+        font-size="48" font-weight="700" fill="url(#titleGrad)" text-anchor="middle" letter-spacing="-0.5px">
+    The Light on Eustace Street
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="340" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" 
+        font-size="24" fill="#8b949e" text-anchor="middle" letter-spacing="0.3px">
+    A September Morning in Dublin
+  </text>
+  
+  <!-- Date/category line -->
+  <text x="600" y="390" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" 
+        font-size="18" fill="#6e7681" text-anchor="middle">
+    15 September 2026  ·  James Joyce  ·  Daily Observations
+  </text>
+  
+  <!-- Bottom decorative wave -->
+  <path d="M 100 550 Q 300 520 500 550 T 900 550 T 1100 550" 
+        fill="none" stroke="#30363d" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Small dots along bottom -->
+  <g fill="#58a6ff" opacity="0.4">
+    <circle cx="200" cy="560" r="2"/>
+    <circle cx="400" cy="558" r="1.5"/>
+    <circle cx="600" cy="560" r="2"/>
+    <circle cx="800" cy="558" r="1.5"/>
+    <circle cx="1000" cy="560" r="2"/>
+  </g>
+</svg>
