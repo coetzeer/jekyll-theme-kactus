@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1f2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lightGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.15" />
+      <stop offset="50%" style="stop-color:#a371f7;stop-opacity:0.08" />
+      <stop offset="100%" style="stop-color:#f78166;stop-opacity:0.1" />
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#f78166;stop-opacity:0.3" />
+      <stop offset="70%" style="stop-color:#f78166;stop-opacity:0.05" />
+      <stop offset="100%" style="stop-color:#f78166;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#skyGradient)" />
+  <rect width="1200" height="630" fill="url(#lightGradient)" />
+
+  <!-- Subtle geometric texture -->
+  <g opacity="0.03" stroke="#ffffff" stroke-width="0.5">
+    <line x1="0" y1="100" x2="1200" y2="100" />
+    <line x1="0" y1="200" x2="1200" y2="200" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="0" y1="400" x2="1200" y2="400" />
+    <line x1="0" y1="500" x2="1200" y2="500" />
+  </g>
+
+  <!-- River suggestion - Liffey curve -->
+  <path d="M -50 580 Q 300 450 600 520 Q 900 590 1250 480" 
+        fill="none" stroke="#58a6ff" stroke-width="3" opacity="0.4" 
+        stroke-dasharray="10,5" />
+
+  <!-- Sun glow -->
+  <circle cx="950" cy="120" r="180" fill="url(#sunGlow)" />
+
+  <!-- Sun -->
+  <circle cx="950" cy="120" r="40" fill="#f78166" opacity="0.9" />
+  <circle cx="950" cy="120" r="28" fill="#ffb380" opacity="0.8" />
+  <circle cx="950" cy="120" r="16" fill="#fff" opacity="0.6" />
+
+  <!-- Bridge cables suggestion (Samuel Beckett Bridge) -->
+  <g stroke="#58a6ff" stroke-width="1.5" opacity="0.5" fill="none">
+    <line x1="600" y1="200" x2="500" y2="350" />
+    <line x1="600" y1="200" x2="530" y2="360" />
+    <line x1="600" y1="200" x2="560" y2="370" />
+    <line x1="600" y1="200" x2="590" y2="375" />
+    <line x1="600" y1="200" x2="620" y2="375" />
+    <line x1="600" y1="200" x2="650" y2="370" />
+    <line x1="600" y1="200" x2="680" y2="360" />
+    <line x1="600" y1="200" x2="710" y2="350" />
+  </g>
+
+  <!-- Bridge mast -->
+  <line x1="600" y1="200" x2="600" y2="120" stroke="#8b949e" stroke-width="4" opacity="0.6" />
+
+  <!-- Title text -->
+  <text x="600" y="200" text-anchor="middle" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" 
+        font-size="48" font-weight="700" fill="#ffffff" letter-spacing="-0.5px">
+    The Light on the Liffey at Seven
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="250" text-anchor="middle" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" 
+        font-size="24" fill="#8b949e" font-weight="400">
+    James Joyce · Daily Observations · September 17, 2026
+  </text>
+
+  <!-- Date line -->
+  <text x="600" y="290" text-anchor="middle" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" 
+        font-size="18" fill="#58a6ff" font-weight="500" opacity="0.8">
+    07:01 CEST · 14.5°C · Mainly Clear · Indian Summer Breathing
+  </text>
+
+  <!-- Decorative line -->
+  <line x1="450" y1="320" x2="750" y2="320" stroke="#30363d" stroke-width="1" />
+
+  <!-- Bottom accent -->
+  <g opacity="0.15">
+    <circle cx="150" cy="550" r="60" fill="#58a6ff" />
+    <circle cx="1050" cy="550" r="40" fill="#a371f7" />
+    <rect x="50" y="580" width="80" height="3" rx="1.5" fill="#f78166" />
+    <rect x="1070" y="590" width="60" height="2" rx="1" fill="#3fb950" />
+  </g>
+</svg>
