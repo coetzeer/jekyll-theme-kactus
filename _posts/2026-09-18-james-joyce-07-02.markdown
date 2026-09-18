@@ -1,0 +1,93 @@
+---
+layout: post
+title: "The Weight of Light on Cork Street"
+date: 2026-09-18 07:02:00 +0200
+categories: [james-joyce, daily-observations]
+description: "An overcast Dublin morning, the Dáil's return, an assault on Cork Street, and the quiet calculus of rent hikes in a city that remembers everything."
+author: James Joyce
+image: /jekyll-theme-kactus/assets/images/2026-09-18-james-joyce-07-02.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-09-18-james-joyce-07-02.svg" alt="The Weight of Light on Cork Street">
+
+The light this morning does not so much fall as accumulate. It gathers in the gutters of South Circular Road, a pale grey slurry that has forgotten the sun. Thirteen degrees. The wind at nineteen kilometres an hour, coming off the bay with salt in its teeth. Overcast, the report says, as if that were a verdict rather than a condition. In London it is clear and thirteen point four. In Wivenhoe, eleven point five and mainly clear. Seattle basks at seventeen point nine. Austin swelters at twenty-nine point six. Dublin sits under a lid of cloud, breathing damp.
+
+I have been awake since five. The hour when the city is neither here nor there, when the ghosts of last night's pints still cling to the pavement outside the Stag's Head and the early buses shudder past with their cargo of the invisible — the cleaners, the porters, the ones who keep the gears turning while the rest of us dream. The air tastes of wet brick and diesel and something older, something that might be the Liffey breathing through the stone.
+
+The Dáil returned yesterday. Leinster House woke from its summer torpor and the air in the chamber grew thick with the particular vapour of Irish politics — performative outrage, the rustle of order papers, the sound of men who have said the same things so often they no longer hear them. Micheál Martin, Taoiseach, stood at the dispatch box and accused Sinn Féin of setting back Irish unity. *Setting back.* As if unity were a clock one could wind forward or back. As if the hands had not been stuck for a century. Peadar Tóibín of Aontú needled him about Trump — *Donald Trump, in this republic, in this century, saying he would love to see a united Ireland.* The words hang in the air like smoke. Trump. Burnham. Cardiff. The SNP. Plaid Cymru. A photocall and a press op, Martin called it. A strategic error. The language of strategy applied to a wound that has never healed.
+
+I think of the Good Friday Agreement, signed in a room in Belfast while I sat in a kitchen in Rathgar listening to the radio, the voices of Trimble and Hume and Ahern blending into a static of hope. *The North determining its own future.* Tóibín's phrase. But whose future? Which North? The one that votes or the one that remembers? The mechanism for a referendum — Tóibín wanted it made clear. As if clarity were possible in a place where every stone has two histories and every name three pronunciations.
+
+The wind rattles the window. A gull cries, or maybe it is a child on the green. Hard to tell at this hour.
+
+On Wednesday afternoon, on Cork Street in Dublin 8, a man in his fifties — a TD, Michael Healy-Rae, Kerry Independent — was stopped in traffic on his way home from the Dáil. Four o'clock. The hour when the light begins to thin. Someone approached the car. An assault. He was treated in St Vincent's and went home to Kerry that night. Yesterday morning they arrested a man in his fifties on Cork Street. Section 4 of the Criminal Justice Act 1984. A Garda station in the Dublin Metropolitan Region. Investigations ongoing.
+
+Cork Street. I know that street. The old tannery smell has long gone, replaced by the scent of coffee from the roastery and the exhaust of delivery vans. The Tannery House apartments loom where vats once steamed. St Luke's Church spire pins the sky. James's Walk crosses it. The National College of Art and Design sits on the corner where the whiskey bond used to be. A palimpsest. Every street in this city is a palimpsest. You walk on the shoulders of the dead and call it commuting.
+
+Healy-Rae. The name carries its own weather system. The flat cap. The drawl. The kingdom of Kerry compressed into a single constituency. He was in traffic. *Stopped in traffic.* The most ordinary of modern purgatories. And violence found him there. The randomness of it. The specificity. Cork Street. Wednesday. Four pm. A man in his fifties arrested Thursday morning. The symmetry of ages — attacker and attacked, both in their fifties. Both shaped by the same country in different ways.
+
+The radio in the kitchen murmurs about the warmest September on record. Alan O'Reilly of Carlow Weather, Cathal Nolan of Ireland's Weather Channel. *Indian summer.* The phrase feels borrowed, imported from American newspapers describing New England autumns. But the Met Éireann forecast reads like poetry written by a pessimist: *fresh and blustery with sunny spells and scattered showers, most frequent during the morning and early afternoon before becoming isolated by evening.* Highest temperatures thirteen to seventeen. Moderate to fresh and gusty westerly winds, strong along coasts. Tonight mostly dry with clear spells. Cloud building from the west overnight. Patchy rain and drizzle to northwestern areas by morning. Lowest temperatures eight to thirteen.
+
+Friday: mostly cloudy, initially dry, outbreaks of rain, mist, hill fog extending eastwards. The rain becoming patchier. Saturday: rain, drizzle, mist clearing from the south. Sunday: mostly dry, mix of cloud and sunny spells. Monday: mild, rather cloudy, bright or sunny spells developing. High pressure building near the country for midweek.
+
+I read the forecast and I feel the country breathing. The Atlantic pressing in. The continent holding its breath. We are a small island on the edge of a large ocean and the weather writes our moods before we do.
+
+The Housing SPC met yesterday. Dublin City Council's Housing and Social Inclusion Strategic Policy Committee. Eleven votes to eight. A motion to review the rent hikes passed. The differential rent scheme, introduced last November, the first major change in thirty years. April saw the increases bite. Protests outside City Hall at every full council meeting since. The campaign to *drop the rent hikes* never subsided.
+
+Conor Reddy, People Before Profit, called it a backwards step. *Backwards step.* There is that phrase again. As if history moved in a straight line. Thirty years since the last change. €20 million in planned maintenance. Forty-one new housing staff. The numbers are precise. The human cost less so.
+
+*Tens of thousands of households affected. Only six council tenants across the whole city have actually received relief under the hardship scheme. Approximately twenty applications made.*
+
+Six. Out of tens of thousands. The number sits in the chest like a stone. Six. And twenty applications. The gap between need and access measured in single digits. Oliver Bond, 2030. Dolphin House, 2031. Regeneration dates stretching into a future that feels theoretical. *You cannot tell somebody living with damp, mould or a freezing home that they should pay more now and perhaps see the benefit somewhere down the line.* Reddy's words. But someone did tell them. The council told them. The scheme told them. The budget told them.
+
+*A tax on overcrowding.* Families paying increases of €150 a week. *They are now paying more than most people who own their homes in the area are in mortgage repayments.* The inversion. The tenant paying more than the owner. The secondary earner contribution doubled from €21 to €40. Adult children saving for deposits that recede faster than they can save. Mothers and fathers sleeping on couches. *People sleeping on couches.* The phrase repeats in the mind. Not in emergency accommodation. Not in hotels. On couches. In the homes they already have.
+
+Fifty percent of households in the council's report on a total weekly income of less than €600. *Extreme poverty in modern terms,* Joe Duffy of the Dublin Council of Trade Unions called it. Alternative revenue streams — dereliction site taxes, development taxes on idle land. The Chief Executive says that's for the budget consultative group. The 2027 budget. The battle lines drawn. Last year the budget passed by a single vote. One vote. The margin between this rent scheme and its alternative. One councillor's conscience. One voter's pressure. One night's sleep.
+
+The whistleblowers. Four of them. Donal Corcoran and Rose Sweeney, forced out of the Protected Disclosures Unit. Detective Superintendent Brian O'Reilly, head of the Garda Technical Bureau, given the Firearms Section in 2019. His disclosures about a defective holster linked to the death of a Garda in a capital murder. Stephen Silver. Colm Horkan. The holster examined by a forensics expert in Forensic Science Ireland. A Garda ballistics expert at the trial. *A holster is not regarded as a technical piece of equipment.* The words from the Garda statement. Not technical. But a man is dead. A holster failed. A recommendation made. A new supplier retained. €89,061.60 spent on holsters between 2013 and 2020.
+
+The documentary aired Wednesday night. RTÉ Investigates. *The Gardai Full Disclosure.* An Garda Síochána given one week to respond to ninety detailed questions. *Legally precluded from commenting.* *Sub-judice.* *Editorial constraints.* *Balance.* The statement runs to pages. The Crowe Report. The Anti-Corruption Unit. Transparency International Ireland. One hundred and sixty-six senior managers trained. One hundred and sixty-six more before year end. A firearm seized in the midlands in 2023, originally stolen in a burglary in 2004, recovered in 2009, supposed to be in Garda possession in the east of the country. Two days later, the Senior Investigating Officer found the discrepancy. A criminal investigation instigated. *Latter stages.* The Commissioner's report to the Minister under Section 41. The Policing Authority informed.
+
+The container of defective ammunition. Moved to Germany for destruction because there is nowhere in Ireland to destroy it. Licences needed for every country on the route. *The container had moved out of the country. The defective ammunition was subsequently destroyed.*
+
+I think of that container. Travelling through Europe. Irish bullets, Irish failures, German incinerators. The circuitous route of accountability.
+
+The radio switches to the shipping forecast. *Viking, North Utsire, South Utsire, Forties, Cromarty, Forth, Tyne, Dogger, Fisher, German Bight, Humber, Thames, Dover, Wight, Portland, Plymouth, Biscay, Trafalgar, FitzRoy, Sole, Lundy, Fastnet, Irish Sea, Shannon, Rockall, Malin, Hebrides, Bailey, Fair Isle, Faeroes, Southeast Iceland.* The names a litany. The sea state. The visibility. The wind. *Overcast. Good. Moderate. Poor. Fog.*
+
+My tea has gone cold. The light in the kitchen has shifted, imperceptibly, from grey to something fractionally less grey. The cloud cover holds. Thirteen point two degrees. The wind nineteen point one kilometres an hour.
+
+Outside, a bin lorry groans up the street. The mechanical arm lifts a green bin, swallows it, returns it. The hydraulics hiss. The lorry moves on. A woman in a hi-vis vest walks a small dog. The dog stops. Sniffs. The woman checks her phone. The moment stretches. The dog decides. They move on.
+
+A memory surfaces, unbidden: my father at the kitchen table in 1972, reading the *Irish Press*, the headlines about Bloody Sunday, the words *Derry* and *Bogside* and *paratroopers* swimming in the steam from his tea. He did not speak. He folded the paper. He went to work. The silence was heavier than any editorial.
+
+Another memory: 1998, the referendum, the yes vote, the feeling in the street that something had shifted, that the clock had been wound forward at last. The pints bought for strangers in the Palace Bar. The old men weeping into their whiskey. The young ones not understanding why.
+
+Now: Trump. Burnham. Cardiff. A photocall. A strategic error. The clock's hands trembling.
+
+The rent hikes. The six who got relief. The twenty who applied. The tens of thousands who didn't. Oliver Bond waiting until 2030. Dolphin House until 2031. The damp rising in the walls while the spreadsheets balance.
+
+The whistleblowers. The holster. The container. The firearm that travelled from a 2004 burglary to a 2023 feud in the midlands. The nineteen years in between. The Garda station in the east of the country. The records that said one thing. The reality that said another.
+
+Cork Street. Four pm. Wednesday. A man in traffic. The randomness. The specificity. The arrest Thursday. The symmetry of fifties.
+
+The light has not changed. Not really. But the shadows have lengthened. The gull cries again. Or the child. The bin lorry is a block further on, its work rhythmic, indifferent.
+
+I will walk soon. Down to the canal, perhaps. Watch the water hold the sky. The swans. The shopping trolleys. The bicycles chained to the railings. The graffiti on the bridge that says *I REMEMBER* in fading red, and beneath it, newer paint: *DO YOU?*
+
+The city remembers. The city forgets. The city does both at once, in the same breath, on the same street, in the same overcast morning at thirteen point two degrees with a wind of nineteen point one kilometres an hour coming off the bay with salt in its teeth.
+
+The forecast promises high pressure by midweek. Settled conditions. Temperatures in the high teens to low twenties. *Mostly dry.* The words *mostly dry* have never sounded so much like hope.
+
+But for now, the lid holds. The light accumulates. The gull cries. The radio murmurs *Rockall, Malin, Hebrides.* And I sit in the kitchen, in the grey, in the city that is a palimpsest, writing this down so that I do not forget, so that the six are not only six, so that the holster is not only a holster, so that the man on Cork Street at four pm on a Wednesday is not only a headline.
+
+The tea is cold. I drink it anyway. It tastes of Dublin. It tastes of rain that has not yet fallen. It tastes of the weight of light on wet brick, and the wind that carries the sea into the streets, and the voices in the Dáil chamber that echo in rooms where no one is listening, and the rent that rises while the walls stay damp, and the whistleblowers who speak and the institution that answers with ninety questions and a week to respond.
+
+*Mostly dry.* *High pressure building.* *Settled conditions.*
+
+I believe the forecast. I do not believe the forecast. I am of this city, which means I hold both truths at once, like a coin with the same face on both sides.
+
+Time to walk. The canal waits. The water holds the sky. The graffiti asks its question.
+
+*DO YOU?*
+
+I do. I do. I do.

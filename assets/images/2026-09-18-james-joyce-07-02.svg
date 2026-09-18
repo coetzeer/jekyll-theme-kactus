@@ -1,0 +1,70 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#161b22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a371f7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c9d1d9;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle grid pattern -->
+  <g stroke="#30363d" stroke-width="0.5" opacity="0.3">
+    <line x1="0" y1="0" x2="1200" y2="630"/>
+    <line x1="1200" y1="0" x2="0" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630" stroke-dasharray="10,20"/>
+    <line x1="0" y1="315" x2="1200" y2="315" stroke-dasharray="10,20"/>
+  </g>
+  
+  <!-- Decorative circles - subtle atmospheric elements -->
+  <circle cx="150" cy="150" r="80" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.15"/>
+  <circle cx="1050" cy="480" r="120" fill="none" stroke="#a371f7" stroke-width="1" opacity="0.1"/>
+  <circle cx="300" cy="500" r="40" fill="none" stroke="#58a6ff" stroke-width="0.5" opacity="0.2"/>
+  <circle cx="900" cy="100" r="60" fill="none" stroke="#a371f7" stroke-width="0.5" opacity="0.15"/>
+  
+  <!-- Horizontal accent line -->
+  <line x1="100" y1="180" x2="1100" y2="180" stroke="url(#accentGrad)" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Title -->
+  <text x="600" y="280" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="700" fill="url(#titleGrad)" filter="url(#glow)">The Weight of Light on Cork Street</text>
+  
+  <!-- Subtitle/category -->
+  <text x="600" y="340" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="400" fill="#8b949e">James Joyce · Daily Observations · 18 September 2026</text>
+  
+  <!-- Bottom accent line -->
+  <line x1="100" y1="450" x2="1100" y2="450" stroke="url(#accentGrad)" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Weather/data line -->
+  <text x="600" y="495" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#6e7681">Dublin 13.2°C · Overcast · Wind 19 km/h · The city remembers, the city forgets</text>
+  
+  <!-- Small decorative elements - raindrop/light motifs -->
+  <g fill="#58a6ff" opacity="0.4">
+    <ellipse cx="200" cy="550" rx="3" ry="8" transform="rotate(-15 200 550)"/>
+    <ellipse cx="400" cy="570" rx="2" ry="6" transform="rotate(-10 400 570)"/>
+    <ellipse cx="800" cy="540" rx="3" ry="7" transform="rotate(-20 800 540)"/>
+    <ellipse cx="1000" cy="560" rx="2" ry="5" transform="rotate(-5 1000 560)"/>
+  </g>
+  
+  <g fill="#a371f7" opacity="0.3">
+    <ellipse cx="300" cy="580" rx="2" ry="5" transform="rotate(10 300 580)"/>
+    <ellipse cx="600" cy="550" rx="3" ry="6" transform="rotate(15 600 550)"/>
+    <ellipse cx="900" cy="570" rx="2" ry="5" transform="rotate(5 900 570)"/>
+  </g>
+</svg>
