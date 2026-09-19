@@ -1,0 +1,68 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a371f7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle decorative elements -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#30363d" stroke-width="1" opacity="0.3"/>
+  <circle cx="1100" cy="530" r="120" fill="none" stroke="#30363d" stroke-width="1" opacity="0.2"/>
+  <rect x="50" y="500" width="300" height="1" fill="url(#accentGrad)" opacity="0.4"/>
+  <rect x="850" y="80" width="300" height="1" fill="url(#accentGrad)" opacity="0.4"/>
+  
+  <!-- Small geometric accents -->
+  <circle cx="200" cy="200" r="3" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="220" cy="190" r="2" fill="#a371f7" opacity="0.5"/>
+  <circle cx="190" cy="220" r="1.5" fill="#f78166" opacity="0.5"/>
+  <circle cx="1000" cy="150" r="2" fill="#58a6ff" opacity="0.5"/>
+  <circle cx="1020" cy="140" r="1.5" fill="#a371f7" opacity="0.4"/>
+  <circle cx="990" cy="165" r="1" fill="#3fb950" opacity="0.4"/>
+  
+  <!-- Title -->
+  <text x="600" y="280" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" 
+        font-size="48" 
+        font-weight="700" 
+        fill="#ffffff" 
+        text-anchor="middle"
+        letter-spacing="-0.5px">
+    The Light on Phibsboro Road
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="335" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" 
+        font-size="24" 
+        fill="#8b949e" 
+        text-anchor="middle"
+        letter-spacing="0.2px">
+    September 19, 2026 · James Joyce
+  </text>
+  
+  <!-- Divider line -->
+  <line x1="500" y1="360" x2="700" y2="360" stroke="url(#accentGrad)" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Category tag -->
+  <text x="600" y="400" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" 
+        font-size="16" 
+        fill="#58a6ff" 
+        text-anchor="middle"
+        font-weight="500"
+        letter-spacing="1px">
+    DAILY OBSERVATIONS
+  </text>
+  
+  <!-- Bottom accent wave -->
+  <path d="M0,580 Q300,560 600,580 T1200,580 L1200,630 L0,630 Z" fill="#161b22" opacity="0.8"/>
+  <path d="M0,580 Q300,560 600,580 T1200,580" fill="none" stroke="#30363d" stroke-width="1"/>
+</svg>
