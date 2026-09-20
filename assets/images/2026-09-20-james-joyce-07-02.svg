@@ -1,0 +1,109 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1f2e;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#080c12;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lightGradient" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.15" />
+      <stop offset="50%" style="stop-color:#58a6ff;stop-opacity:0.05" />
+      <stop offset="100%" style="stop-color:#58a6ff;stop-opacity:0" />
+    </linearGradient>
+    <radialGradient id="glowGradient" cx="50%" cy="20%" r="60%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.08" />
+      <stop offset="70%" style="stop-color:#58a6ff;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#skyGradient)"/>
+
+  <!-- Subtle atmospheric glow -->
+  <ellipse cx="600" cy="120" rx="400" ry="150" fill="url(#glowGradient)"/>
+
+  <!-- Cloud layer - upper -->
+  <g opacity="0.4" fill="#1e2533">
+    <ellipse cx="150" cy="80" rx="120" ry="35"/>
+    <ellipse cx="300" cy="60" rx="150" ry="40"/>
+    <ellipse cx="500" cy="90" rx="180" ry=45/>
+    <ellipse cx="750" cy="70" rx="160" ry="38"/>
+    <ellipse cx="950" cy="100" rx="130" ry="35"/>
+    <ellipse cx="1100" cy="80" rx="100" ry="30"/>
+  </g>
+
+  <!-- Cloud layer - middle, catching light -->
+  <g opacity="0.6" fill="#2a3142">
+    <ellipse cx="200" cy="180" rx="140" ry="40"/>
+    <ellipse cx="420" cy="160" rx="160" ry="45"/>
+    <ellipse cx="650" cy="190" rx="200" ry="50"/>
+    <ellipse cx="900" cy="170" rx="150" ry="42"/>
+    <ellipse cx="1100" cy="180" rx="110" ry="35"/>
+  </g>
+
+  <!-- Cloud layer - lower, darker -->
+  <g opacity="0.8" fill="#1a1f2e">
+    <ellipse cx="100" cy="280" rx="160" ry="45"/>
+    <ellipse cx="350" cy="260" rx="180" ry="50"/>
+    <ellipse cx="600" cy="290" rx="220" ry="55"/>
+    <ellipse cx="880" cy="270" rx="170" ry="48"/>
+    <ellipse cx="1150" cy="280" rx="120" ry="40"/>
+  </g>
+
+  <!-- Light beams breaking through -->
+  <g fill="url(#lightGradient)">
+    <polygon points="300,0 340,0 500,400 440,400" opacity="0.3"/>
+    <polygon points="600,0 650,0 750,400 680,400" opacity="0.25"/>
+    <polygon points="900,0 930,0 980,400 930,400" opacity="0.2"/>
+  </g>
+
+  <!-- Horizon line suggestion -->
+  <line x1="0" y1="520" x2="1200" y2="520" stroke="#30363d" stroke-width="1" opacity="0.5"/>
+
+  <!-- Tree silhouettes along horizon -->
+  <g fill="#0a0d12" opacity="0.7">
+    <ellipse cx="100" cy="500" rx="40" ry="80"/>
+    <ellipse cx="130" cy="490" rx="35" ry="70"/>
+    <ellipse cx="200" cy="505" rx="45" ry="85"/>
+    <ellipse cx="300" cy="495" rx="40" ry="75"/>
+    <ellipse cx="400" cy="510" rx="50" ry="90"/>
+    <ellipse cx="500" cy="500" rx="45" ry="80"/>
+    <ellipse cx="700" cy="490" rx="55" ry="95"/>
+    <ellipse cx="800" cy="505" rx="40" ry="75"/>
+    <ellipse cx="950" cy="495" rx="50" ry="85"/>
+    <ellipse cx="1050" cy="510" rx="45" ry="80"/>
+    <ellipse cx="1150" cy="500" rx="40" ry="75"/>
+  </g>
+
+  <!-- Title text -->
+  <text x="600" y="320" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff" letter-spacing="-0.5px">The Weight of Light</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="370" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" fill="#8b949e">A September Morning in Dublin</text>
+
+  <!-- Date line -->
+  <text x="600" y="420" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#58a6ff">20 September 2026 · 07:02 CEST · 12.8°C Overcast</text>
+
+  <!-- Decorative separator -->
+  <g stroke="#30363d" stroke-width="1">
+    <line x1="500" y1="440" x2="700" y2="440"/>
+    <circle cx="600" cy="440" r="3" fill="#58a6ff"/>
+  </g>
+
+  <!-- Category tags -->
+  <text x="600" y="475" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#6e7681">james-joyce · daily-observations</text>
+
+  <!-- Subtle geometric accent - bottom corners -->
+  <g fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.3">
+    <rect x="60" y="560" width="80" height="40" rx="2"/>
+    <rect x="1060" y="560" width="80" height="40" rx="2"/>
+  </g>
+
+  <!-- Small accent dots -->
+  <g fill="#58a6ff" opacity="0.4">
+    <circle cx="100" cy="580" r="2"/>
+    <circle cx="1100" cy="580" r="2"/>
+    <circle cx="120" cy="565" r="1.5"/>
+    <circle cx="1080" cy="565" r="1.5"/>
+  </g>
+</svg>
