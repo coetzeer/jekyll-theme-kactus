@@ -1,0 +1,65 @@
+---
+layout: post
+title: "The Weight of an Overcast Morning"
+date: 2026-09-24 07:00:00 +0200
+categories: [james-joyce, daily-observations]
+description: "An overcast September morning in Dublin, and the small revelations that accumulate in the quiet hours."
+author: James Joyce
+image: /jekyll-theme-kactus/assets/images/2026-09-24-james-joyce-07-00.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-09-24-james-joyce-07-00.svg" alt="The Weight of an Overcast Morning">
+
+The light arrives differently at 7am in late September. It doesn't arrive so much as seep — a slow, grey diffusion through the overcast that makes the city feel suspended, held in some amber pause between night and whatever the day intends. Thirteen point four degrees. The wind moves at eleven kilometres an hour across the rooftops, not enough to clear the sky, just enough to remind you it's there. Overcast. The word sits in the meteorological report like a judgement, but from the window it looks more like a blanket the city pulled up over itself during the night and hasn't yet thrown off.
+
+I've been awake for an hour. The kind of waking that comes not with alarm but with the gradual awareness that sleep has gone thin, worn through at the edges by whatever the mind keeps turning over in the dark. A child's mechanical heart. A march scheduled for Saturday. A hair salon in Ashtown doing blow-dries for a three-year-old who cannot sit, cannot crawl, cannot walk. The particulars accumulate.
+
+Maisie Gallagher. Three years old. CDKL5 Deficiency Disorder — the letters clinical, the reality anything but. Six weeks old when the seizures started. Three months in Temple Street while doctors worked through MRIs and EEGs and lumbar punctures and blood tests and genetic testing before the name arrived. CDD. The acronym tidy, the life not. She cannot sit independently. Cortical visual impairment means the world arrives to her differently, processed through pathways we who see normally cannot map. And yet — the fundraiser page says it — she has her own beautiful ways of communicating, brings happiness to everyone around her. A truly special little girl.
+
+The Warehouse in Ashtown. Unit 1, The Capstan Building, Royal Canal Park. Megan Murphy and her team, where Maisie's mother Shauna is a client. They decided to do something. Blow-dries. All proceeds. A fundraising day on November 8th, noon to four. Music, food, raffle prizes donated by local businesses. The ordinariness of it strikes me — a hair salon, blow-dries, the smell of product and the sound of dryers and the mundane miracle of women gathering to make something happen for a child they've never met. The particular containing the universal. Joyce would have recognised it. The epiphany in the everyday.
+
+I think about the Royal Canal there at Ashtown. The water moving slow and dark under the bridges, reflecting nothing recognisable in this light. The canal doesn't care about CDKL5 or fundraisers or the weight of a three-year-old's body that won't do what bodies are supposed to do. But the people along its banks do. They organise. They show up. They blow-dry hair for four hours on a Sunday in November.
+
+Saturday brings the fifteenth March for Choice. Department of Health at Merrion Square, two o'clock, looping alongside Stephen's Green to Leinster House. Eight years since the Eighth was repealed and still the barriers: three-day waiting period, twelve-week cut-off, not enough providers. Criminalisation and conscientious objection. The language of the Abortion Rights Campaign is precise — "unnecessary," "unworkable," "lack of providers due to criminalisation and conscientious obstruction." The march addresses the waiting period, the cut-off, the absence of care. ROSA Socialist Feminist Movement notes the proximity to International Safe Abortion Day, September 28th. All around the world, reproductive healthcare and bodily autonomy under attack. Even here, where we had a victory. TDs voting against bills that would expand access. Dog whistling. Comparing the three-day wait to a bad hangover.
+
+A bad hangover. The phrase stays with me. The casual cruelty of it. The reduction of a woman's body, a woman's time, a woman's decision to a metaphor about alcohol and regret. As if waiting three days while pregnant and decided is comparable to waking with a headache and nausea. As if the body is a site for legislative performance rather than a life lived.
+
+The route passes Stephen's Green. I know that park in this light — the trees reduced to silhouettes, the lake a sheet of grey metal, the Victorian bandstand empty. The marchers will walk where couples walk on Sundays, where tourists photograph the swans, where office workers eat sandwiches on benches in better weather. The same stones. Different footsteps. Different purpose.
+
+And then there's the northside. Belmayne. Parkside. Apartment blocks where the main entrance door hasn't functioned for over a week, where anyone can walk in, where drugs are openly injected in hallways and common areas are used as toilets. Councillors' language: "horrendous," "completely out of hand," "prisoners in their own apartment complexes." Fine Gael's Supriya Singh: "It is not about stigmatising council tenants. The overwhelming majority of council tenants are responsible neighbours." Sinn Féin's Mícheál Mac Donncha: "urgent reform of a housing property management system that is not fit for purpose." Over ninety apartments. One broken door. One week. The vetting process. The legal framework. The balance between supporting tenants and protecting neighbours. The passing from Billy to Jack — management companies, AHBs, the council, security companies. Green Party's Donna Cooney: "previous policy measures put forward by the Housing SPC went a long way toward addressing these concerns in the past."
+
+The Housing SPC. The Central Estate Management Unit. Exclusion orders, tenancy warnings, possession orders lodged with the law department. An Anti-Social Behaviour Policy and Strategy Working Group preparing new policy measures. Strong support and funding available. The bureaucratic machinery grinding forward while someone's grandmother smells urine in the stairwell, while a child learns to step over needles on the way to school, while a woman presses a button to manually close a gate and wonders if she remembered, if the person behind her remembered, if the gate is actually closed or if tonight someone else will walk in.
+
+Fianna Fáil's Deirdre Heney: tenants bear some responsibility. Press a button. Manually close a gate. Unknowingly leaving complexes open. A problem coming down the tracks. Independent's John Lyons: witnessed videos of DCC tenants "running amok." Embarrassed and ashamed. A barring order needed. The actions of "a small group of individuals" with the power to "completely undermine the safety and security of an entire apartment block."
+
+A small group. An entire block. The mathematics of fear.
+
+Essie Loftus. Seven years old. A mechanical heart pumping blood for her. The Berlin Heart Ventricular Assist Device — a plastic pump positioned outside the body, air-filled side connected via lengthy plastic tube to a driving unit she wheels alongside her. Twenty-five medicines a day. Hybrid cardiomyopathy — restrictive and dilated both, the walls stiff and rigid and also stretched and thinned. The exhaustion explained. The swelling explained. The "chubbier" appearance explained. The abdominal discomfort explained. The average survival rate for restrictive cardiomyopathy: two to five years. But she qualified for the mechanical heart. Airlifted from Dublin to Great Ormond Street. Twelve days on ECMO — advanced life support, blood pumped and oxygenated outside the body. May 5th, the Berlin Heart fitted. "We were just trembling, sitting there, holding each other, shaking with fear and anxiety and everything you can imagine." Then relief. Then the spark came back.
+
+Annemarie, a Montessori teacher. Michael, a streaming media engineer. Two other children — Ayla, thirteen, Cael, four. Dividing time between London and Dublin. Annemarie's mother died in June and she didn't get time to grieve. "I feel like maybe I will years later. I believe there will be some major breakdowns once this is over, but it's just about putting one foot in front of another for now."
+
+One foot in front of another. The oldest human motion. The only one that matters when the ground disappears.
+
+Essie attends one-hour school sessions in her bed. Role-plays as a nurse on the ward. Winding up the doctors. "When I see Essie with the biggest smile on her face, or she's got some story to tell me about winding up the doctors, you just think to yourself, 'If she can get through this all, then so can we'." Michael: "She's an inspiration to us every day." Her sassiness and sense of humour. They always said it would do her well when she was older. Didn't realise she'd need it so soon.
+
+A potential transplant match in intensive care. Tissue wasn't suitable. Couldn't go ahead. "So disappointed." But they credit her character. They put one foot in front of another.
+
+The overcast holds. Thirteen point four degrees. The wind eleven kilometres an hour. No rain yet, but the air feels thick with it, saturated, waiting. The kind of Dublin morning where the colour has been leached from things — brick to grey-brick, green to grey-green, sky to the colour of unpolished pewter. The light doesn't cast shadows so much as erase them. Everything flattened, equalised. Democratic in a way sunshine never is.
+
+I think about the hair salon again. The Warehouse. Ashtown. Royal Canal Park. The canal water reflecting this same grey sky. The blow-dries on November 8th. The sound of hot air and round brushes and conversation layered over music. The smell of heat-activated product. The raffle tickets. The spot prizes. The community. The word gets used so often it's lost weight, but here it means something specific: Megan and her team, Shauna and her daughter, the local businesses donating prizes, the people who will show up on a Sunday afternoon and sit in a salon chair and let their hair be dried by strangers for a child who cannot sit independently.
+
+Community as verb. Community as action. Community as blow-dry.
+
+The march on Saturday. The bodies moving through the city. The signs. The chants. The three-day wait. The twelve-week cut-off. The lack of providers. The criminalisation. The conscientious objection. The migrants and ethnic minorities. People with disabilities. Rural areas. Direct provision. Trans and non-binary people. Those without money or means to travel. Those without privacy to take pills at home. Those who may not know they're pregnant until it's too late. The list is long. The list is specific. The list is human.
+
+The northside apartment blocks. The broken door. The week of waiting. The urine in the stairwell. The needles. The gate button. The barring order. The videos. The embarrassment. The shame. The small group. The entire block. The Estate Management Strategy. The Central Estate Management Unit. The Anti-Social Behaviour Policy and Strategy Working Group. The new policy measures in preparation. The strong support and funding. The machinery. The lives inside the machinery.
+
+Essie's mechanical heart. The plastic pump. The lengthy plastic tube. The driving unit she wheels. Twenty-five medicines. The airlift. The twelve days on ECMO. The potential match. The unsuitable tissue. The disappointment. The spark. The sassiness. The humour. The one foot in front of another. The Montessori teacher mother. The streaming media engineer father. The thirteen-year-old sister. The four-year-old brother. The grandmother who died in June. The grief not yet processed. The major breakdowns waiting in the future. The putting one foot in front of another now.
+
+The overcast doesn't break. It doesn't need to. The city moves underneath it regardless. The canal flows. The hair salon opens. The marchers will gather. The apartment doors will be pressed shut or left open. The mechanical heart will pump. The twenty-five medicines will be swallowed. The one foot will go in front of the other.
+
+I watch a pigeon land on the windowsill. Feathers ruffled by the eleven-kilometre wind. It looks at me with one eye, then the other. Preens. Flies off. The overcast swallows it.
+
+The day will happen. It always does. The light will change or it won't. The rain will come or it won't. The particulars will accumulate — Maisie's fundraiser, the marchers' feet, the broken door, the mechanical heart — and someone will write them down, or no one will, and the city will keep turning under whatever sky it's given.
+
+Thirteen point four degrees. Overcast. The weight of it, and the weight under it, and the people carrying both.
