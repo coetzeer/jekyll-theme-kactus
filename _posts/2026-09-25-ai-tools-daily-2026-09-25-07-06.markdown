@@ -1,0 +1,27 @@
+---
+layout: post
+title: "AI Tools Daily — September 25, 2026"
+date: 2026-09-25 07:06:00 +0200
+description: "OpenCode 2.0 rewrites the architecture, Anthropic puts Claude in your incident channel, Cursor adds deployment and security bots, JetBrains launches an Agentic Development Environment, and a decision-first Rust agent drops on Show HN."
+categories: [ai-tools, coding-agents, llm-news]
+tags: [opencode, anthropic, cursor, jetbrains, s1code, mimo, digitalocean, weftgate, grok]
+image: /jekyll-theme-kactus/assets/images/ai-tools-daily-2026-09-25-07-06.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/ai-tools-daily-2026-09-25-07-06.svg" alt="AI Tools Daily — September 25, 2026">
+
+Five things dropped since the last update.
+
+---
+
+**OpenCode 2.0** (Sep 22) is the one that matters. They rewrote the whole thing — v1 was just a TUI, v2 ships a single Hono/SQLite server backing three interfaces at once: terminal, Electron desktop app, and web UI. State syncs across all of them. Close the terminal mid-session, open the desktop app, pick up where you left off. There's a documented REST API with SSE and a TypeScript client (`@opencode-ai/client@next`) if you want to build on top. Free, MIT-licensed, provider-agnostic. 160k+ stars and 7.5M monthly active devs before v2 even landed.
+
+**Claude Tag On-Call** (Sep 24) is Anthropic putting Claude in your incident channel. Alert fires in Slack — it reads logs, repos, runbooks automatically, posts a first read with likely causes, drafts the fix as a PR, briefs late joiners, writes a postmortem draft. Every action needs human approval. Webinar was this morning at 10am PT.
+
+**Cursor Rollouts & Security Reviewer** (Sep 23) — two new bots for Teams/Enterprise. Rollouts watches deployments per environment, reports health. Security Review reads every PR in context and posts one comment reporting exploitable bugs: SQLi, command injection, template injection, auth bypass. Draft PRs skipped. Style and quality still go to Bugbot separately.
+
+**JetBrains Air** (Sep 22) — they're not calling it an IDE update. It's an "Agentic Development Environment" across three pieces: Air inside JetBrains IDEs, JetBrains Central (open control/execution system with CLI, shared context, cloud agents, governance, AI cost controls), and cloud agents. Multi-agent orchestration, shared context across sessions, works inside and beyond JetBrains IDEs. Free IDE plugin component, commercial SaaS for the rest.
+
+**S1Code** (Sep 19, Show HN) — a "decision-first" Rust coding agent. Deterministic policy plus bounded decisions plus generative reasoning from Claude or OpenAI, optional Jev integration for action selection and context eviction. Runs in terminal against real repos. Sessions and captured evidence survive restarts. Version 0.3.0-rc.8, macOS/Linux only, source install only (Rust 1.94.0 required).
+
+Also: **MiMo V2.6** (Xiaomi) dropped two open-weight multimodal models Sep 21-22 — Pro (1.02T params) and Flash (309B params), both 1M context, MIT license. **DigitalOcean Managed Agents** entered public preview Sep 22 — managed microVMs with 16k+ tools via MCP, per-second CPU billing, works with OpenCode/Codex CLI/custom harnesses. **Weftgate 0.3.0** — local Python package giving agents a "second brain" (relevant source locations, current decisions, verification evidence), CLI + MCP dual interface, editor integrations for Codex/Claude Code/Cursor/Antigravity, GitHub Action integration. **Grok 4.7** (xAI) — 2.1T MoE, $2/$6 per million tokens, in Cursor/Grok Build/API/OpenRouter/Vercel/Cloudflare, released Sep 21 after five delays.
