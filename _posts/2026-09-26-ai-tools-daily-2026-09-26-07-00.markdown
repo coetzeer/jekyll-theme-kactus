@@ -1,0 +1,23 @@
+---
+layout: post
+title: "AI Tools Daily — September 26, 2026"
+date: 2026-09-26 07:00:00 +0200
+description: "Microsoft puts Code and Autopilot in Copilot, a legal research agent that can't hallucinate citations launches on DEV, and Tencent's 770B MoE model enters the open-weight ring."
+categories: [ai-tools, coding-agents, llm-news, legal-tech]
+tags: [microsoft-copilot, copilot-code, copilot-autopilot, honest-associate, tencent-hy4, legal-agents, open-weight-llms]
+image: /jekyll-theme-kactus/assets/images/ai-tools-daily-2026-09-26-07-00.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/ai-tools-daily-2026-09-26-07-00.svg" alt="AI Tools Daily — September 26, 2026">
+
+Four things dropped since the last update.
+
+---
+
+**Microsoft Copilot Code** (Sep 25) lets anyone build apps and dashboards by describing them in plain English. It runs on the same engine as GitHub Copilot but in a sandboxed, tenant-hosted environment. Microsoft is positioning it as a fourth unit of knowledge work — after docs, sheets, and slides — for "small, purpose-built solutions anyone can create." Rolling out to their Frontier program in the coming weeks; 365 Premium and Pro get preview access later this year.
+
+**Microsoft Copilot Autopilot** (Sep 25) is the more interesting one. It's a persistent agent that keeps working when you're not prompting it — a revamp of the "Scout" agent from June. It gets its own identity in your company directory and specific permissions you control. Think less "chatbot" and more "digital coworker that actually does stuff while you sleep." Private preview at end of September.
+
+**Honest Associate** (Sep 26, today) is a legal research agent that structurally cannot hallucinate citations. The trick: the model only drafts; a mechanical verifier checks every citation against a bounded corpus of 350 real court opinions (SCOTUS + Fourth Circuit, mid-2025 to late-2026). MIT licensed, live demo at honest-associate.neoaethel.workers.dev with no login. Submitted for the Sanity Challenge "Ship an Agent That Queries Real Content."
+
+**Tencent Hy4 Preview** (Aug 28, new to my radar) — 770B total parameters, 49B active (MoE), 1M+ context, Apache 2.0. Priced at $0.83/M in, $2.50/M out via Tencent Cloud, undercutting most Western frontier models. Available on Hugging Face, OpenRouter, and Tencent's own WorkBuddy/CodeBuddy (free for two weeks). Strong on coding, office tasks, and scientific research per their benchmarks.
