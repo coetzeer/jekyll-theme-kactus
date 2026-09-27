@@ -1,0 +1,116 @@
+---
+layout: post
+title: "AI Tools Daily — September 27, 2026"
+date: 2026-09-27 07:00:00 +0200
+description: "OpenAI ships managed agent infrastructure, n8n adds agent primitives, Agno hits 100% on ARC-AGI-3, Vincent 0.9 builds itself, Devin goes self-hosted, Mistral Small 4 unifies reasoning and coding, Cursor Projects gets persistent coordinators, Replit Agent gets custom connectors."
+categories: [ai-tools, coding-agents, llm-news, agent-frameworks]
+tags: [openai-agents-api, n8n-agents, agno-v3, mastra-classifiers, vincent-0-9, devin-outposts, mistral-small-4, cursor-projects, replit-agent]
+image: /jekyll-theme-kactus/assets/images/ai-tools-daily-2026-09-27-07-00.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/ai-tools-daily-2026-09-27-07-00.svg" alt="AI Tools Daily — September 27, 2026">
+
+Nine things dropped since the last roundup.
+
+---
+
+## OpenAI Agents API (public beta, Sep 10)
+
+OpenAI's Agents API brings the Codex harness to a managed API. They handle session management, orchestration, context compaction, recovery, and sandbox infrastructure. Agents execute code, edit files, connect to MCP servers, delegate to subagents, and resume sessions. Replaces the Assistants API (shut down Aug 26). Pricing is standard model rates plus container rates for hosted sandboxes — no separate agent surcharge during beta.
+
+**Category:** Long-running agent  
+**Type:** Commercial/SaaS
+
+---
+
+## n8n Agents (Sep 25)
+
+n8n added first-class Agents alongside workflows. Describe what an agent should do, pick a model, choose tools and workflows, and it figures out the steps. Same agent works across Slack, Telegram, Linear, Discord, schedules, and workflow calls. Agents can use workflows as tools; workflows can call agents via a "Message an Agent" node. Built-in memory, sessions, versioning, approvals. Self-hosted option available.
+
+**Category:** Long-running agent  
+**Type:** Open source (self-hosted) / Commercial (n8n Cloud)
+
+---
+
+## Agno v3.0 (Sep 2)
+
+Major storage layer rebuild around a normalized runs table. Per-user isolation (`user_id` scoping) now extends to metrics, schedules, evals, knowledge, and vector databases. Background execution on AgentOS is backed by a durable job queue that survives crashes and deploys. Built-in `MigrationManager` with schema versioning on every adapter (PostgreSQL, SQLite, MongoDB, Redis, Valkey, Firestore, DynamoDB, SurrealDB, JSON, GCS JSON, in-memory). Claims 100% on ARC-AGI-3 public set.
+
+**Category:** Agent framework  
+**Type:** Open source (MIT) / Commercial (Agno platform)
+
+---
+
+## Mastra Classifiers & ModelSelectionProcessor (Sep 23-24, v1.70.0)
+
+Register classifiers on `new Mastra({ classifiers })` with full management API (`getClassifier*`, `listClassifiers`, `addClassifier`, `removeClassifier`) and automatic root tracing. Classifiers work as typed workflow steps for conditional branching with token usage tracking. `ModelSelectionProcessor` picks the model per request — capable model for complex tasks, cheaper model for simple ones.
+
+**Category:** Agent framework  
+**Type:** Open source (MIT)
+
+---
+
+## Vincent v0.9.0 (Sep 18)
+
+Fourteen days and 428 commits after 0.8.0. Event triggers that propose work autonomously (schedule, webhook, GitHub events). PR actions from tasks. Agents inside task containers. 76 of 88 merged PRs in this release came from vincent task branches — vincent builds itself. Free chat with Claude, Codex, Cursor (each in own worktree/branch) with chat-to-task handoff preserving worktree, branch, base revision, and changes.
+
+**Category:** Coding agent (durable workflows, multi-agent, event-driven)  
+**Type:** Open source (MIT)
+
+---
+
+## Devin Outposts (Sep 2026)
+
+Run Devin workloads in your own environment. Disabled by default — contact Cognition to enable. MCP Marketplace expansion: 48+ new engineering connectors (Miro, Mixpanel, Honeycomb, Postman, monday.com, Klaviyo, LaunchDarkly, Fathom, Attio, Calendly, Google Drive). 42 beta MCPs graduated to GA. Devin Review adds enrolled users, spend limits, GHES/GitLab support.
+
+**Category:** Long-running agent (self-hosted, enterprise)  
+**Type:** Commercial (Cognition Labs)
+
+---
+
+## Mistral Small 4 (Mar 16, on radar Sep)
+
+119B total parameters, 6.5B active (MoE, 128 experts). Unifies Magistral (reasoning), Pixtral (multimodal), Devstral (agentic coding) in one model. Two reasoning modes: "none" (fast instruct) and "high" (extended CoT). Apache 2.0 — actually fine-tunable unlike most at this tier. 40% faster completion, 3x throughput vs Small 3. Matches/surpasses GPT-OSS 120B on benchmarks with 20% less output. $0.15/M in, $0.60/M out on Mistral Cloud.
+
+**Category:** Model (coding, reasoning, multimodal, agentic)  
+**Type:** Open source (Apache 2.0) / Commercial (Mistral Cloud)
+
+---
+
+## Cursor Projects (Sep 10)
+
+Persistent coordinator agent manages fleets of coding agents across cloud and local. Remembers months of work, watches Slack and PRs, keeps coding after laptop closes. Dedicated cloud computer per Project. Coordinator plans, delegates to thousands of subagents, syncs context (files, research, artifacts, learned preferences) across environments. Subscriptions: watch Slack, follow PRs, run scheduled tasks.
+
+**Category:** Coding agent (multi-agent, persistent, cloud)  
+**Type:** Commercial (Cursor Pro/Team)
+
+---
+
+## Replit Agent Custom Connectors (Sep 18)
+
+Pro and Enterprise teams can now connect Agent to any external API (beta). Add endpoint, auth, describe usage in natural language. Expanded Enterprise audit logs: 65+ new event types across projects, workspaces, deployments, account security, SSO/SCIM, connectors, secrets, Agent activity. SIEM destinations configurable.
+
+**Category:** Coding agent (extensible, enterprise)  
+**Type:** Commercial (Replit Pro/Enterprise)
+
+---
+
+## Quick categorization
+
+| Tool | Category | Type |
+|------|----------|------|
+| OpenAI Agents API | Long-running agent | Commercial/SaaS |
+| n8n Agents | Long-running agent | Open source / Commercial |
+| Agno v3.0 | Agent framework | Open source / Commercial |
+| Mastra Classifiers | Agent framework | Open source |
+| Vincent v0.9.0 | Coding agent | Open source |
+| Devin Outposts | Long-running agent | Commercial |
+| Mistral Small 4 | Model | Open source / Commercial |
+| Cursor Projects | Coding agent | Commercial |
+| Replit Agent Connectors | Coding agent | Commercial |
+
+---
+
+Three open source coding agents dropped meaningful releases in two weeks (Vincent 0.9, Cursor Projects, Replit connectors). Two workflow platforms added agent primitives (n8n, Mastra). One frontier lab shipped managed agent infrastructure (OpenAI). One enterprise agent went self-hosted (Devin). One model unified reasoning, multimodal, and coding (Mistral Small 4).
+
+The pattern: everyone's converging on durable, multi-agent, tool-using systems with persistent context. The differentiation is infra ownership (self-hosted vs managed) and whether the product is the framework or the hosted service.
