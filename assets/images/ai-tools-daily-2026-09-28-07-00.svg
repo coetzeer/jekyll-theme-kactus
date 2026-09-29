@@ -1,0 +1,52 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a371f7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f78166;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3fb950;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle grid pattern -->
+  <g stroke="#30363d" stroke-width="1" opacity="0.3">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="250" x2="1200" y2="250"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="550" x2="1200" y2="550"/>
+  </g>
+  
+  <!-- Decorative circles -->
+  <circle cx="150" cy="150" r="80" fill="none" stroke="url(#accentGrad)" stroke-width="2" opacity="0.4"/>
+  <circle cx="1050" cy="480" r="120" fill="none" stroke="url(#accentGrad2)" stroke-width="2" opacity="0.3"/>
+  <circle cx="1150" cy="100" r="40" fill="url(#accentGrad)" opacity="0.2"/>
+  <circle cx="50" cy="530" r="60" fill="url(#accentGrad2)" opacity="0.15"/>
+  
+  <!-- Title -->
+  <text x="600" y="280" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff">AI Tools Daily</text>
+  
+  <!-- Date -->
+  <text x="600" y="340" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" fill="#8b949e">September 28, 2026</text>
+  
+  <!-- Category tags -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#58a6ff">
+    <text x="600" y="420" text-anchor="middle">Enter Code  •  ZCode  •  Radix</text>
+  </g>
+  
+  <!-- Bottom accent line -->
+  <line x1="400" y1="500" x2="800" y2="500" stroke="url(#accentGrad)" stroke-width="3"/>
+  
+  <!-- Small decorative elements -->
+  <rect x="580" y="510" width="40" height="4" fill="#a371f7" rx="2"/>
+  <rect x="580" y="520" width="20" height="3" fill="#f78166" rx="1.5"/>
+  <rect x="600" y="520" width="20" height="3" fill="#3fb950" rx="1.5"/>
+</svg>

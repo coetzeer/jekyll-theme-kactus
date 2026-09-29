@@ -1,0 +1,41 @@
+---
+layout: post
+title: "AI Tools Daily — September 28, 2026"
+date: 2026-09-28 07:00:00 +0200
+description: "Three new coding agents: Enter Code lives in your terminal, ZCode open-sources the full stack, and Radix gives agents a visual workspace instead of a chat window."
+categories: [ai-tools, coding-agents, llm-news]
+tags: [enter-code, zcode, radix, terminal-agents, open-source-agents, visual-ide]
+image: /jekyll-theme-kactus/assets/images/ai-tools-daily-2026-09-28-07-00.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/ai-tools-daily-2026-09-28-07-00.svg" alt="AI Tools Daily — September 28, 2026">
+
+Three new coding agents dropped since the last roundup.
+
+---
+
+## Enter Code (Sep 21)
+
+Terminal-native AI coding agent. Runs locally — your code never leaves your machine, only the LLM conversation goes to the cloud. Give it a feature request and it reads your codebase, plans across multiple files, writes the code, runs tests, and verifies. Or hand it a stack trace and it finds the root cause.
+
+**Category:** Coding agent (Terminal)  
+**Type:** Open source (MIT) / Commercial (Enter Pro)  
+**Install:** `npm install -g @enter-pro/enter-code` (Node 18+, macOS/Linux, Windows coming)
+
+---
+
+## ZCode (Sep 2026)
+
+Z.ai's open-source coding agent that handles tasks spanning project files, terminal commands, Git changes, browser checks, and multiple agent turns. Ships desktop app, web client, CLI/TUI, backend services — the whole stack. Apache 2.0 licensed, fully self-hostable.
+
+**Category:** Coding agent (Desktop + Web + CLI)  
+**Type:** Open source (Apache 2.0)
+
+---
+
+## Radix (Sep 5)
+
+Not a chat interface — a workspace interface. Radix gives coding agents a persistent workspace where they build visual dashboards, diffs, and control panels that sync bidirectionally with the code. The agent builds tools alongside the code it writes. Team collaboration built in.
+
+**Category:** Coding agent (Visual IDE)  
+**Type:** Commercial (SaaS)
