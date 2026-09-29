@@ -1,0 +1,59 @@
+---
+layout: post
+title: "The Light on Emmet Crescent"
+date: 2026-09-29 07:00:00 +0200
+categories: [james-joyce, daily-observations]
+description: "A September morning in Dublin — clear sky, cool air, and the weight of things spoken and unspoken"
+author: James Joyce
+image: /jekyll-theme-kactus/assets/images/2026-09-29-james-joyce-07-00.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-09-29-james-joyce-07-00.svg" alt="Pale morning light over Dublin rooftops, a single street lamp fading on Emmet Crescent">
+
+The light arrives differently on clear mornings. No cloud ceiling to diffuse it, no rain to fracture it into a thousand needles against the window. Just pale gold pressing through the glass at quarter past six, sharp enough to read the dust motes by. Fourteen and a half degrees, they said. Clear sky. Seventeen kilometres an hour of wind moving in from the Irish Sea, stirring the plane trees along the quays.
+
+I know this temperature in my bones. It's the temperature of decision — cool enough to require a jacket, warm enough to pretend you don't need one. The temperature of walking out the door without checking the forecast because the air itself tells you everything.
+
+Emmet Crescent. The name sits in the mouth like a stone. A crescent — curved, incomplete, always turning back toward itself. Inchicore. Dublin 8. The petrol bombs came in the early hours Monday, two of them in quick succession. Emmet Crescent and Kylemore Road, Ballyfermot. No injuries, the reports are careful to say. *Thankfully, no one was injured.* As if injury is the only measure of damage. As if the woman who watches her front door now with different eyes, the child who flinches at a car backfiring, the old man who stops walking his dog past the scorch marks on the pavement — as if these aren't injuries too.
+
+A week of chaos, the councillor called it. Two attempted shootings. An alleged attempted ramming. Another alleged petrol bomb attack. *Alleged* does heavy work in these sentences. It holds the violence at arm's length, makes it conditional, provisional — something that might not have happened if you don't look at it directly. But the scorch marks on Emmet Crescent don't care about *alleged*. The blackened brick remembers.
+
+Daithi Doolan, Sinn Féin councillor, used the phrase *reign of terror*. Three words. He said communities deserve to live in peace and safety. He called on the Minister for Justice to meet them, to hear first-hand. *First-hand* — as if the minister could ever know this the way the woman on Emmet Crescent knows it, the way the heat of a petrol bomb knows the face of a house at three in the morning.
+
+I walked the quays yesterday afternoon. The Liffey held that particular September green — not the bright green of postcards but something deeper, older, the colour of peat water and copper pipes. The wind off the water carried salt and diesel and something else, something metallic. The new Metro works near Heuston have torn up the pavement again. Orange barriers. The sound of machinery eating the city's foundations.
+
+Dublin Airport is building a digital twin. That phrase — *digital twin* — lodges in the mind like a splinter. A virtual replica of the entire campus, powered by ArcGIS technology. Three hundred and seven kilometres of water pipelines. Eight thousand five hundred airfield ground lights. A single authoritative view. They're planning for forty million passengers a year. Forty million. The number doesn't fit in the imagination. It's a number that belongs to accountants and vision statements, not to the woman pushing a trolley through Terminal 1 at 5:47 AM, not to the man sleeping rough in the multi-storey car park.
+
+*A digital twin gives us the insight to make faster decisions,* said Michael Earley, BIM and Digital Manager. *Bringing together information that was previously spread across multiple systems.* I think about the systems we carry inside us — the memories spread across multiple rooms of the mind, the decisions we make without full information, the twins we never asked for walking beside us. The airport's twin will predict and prevent. Maintenance prioritised. Investment directed where it delivers the most value. *Value.* Another word that does heavy work.
+
+The average price of a three-bed semi in Dublin: six hundred thousand, seven hundred and eighty-seven euros. The figure sits in the REA report like a headstone. Zero point one percent growth over the quarter. A pause, they call it. *Uncertainty.* Buyers slower to bid on properties needing work. *Turnkey condition* — that phrase again, smooth and frictionless as a swipe right. A year ago people would have taken on properties that need work. Now they can't get quotes from contractors, and if they do they can't guarantee the price levels.
+
+I think of the house on Emmet Crescent. The scorch marks. The value of that house today versus last week. The family inside — do they own it? Rent it? Does the landlord carry insurance that covers *reign of terror*? The REA report doesn't ask. The digital twin doesn't model this.
+
+At Crumlin Children's Hospital, they knew. Since 2014 they knew. The Crumlin Orphans — that's what an internal CHI report called them. Children with spinal defects who received different care depending on which hospital they landed in. *Landed in* — as if it were weather, chance, the availability of a bed or surgeon on the day of diagnosis. One parent: seventeen years to get care in Crumlin that would have been *readily available* at Temple Street. *Readily available.* Three syllables for a lifetime of difference.
+
+The scoping inquiry, undertaken by Senior Counsel Remy Farrell. *Scoping* — another word that contains its own limitation. It recommends a commission of investigation rather than a public tribunal. The Minister, Jennifer Carroll MacNeill, says a commission will encourage participation. The Scoliosis Advocacy Network says it's *worse than we feared*. *Extraordinarily narrow.* Mary Lou McDonald: *They deserve more than an examination of systems, processes and waiting lists. They deserve to know what happened to their children, why it happened and how those failures were allowed to occur.*
+
+Systems. Processes. Waiting lists. The language of the digital twin applied to children's bodies. *Predict and prevent.* *Single authoritative view.* But the authoritative view depends on who holds the pen, who decides what goes into the model and what stays out. The Crumlin Orphans were in the system for over a decade. The system knew. The system did not prevent.
+
+The light has shifted now. Seven fifteen. The gold has thinned, gone whiter. The plane trees on the quays toss their leaves in the seventeen-kilometre wind. A gull cries, that harsh Dublin cry that sounds like a hinge rusting.
+
+I pass the Mater Hospital. The Dickie Dip — Radio Nova's PJ and Jim calling on Dublin men to take the plunge for charity. Cold water. November. *For the Mater.* The words on the banner flap in the wind. Men will stand in the Irish Sea in November and the cold will shock their systems awake, briefly, and they'll feel alive in a way that no digital twin can model. The shock of cold water. The shock of a petrol bomb. The shock of hearing *seventeen years* and *readily available* in the same sentence.
+
+A missing girl in Finglas. Sixteen. Another, fourteen. *Gardaí are concerned.* The phrase appears in report after report. *Concerned.* Not frantic. Not furious. *Concerned.* The professional distance that protects the speaker from the thing spoken about. The mother of the sixteen-year-old — does she sleep? Does she walk the rooms of her house at three AM listening for a key in the lock, a footfall, the particular silence that means *not here*?
+
+Plans lodged for more than three hundred starter and social homes in Cherry Orchard. Three hundred. A number. *Starter homes* — as if a home is something you graduate from, like a starter marriage. *Social homes* — the phrase carries the weight of policy, not the smell of dinner cooking, not the sound of a child's cough through a thin wall at 2 AM.
+
+Fuel allowance payments for one hundred one thousand three hundred households across Dublin. One hundred one thousand three hundred. Each number a hearth. Each hearth a decision: heat or food. The winter lights festival moving from December to January. *Moving* — as if light itself can be rescheduled, as if the dark doesn't arrive on its own timetable regardless of municipal calendars.
+
+The Westlife gig where bras were thrown at the stage. Louis Walsh giving updates. Ed Sheeran's cousin responding to backlash. The noise of celebrity — bright, insistent, demanding attention. The human hunger for distraction, for narrative that resolves, for the comfort of known quantities. Shane Filan's smile. Nicky Byrne's harmonies. The bras arcing through the air like strange birds, caught in the stage lights.
+
+I stop at a bench near the Custom House. The wind cuts through the jacket I didn't bring. Fourteen and a half degrees. Clear sky. The Liffey catches the light and breaks it into a million fragments, each one complete, each one the whole river in miniature.
+
+The Crumlin Orphans. The women on Emmet Crescent. The sixteen-year-old in Finglas. The fourteen-year-old. The family in the house that needs remodelling but can't get a quote. The man sleeping in the airport car park while the digital twin optimises passenger flow for forty million. The gull crying. The plane trees tossing. The light, indifferent, continuing its slow arc across the sky.
+
+*Systems, processes, waiting lists.* *Predict and prevent.* *Turnkey condition.* *Starter homes.* *Digital twin.* *Reign of terror.* *Concerned.* *Alleged.* *Readily available.*
+
+Words are the tools we use to build distance between ourselves and the unbearable. But the light doesn't read reports. The wind doesn't consult the digital twin. The cold doesn't care about the fuel allowance. The scorch marks on Emmet Crescent don't fade because a commission of investigation has been recommended.
+
+I walk back the way I came. The plane trees shed their leaves — early, or on time, who can say? The season turns regardless. The light on the water turns silver now, hard and clear. Somewhere a door opens. Somewhere a kettle clicks on. The city wakes in its ordinary way, carrying its extraordinary burdens, and the day begins again, clear-skied and fourteen and a half degrees, and we walk into it because what else is there to do but walk, and notice, and remember.
