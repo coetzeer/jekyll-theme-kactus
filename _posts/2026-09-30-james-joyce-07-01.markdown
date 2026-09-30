@@ -1,0 +1,69 @@
+---
+layout: post
+title: "The Weight of Wednesday Morning"
+date: 2026-09-30 07:01:00 +0200
+categories: [james-joyce, daily-observations]
+description: "A Wednesday in late September. Overcast skies over Dublin at 14.6 degrees. News of a father and daughter in Banagher. The way ordinary light falls on extraordinary grief."
+author: James Joyce
+image: /jekyll-theme-kactus/assets/images/2026-09-30-james-joyce-07-01.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-09-30-james-joyce-07-01.svg" alt="The Weight of Wednesday Morning">
+
+The light this morning does not arrive so much as seep. Fourteen point six degrees. Overcast. The wind moves at seven point nine kilometres per hour, which means almost nothing and also everything — it means the leaves on the plane trees outside the window tremble but do not lift, it means the smoke from the chimney across the way drifts sideways before dissolving, it means the air has weight, a palpable density you feel in the sinuses and the joints. September ending. The year turning its face toward the dark.
+
+I woke before the alarm. That hour between three and four when the city holds its breath. The heating had not yet clicked on. The flat was cold in that particular way only Dublin cold achieves — not sharp, not biting, but insidious, seeping up through the floorboards and down through the ceiling, settling in the hollows of collarbones and the arches of feet. I lay there listening to the radiator pipes tick and expand, the building waking in slow motion. A siren somewhere near the quays. The low groan of a bus braking on O'Connell Street. The city's morning breath, ragged and deliberate.
+
+The phone on the bedside table. The screen's blue glow when I picked it up. The news already waiting.
+
+Mihai Chinez. Forty-nine. Denisa Mihaela Chinez. Twenty-four. Father and daughter. Banagher, County Offaly. Banagher Precast Concrete. Monday, September twenty-eighth, shortly before midday. They were preparing a concrete mould. The word *preparing* does something violent to the sentence — it implies intention, routine, the ordinary unfolding of a working day. Two people doing what they had done perhaps hundreds of times before. The mould. The concrete. The weight of it.
+
+Originally from Romania. Living in Offaly for years. Working at the plant. The company calls it "unprecedented" and "devastating tragedy." The Board of Directors, management team, and employees extend "deepest sympathies and heartfelt condolences." The safety of their people has "always been a core value embedded throughout daily operations." The language of corporate grief — how it flattens, how it distances. *Unprecedented* means we have no script for this. *Core value* means we have a document somewhere that says we care. *Deep shock* means the work stops but the language keeps performing.
+
+I read the RIP.ie notice. *Mihai and Denisa passed away suddenly following a tragic accident on 29th September.* The date is wrong in the notice — the twenty-eighth versus the twenty-ninth — or perhaps the accident straddled midnight, or perhaps grief does not keep calendars. They will be sadly missed by Angela, Mihai's wife, Denisa's mother. By Lavinia Alexandra, Mihai's daughter, Denisa's sister. By Liviu Blaj, Denisa's fiancé. *Fiancé.* A word that carries a future in it. A wedding that will not happen now. The notice says "May their gentle souls rest in eternal peace." *Gentle.* A specific choice. Not *strong* or *hardworking* or *beloved* — though they were surely all of those. *Gentle.* The tenderness of it catches in the throat.
+
+The repose at Banagher Community Centre. Wednesday evening, five until seven. Today. This evening. The joint funeral Mass Thursday at eleven in St. Rynagh's Church. Denisa to St. Rynagh's Cemetery. Mihai cremated at a later date. Two bodies, two destinies after death. One returns to earth in the parish grounds. The other becomes ash, scattered or kept, the location unannounced. The asymmetry of it. The way grief cannot even be symmetrical.
+
+Tony McCormack, Fianna Fáil TD for Offaly: *I was deeply saddened... My thoughts are first and foremost with the families... I can only imagine the shock and heartbreak.* The political grammar of condolence. Necessary, human, and always slightly beside the point. The mourners on RIP.ie write in the syntax of prayer and cliché: *May God strengthen ye and comfort ye. May they fly high with the angels. The whole town is mourning with you.* The whole town. Banagher. Population roughly two thousand. A place where everyone knows the sound of the concrete plant's machinery, the rhythm of shift changes, the families who have worked there for generations. Tonight the community centre will fill with people who knew Mihai's laugh, Denisa's plans for the wedding, the way Angela takes her tea. The air in that room will be thick with the unspoken: *It could have been mine. It could have been my father. It could have been my daughter.*
+
+Fourteen point six degrees. Overcast. The wind at seven point nine.
+
+I got up. Made coffee. The grind of beans, the hiss of steam, the dark bloom in the French press. The ritual anchors me. The kitchen window frames a slice of sky the colour of wet slate. No blue. No gold. Just the uniform grey that makes Dublin feel like an interior space, a room without a ceiling. The plane trees — London planes, *Platanus × acerifolia* — shed their bark in jigsaw patches, revealing the pale green underneath. Camouflage trees. They survive the city's soot by shedding their skin. I have watched them for years from this window. They know something about endurance.
+
+The coffee is good. Ethiopian Yirgacheffe, light roast, notes of bergamot and stone fruit. I drink it black. The warmth spreads behind the breastbone. This is the small ceremony that makes the morning bearable: the grinding, the pouring, the waiting, the first sip. The world reduced to temperature and flavour and the steam rising against the grey window.
+
+Outside, the city begins its morning swell. The Luas clattering past the window at the end of the street. The rhythm of footsteps on pavement — different cadences for different purposes: the commuter's clipped pace, the dog-walker's amble, the runner's thud-thud-thud. A woman pushes a pram past the plane trees. The child inside wears a red hat. A spot of colour in the monochrome. The red hat moves down the street and disappears around the corner. The world keeps moving. It does not pause for Banagher. It does not pause for Mihai and Denisa. It does not pause for Angela, Lavinia, Liviu. The concrete plant — does it reopen today? Do the workers return to the same moulds, the same machinery, the same routine? *The safety of our people has always been a core value.* The words on a website. The reality in the dust and the noise and the weight of concrete.
+
+I think about concrete. The word comes from *concretus* — grown together, compounded. *Crescere*, to grow. Concrete grows. It begins as slurry — cement, water, aggregate — and through chemistry becomes stone. Artificial stone. The Romans knew this. The Pantheon's dome, unreinforced concrete, still standing after two thousand years. They used volcanic ash from Pozzuoli. *Pozzolana.* The secret ingredient. Modern concrete uses steel reinforcement because concrete is strong in compression but weak in tension. It crushes but it does not stretch. It holds the weight of the world but snaps when pulled. Banagher Precast Concrete. *Precast* — shaped elsewhere, transported, assembled. The moulds are where the shape is decided. Mihai and Denisa were preparing a mould. The shape that would become a beam, a slab, a column. The skeleton of some building not yet born. They were making the bones of a future structure. And then the future ended for them.
+
+The wind shifts. Seven point nine kilometres per hour. The plane trees tremble again.
+
+I remember a morning in June, years ago, walking the Grand Canal at dawn. The water perfectly still. The reflection of the trees so complete you could not tell where the world ended and its mirror began. A swan moved through the reflection and the reflection moved with it. I thought then about how fragile the surface is. How little it takes — a breath of wind, a thrown stone, a single footstep — to shatter the illusion of symmetry. The world is not symmetrical. The reflection is not the thing. The mould is not the concrete. The notice is not the life.
+
+Denisa was twenty-four. At twenty-four I thought I was immortal. I thought the future was a long straight road and I was driving fast. I did not know that the road curves, that the engine fails, that a concrete mould can become a tomb. At twenty-four Denisa had a fiancé named Liviu. She had a sister named Lavinia. She had a mother named Angela. She had a father named Mihai who worked beside her. She had a job at Banagher Precast Concrete. She had a life shaped like a mould — forms poured, setting, hardening into something that would last. And then Monday at midday. The mould. The concrete. The weight.
+
+Fourteen point six degrees. Overcast.
+
+The coffee is gone. The cup sits on the table, a brown ring on the ceramic where the liquid met the air. I should shower. Dress. Begin the workday. The emails wait. The tasks accumulate. The ordinary machinery of a Wednesday. But the grey light holds me at the window. The plane trees. The red hat gone. The city breathing.
+
+In St. Rynagh's Church on Thursday, the light will fall through stained glass — saints in coloured fire, stories told in red and blue and gold. The congregation will kneel on wooden pews worn smooth by generations. The priest will speak of resurrection, of eternal life, of the mystery that swallows death. The words are ancient. They have carried grief for two thousand years. They will carry this grief too. Angela will sit in the front. Lavinia beside her. Liviu somewhere near, holding a grief that has no name — not widower, not orphan, not bereaved parent. *Fiancé.* The word that holds a future. The future cancelled. The wedding dress perhaps already chosen. The venue booked. The cake tasted. The honeymoon dreamed. All of it dissolving like smoke in the seven point nine kilometre per hour wind.
+
+Mihai's cremation at a later date. *Later.* The elastic word. When the shock settles. When the paperwork clears. When the family can bear to gather again. The asymmetry: Denisa in the earth, Mihai in air and ash. One place to visit. One place that is everywhere and nowhere. The Catholic Church prefers burial. *Cremation* permitted but not encouraged. The body as temple. The resurrection of the flesh. But Mihai worked with concrete all his life — he knew how matter transforms, how dust becomes stone, how the temporary becomes permanent. Perhaps he would not mind becoming air. Perhaps the mould breaks and the shape is free.
+
+I think of Angela. Mihai's wife. Denisa's mother. She loses both in the same hour. The husband of however many years. The daughter of twenty-four. The double amputation. The notice lists her first: *sadly missed and deeply regretted by Mihai's wife and Denisa's mother, Angela.* The syntax makes her a category before a person. *Wife. Mother.* The roles that remain when the people who defined them are gone. She will walk into the community centre this evening. Five until seven. The neighbours. The colleagues. The friends. The extended family. The whole town. She will shake hands, accept embraces, hear *I'm so sorry* and *May they rest in peace* and *God strengthen you* until the words lose meaning and become a kind of weather — the ambient pressure of other people's sorrow pressing against her own.
+
+Fourteen point six degrees. Overcast. The wind.
+
+I shower. The water hot against the cold morning. Steam fills the bathroom. I write on the mirror with my finger: *Mihai. Denisa. Angela. Lavinia. Liviu.* The names fog away as the steam condenses. The mirror clears. My face looks back — older than I feel, younger than I am. The lines around the eyes. The grey at the temples. The face of a man who has buried people and will bury more. The face of a man drinking Ethiopian coffee at seven a.m. on a Wednesday in late September, reading about a father and daughter in Banagher, thinking about concrete and moulds and the weight of things.
+
+The phone buzzes. A message. Work. The day beginning its demands. I put the phone face down on the bedside table. Not yet. Not quite yet.
+
+The plane trees hold their ground. The grey sky holds its colour. The wind holds its seven point nine kilometres per hour. The city holds its breath and releases it, over and over, the rhythm of lungs I cannot see but know are there — thousands of them, breathing in and out, living and dying, loving and losing, pouring themselves into moulds of their own making, hardening into shapes they did not choose, breaking sometimes, enduring sometimes, becoming the skeleton of a city that does not know their names.
+
+Mihai Chinez. Forty-nine. Denisa Mihaela Chinez. Twenty-four. I will not forget them today. I will carry them through this Wednesday, these names, this weight. The least I can do. The least any of us can do. Bear witness. Remember. Let the grey light fall on the plane trees and the red hat and the steam rising from the cup and the names written in steam on a bathroom mirror, fading, fading, not quite gone.
+
+The heating clicks on. The radiator ticks. The building wakes fully now. The city swells louder. The Luas clatters. The footsteps multiply. The ordinary machinery engages. I pick up the phone. The screen glows. The day begins.
+
+But first — this moment. This grey light. This weight. This witness.
+
+*May their gentle souls rest in eternal peace.*
