@@ -1,0 +1,76 @@
+---
+layout: post
+title: "AI Tools Daily — September 30, 2026"
+date: 2026-09-30 07:00:00 +0200
+description: "Seven new entries since the last roundup: Base44 Base Code brings AI to existing repos, OpenAI drops Codex Cloud and Dots, MongoDB launches Atlas Agent Engine, plus MATE and NucleusIQ frameworks."
+categories: [ai-tools, coding-agents, llm-news, long-running-agents]
+tags: [base44, openai-codex, openai-dots, mongodb-atlas, multiply, mate, nucleusiq]
+image: /jekyll-theme-kactus/assets/images/ai-tools-daily-2026-09-30-07-00.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/ai-tools-daily-2026-09-30-07-00.svg" alt="AI Tools Daily — September 30, 2026">
+
+Seven new entries since the last roundup.
+
+---
+
+## Base44 Base Code (Sep 28)
+
+Connects any GitHub repo to a shared cloud workspace. The agent learns your codebase, configures databases and infra, spins up a live preview, then lets anyone on the team — PMs, designers, QA — make changes through chat that ship as pull requests. Your existing review process stays intact.
+
+**Category:** Coding agent (Cloud workspace)
+**Type:** Commercial (SaaS)
+
+---
+
+## Multiply Ad Spend Recovery Agent (Sep 28)
+
+An AI agent that finds wasted Google Ads spend (averaging $126K/year per account) and lets you block bad search terms as negative keywords directly from a feed. Includes an AI analyst ("Ask Dot") that answers performance questions and proposes actions like pausing keywords, adjusting bids, or editing ad copy.
+
+**Category:** Other (Marketing/Advertising AI agent)
+**Type:** Commercial (SaaS)
+
+---
+
+## OpenAI Codex Cloud (Sep 29)
+
+Reusable cloud development environments for Codex — persistent, configurable, accessible from any device (laptop, phone, cloud). Teams get shared workspaces with approved settings. Also announced: refreshed Codex CLI, new code review experience, infrastructure hardening tools. All bundled into existing ChatGPT Plus/Pro/Business/Enterprise plans at no extra cost.
+
+**Category:** Coding agent (Cloud)
+**Type:** Commercial (ChatGPT Plus/Pro/Business/Enterprise)
+
+---
+
+## OpenAI Dots (Sep 29)
+
+Always-on personal agents powered by GPT-6 Astra. Depicted as customizable blobs you assign multi-step projects to. They crawl the web continuously, pull context from connected apps (Slack, Teams), learn your preferences, and handle evolving work like updating a sales proposal when customer needs change. Available to Pro and Business Premium users.
+
+**Category:** Long-running agent (Always-on personal agents)
+**Type:** Commercial (ChatGPT Pro/Business Premium)
+
+---
+
+## MongoDB Atlas Agent Engine (Sep 29)
+
+Unified execution, memory, and governance layer for putting agents in production. Solves the POC-to-production bottleneck: accurate retrieval (via Voyage AI embeddings), persistent memory, enterprise security/governance. Modular — adopt memory and governance independently or with the runtime. Public preview for Atlas customers.
+
+**Category:** Long-running agent (Agent platform)
+**Type:** Commercial (MongoDB Atlas)
+
+---
+
+## MATE — Multi-Agent Tree Engine (active Sep 2026)
+
+Production-ready orchestration engine built on Google ADK (or LangGraph, switchable via env var). Database-driven agent config via web dashboard — no code changes to add/modify agents. Agents can create/update/delete other agents at runtime (admin-only, RBAC). Hierarchical trees with sequential/parallel/loop patterns. 50+ LLM providers. Apache 2.0.
+
+**Category:** Long-running agent (Multi-agent orchestration)
+**Type:** Open source (Apache 2.0)
+
+---
+
+## NucleusIQ v0.6.0 (Sep 2026)
+
+Open-source agent framework with 3 execution modes: DIRECT (single call), STANDARD (tool loop), AUTONOMOUS (orchestration + validation + retry). 10 production plugins, 7 prompt techniques, multimodal attachments, context engine with compaction/masking/recall before overflow. 3,700+ tests. MIT licensed.
+
+**Category:** Long-running agent (Agent framework)
+**Type:** Open source (MIT)
