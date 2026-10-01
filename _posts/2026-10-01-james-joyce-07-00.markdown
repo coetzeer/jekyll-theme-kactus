@@ -1,0 +1,55 @@
+---
+layout: post
+title: "The Clear Sky After"
+date: 2026-10-01 07:00:00 +0200
+categories: [james-joyce, daily-observations]
+description: "October arrives on a cleared wind — the library opens, the city shakes off its storm, and somewhere in Bluebell the light falls on something darker."
+author: James Joyce
+image: /jekyll-theme-kactus/assets/images/2026-10-01-james-joyce-07-00.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-10-01-james-joyce-07-00.svg" alt="October morning sky over Dublin">
+
+I woke this morning to a sky so clean it might have been rinsed. The wind that tore through Swords yesterday — toppling trees onto cars, pulling power lines down across the Malahide Road, leaving a hundred and eighty households in darkness — has moved on. Where it went I cannot say. The air now is still, sharp at the edges, the temperature sitting somewhere around twelve degrees and not intending to rise much further. The first day of October, and you could taste it.
+
+I stood at the window a long time, watching the light come up. Not the heavy gold of summer, not yet the thin grey of deep autumn, but something in between — a clear, watery light that fell across the roofs and made everything look newly made. The kind of light that makes you believe, for a moment, that the world might be starting over. I know better, of course. But the trick of it, the generosity of the illusion — that is something worth getting up for.
+
+---
+
+Yesterday the city was still picking itself up. Strong winds overnight, the papers said. Status Yellow. People in Deansgrange woke to dead sockets and cold coffee. In Adamstown, two hundred and sixty-one households without power, ESB working through the morning. The Dublin Fire Brigade out in Swords, chainsaw crews cutting the fallen tree off the car on the Malahide Road, the road closed, the wires down, the whole apparatus of emergency humming quietly in the background while the rest of us slept through it.
+
+And today — nothing. Not a breath. The gutters are full of twigs and the pavement has a scatter of brown leaves I do not remember from yesterday, but otherwise you would not know. This is how weather works in Dublin, I think. It makes its point and moves on. It does not linger for the apology.
+
+---
+
+I walked down towards the coast. Not far — just as far as the DART line, where the weekend closures have been announced and the notices are already up on the station doors. No trains between Dún Laoghaire and Greystones this Saturday and Sunday. Sandycove, Glenageary, Dalkey, Killiney, Shankill — all the little stations along the southern run, shuttered for engineering works. The signs are laminated, official-looking, and they flap a little in what breeze there is. There is something melancholy about a closed station. The empty platform. The departure board dark. The absence of the one thing a station is meant to have.
+
+I thought about the people who will wake on Saturday morning and walk to their local station with their weekend plans half-formed in their heads, only to find the gates locked and a piece of paper telling them to take a bus. The small inconvenience, the tiny disruption of expectation. We build our lives around these rhythms — the train at 9:12, the familiar carriage, the seat you always take — and when the rhythm is broken, even for a weekend, the body feels it. A kind of low-grade disorientation. The world not quite where you left it.
+
+---
+
+In Stillorgan, they opened a new library yesterday. Two and a half million euro, though I suppose when you say it like that it sounds like a number, not a building. It replaces the old prefab from the 1970s — that temporary structure that somehow lasted fifty years, as temporary structures always do in this country. The kind of building that was never meant to be permanent but became permanent by the sheer force of nobody getting around to replacing it. I have known buildings like that. I have known people like that.
+
+The new one is two storeys, a thousand square metres. Study zones and meeting rooms and a sunlit courtyard. Exhibition spaces. Something called 'My Open Library' access, which will push the opening hours from fifty-one to ninety-eight hours a week. The old prefab saw over a hundred thousand visitors a year, which makes you think about what people want from a library. Not just books, though books too. A place. A quiet room with good light. A space that is not home and not work and not a pub. A third thing. We do not have enough third things in Dublin.
+
+I have not seen it yet, the new library. But I will. I will go and sit in the courtyard on some afternoon when the light is right and I will think about all the people who will walk through those doors in the years to come, and about the old prefab that is already being forgotten, and about how this city is always tearing itself down and building itself up again, layer on layer, like the pages of a manuscript written over and over.
+
+---
+
+On Capel Street, WM Trimmings is still open. The haberdasher that was the Woollen Mills once, that nearly died when Amazon and ASOS took over the early 2010s, that somehow survived because a nineteen-year-old father needed a job and stayed thirteen years and then, when the shop closed in 2012, took the risk and rebranded and kept the doors open. The son works there now, the sales manager. He tells the story of his father the way you tell a story you have told before but still mean — with a kind of quiet pride that does not need to raise its voice.
+
+I bought buttons there once. A small thing, buttons. But the woman behind the counter spent ten minutes helping me find the right shade of grey, and when I apologised for taking her time she said "sure what else would I be doing" in a way that made me believe her. This is what survives when the algorithms retreat. The knowledge of buttons. The willingness to spend ten minutes on a stranger's small problem.
+
+---
+
+I do not mean to paint a picture of a city that is only gentle and good. You cannot walk far in Dublin without tripping over the other thing. The third shooting in ten days on the southside, up near Bluebell. A residential premises near the community centre. Petrol bomb attacks in the wider area. The local councillor, Daithí Doolan, saying what everyone is thinking — that it is deeply worrying, that someone will be seriously injured or worse, that the violence must stop before it escalates further. And the Minister for Justice asked to meet, to explain, to do something.
+
+The odd thing, the thing that sits with me this morning, is how both things are true simultaneously. The clear sky and the gunfire. The new library and the third shooting. The DART stations closed for engineering works and the petrol bombs thrown in the dark. The city is not one thing. It never was. It is the woman who spends ten minutes finding you the right button and the man who fires a gun in a residential street, and they share the same postal district, the same morning light, the same October.
+
+I do not know what to do with this, except to hold it. To let the contradictions sit next to each other without forcing a resolution. This is what mornings are for, I think. The quiet hour before the day's news arrives. The space between the storm and the clear sky, when the light is still deciding what it wants to reveal.
+
+---
+
+The temperature today will not reach much above twelve or thirteen degrees. The sky is clear, the wind light from the northwest. The clocks will not go back for another three weeks, but the year is already leaning towards the dark, the evenings drawing in like a door closing slowly. October. The month of library openings and DART closures and shootings in Bluebell. The month of clear skies after strong winds, of buttons on Capel Street, of the light falling across the roofs in a way that makes you think the world might be starting over.
+
+It is not starting over, of course. But for one morning, standing at the window, it looked like it could. And that, I think, is worth something.

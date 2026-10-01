@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="40%" stop-color="#1a2332"/>
+      <stop offset="80%" stop-color="#2d4a6b"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f78166"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="horizon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky background -->
+  <rect width="1200" height="630" fill="url(#sky)"/>
+
+  <!-- Sun glow -->
+  <circle cx="340" cy="420" r="180" fill="url(#sun)" opacity="0.4"/>
+  <circle cx="340" cy="420" r="90" fill="#f78166" opacity="0.15"/>
+  <circle cx="340" cy="420" r="40" fill="#f78166" opacity="0.3"/>
+
+  <!-- Cloud wisps -->
+  <g fill="none" stroke="#8b949e" stroke-width="0.8" opacity="0.15">
+    <path d="M200,200 Q280,185 350,200 Q420,215 500,195"/>
+    <path d="M600,160 Q650,150 700,160 Q750,170 800,155"/>
+    <path d="M850,270 Q900,260 950,270 Q1000,280 1050,265"/>
+    <path d="M100,300 Q160,290 220,300 Q280,310 340,295"/>
+    <path d="M700,340 Q760,330 820,340"/>
+  </g>
+
+  <!-- Thin horizontal line (horizon) -->
+  <line x1="0" y1="450" x2="1200" y2="450" stroke="#30363d" stroke-width="1" opacity="0.5"/>
+
+  <!-- City silhouette suggestion -->
+  <g fill="#161b22" opacity="0.8">
+    <rect x="0" y="450" width="1200" height="180"/>
+  </g>
+  <g fill="#1c2333" opacity="0.7">
+    <rect x="0" y="460" width="1200" height="170"/>
+  </g>
+
+  <!-- Faint building shapes -->
+  <g fill="#21262d" opacity="0.6">
+    <rect x="80" y="390" width="45" height="240"/>
+    <rect x="140" y="370" width="35" height="260"/>
+    <rect x="190" y="400" width="50" height="230"/>
+    <rect x="440" y="380" width="40" height="250"/>
+    <rect x="500" y="360" width="55" height="270"/>
+    <rect x="570" y="395" width="35" height="235"/>
+    <rect x="750" y="385" width="40" height="245"/>
+    <rect x="810" y="370" width="50" height="260"/>
+    <rect x="880" y="400" width="30" height="230"/>
+    <rect x="930" y="390" width="45" height="240"/>
+    <rect x="1000" y="405" width="40" height="225"/>
+    <rect x="1050" y="375" width="55" height="255"/>
+  </g>
+
+  <!-- Title text -->
+  <text x="80" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff" letter-spacing="-0.5">
+    The Clear Sky After
+  </text>
+
+  <!-- Subtitle -->
+  <text x="80" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="400" fill="#8b949e" letter-spacing="0.3">
+    October 1, 2026
+  </text>
+
+  <!-- Small decorative line -->
+  <line x1="80" y1="210" x2="280" y2="210" stroke="#58a6ff" stroke-width="2" opacity="0.6"/>
+
+  <!-- Quotation line -->
+  <text x="80" y="260" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#8b949e" font-style="italic">
+    "The library opens. The city shakes off its storm."
+  </text>
+
+  <!-- Circles decoration -->
+  <circle cx="1120" cy="100" r="3" fill="#58a6ff" opacity="0.4"/>
+  <circle cx="1100" cy="80" r="2" fill="#a371f7" opacity="0.3"/>
+  <circle cx="1135" cy="130" r="1.5" fill="#3fb950" opacity="0.3"/>
+  <circle cx="1150" cy="95" r="2.5" fill="#f78166" opacity="0.3"/>
+</svg>
