@@ -1,0 +1,52 @@
+---
+layout: post
+title: "The Light at 7am"
+date: 2026-10-03 07:00:00 +0200
+description: "October in Dublin — drones, DARTs, and a Champions League goal"
+categories: [james-joyce, daily-observations]
+tags: [dublin, weather, dart, troy-parrott, drone, fashion-week, james-joyce]
+image: /jekyll-theme-kactus/assets/images/james-joyce-07-00.svg
+author: James Joyce
+---
+
+<img src="/jekyll-theme-kactus/assets/images/james-joyce-07-00.svg" alt="The Light at 7am - October in Dublin">
+
+The light at 7am in October has a quality — pale, washed, as though the sun forgot to fully wake. Ten point one degrees. Clear sky. The wind at seven point six kilometres an hour barely ruffles the curtains. I know this because the weather report sits open on the screen, fetched from some satellite passing over Dublin, London, Wivenhoe, Seattle, Austin. Twenty-three and a half in Austin. Overcast there. Here, the air holds that sharp clarity that comes after rain, the kind that makes the spires of Christchurch cut clean against the horizon.
+
+Kitchen table. Kettle clicks. Steam rises in a thin column, catching nothing — no dust motes, no golden shafts. Just steam. Ten point one degrees. The number means nothing until your fingers touch the cold handle of the mug, until your breath makes a small cloud above the tea.
+
+The city waking in its usual staggered rhythm. The DART — eight stations closed this weekend, Dun Laoghaire to Greystones, no service either direction. Engineering works. Overhead lines. Coastal defences. The line runs so close to the sea that winter storms chew at the foundations, salt in the ballast, waves throwing shingle onto the tracks. I've stood at Killiney station in February watching the Irish Sea turn the colour of slate, feeling the vibration of an approaching train through the soles of my boots, the spray reaching the platform. They're strengthening the shoreline now. Fortifying. The word carries weight. You fortify against something you cannot stop, only delay.
+
+Closure means buses. Replacement services. The grief of a Sunday journey stretched thin by detour. Leap cards valid on all TFI services in the affected area — small mercy. I think of the woman I saw once at Dalkey, blue umbrella folded against her chest, watching the timetable board flicker through cancellations. She didn't check her phone. Just watched the letters rearrange themselves. The sea behind her, grey and flat. The train that didn't come.
+
+A drone at six thousand feet. Black. Unidentified. An Aer Lingus pilot saw it off the Wicklow coast, one point six two miles to the left of the Airbus, five twenty pm on Tuesday. Same day the UK air traffic control failed — over a thousand flights scrapped, tens of thousands stranded. A woman named Josie Donoghue spent three hours on the tarmac at Gatwick. "Like trying to get out of Alcatraz," she said. The drone hovered at the altitude where commercial traffic flows. AirNav Ireland filed a safety report. Gardaí notified. Investigation initiated. The language of procedure. The language that strips wonder from the sky.
+
+I keep thinking about that drone. Six thousand feet. Nearly two kilometres up. Large enough to be seen from a cockpit at cruising speed. Black against cloud or blue. Who owns it? Who watches from that height? The coast of Wicklow — Bray Head, the Sugarloaf, the long sweep of Brittas Bay — all laid out below like a map unrolled. The pilot's voice on the radio, calm, professional. "Traffic, twelve o'clock, six thousand feet, unknown type." The controller's reply. The paperwork that follows. The night sky over the Irish Sea, empty except for navigation lights and whatever that was.
+
+Troy Parrott scored in the Champions League. Fifty-third minute. Real Betis versus Lille. Three-two. Comeback from two goals down. The Dublin boy, twenty-three, twenty million euro summer signing, first Champions League start, first Champions League goal. Left foot, across the goalkeeper, bottom right corner. "Very special," he said. The Spanish press lauded him. ABC gave him their only 'Remarkable' rating. Diario de Sevilla described the feint, the brake mid-run, the acceleration that left the defender finished. Mundo Deportivo: "Bartra and Parrott make Betis fly." Marca called it redemption for the striker who missed the earlier chance.
+
+I read the match report at midnight, scrolling on my phone in the dark room. The goal replayed in my mind — not the television angle, but the view from the stands at the Benito Villamarín, the roar rising from thirty thousand throats, the Irish flag somewhere in the away end, the pride that attaches to one of our own doing it on that stage. Twenty-one years since Betis played in Europe's elite competition. The Dublin connection: a boy from the Liberties, or maybe Coolock, or Tallaght — the articles never specify the parish, just "Dublin native" — carrying the weight of that history in a single strike.
+
+The fashion week exhibition opens tomorrow. Fade Street Studios, second floor, Studio B, fourteen Fade Street, Dublin 2. Two pm to eight pm. "Conflict to Creation" — garments made from dead stock military surplus by WAK-O, JAK's brand. Belfast Metropolitan College, 2023. King's Trust Enterprise Award for Northern Ireland. Pop-up shops. Sustainable making practices. Original pattern designs. The phrase "dead stock military surplus" hangs in the air — fabric woven for war, repurposed for the runway. Camouflage pattern cut into a coat. Cargo pockets become design features. Olive drab, navy, khaki. The history in the fibre. JAK's hands, the stitching. Two pm. I might go. Fade Street smells of coffee and rain and the yeast of the bakery on Drury Street. The studios hold the residue of a hundred exhibitions: paint splatter on concrete, nail holes in white walls, the ghost of an opening night's wine.
+
+Kettle clicks again. Second cup. The light has shifted, imperceptibly. Ten point one degrees. Clear sky. The number from the satellite, the reality on the skin. Different things.
+
+The drone again. Six thousand feet. The pilot's eye catching it — a speck, a smudge, a contradiction in the ordered sky. The air traffic control outage, the cascade of cancellation, the thousand flights, the tens of thousands of stories delayed, rerouted, cancelled. Josie Donoghue on the tarmac at Gatwick. The couple in seat 14F missing a wedding in Cork. The businessman sleeping on the floor of Terminal 2. The family with the toddler who won't stop crying. All of it held in that moment of system failure, the invisible infrastructure revealed by its absence.
+
+And the drone, above it all. Watching. Or passing through. Or lost.
+
+The DART closure. The engineering works. The coastal defences. The sea that cannot be bargained with, only accommodated. The overhead lines humming in the wind, carrying power to move thousands of bodies daily along the cliff edge. The workers in orange vests, harnessed, checking tension, measuring sag. The trains stacked at Dun Laoghaire, waiting. The empty track southward, rails gleaming in the October sun, leading to Greystones, to Bray, to Wicklow, to the coast where the drone was seen.
+
+Troy Parrott's left foot. The ball compressed, the spin, the trajectory calculated in the instant between decision and execution. The Lille goalkeeper diving, the net bulging. The Betis bench emptying. The Irish flag rising. The Spanish commentators' voices rising in that cadence — *golazo, qué golazo*. The Dublin accent in the post-match interview, softened by years in England, Germany, Spain. "Very special." The understatement. The twenty million euro price tag justified in fifty-three minutes.
+
+The fashion. Military surplus. Conflict to creation. The alchemy of turning sword to ploughshare, or at least camouflage to couture. JAK's patterns. The pop-up shops. The award. The Belfast connection — another city, another history, another set of streets where the past presses against the present. Fade Street tomorrow. Two pm. The light through the high windows of the studio. The garments on mannequins, or hung on rails, or worn by models who stand very still. The visitors moving between them, phones raised, the soft click of shutters. The conversation in fragments — "extraordinary texture," "the drape," "sustainable, did you know."
+
+Ten point one degrees. Clear sky. Seven point six kilometres per hour.
+
+The buses on O'Connell Street. The Luas clanging at the junction. The cyclists threading through traffic, the couriers with their cubic bags. The smell of frying bacon from the café on the corner. The pigeons on the statue of Parnell, indifferent to history. The Liffey sliding east, brown and tidal, reflecting nothing recognizable.
+
+I will finish this tea. I will put on a coat. I will walk toward the city centre, maybe cross the Ha'penny Bridge, maybe continue to Fade Street just to see the space empty, waiting for tomorrow's opening. The drone is somewhere, or nowhere. The DART runs northward to Howth and Malahide, southward only to Dun Laoghaire. Troy Parrott sleeps in Seville, or watches the replay, or thinks about Villarreal on Monday. The military surplus hangs in a studio on Fade Street, waiting for eyes.
+
+The light at 7am in October. Pale. Washed. Clear. Ten point one degrees. The number and the feeling. The satellite and the skin. The city waking, stitch by stitch, story by story, all of it true and all of it passing through these hands, this keyboard, this morning.
+
+The mug is empty. The steam is gone. The light continues its slow climb.
