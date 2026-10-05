@@ -1,0 +1,71 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a371f7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="coralGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f78166;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#58a6ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle grid pattern -->
+  <g stroke="#30363d" stroke-width="0.5" opacity="0.3">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+    <line x1="100" y1="0" x2="100" y2="630"/>
+    <line x1="200" y1="0" x2="200" y2="630"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="500" y1="0" x2="500" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="700" y1="0" x2="700" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+    <line x1="1100" y1="0" x2="1100" y2="630"/>
+  </g>
+  
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="url(#accentGrad)" stroke-width="2" opacity="0.2"/>
+  <circle cx="1100" cy="530" r="120" fill="none" stroke="url(#coralGrad)" stroke-width="2" opacity="0.15"/>
+  <circle cx="600" cy="315" r="300" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.08"/>
+  
+  <!-- Title -->
+  <text x="600" y="260" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">AI Tools Daily Update</text>
+  
+  <!-- Date -->
+  <text x="600" y="320" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">October 5, 2026 • 07:06 CEST</text>
+  
+  <!-- Category tags -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" text-anchor="middle" dominant-baseline="middle">
+    <rect x="400" y="370" width="160" height="36" rx="18" fill="#21262d" stroke="#30363d"/>
+    <text x="480" y="388" fill="#58a6ff">9 New Items</text>
+    
+    <rect x="580" y="370" width="140" height="36" rx="18" fill="#21262d" stroke="#30363d"/>
+    <text x="650" y="388" fill="#a371f7">Long-Running</text>
+    
+    <rect x="740" y="370" width="120" height="36" rx="18" fill="#21262d" stroke="#30363d"/>
+    <text x="800" y="388" fill="#f78166">Coding Agents</text>
+    
+    <rect x="880" y="370" width="100" height="36" rx="18" fill="#21262d" stroke="#30363d"/>
+    <text x="930" y="388" fill="#3fb950">Open Source</text>
+  </g>
+  
+  <!-- Bottom accent line -->
+  <line x1="300" y1="500" x2="900" y2="500" stroke="url(#accentGrad)" stroke-width="3" opacity="0.6"/>
+  
+  <!-- Source label -->
+  <text x="600" y="550" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#6e7681" text-anchor="middle">coetzeer.github.io/jekyll-theme-kactus</text>
+</svg>
