@@ -1,0 +1,105 @@
+---
+layout: post
+title: "AI Tools Daily — October 7, 2026"
+date: 2026-10-07 06:30:00 +0200
+description: "Eight new drops since the October 5 run: ILMUcode, Pi 1.0, ServiceNow AI Workflow Factory, Together Link, Cursor mid-run steering, Prime Agent, Codex CLI v0.160, Grok Bot coding tools."
+categories: [AI Tools, Daily Update]
+tags: [coding-agents, long-running-agents, harnesses, open-source, enterprise-ai]
+image: /jekyll-theme-kactus/assets/images/2026-10-07-ai-tools-daily-06-30.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-10-07-ai-tools-daily-06-30.svg" alt="AI Tools Daily October 7 2026">
+
+Eight things dropped since the October 5 run.
+
+---
+
+## ILMUcode — Malaysia's Frontier Coding Platform (Oct 1)
+
+**Category:** Coding agent  
+**Type:** Commercial (SaaS) — free tier for students
+
+YTL AI Labs launched ILMUcode at Universiti Malaya, officiated by the Minister of Higher Education. Built on ILMU-GLM-5.3 (partnered with Z.ai) on sovereign NVIDIA infrastructure. It ranks among the leading coding models on Terminal-Bench 2.1 and DeepSWE. The hook: 800 first-year CS students at UM get RM100/month credits for three months. Part of the ILMU family — ILMUchat (conversational), ILMUclaw (autonomous agents), plus speech, TTS, and embedding models. They lead MalayMMLU for Bahasa Melayu.
+
+---
+
+## Pi 1.0 — Earendil's Minimal Coding Agent Harness (Oct 1)
+
+**Category:** Coding agent (CLI / Harness)  
+**Type:** Open source (MIT)
+
+First stable release after hundreds of thousands of weekly users beat on pre-1.0 versions. Full-screen TUI by default, ~40% fewer codemode prompt tokens. Codemode gets native MCP support plus non-LLM models (Jev, image models). Virtual model extensions let you plan on one model and implement on another. Deferred tool loading, cache warming for Anthropic, mid-conversation system messages.
+
+**Pi Durable** (experimental) is the sibling package — a framework for long-running agent apps. Checkpoints every task so it resumes after crashes. Supports forked conversations, multiple clients steering one conversation, memory in SQLite or JSONL. One-command install, MIT licensed.
+
+The fact that Prime Agent builds on Pi tells you something about where the harness layer is heading.
+
+---
+
+## ServiceNow AI Workflow Factory & Autonomous Engineer (Oct 6)
+
+**Category:** Long-running agent (Enterprise workflow automation)  
+**Type:** Commercial (SaaS, ServiceNow platform)
+
+Dropped at World Forum Mumbai. Turns workflow improvement into a continuous agentic loop. Process Mining identifies which processes should change, tied to KPIs. Autonomous Engineer and Build Agent handle unattended coding — planning, building, testing implementation work. App Engine runs the new workflows at scale. Action Fabric extends the governed loop to third-party agents. AI Control Tower gives a single governed view.
+
+AI Workflow Factory is globally available today. Autonomous Engineer is Early Access on request. The framing — "Super Intelligence Control Tower for business reinvention" — is thick, but the governance angle (audit trails, choice without sacrificing control) is the real product.
+
+---
+
+## Together Link — Free CLI for Open Models in Coding Agents (Oct 6)
+
+**Category:** Coding agent (CLI / Model router)  
+**Type:** Open source (MIT) + Commercial API (Together AI)
+
+MIT-licensed CLI (beta) that connects your existing coding agents to open models on Together AI. Supported: Claude Code, Claude Desktop, Codex, ChatGPT Desktop, OpenCode, Pi.
+
+The auto router reads the session's first task and routes quick fixes to cheap models, hard problems to frontier models. Pricing with 1M context: Kimi K3 at $3/$15, GLM 5.3 at $1.40/$4.40, DeepSeek V4.1 Flash at $0.30/$1.20. Single Together API key. The pitch: stop routing everything to premium closed models.
+
+---
+
+## Cursor Mid-Run Steering (SDK 1.0.31) (Oct 5)
+
+**Category:** Coding agent (IDE / SDK feature)  
+**Type:** Commercial (SaaS, Cursor platform)
+
+`run.steer()` injects instructions into an already-running turn without cancelling it or discarding state. Returns `complete_delivered` (local only) or `revert_to_followup` (cloud).
+
+Subagent demotion: steer while a foreground subagent runs and it moves to background so the parent can take your new instruction. Product steering (shipped Aug 19) made messages to a working Cloud Agent wait for the next tool call instead of interrupting. Team Bots put a shared Grok Team Bot in a Slack channel — the whole team reaches for the same wheel. Works with Cursor Projects where a coordinator agent plans and delegates to implementing agents.
+
+This is a quiet admission that long autonomous runs don't reliably converge on their own. The fix isn't better upfront planning — it's a control surface you can reach while the thing is moving, with a protocol honest enough to tell you when you reached for it too late.
+
+---
+
+## Prime Agent — Self-Improving RLM Harness (Aug 5/24, new to our tracking)
+
+**Category:** Long-running agent (Coding / Research harness)  
+**Type:** Open source (MIT)
+
+Built on Pi. Two abstractions: RLM (persistent IPython REPL, context as variables, subagents as function calls) and Continual Harness (durable state H=(ρ,G,K,M) — prompts, sub-agents, skills, memory — refined via `/refine`).
+
+Daemon-backed sessions survive terminal disconnect. Persistent goals (`/goal`), heartbeats/schedules, bounded autonomous mode (`/autonomous`) with quality gates. Direct agent-to-agent messaging between parent/sibling/child agents. Agents View for inspecting running sessions.
+
+Benchmarks on Opus 5: ARC-AGI-3 RHAE Best@1 95.5% — above the 95.4% human expert baseline. Matches or exceeds native harnesses on long-context coding, GPU kernels, emulator construction, nanoGPT speedruns. Factorio: 7-day Sonnet 5 run, 23.4M tokens, 24/196 technologies, 633 subagents spawned.
+
+Caveats matter: not a security sandbox (runs model-generated Python with your permissions), recommends disposable clones for untrusted code, and many capabilities sit underused without a model trained on Prime Agent. The model-harness co-learning bet is explicit.
+
+---
+
+## Codex CLI v0.160.0 (Oct 1-2)
+
+**Category:** Coding agent (CLI)  
+**Type:** Commercial (SaaS/CLI, OpenAI)
+
+First stable in the 0.160 line — they skipped the conventional alpha-to-stable promotion. Guardian review gets conversation history for reviewers, encrypted message preservation through the pipeline, handoff-aware context selection for multi-agent sessions. Subagent environment inheritance. Linux UX fixes, SQLite performance work, Windows sandbox hardening. X11 middle-click paste, projectless sessions with workspace defaults. Agent command center history browsing (keyboard-accessible "Show more," fullscreen transcript selection).
+
+---
+
+## Grok Bot Coding Tools (Sep 30)
+
+**Category:** Long-running agent (Coding coordinator / Multi-tool orchestrator)  
+**Type:** Commercial (xAI / Grok platform)
+
+xAI's Grok Bot (general-purpose always-on agent) picked up three plugins: Cursor handoff (starts a Cursor Cloud Agent, returns with PR, screenshots, short video demo), GitHub PR management, Origin PR management (Cursor's AI-native GitHub alternative, beta since Aug 17, paid plans only).
+
+Shifts Grok Bot from writing code to coordinating coding work. Team Bots in Slack: shared Bot, private chats per teammate, shared memory, per-person notes stay private. Actual editing runs through Cursor (SpaceX owns Cursor alongside xAI). Suits jobs that start outside a codebase — support tickets, email requests — where Grok Bot figures out what needs building and hands implementation to Cursor.
