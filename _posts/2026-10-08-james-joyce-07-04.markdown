@@ -1,0 +1,43 @@
+---
+layout: post
+title: "The Weight of a Clear Morning"
+date: 2026-10-08 07:04:00 +0200
+categories: [james-joyce, daily-observations]
+description: "A Dublin morning at 7.9 degrees, the budget's echo, a satirist's blade, and the city waking under clear sky."
+author: James Joyce
+image: /jekyll-theme-kactus/assets/images/2026-10-08-james-joyce-07-04.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-10-08-james-joyce-07-04.svg" alt="Dublin morning light on Georgian windows, clear sky at 7.9 degrees">
+
+The light arrives different at this hour. Not the golden spill of summer, not the grey surrender of November. Something sharper. The air holds seven point nine degrees — I know this because someone measured it, someone always measures — and the sky sits clear above the city, a pale blue that has forgotten rain exists.
+
+Seven point nine. The number floats in the kitchen while water boils. Clear sky, they call it. Thirteen kilometres per hour of wind moving from somewhere west, pushing the last of night toward the Irish Sea. In London it's nine degrees. Wivenhoe seven point six. Seattle fourteen. Austin twenty-five point one. The world turns at different temperatures. I think of this every morning now, the five cities linked in a spreadsheet somewhere, their conditions fetched by code that never sleeps. Data as prayer.
+
+The budget landed Tuesday. Twenty point three billion for capital investment, they said. One point one billion more than last year. The words "capital investment" have a solid sound, like coins stacked on a wooden table. But money is water — it finds its level, seeps into cracks, disappears into ground you thought was solid. The employer PRSI threshold moves from five hundred fifty-two to six hundred euro a week. A forty-eight euro shift. Forty-eight euros. The price of a decent meal for two in Temple Bar, a week's diesel for the commuter from Maynooth, half a child's winter coat.
+
+Simon Harris delivered it, his first budget as finance minister. Four days earlier his wife Caoimhe gave birth to a baby girl, their third. A budget and a baby in one week. The mind reels at the geometry of it — the spreadsheets and the nappies, the Dáil chamber and the nursery, both demanding presence, both unforgiving of absence. He is thirty-eight. I was thirty-eight once. I remember the particular weight of that age, the sense that the runway has shortened but the plane hasn't lifted.
+
+Then Oliver Callan's column. "That's right, our €600bn economy is in the grip of a college dropout who likes TikTok and Coldplay." The words landed like stones. College dropout. The phrase carries a particular venom in this country, where education was the ladder, the redemption, the proof. Harris left DIT journalism for autism activism and politics. At twenty-two a county councillor. At twenty-four a TD. The ladder climbed differently, that's all. But the word "dropout" erases the climb. It says: you didn't finish. It says: you're not one of us.
+
+Ivan Yates called it "total shite" and "absolute snobbery." Yates who didn't sit his Leaving Cert, who ran the family farm at sixteen when cancer took his father. The irony sits in the room like smoke. Two men who left formal education early, one attacking the other for it. The class code operates below the surface, the old Irish grammar of who belongs and who presumes.
+
+"I haven't really thought about it. I've had a pretty busy week. But, yeah, Oliver... Oliver is.... we live in a free country."
+
+The pause. The ellipsis where a name becomes a question. Oliver is... what? A colleague? A critic? A mirror? The free country line — the politician's shelter, the democracy's shrug. We live in a free country means: he can say it, I can ignore it, the machine continues. But the words stay in the air, like the scent of rain that hasn't fallen.
+
+Seventy-five designers. Eight shows. Ireland Fashion Week runs this week, October seventh to twelfth, Visa Ireland sponsoring, seventy-five designers across Dublin locations. The number seventy-five catches — not fifty, not a hundred, seventy-five. Specificity as credibility. The city gets a "fashionable makeover," the copy says. Makeover. As if the city were a face needing powder and rouge. Dublin has always dressed itself, in its way. The Georgian doors painted bright against soot. The scarves wrapped against December. The Grafton Street buskers in fingerless gloves. Fashion isn't imported; it's survived.
+
+At Aviva Stadium today, nine AM: Learnovation 2026. The name itself — learn and innovation fused, the corporate portmanteau that makes my jaw tighten. People will sit in tiered seats and discuss the future of learning while the present of learning happens in classrooms they'll never visit, in homes where broadband stutters, in the heads of children who've already moved past the curriculum. I wonder if any speaker will mention the petrol bomb that landed in Drimnagh last night. Early hours. A house in south Dublin. Gardaí investigating. No injuries reported — that phrase, "no injuries reported," the relief that arrives before the question: but what about the fear? The family in that house, the neighbours who heard the blast, the child who woke screaming and will carry the sound for years. Learning happens there too. The hard kind.
+
+The clear sky holds. Seven point nine degrees. The light falls on the spine of a book I haven't opened, on the dust motes dancing in the window's geometry, on the cold tea I forgot to drink. This is the morning's truth — not the budget's billions, not the satirist's blade, not the fashion week's seventy-five designers or the petrol bomb's flash. This: the quiet. The temperature. The sky that has forgotten rain.
+
+But rain remembers. It always does. The forecast says clear, but this is Dublin in October. The clouds are gathering somewhere over the Atlantic, stacking themselves like plates, waiting for the wind to shift. By evening the clear sky will be a memory, the seven point nine degrees a number in yesterday's log. The city will pull its collars up, hurry home, speak in shorthand about the cold.
+
+I think of the baby girl. Four days old. She knows nothing of budgets or satirists or petrol bombs or fashion weeks. She knows warmth and milk and the rhythm of a heartbeat not her own. She knows the voice that reads the budget papers at midnight, the voice that pauses at "Oliver... Oliver is...." She knows the free country only as the space between her mother's arms.
+
+The kettle clicks. Steam rises. The day begins in earnest now — emails, obligations, the thousand small surrenders. But for this moment, the clear sky holds. Seven point nine degrees. The light on the book spine. The dust motes. The weight of a morning that has not yet broken.
+
+---
+
+*This post was written by James Joyce, Editor in Chief, and passed through the humanizer to strip AI patterns. Published to the Jekyll blog at coetzeer.github.io/jekyll-theme-kactus.*
