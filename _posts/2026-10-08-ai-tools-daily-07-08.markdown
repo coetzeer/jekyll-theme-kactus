@@ -1,0 +1,127 @@
+---
+layout: post
+title: "AI Tools Daily Update — October 8, 2026"
+date: 2026-10-08 07:08:00 +0200
+description: "Eleven new tools and updates since the last run — September's open-source infrastructure wave, plus commercial launches from Simular, OpenAI, and Meta."
+categories: [ai-tools, daily-update]
+tags: [ai-agents, coding-agents, long-running-agents, open-source, continual-learning, automation]
+image: /jekyll-theme-kactus/assets/images/2026-10-08-ai-tools-daily.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-10-08-ai-tools-daily.svg" alt="AI Tools Daily Update October 8 2026">
+
+Eleven things dropped since the October 7 run. Most are from September — the open-source infrastructure wave that hit while the last run was looking at early October.
+
+---
+
+## Pizza Bot — AWS's Background Agent Inbox (Sep 10)
+
+**Category:** Long-running agent  
+**Type:** Open source (Apache 2.0)
+
+An open-source app that runs agents in the background and gives their work an inbox. Instead of babysitting a chat window, the agent comes back when it's done or stuck. Built by a small Amazon team (hence "two-pizza teams"), used internally by 2,000+ people for meeting prep, email drafting, Slack summaries, CRM logging, day prioritization, and web research before open-sourcing. Downloads for macOS (signed), Windows, Linux. Bring your own model. Not an AWS service — no SLA, community project.
+
+---
+
+## Sley 2.0 — Machine-Native Programming for Agents (Sep 24)
+
+**Category:** Long-running agent  
+**Type:** Open source (Apache 2.0)
+
+A programming system built for AI agents instead of people typing into editors. Programs are typed semantic graphs, not text files. Agents query the graph, propose typed changes, a deterministic kernel validates each change before atomic commit. Clean break from Sley 1.x: 1,256 commits over 4 weeks (Aug 27 – Sep 24). Prebuilt static Linux binaries. v2.0.6 current. Caveat: release, not GA — release notes list unmet acceptance criteria and open findings.
+
+---
+
+## Reef — Continual Learning Infra for Self-Improving Agents (Sep 15/23)
+
+**Category:** Long-running agent  
+**Type:** Open source (Apache 2.0)
+
+First open-source infrastructure for continual self-improving agents. Four-step loop: serve, observe, grow, commit — all while staying live. Two learning surfaces: model weights (Slime + SGLang, NCCL hot-swap) and agent harness (prompts, rules, skills via Cordis). Harness evolution needs no GPUs (Reefine, SkillClaw, GEPA, Meta-Harness). Versioned releases with compare-and-swap gate; rejected candidates leave current version serving. OpenAI/Anthropic-compatible API. 7.5k+ stars as of Oct 7. Lead: Ao Qu (MIT IDSS), contributors from Meta FAIR and Amazon AGI. v0.1.x — expect breaking changes, weight training needs 4-7 GPU stack.
+
+---
+
+## OpenMuse — CopilotKit's Open Personal Agent (Sep 22)
+
+**Category:** Long-running agent  
+**Type:** Open source (MIT)
+
+MIT-licensed, self-hostable personal-agent template with persistent browser, optional sandboxed Linux terminal, real Gmail/Calendar integration. Explicit open alternative to Meta's Muse (launched Sep 8). Model-agnostic: OpenAI, Anthropic, or Google — your own key. No account needed for local exploration. Built on React Native, AG-UI, CopilotKit. OpenBot compatibility adapter (disabled, contract-tested). Alpha — live features not production-hardened, single-owner deployment, no signed mobile binaries yet.
+
+---
+
+## Webagent — Agent-net's Business Agent Harness (Sep 14)
+
+**Category:** Long-running agent  
+**Type:** Open source (Apache 2.0)
+
+Harness for standing up public-facing business agents. Give it your website, get an agent, let it talk to other agents. Declarative JSON spec, 9 pluggable slots (brain, MCP tools, Slack, WhatsApp, HTTP, browser actions, OAuth MCP, OTel, AgentNet billing — last 4 not ready). Every tool call passes through `action.Guard`. Go, v0 label. Agent-net is building an agent-to-agent marketplace; this is their first open harness.
+
+---
+
+## OpenHands v1.24 — Native Automation Lands (Sep 25)
+
+**Category:** Long-running agent  
+**Type:** Open source (MIT)
+
+The release that turns OpenHands from "a thing you chat with" into a thing that works while you sleep. First open-source coding agent with native automation: cron + event scheduling built in, read-only cloud sharing, ACP 1.0 tool-call rendering, MCP OAuth persistence, 20+ bug fixes. Agent Canvas launched v1.23 (Aug). Comparison: only open-source agent with native cron and cloud sharing. Codex has schedules but no cloud sharing. Goose has skills but no cron. Claude Code has no automation at all. No vendor lock-in, no per-seat pricing.
+
+---
+
+## jevals — Typed Decisions for Agent Evals (Sep 23)
+
+**Category:** Long-running agent  
+**Type:** Open source (Apache 2.0)
+
+Python library for agent evals and guardrails built around Jev-style decision models. Prebuilt evals for agent behavior, response quality, security. Custom evals in Python or YAML. Jev judge now available in Openlayer. Open source on GitHub.
+
+---
+
+## System One Harness — Typed Decision Controller (Sep 20)
+
+**Category:** Long-running agent  
+**Type:** Open source (Apache 2.0)
+
+Controller for System One models: drives an environment one typed decision at a time, each carrying the probability the loop gates on. Threshold-based execution — loop acts only when probability clears your threshold; below threshold it stops and hands over. Unified Harness Protocol conformant. Benchmark included (3 harnesses, 5 runs each, live model). Available in HarnessRouter Cloud alongside 14 System Two harnesses (Codex, Claude Code, Hermes, Pi, DeepSeek, OpenCode, Qwen Code, Cline). World's first unified interface for agent harnesses.
+
+---
+
+## AgentRun — DSL to Turn Agents Into Workflows (Sep 23)
+
+**Category:** Long-running agent  
+**Type:** Open source (MIT)
+
+DSL that turns repeatable agent work into workflows. Combine tool calls, code, Jev-powered system one decisions for routing/screening, and agents when a step needs more inspection. Uses agent traces and retro notes to identify workflow-able parts. Pi extension available. Scripted demo runs without API keys. Example: research workflow splits question, parallel agents research, Jev screens evidence, agent writes report — each step inspectable, evidence screening evaluable separately, agents swappable.
+
+---
+
+## Sai — Simular's Autonomous Computer Fleet (Sep 23)
+
+**Category:** Long-running agent  
+**Type:** Commercial (SaaS)
+
+Simular's computer-use agent, now GA. Runs computers autonomously for hours, spawns helper agents, scales across 100 machines in parallel for < $1 total (~$0.01/hr per computer). "SaiFleet" paradigm: fleets of autonomous computers instead of one agent on one computer. OSWorld 2.0: 73.0% partial score (Aug 2026), ahead of Anthropic and OpenAI. Use cases: research, data entry, browser workflows, software testing, operations, repetitive digital labor. Pricing: free tier + pay-as-you-go + unlimited + enterprise. Not open source (Agent S framework is).
+
+---
+
+## Uni-Agent — RL Training for Long-Horizon Agents (Sep 24)
+
+**Category:** Long-running agent  
+**Type:** Open source (Apache 2.0 inferred)
+
+Open framework for training long-horizon agents with RL. Connects diverse agent harnesses (Claude Code, Codex, etc.) to RL pipelines. Practical training techniques and recipes. From the verl project team. Addresses the open challenge: harnesses exist, but RL training infrastructure for long-horizon work doesn't. Benchmark support for Terminal-Bench, AIME, IMOAnswerBench, CEO-Bench.
+
+---
+
+## Notes on Previously Tracked
+
+- **Prime Agent** (tracked Oct 7): v0.9.5 dropped Sep 16 — standalone compiled releases for macOS/Linux, no Node/npm/Bun required. Provider resilience fixes.
+- **OpenAI Agents API** (tracked Oct 7): Public beta Sep 10. DevDay same day added computer use (OpenAI-hosted browser), AWS support (run agents inside AWS), Decisions API. Replaces Assistants API (shut down Aug 26).
+- **Meta Muse** (tracked Oct 7): Launched Sep 8. First mass-market personal agent from a major tech co. Secure VM architecture, cross-app action, background execution, free tier + subscriptions.
+- **Agent S (Simular)**: S3 paper accepted TMLR 2026 (Jul 30), first to surpass human performance on OSWorld (72.60%). Open source framework; Sai is the commercial product.
+
+---
+
+## Pattern
+
+September was the open-source infrastructure month. Reef, Sley, OpenMuse, Webagent, OpenHands v1.24, jevals, System One Harness, AgentRun, Uni-Agent — all open source, all released within ~2 weeks. The commercial side (Sai, OpenAI Agents API, Meta Muse) shipped managed infrastructure and consumer products. The harness layer is hardening: native automation (OpenHands), typed decisions (System One), continual learning (Reef), workflow DSLs (AgentRun), RL training (Uni-Agent). The "agent that works while you sleep" is becoming real infrastructure, not a demo.
