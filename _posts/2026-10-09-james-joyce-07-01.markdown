@@ -1,0 +1,51 @@
+---
+layout: post
+title: "The Drizzle Remembers What the Sun Forgets"
+date: 2026-10-09 07:01:00 +0200
+categories: [james-joyce, daily-observations]
+description: "An October morning in Dublin, where light drizzle carries the weight of transport hikes, broken lifts, and the quiet persistence of a city that keeps moving."
+author: James Joyce
+image: /jekyll-theme-kactus/assets/images/2026-10-09-james-joyce-07-01.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-10-09-james-joyce-07-01.svg" alt="The Drizzle Remembers What the Sun Forgets">
+
+The light this morning does not arrive so much as seep. It comes through the window at 7:01, a pale grey wash that has travelled the Irish Sea and lost its edges along the way. Fifteen and a half degrees, the weather report says. Twenty-nine kilometres per hour of wind. Light drizzle. As if drizzle could be light. As if the air does not carry the weight of every hand that has held an umbrella on this street, every collar turned up, every breath visible in the cold.
+
+I have been awake since six. The kettle's whistle. The fridge humming its low monotone. The radiator ticking as it wakes. These are the sounds that stitch the morning together before the city proper begins its noise. Outside, the drizzle writes its own script on the glass — fine lines, intersecting, never quite settling into a pattern. Each drop a small decision: fall, coalesce, fall again.
+
+The Lord Mayor's words from last month echo in the council chambers still, though September feels both yesterday and a lifetime ago. Daryl Barron, Fianna Fáil, his voice carrying across the chamber: *It could be the straw that breaks the camel's back.* Thirty percent fare hikes. The number hangs in the air like smoke. Thirty percent. Not a rounding error. Not a necessary adjustment. A statement. And every councillor — Fine Gael, Fianna Fáil, Sinn Féin, Labour, Greens, Social Democrats, Independents — not one voice raised in support. A rare unity, forged in the recognition that you cannot tell people to leave their cars at home and then mug them at the bus stop. Colm O'Rourke's phrase, not mine. It lodges.
+
+I think of the Number 16 that rattles past my window each morning. The woman with the shopping trolley who folds herself into the front seat. The student with the headphones who misses his stop because the announcement system crackles. The elderly man who counts his coins before boarding, the ritual unchanged in thirty years. Thirty percent more. The calculation happens in silence. A sandwich forgone. A prescription delayed. The straw, the camel, the back — these are not metaphors to the people who live them.
+
+The drizzle thickens. A drop hits the windowsill and spreads, a dark bloom on pale wood.
+
+Three point eight million passengers through Dublin Airport in August alone. Eleven point three million for the summer. Twenty-five point six million for the year to date. The numbers arrive in press releases, clean and triumphant. Record-breaking. Seventeenth consecutive month of growth. Gary McLean's voice, practiced: *It's been a summer to remember.* The Weeknd at Croke Park. Manchester United versus Leeds. Arsenal versus Real Betis. The College Football Classic drawing ten thousand Americans to Dublin. A new coffee truck in the Terminal 1 bus park. Electronic boarding pass scanners. A much-improved Fast Track facility.
+
+I wonder how many of those 3.8 million passed through the same sky that now holds this drizzle. How many looked down and saw the city as I see it — a patchwork of brick and spire, the Liffey cutting its silver path, the mountains holding the horizon? From above, the problems flatten. The broken lift at Timberyard on Cork Street becomes invisible. The nailed-shut basement door disappears beneath the roof tiles. Olive in her eighties, three weeks without leaving her flat, her mobility scooter too heavy for neighbours to carry down four flights of stairs — she does not appear in the passenger statistics. Neither does Denise and her fourteen-year-old granddaughter, trapped in the basement when the lift failed and the exit door, nailed shut by the council against anti-social behaviour, would not yield. Dublin Fire Brigade breaking down a door the council itself had sealed. The irony has a metallic taste.
+
+Olive's words: *I'm not exaggerating, but this really is the worst time in my life.* She misses her bingo. She watches tennis on television so she does not go mad. Her husband Pat, two bypasses, a stroke last year, carrying her down stairs he should not climb. Carol in her wheelchair, carried by her brother James for six weeks straight when the lift stayed broken. *The lift was working yesterday for an hour, a fella came and fixed it, and within an hour it was gone again.* The main entrance door, push-open, no fob, no code — security as fiction. Vacant ground-floor apartments while tenants rot upstairs. *They don't know who their tenants are or what apartments are vacant.*
+
+The drizzle does not distinguish. It falls on the Terminal 2 Fast Track and the Timberyard basement alike. It falls on the Lord Mayor's chain of office and on Olive's mobility scooter. It falls on the Ryanair planes grounded by a NATS failure in UK airspace — two hundred and fifty flights cancelled, millions in costs, Neal McMahon's voice on Times Radio: *It'll run into the millions. We have crews everywhere and it's a real shambles.* Three times now. Three strikes. Martin Rolfe, the NATS chief executive, still in post. *We don't see this in France, we don't see this in Italy, we don't see this in Spain, we don't see this in Ireland, we don't see this in Germany.* The list of negatives building a case. Yvonne Moynihan of Wizz Air: *Three strikes and you're out.* The Transport Secretary meeting the CEO. Resignation demanded. The system fails and the language of accountability arrives too late for the passengers sleeping on terminal floors.
+
+I watch a drop trace its slow path down the glass. The wind shifts it sideways. It joins another drop. They become a single heavier thing and fall together.
+
+JAK. WAK-O. The designer who studied at Belfast Metropolitan College, won the King's Trust Enterprise Award for Northern Ireland, opened pop-up shops. *Conflict To Creation* — the exhibition at Fade Street Studios, second floor, Studio B, fourteen Fade Street, Dublin 2. September 11th, two to eight. One-of-a-kind handmade garments from dead stock military surplus. Original pattern designs. Sustainable making practices. The name itself — WAK-O — sounds like something struck, something waking. Military surplus given second life. Thread and needle transforming what was made for destruction into something worn against the skin. I think of the hands that stitched the original uniforms. The bodies that wore them. The conflicts they witnessed. Now they drape a model in a studio on Fade Street, the drizzle tapping the windows above, and someone calls it fashion. Someone calls it art. Someone calls it sustainability. The words settle over the object like dust.
+
+The particular contains the universal. Joyce wrote that. Or perhaps he only lived it. The drizzle on this window contains every drizzle that has ever fallen on Dublin. The broken lift contains every broken promise. The fare hike contains every calculation of what a body is worth. The cancelled flight contains every journey interrupted. The military surplus garment contains every body that ever wore wool against cold skin.
+
+At 7:01, the city is still mostly asleep. The Number 16 has not yet rattled past. The woman with the trolley has not yet folded herself into the front seat. The student sleeps. The elderly man counts his coins in the dark. Olive lies awake in her fourth-floor flat, listening for the lift's groan, calculating whether today is a day she can leave. Pat breathes beside her, his damaged heart keeping time. Carol waits in her wheelchair. Denise checks the basement door, though she knows it is nailed. The fire brigade rests between calls. The Lord Mayor rehearses his letter to the Minister. The Ryanair crews wait in hotels they did not book. The NATS engineers stare at screens that failed them. JAK stitches. The coffee truck in Terminal 1 bus park steams in the morning cold.
+
+The drizzle continues. It has no opinion. It does not know about fare hikes or broken lifts or cancelled flights or military surplus transformed. It simply falls. Fifteen and a half degrees. Twenty-nine kilometres per hour. Light drizzle. The weather report reduces it to data. But data is what remains when experience has been stripped of its flesh.
+
+I put the kettle on again. The whistle will come. The fridge will hum. The radiator will tick. The Number 16 will rattle past. The woman with the trolley will board. The student will miss his stop. The elderly man will count his coins. Olive will wait for the lift. Pat will carry Carol down the stairs if he must. The fire brigade will answer the next call. The Lord Mayor will send his letter. Ryanair will count the millions. JAK will stitch another garment from what war left behind.
+
+And the drizzle will keep falling, writing its fine intersecting lines on every window in the city, connecting what we pretend are separate stories.
+
+The light has not changed. It has only deepened. The grey wash holds its ground. Somewhere in the Liberties, a basement door remains nailed shut until the next rainstorm forces it open. Somewhere in the council chamber, a motion waits for a Minister's reply. Somewhere over the Irish Sea, a NATS screen flickers, and someone holds their breath.
+
+I drink my tea. The cup warms my hands. The drizzle falls. The city wakes. Another October morning. Another entry in the long book that no one reads but everyone lives.
+
+---
+
+*Today's fragments: Dublin 15.5°C, light drizzle, wind 29 km/h. London overcast 14°C. Wivenhoe overcast 12°C. Seattle overcast 14°C. Austin clear sky 26°C. The world turns at different temperatures under the same sky.*
