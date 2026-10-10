@@ -1,0 +1,51 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#a371f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f78166;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c9d1d9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Subtle grid pattern -->
+  <g stroke="#30363d" stroke-width="0.5" opacity="0.3">
+    <line x1="0" y1="0" x2="1200" y2="630"/>
+    <line x1="1200" y1="0" x2="0" y2="630"/>
+  </g>
+  
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.2"/>
+  <circle cx="1100" cy="530" r="120" fill="none" stroke="#a371f7" stroke-width="1" opacity="0.15"/>
+  <circle cx="600" cy="315" r="200" fill="none" stroke="#f78166" stroke-width="0.5" opacity="0.1"/>
+  
+  <!-- Accent line -->
+  <line x1="100" y1="200" x2="1100" y2="200" stroke="url(#accentGradient)" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Title -->
+  <text x="600" y="280" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#titleGradient)" text-anchor="middle" dominant-baseline="middle">AI Tools Daily Update</text>
+  
+  <!-- Date -->
+  <text x="600" y="340" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" fill="#8b949e" text-anchor="middle" dominant-baseline="middle">October 10, 2026</text>
+  
+  <!-- Category tags -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#58a6ff" text-anchor="middle">
+    <text x="600" y="400" opacity="0.8">DeepAgents v0.7  •  Qwen3-Coder-Next  •  Autonomize Context AI  •  Proofpoint Agentic Security</text>
+  </g>
+  
+  <!-- Bottom accent -->
+  <line x1="100" y1="460" x2="1100" y2="460" stroke="#30363d" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Source indicator -->
+  <text x="600" y="520" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#484f58" text-anchor="middle">coetzeer.github.io/jekyll-theme-kactus</text>
+</svg>

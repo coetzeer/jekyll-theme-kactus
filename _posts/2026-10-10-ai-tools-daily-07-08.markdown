@@ -1,0 +1,82 @@
+---
+layout: post
+title: "AI Tools Daily Update — October 10, 2026"
+date: 2026-10-10 07:08:00 +0200
+description: "DeepAgents v0.7 skills overhaul, Qwen3-Coder-Next hits 70% SWE-Bench, Autonomize Context AI for healthcare, Proofpoint's three-agent security system."
+categories: [AI Tools, Daily Update]
+tags: [DeepAgents, Qwen3-Coder-Next, Autonomize, Proofpoint, LangChain, Coding Agents, Long-running Agents]
+image: /jekyll-theme-kactus/assets/images/2026-10-10-ai-tools-daily-07-08.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-10-10-ai-tools-daily-07-08.svg" alt="AI Tools Daily Update October 10 2026">
+
+Four things dropped since the October 8 run.
+
+---
+
+## DeepAgents (LangChain) v0.7 — Skills Finally Get Serious
+
+**Category:** Long-running agent (Agent framework)  
+**Type:** Open source (MIT)
+
+LangChain's DeepAgents hit v0.7 on October 7. The Python package sits at ~30,000 GitHub stars with a TypeScript twin for JS ecosystems. The headline: skills are now first-class citizens with tool binding, pinning, and hot-reloading.
+
+What changed:
+- **Tool binding to skills** — Tools bind to specific skills. Their schemas stay out of context until the agent reads the skill. On models supporting mid-conversation tool additions, the prompt cache stays intact.
+- **Pinned skills at runtime** — Apps can pin skills so instructions load before the first model call, no `read_file` round trips.
+- **Skill reloading mid-thread** — Long-running agents pick up added, edited, or deleted skills without restarting the thread.
+- **Enterprise skill registries** — Thousands of skills shared across teams and agents.
+
+The architecture shift matters: skills tell agents how to use tools, and some tools only work after the agent reads the instructions. Before v0.7, skills and tools were disclosed separately. Now bound tools don't enter context until their skill is read, and calling an unknown tool fails explicitly. Context stays lean, the agent learns before it acts.
+
+Free (MIT). Self-hosted. Optional LangSmith tracing commercially.
+
+---
+
+## Qwen3-Coder-Next — 70% SWE-Bench on Consumer Hardware
+
+**Category:** Coding agent (Open model)  
+**Type:** Open weights (Apache 2.0)
+
+Qwen's new coding model dropped in March but the October blog push ("Pushing Small Hybrid Models on Agentic Coding") highlights what matters: **70.6% on SWE-Bench Verified** — the best score for any open-weight model. It hits Sonnet 4.5-level coding performance with only 3B activated parameters (80B total MoE).
+
+Key specs:
+- Hybrid attention-MoE architecture built for coding agents
+- 256K context — fits most repos, full PR diffs, long API specs
+- Runs on consumer hardware: 64GB MacBook, RTX 5090, AMD Radeon 7900 XTX
+- Strong across SWE-Agent, MiniSWE-Agent, and OpenHands scaffolds
+- Unsloth GGUF release for efficient local inference
+
+Free (Apache 2.0). Your hardware via Ollama, vLLM, llama.cpp, LM Studio, Unsloth GGUF. Protocol-compatible with Anthropic, Gemini, and OpenAI APIs for agent frameworks.
+
+---
+
+## Autonomize Context AI — Shared Intelligence for Healthcare Agents
+
+**Category:** Long-running agent (Enterprise agent infrastructure)  
+**Type:** Commercial (SaaS)
+
+Launched October 1. A context foundation that connects organizational knowledge, policies, and decision logic across agents and workflows — built on existing data platforms, no rip-and-replace.
+
+The problem: agents in fragmented systems repeatedly retrieve the same info and reconstruct logic the org already established. Autonomize gives you a governed, auditable foundation that becomes more capable with every interaction. Define clinical terminology, operational rules, relationships, and institutional expertise once; reuse across agents, workflows, departments.
+
+Healthcare-specific. Enterprise pricing, contact for quote.
+
+---
+
+## Proofpoint Agentic Data and AI Security — Three Autonomous Security Agents
+
+**Category:** Long-running agent (Enterprise security platform)  
+**Type:** Commercial (SaaS)
+
+Announced September 22 at Proofpoint Protect 2026. First unified agentic system linking agent intent with data access, running three autonomous agents: **Zero-Touch Detection**, **Instant Investigation**, and **Protection Optimization**. They keep pace with AI-driven risk continuously.
+
+Point security tools see either AI behavior or data risk — not both. Proofpoint reasons across both in one shared graph. Semantic Business Policies translate existing policies into runtime controls. Agentic Insights continuously uncover emerging risks across employees and AI agents. Intent-based access means agents get only the data they need.
+
+Enterprise SaaS. Contact Proofpoint.
+
+---
+
+## Quick Benchmark Note
+
+MorphLLM's October 6 leaderboard update: **Claude Code + Opus 5.5** leads Terminal-Bench 4.0 at 64.8%. **Codex + GPT-6.1 Sol** matches GPT-6 Astra at 58.2% for $1.92/task — about a fifth of Astra's $9.90. Pick Claude Code/Opus 5.5 for highest score, Codex/GPT-6.1 Sol for lowest cost per solved task. Meta's Muse Spark 1.2 remains absent from verified agentic-coding leaderboards.
