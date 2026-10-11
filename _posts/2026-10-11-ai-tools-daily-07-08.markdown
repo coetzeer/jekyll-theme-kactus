@@ -1,0 +1,118 @@
+---
+layout: post
+title: "AI Tools Daily Update — October 11, 2026"
+date: 2026-10-11 07:08:00 +0200
+description: "DeepAgents v0.7 + Managed v0.9, Qwen3-Coder-Next 70% SWE-Bench, OpenHands v1.26, Claude Haiku 5.5, GPT-6 Intelligent UI, Grok Imagine Video 1.5 Lite, LoanCare IllumineX."
+categories: [AI Tools, Daily Update]
+tags: [DeepAgents, Qwen3-Coder-Next, OpenHands, Claude Haiku 5.5, GPT-6, Grok Imagine Video, LoanCare IllumineX, LangChain, Anthropic, OpenAI, xAI, Coding Agents, Long-running Agents]
+image: /jekyll-theme-kactus/assets/images/2026-10-11-ai-tools-daily-07-08.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-10-11-ai-tools-daily-07-08.svg" alt="AI Tools Daily Update October 11 2026">
+
+Seven things dropped since the October 10 run.
+
+---
+
+## DeepAgents (LangChain) v0.7 + Managed v0.9 — Skills Finally Get Serious
+
+**Category:** Long-running agent (Agent framework)  
+**Type:** Open source (MIT) / Commercial managed (LangSmith)
+
+LangChain's DeepAgents hit v0.7 on October 7. The Python package sits at ~30,000 GitHub stars with a TypeScript twin for JS ecosystems. The headline: skills are now first-class citizens with tool binding, pinning, and hot-reloading.
+
+What changed in v0.7:
+- **Tool binding to skills** — Tools bind to specific skills. Their schemas stay out of context until the agent reads the skill. On models supporting mid-conversation tool additions, the prompt cache stays intact.
+- **Pinned skills at runtime** — Apps can pin skills so instructions load before the first model call, no `read_file` round trips.
+- **Skill reloading mid-thread** — Long-running agents pick up added, edited, or deleted skills without restarting the thread.
+- **Enterprise skill registries** — Thousands of skills shared across teams and agents.
+
+The architecture shift matters: skills tell agents how to use tools, and some tools only work after the agent reads the instructions. Before v0.7, skills and tools were disclosed separately. Now bound tools don't enter context until their skill is read, and calling an unknown tool fails explicitly. Context stays lean, the agent learns before it acts.
+
+Same day, the managed service (LangSmith) dropped v0.9 with agent-created schedules (cron and one-time), per-run model/skills/tools selection, and Slack reactions. Agents can now remind themselves about things tomorrow, reconfigure per run, and acknowledge messages before replying.
+
+Free (MIT) for self-hosted. Managed service on LangSmith commercially.
+
+---
+
+## Qwen3-Coder-Next — 70% SWE-Bench on Consumer Hardware
+
+**Category:** Coding agent (Open model)  
+**Type:** Open weights (Apache 2.0)
+
+Qwen's new coding model dropped in March but the October blog push ("Pushing Small Hybrid Models on Agentic Coding") highlights what matters: **70.6% on SWE-Bench Verified** — the best score for any open-weight model. It hits Sonnet 4.5-level coding performance across SWE-Agent, MiniSWE-Agent, and OpenHands scaffolds.
+
+The architecture: hybrid attention-MoE, 3B activated / 80B total parameters, 256K context. Runs on a 64GB MacBook, RTX 5090, or AMD 7900 XTX. Free weights, Apache 2.0. Inference via Ollama, vLLM, llama.cpp, LM Studio, Unsloth GGUF, OpenRouter.
+
+If you've been waiting for a local model that actually handles agentic coding workflows, this is the one to watch.
+
+---
+
+## OpenHands v1.26 — Verification Harness Hardens
+
+**Category:** Long-running agent / Coding agent  
+**Type:** Open source (MIT)
+
+OpenHands v1.26.0 (October 8) adds a `verify-openhands` skill with `control-openhands` CLI and a full feature map, daily pass support for verification, 20 more mapped behaviors with live recipes, and backend improvements for suspended workspace handling and enterprise onboarding.
+
+The comparison table from TerminalBlog still holds: OpenHands is the only one with native cron automation and read-only cloud sharing, no vendor lock-in. v1.26 doesn't change that story — it hardens the verification harness and enterprise onboarding.
+
+Still free, still MIT, still self-hosted with BYOK.
+
+---
+
+## Claude Haiku 5.5 — The Subagent Workhorse
+
+**Category:** Coding agent / Long-running agent (Model)  
+**Type:** Commercial (Anthropic API)
+
+Released October 7. Anthropic's new fast, cheap small model built for high-volume work: classification, routing, extraction, and subagent tasks. 1M context, 128K output, adaptive thinking with effort parameter.
+
+Pricing is the story: $0.10/M input (≤100K tokens), $0.50/M input (>100K), $0.50/M output. That's a fraction of Sonnet 5.5 ($2/$10) or Opus 5.5 ($4/$20). Same tokenizer as Claude 4.7+ (≈30% more tokens than Haiku 4.5). Thinking blocks stay in the originating account.
+
+If you're running swarms of subagents for routing or classification, this is the price tier that makes it viable.
+
+---
+
+## OpenAI GPT-6 with Intelligent UI — ChatGPT Gets Buttons
+
+**Category:** Coding agent / Long-running agent (Model + UI)  
+**Type:** Commercial (ChatGPT + API)
+
+GPT-6 rolled out to paid users October 7, Free/Go October 8. The headline feature: **Intelligent UI**. Instead of just text, responses can include interactive components — buttons, forms, charts, code editors, file viewers — rendered progressively as the model generates them.
+
+API pricing for GPT-6 Sol (flagship): $2/M input, $10/M output — a 50% cut from GPT-5.6 Sol. ChatGPT subscription tiers unchanged.
+
+The compiler streams UI components as the model generates, so you don't wait for the full response. Cross-platform on web, iOS, Android, desktop apps.
+
+For coding agents, this means the model can hand you a working form or chart instead of describing one. For long-running agents, it means interactive checkpoints mid-task.
+
+---
+
+## xAI Grok Imagine Video 1.5 Lite — Cheaper Video Gen
+
+**Category:** Other (Video generation)  
+**Type:** Commercial (xAI API)
+
+Released October 6, on OpenRouter October 9. Distilled from Grok Imagine Video 1.5 for speed and cost. Text-to-video and image-to-video. 1080p renders at 720p and upscales.
+
+Pricing per generated second: 480p $0.02, 720p $0.03, 1080p $0.14. Available on xAI API, OpenRouter, Vercel AI Gateway.
+
+If you need video generation at volume and can tolerate the quality trade-off, the price is compelling.
+
+---
+
+## LoanCare IllumineX — AI That Actually Does the Work
+
+**Category:** Long-running agent (Financial services platform)  
+**Type:** Commercial (Enterprise, proprietary)
+
+Launched October 8. LoanCare (FNF subsidiary) calls it an "intelligence-to-action platform" for mortgage servicing. It identifies risk patterns, personalizes borrower engagement, and — here's the key — connects recommended actions directly to servicing workflows.
+
+Most "AI platforms" stop at analysis. This one closes the loop into execution. Pricing not public, enterprise B2B only.
+
+Worth watching: financial services is where autonomous agents will either prove they can handle regulated, high-stakes workflows or they won't.
+
+---
+
+*Updated October 11, 2026. KB entities updated for all seven items.*
