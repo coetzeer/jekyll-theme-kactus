@@ -1,0 +1,126 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1f2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lightGradient" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.15" />
+      <stop offset="30%" style="stop-color:#58a6ff;stop-opacity:0.08" />
+      <stop offset="70%" style="stop-color:#a371f7;stop-opacity:0.05" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0" />
+    </linearGradient>
+    <radialGradient id="glowGradient" cx="50%" cy="30%" r="40%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.12" />
+      <stop offset="50%" style="stop-color:#a371f7;stop-opacity:0.06" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#skyGradient)"/>
+
+  <!-- Subtle atmospheric glow -->
+  <ellipse cx="600" cy="180" rx="500" ry="200" fill="url(#glowGradient)"/>
+
+  <!-- Light beams from top -->
+  <g opacity="0.08">
+    <polygon points="600,0 520,200 680,200" fill="#58a6ff"/>
+    <polygon points="600,0 480,250 720,250" fill="#a371f7"/>
+    <polygon points="600,0 440,300 760,300" fill="#58a6ff"/>
+  </g>
+
+  <!-- River Liffey suggestion - dark reflective line -->
+  <path d="M50,520 Q300,480 600,500 Q900,520 1150,490" 
+        stroke="#1a1f2e" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M50,525 Q300,485 600,505 Q900,525 1150,495" 
+        stroke="#30363d" stroke-width="1.5" fill="none" opacity="0.4"/>
+
+  <!-- Georgian door silhouettes along the quay -->
+  <g fill="#1a1f2e" opacity="0.5">
+    <rect x="80" y="380" width="40" height="120" rx="2"/>
+    <rect x="80" y="380" width="40" height="120" rx="2"/>
+    <rect x="140" y="390" width="35" height="110" rx="2"/>
+    <rect x="200" y="385" width="38" height="115" rx="2"/>
+    <rect x="260" y="395" width="33" height="105" rx="2"/>
+    <rect x="320" y="380" width="42" height="120" rx="2"/>
+    <rect x="850" y="385" width="38" height="115" rx="2"/>
+    <rect x="910" y="390" width="35" height="110" rx="2"/>
+    <rect x="970" y="380" width="40" height="120" rx="2"/>
+    <rect x="1030" y="395" width="33" height="105" rx="2"/>
+  </g>
+
+  <!-- Window lights in the doors - warm golden -->
+  <g fill="#f78166" opacity="0.7">
+    <circle cx="100" cy="410" r="3"/>
+    <circle cx="157" cy="420" r="2.5"/>
+    <circle cx="219" cy="415" r="3"/>
+    <circle cx="276" cy="425" r="2.5"/>
+    <circle cx="341" cy="410" r="3"/>
+    <circle cx="869" cy="415" r="3"/>
+    <circle cx="927" cy="420" r="2.5"/>
+    <circle cx="990" cy="410" r="3"/>
+    <circle cx="1046" cy="425" r="2.5"/>
+  </g>
+
+  <!-- Bridge cable suggestion - Samuel Beckett Bridge harp -->
+  <g stroke="#30363d" stroke-width="0.8" opacity="0.4">
+    <line x1="400" y1="100" x2="550" y2="350"/>
+    <line x1="450" y1="100" x2="570" y2="350"/>
+    <line x1="500" y1="100" x2="590" y2="350"/>
+    <line x1="550" y1="100" x2="610" y2="350"/>
+    <line x1="600" y1="100" x2="630" y2="350"/>
+    <line x1="650" y1="100" x2="650" y2="350"/>
+    <line x1="700" y1="100" x2="670" y2="350"/>
+    <line x1="750" y1="100" x2="690" y2="350"/>
+    <line x1="800" y1="100" x2="710" y2="350"/>
+  </g>
+
+  <!-- Title text -->
+  <text x="600" y="220" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" 
+        font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">
+    The Light at Half Past Seven
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="280" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" 
+        font-size="24" fill="#8b949e" text-anchor="middle" letter-spacing="0.3">
+    An October Morning in Dublin
+  </text>
+
+  <!-- Date line -->
+  <text x="600" y="330" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" 
+        font-size="18" fill="#58a6ff" text-anchor="middle" opacity="0.8">
+    12 October 2026 · 07:00 CEST
+  </text>
+
+  <!-- Decorative line -->
+  <line x1="500" y1="350" x2="700" y2="350" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Small decorative elements - particles of light -->
+  <g fill="#58a6ff" opacity="0.6">
+    <circle cx="200" cy="150" r="1.5"/>
+    <circle cx="350" cy="100" r="1"/>
+    <circle cx="850" cy="130" r="1.5"/>
+    <circle cx="1000" cy="80" r="1"/>
+    <circle cx="150" cy="300" r="0.8"/>
+    <circle cx="1050" cy="280" r="1"/>
+    <circle cx="400" cy="450" r="0.8"/>
+    <circle cx="800" cy="460" r="1"/>
+  </g>
+
+  <g fill="#a371f7" opacity="0.5">
+    <circle cx="280" cy="180" r="1"/>
+    <circle cx="920" cy="160" r="0.8"/>
+    <circle cx="180" cy="350" r="1"/>
+    <circle cx="1020" cy="340" r="0.8"/>
+  </g>
+
+  <!-- Bottom accent bar -->
+  <rect x="0" y="600" width="1200" height="30" fill="#1a1f2e" opacity="0.8"/>
+  <line x1="0" y1="600" x2="1200" y2="600" stroke="#30363d" stroke-width="1"/>
+</svg>
