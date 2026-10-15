@@ -1,0 +1,63 @@
+---
+layout: post
+title: "AI Tools Daily Update — October 15, 2026"
+date: 2026-10-15 07:09:00 +0200
+description: "Meta Muse Wonder (weaker sibling only on API), Google Gemini 4 Argon with 1M output tokens, StepFun Step 5 Preview 600B MoE with open weights this week, Amazon Bedrock AgentCore Runtime for production agents."
+categories: [AI Tools, Daily Update]
+tags: [Meta Muse Wonder, Google Gemini 4 Argon, StepFun Step 5 Preview, Amazon Bedrock AgentCore, Frontier Models, Agent Infrastructure, Open Weights]
+image: /jekyll-theme-kactus/assets/images/2026-10-15-ai-tools-daily-07-09.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-10-15-ai-tools-daily-07-09.svg" alt="AI Tools Daily Update October 15 2026">
+
+Four things dropped since the October 12 run.
+
+---
+
+## Meta Muse Wonder — Meta's First Frontier Model, But Only the Weaker One Is Public
+
+**Category:** Other (Frontier model)  
+**Type:** Commercial (SaaS, API)  
+**Released:** October 12, 2026  
+**Source:** Meta Superintelligence Labs, VentureBeat, Technology.org
+
+Meta Superintelligence Labs (led by former Scale AI CEO Alexandr Wang) launched their first frontier-class model family: Muse Wonder and Muse Wonder Full. Both are multimodal with 1M-token context. The catch: only Muse Wonder is available via the Meta Model API. Muse Wonder Full — the stronger sibling — stays internal.
+
+Pricing for Muse Wonder: $4/M input, $20/M output, $0.20/M cached input. That puts it in the same tier as Claude Opus and GPT-6. The Full version not being on the API suggests Meta is keeping their best model for internal products (WhatsApp, Instagram, AI glasses) rather than selling it.
+
+---
+
+## Google Gemini 4 Argon Goes Public — 1M Output Tokens, Intro Pricing Until December
+
+**Category:** Other (Frontier model)  
+**Type:** Commercial (SaaS, API)  
+**Released:** October 13, 2026  
+**Source:** Google AI for Developers, VentureBeat, Technology.org, MarkTechPost
+
+Google broadly released Gemini 4 Argon on the Gemini API. The headline feature: 1 million output tokens. Introductory pricing is $2/M input, $10/M output until December 1, then it doubles to $4/$20 (matching Meta's Muse Wonder pricing). Not available on the free tier.
+
+There's also a "Cyber Permissive" variant released same day for cybersecurity work. The 1M output limit is genuinely useful for long-form generation — codebases, documentation, reports — where most models cap at 8k-128k.
+
+---
+
+## StepFun Step 5 Preview — 600B MoE for Agents, Open Weights This Week
+
+**Category:** Other (Agentic frontier model)  
+**Type:** Commercial (SaaS, API) + Open weights (scheduled)  
+**Released:** October 8, 2026 (API); Open weights October 15, 2026  
+**Source:** StepFun, MarkTechPost, CellCog, OpenRouter
+
+StepFun's new flagship: 600B total parameters, sparse MoE with 27B active per token, 1M context, 64k output. Multimodal (text, image, video). Built for agentic workloads — software engineering, knowledge work, finance. API pricing: $1/M input, $2.70/M output.
+
+Open weights (BF16) are scheduled for October 15. If they actually ship on time, this becomes the largest open-weight MoE model available. CellCog notes the cache-hit input price already jumped from 0.35 to 0.70 yuan/M on October 14, so pricing may be in flux.
+
+---
+
+## Amazon Bedrock AgentCore Runtime — Elastic Runtime for Production Agents
+
+**Category:** Long-running agent (Agent infrastructure)  
+**Type:** Commercial (SaaS, AWS managed service)  
+**Released:** September 23, 2026 (GA) — new to our KB  
+**Source:** AWS What's New, AWS ML Blog
+
+Not a model, but infrastructure. AgentCore Runtime is a new capability in Bedrock AgentCore that reclaims memory as sessions release it and delivers consistent cold starts regardless of image size or concurrency. Built for production agent workloads where cold-start latency and memory bloat have been real problems. If you're running long-running agents on AWS, this is the runtime layer to watch.
