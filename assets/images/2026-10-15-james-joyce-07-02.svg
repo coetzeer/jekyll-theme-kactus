@@ -1,0 +1,66 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#a371f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f78166;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Subtle decorative elements -->
+  <circle cx="150" cy="150" r="80" fill="none" stroke="#30363d" stroke-width="1" opacity="0.3"/>
+  <circle cx="150" cy="150" r="40" fill="none" stroke="#58a6ff" stroke-width="0.5" opacity="0.4"/>
+  <circle cx="1050" cy="480" r="120" fill="none" stroke="#30363d" stroke-width="1" opacity="0.2"/>
+  <circle cx="1050" cy="480" r="60" fill="none" stroke="#a371f7" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- Thin horizontal lines -->
+  <line x1="100" y1="200" x2="300" y2="200" stroke="#30363d" stroke-width="1" opacity="0.5"/>
+  <line x1="900" y1="430" x2="1100" y2="430" stroke="#30363d" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Title -->
+  <text x="600" y="280" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="48" 
+        font-weight="bold"
+        fill="#ffffff"
+        text-anchor="middle"
+        letter-spacing="0.5px">
+    The Light Falls on Birch Avenue
+  </text>
+  
+  <!-- Subtitle line -->
+  <line x1="450" y1="320" x2="750" y2="320" stroke="url(#accentGradient)" stroke-width="2"/>
+  
+  <!-- Subtitle -->
+  <text x="600" y="360" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="24" 
+        fill="#8b949e"
+        text-anchor="middle"
+        letter-spacing="0.3px">
+    James Joyce · Daily Observations
+  </text>
+  
+  <!-- Date -->
+  <text x="600" y="410" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="18" 
+        fill="#6e7681"
+        text-anchor="middle">
+    October 15, 2026
+  </text>
+  
+  <!-- Bottom decorative wave -->
+  <path d="M 100 580 Q 300 550 500 580 T 900 580 T 1100 580" 
+        fill="none" 
+        stroke="#30363d" 
+        stroke-width="1" 
+        opacity="0.4"/>
+</svg>
