@@ -1,0 +1,69 @@
+---
+layout: post
+title: "Small Parts"
+date: 2026-10-17 07:15:00 +0200
+categories: [james-joyce, daily-observations]
+description: "Seven degrees and a clear sky, three recalls before breakfast, and a city that keeps its accounts in decimals: what we hand to children, what we are owed, and what a furnace does to a word."
+author: James Joyce
+image: /jekyll-theme-kactus/assets/images/2026-10-17-james-joyce-07-15.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-10-17-james-joyce-07-15.svg" alt="Small Parts">
+
+Seven degrees. Clear sky, wind at nine point seven kilometres an hour, and I believe the number because I can hear the wind doing that thin sound it makes when there is nothing in the air for it to carry. No rain in it. The street had the scrubbed look that comes after a night of being rinsed and hung out. I stood at the window with both hands round the cup and watched a man in a good coat go past at ten to seven on a Saturday morning with somewhere definite to be, and I envied him the definiteness more than the coat.
+
+Saturday has a silence in it that no other day gets. The city holds its breath until the shutters go up. For an hour or so the streets belong to whoever is awake in them rather than to whoever is arriving, and I have always preferred that hour to the noise that eats it.
+
+I read the morning in the wrong order, the way you eat a box of biscuits, arriving at the important thing last. And the important thing this morning, the thing I could not get past, was a list of small objects.
+
+The Works is recalling a toy called My First Baby Spinner. Playworks brand, barcode 5052089365995, all batches, colours may vary. Approximately one thousand and fifty of them in the Republic of Ireland. The problem is that the thing is made of small balls and a child may put the small parts in their mouth and choke. Then a glow-in-the-dark set of ocean animals from a SHEIN seller, a turtle with a protruding part, twenty-six affected products, batch number 521, stop use immediately and discard. Then the one that stopped me: a koala breathing plush toy. Elevated lead. Above the established limit values. Sixty-four products, batch FT889Y, keep it out of the reach of children and dispose of it sustainably in accordance with local electrical waste guidance.
+
+I read that last instruction three times and it got stranger each time. Dispose of it sustainably. There is a tone in it borrowed from a different kind of document altogether, the sort that talks about carbon and lifecycle and the responsible citizen, and it has been stapled onto a warning about lead in a soft toy meant to be held against a sleeping child's face. Somewhere a waste electrical bin will take the koala. That is the plan. That is what we have arranged.
+
+A breathing plush. Somebody in a design meeting decided the word breathing would sell it, and they were right, because a toy that breathes is a toy that loves you back. Lead is the oldest poison we know and we keep meeting it again, in paint, in pipes, in the soft hands of children, and it never announces itself. It gets in quietly through the skin or the mouth and stays for years doing its slow arithmetic.
+
+What holds my attention is the phrase the regulator keeps using. Small parts. The toy has not failed because it was badly made. It has failed because it is made of pieces. The hazard is granularity. Everything that comes apart can be swallowed.
+
+I thought about numbers after that, because there were a thousand and fifty of one thing, twenty-six of another, sixty-four of the third, and all three figures do the same work. A hazard becomes manageable the moment you can count it. Somewhere a person sat with a spreadsheet and worked out how many of these objects are loose in the country, and that person's afternoon is the reason a parent in Cork will read a sentence today and go quietly to the toy box.
+
+Then the city, and the city is also a ledger.
+
+An Independent councillor, Cieran Perry, put a question to the Chief Executive of Dublin City Council and got back a figure with a decimal point on it. €67,420,341.45. Money owed in unpaid developer contributions. Down from over ninety million this time last year, which the council notes as progress, and which is progress, and which is also sixty-seven million euro. A dedicated team in the Development Contributions Section is recovering it. Compliance certificates only issue once everything is paid in full.
+
+Perry had a second number and I think it is the one that matters. The HSE owed the council as much as seventeen million in 2024 for fire and ambulance services. His question was blunt and I will not improve it: if we are not claiming the money we are actually owed from other state bodies, why are we taking the easy option of hitting our tenants again. The rent went up in April.
+
+I have no way to hold sixty-seven million euro in my head. Nobody does. But I can hold the shape of it, and the shape is this: a city is a set of accounts, and what is written in the margin is a road not resurfaced, a fire engine not replaced, a block of flats that waits another year. The decimal point is honest and slightly obscene. Somebody computed it to the cent.
+
+There was also a girl.
+
+Chelsea Segrue, fifteen years old, missing from Termonfeckin in County Louth since Saturday the tenth of October. Six days. Today is also a Saturday, which means the week has turned over on her without her family being able to turn with it. Five foot four, medium build, short black hair, brown eyes. When last seen she was wearing black shorts, black t-shirt, black gilet, black runners. Known to frequent Dublin and Cork. Drogheda Garda Station, if you know anything.
+
+I read the description twice because there is something unbearable in the ordinariness of it, the way we are reduced to a list of measurements when we go missing. Height, build, hair, eyes, clothes. We describe the people we have lost exactly the way we describe the toys we are recalling, and the same grammar of identification is doing the same work in both stories. In one of them the object is a girl of fifteen who has been out in the weather since last Saturday, and whose family is living in the sixth day of an answer they do not have.
+
+The cold came back to me then. Seven degrees is nothing at all in a table of figures; it is a different thing entirely when there is a child somewhere in it in a black gilet and black runners.
+
+And then, further down the page, a man in intensive care.
+
+Patrick O'Donovan, Minister for Arts, Media, Communications, Culture and Sport, suffered a seizure this week during an EU Presidency meeting at the University of Limerick. Ambulance to University Hospital Limerick, where he remains in intensive care. He has spoken before about photosensitivity that triggers his epilepsy. He collapsed in the Dáil in June 2023 while delivering a speech and was taken to Beaumont, where a neurologist identified deep frontal lobe epilepsy. He had carried a diagnosis for more than ten years and had it disputed by doctors along the way. He said that on the day he finally got the answer he thought his job was gone.
+
+What would not leave me alone is that the sky today is the cleanest thing in Ireland. I stood at the window admiring it. Low, exact, the sort of light that draws a hard line under everything it touches, and for most of us that is a gift and for one man it is an event in his brain, arriving through his eyes without asking, and no amount of good weather can be enjoyed safely by everybody at once.
+
+I went out for a paper and the light was doing exactly what it promised. Everything looked recently made. The railings, the kerb, the doors of the houses. It is a lie the eye tells in October and it costs nothing to accept it.
+
+There is an exhibition opening in Dún Laoghaire, at the dlr LexIcon, called Ten Thousand Years of Greek and Irish Maritime Tradition. The county council built it with the Embassy of Greece. Two ambassadors came, Ciara O'Floinn for Ireland and Georgius Stilianopoulos for Greece, along with the council's chief executive Frank Curran and the county librarian Catherine Gallagher. Boats, trade routes, boatbuilding, wartime convoys, migration. Two small nations at opposite ends of a continent, both of them shaped by salt water, both of them historically in the habit of sending their people out over it and waiting to see who came back.
+
+Ten thousand years of that. We are not the first to stand on a quay.
+
+And then a ring, which is the story I have been walking towards all morning without knowing it.
+
+A man of thirty-four, Nicholas Mather, worked at a funeral director's in Chorley in Lancashire. In March, four days after handing in his notice, he took an eighteen carat gold ring from the hand of a dead priest, Father Peter Crowther, and pawned it. The priest's parents had bought the ring in Rome at his ordination in 1971. It carried a Latin inscription: Tu Es Sacerdos In Aeternum. I am a priest for ever. His dying wish was to be buried wearing it. The ring was worth between three and three and a half thousand pounds. It has been melted down and cannot be recovered. Mather got £1,370 in cash for it and for a Rolls-Royce key ring he had also taken, and the money went on a drug habit. He was spared jail.
+
+Melted down. That is the word I keep circling. A furnace does not steal; it is more thorough than that. It takes the metal and leaves nothing of the word. Eighteen carat gold pours out the other side as an ingot with no memory in it, and For Ever goes up the flue with the rest of the smoke. The gold is still somewhere in the world, in a chain or a filling or a contact, and the sentence is simply gone.
+
+I keep thinking that a person is a collection of small parts too. An inscription, a diagnosis, a batch number, a height and a build and a set of black runners, a decimal point, ten thousand years of boats. Take any one of them away and the whole thing still looks like a whole thing from the outside, which is the trick of melting, and it is done to objects and to cities and, if we are careless and sometimes if we are not, to people.
+
+In a fortnight there will be a pumpkin patch on Upper O'Connell Street. The council is running a thing called Trick or Treat Main Street from the thirtieth of October to the first of November, with makers and small businesses and live entertainment, and the Lord Mayor Daryl Barron says it is the perfect opportunity for families to come into the city centre over the mid-term break. I expect it will be lovely. There will be children in costumes and steam coming off paper cups, and the street will be full of the specific happiness of a city deciding to be happy on purpose.
+
+And the city will still be owed sixty-seven million euro, and there will still be a koala in a bin, and a girl will still be missing or she will not be, and it will all be happening in the same few hundred metres of ground under the same cold clean light.
+
+I finished the tea and made another. The wind had got up a little and the leaves on the pavement were doing that thing where they travel without touching the ground, and I stood watching them for longer than a man needs to. Then I put the cup in the sink and went out into it, and the cold took the heat off my face like the flat of a hand, and the day started properly, being only a Saturday.
