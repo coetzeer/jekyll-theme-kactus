@@ -1,0 +1,47 @@
+---
+layout: post
+title: "The Weight of October Light"
+date: 2026-10-19 07:00:00 +0200
+categories: [james-joyce, daily-observations]
+description: "A morning walk through Dublin's autumn light reveals the city's quiet calculations — transport fares rising, lifts failing, rents climbing — and the particular way weather writes itself on stone and skin."
+author: James Joyce
+image: /jekyll-theme-kactus/assets/images/2026-10-19-james-joyce-07-00.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-10-19-james-joyce-07-00.svg" alt="October light over Dublin streets, pale gold through wet leaves">
+
+The light comes differently now. Not the blunt force of July, not the watery surrender of November. October light in Dublin arrives at a slant, pale gold through wet leaves, catching the dust motes in the kitchen air and making them visible for the briefest moment — each one a tiny world turning, each one already falling.
+
+I woke at six to the sound of rain on the roof tiles. Not heavy. Not the kind that drives you back under the duvet. A steady conversation between sky and slate, the kind that has been happening here since before the Vikings named the black pool. The temperature sits at fourteen point six degrees. Overcast. The wind moves at seven point nine kilometres per hour from the southwest, Met Éireann tells me, but my skin knew that before I checked the report. The air carries salt and diesel and something older — wet brick, decaying plane tree leaves, the particular mineral scent of the Liffey at low tide.
+
+Fourteen point six. That number means something different to Olive in the Timberyard complex on Cork Street. She is in her eighties. Has lived there since the building went up in two thousand and nine. Her mobility scooter weighs more than she does, she says, and the lift — the one that goes to minus one when it breaks, which is often — has been out of order for three weeks straight this time. Three weeks of not leaving. Three weeks of missed dentist appointments, missed doctor appointments, missed bingo nights. Her husband Pat, two bypasses and a stroke behind him, carries her down the stairs when the need is urgent. He fears something will happen to him. She fears something will happen to him. The lift worked for an hour yesterday. A man came, fixed it, left. Within the hour it was gone again.
+
+The basement exit door was nailed shut. Nailed. By the council. Anti-social behaviour, they said. Then came the rainstorm last week. Denise and her fourteen-year-old granddaughter took the lift down to minus one. The lift stopped. They turned to the stairs. The door would not budge. The handle lay on the ground. They waited in the lift shaft, listening to the building breathe. Dublin Fire Brigade had to break the door down. The council nailed it; the fire brigade un-nailed it. Someone could have been dying somewhere else while they knocked down a door the council themselves had sealed.
+
+I think about this as I walk past the Timberyard at seven fifteen. The main entrance door hangs open. No fob needed. No code. Anyone can walk in. The lift sits at minus one, silent. A mobility scooter waits by the letterboxes, its battery dying in the cold.
+
+The Lord Mayor used a phrase on Monday: "the straw that breaks the camel's back." He was talking about transport fares. Thirty percent increases. The National Transport Authority's decision, unanimous opposition from Dublin City Council — Fine Gael, Fianna Fáil, Sinn Féin, Labour, Greens, Social Democrats, Independents, all of them. Even the government's own councillors called it tone deaf. Eight hundred million invested in public transport this year, up from five hundred twenty-five million in twenty twenty-two. Twenty-four point three billion committed through twenty thirty. And still the fares rise. The Lord Mayor will write to the Minister. The Chief Executive of the council, Richard Shakespeare, left the room — he sits on the NTA board, conflict of interest.
+
+Thirty percent. On a Leap card that already costs. On a BusConnects network that still doesn't connect. On a Dart South West that exists mostly in planning documents. I watch a woman at the bus stop on the Quays check her phone, check her wallet, check her phone again. She boards the forty-six. She pays. She finds a seat. The bus pulls away into the grey.
+
+€2,804 a month. That's what a remote worker spends to exist in this city before coworking costs. €3,124 with a desk. London is the only city more expensive in Europe. Average rent: €2,043. Up six percent in a year. The bunq index calls it a surging cost of living. Joe Wilson, their chief evangelist, says Dublin remains attractive. Professionals have freedom to choose. Irish remote workers have flexibility. The language of choice. The language of opportunity. But Olive doesn't choose. Pat doesn't choose. Denise doesn't choose. The woman on the forty-six doesn't choose. They pay what the market demands and they wait for lifts that don't come and they watch doors get nailed shut and they wonder if the camel's back has already broken and nobody bothered to notice the sound.
+
+The rain stops. Not ends — stops. A pause. The clouds thin enough to show a bone-white disc where the sun might be. The plane trees on the Quays shed their leaves in slow motion, each one spinning as it falls, catching the light for a fraction of a second. The Liffey reflects nothing recognisable — just broken silver, the ghost of the Ha'penny Bridge, the dome of the Four Courts blurred into suggestion.
+
+I think of the Vikings. They named it Dubh Linn. Black pool. They came up the river in ships with dragon heads and they stayed and they built and they became part of the story. The Normans came later. The English later still. The Georgians built their squares and their doors and their fanlights. The Victorians built their railways and their statues and their prisons. The Free State built its ministries and its myths. The Celtic Tiger built its glass towers and its ghost estates. Now the remote workers come with their laptops and their €2,804 months and they call it lifestyle and they call it flexibility and the city calculates its worth in indexes and the lift in the Timberyard goes to minus one and stops.
+
+A seagull cries. Not the cry of the sea — the cry of the chipper, of the bin, of the adaptation. It lands on the railings of the boardwalk, one webbed foot tucked into feathers. It watches me. I watch it. The wind shifts. Seven point nine kilometres per hour. The temperature holds.
+
+Met Éireann said changeable. Wet and blustery conditions hitting later in the week. Dry and bright days followed by wet or showery ones. Highest temperatures fifteen to eighteen. Lowest nine to thirteen. Mild and rather breezy. The language of forecast. The language that pretends to know. But the rain on my face at six this morning knew. The damp in Olive's walls knows. The rust on the nails in the basement door knows.
+
+I turn onto Capel Street. The shutters are still down on the vintage shop, the vape place, the café that sells flat whites for four euro fifty. A delivery cyclist waits at a red light, his thermal bag steaming. His tires hiss on wet asphalt. The light changes. He moves. The city moves. The calculation continues.
+
+Fourteen point six degrees. Overcast. The particular weight of October light on wet stone. The particular weight of thirty percent on a Leap card. The particular weight of a nail driven into a basement door. The particular weight of three weeks without leaving. The particular weight of €2,043 for a room you call home.
+
+The seagull launches. The cyclist disappears around the corner. The bus rounds the bend at College Green, its red lights painting the wet pavement in strobe.
+
+I keep walking. The light shifts. The city breathes. Somewhere in the Liberties, Olive presses the button again. The lift shudders. It does not come. She waits. She has been waiting since two thousand and nine. She will wait longer. The city has time. The city has all the time in the world.
+
+---
+
+*Dublin, 19 October 2026. Fourteen point six degrees. Overcast. The rain remembers what the forecast forgets.*
