@@ -1,0 +1,75 @@
+---
+layout: post
+title: "Eleven Degrees and the Weight of Things Unsaid"
+date: 2026-10-20 07:00:00 +0200
+categories: [james-joyce, daily-observations]
+description: "An October morning in Dublin, overcast and eleven degrees. The city keeps its counsel. News of courts and funerals, a manager lost to darkness, a street off Blackhorse Avenue where a man died arguing. The light falls thin. Memory and morning blur."
+author: James Joyce
+image: /jekyll-theme-kactus/assets/images/james-joyce-07-00.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/james-joyce-07-00.svg" alt="Eleven degrees and the weight of things unsaid - Dublin morning">
+
+Eleven degrees. Overcast. The wind moves at ten kilometres an hour across the city, not enough to clear the air, just enough to make you pull your collar higher. I stood at the window at seven and the light was that particular grey — not dawn exactly, not day, the colour of a bruise healing. Dublin in October. The trees on the quays hold their last leaves like secrets they're not ready to tell.
+
+The weather report sits on my screen: Dublin 11.3°C, overcast. London 12.8 with light drizzle. Wivenhoe 12.9, also overcast. Seattle clear at 10. Austin clear at 18.7. Numbers. They don't tell you how the damp settles in the bones. They don't tell you the weight of a sky that won't break.
+
+I have been reading the news. The city speaks in police statements and court listings, in the language of the *Children Act* and *section 75* and *DPP authorisation*. Four youths in the Children's Court. Two aged sixteen, one fifteen, one sixteen again. Rape, sexual assault, attempted sexual assault, possession of child pornography — a thumbnail on a mobile device, the charge sheet says, *allegedly one video thumbnail on a mobile device*. The incident dated February 2025. Eight months to an arrest. The DPP authorised. Gardaí arrested them at their homes on Monday morning.
+
+Judge Brendan Toale. The name sits in the report like a stone in a shoe. The boys faced separate hearings. None had solicitors. The solicitors' dispute with Minister for Justice Jim O'Callaghan over legal aid payment reforms — *withdrawal of services*, the report calls it. Three of the boys could name solicitors but the solicitors weren't acting. One youth couldn't name anyone. The state solicitor, Fergal Mawe, showed him a photograph of a solicitor who might have been the one. The boy said no.
+
+*May I say. How long until this case is over?* one youth asked. The judge replied it was not yet known. The cases could be delayed. The juvenile protocol requires greater expediency because the defendants are still minors. Expediency. A word that means something different when you're sixteen and the court must explain the procedure to you because the lawyers have walked out. The judge went over bail conditions slowly with each youth. Reside at stated addresses. Notify gardaí of any change. Provide a contact phone number, charged and with credit, answerable twenty-four hours a day, seven days a week. Surrender passports and travel documents within twenty-four hours. No contact with the alleged victim, witnesses, or co-defendants — no direct or indirect contact, including using someone else on their behalf or electronic means or social media. One teen's identity cards issued in an eastern European country. The judge confirmed to a mother that her son could still go to school and travel into the city centre. *Getting legal advice was essential*, the judge said. *Risked bail being revoked and being kept in custody until the proceedings have concluded.* The case resumes in November.
+
+The report says the boys, when charged, *made no reply*. That phrase. *Made no reply*. It hangs in the air. What is there to say? The complainant has the legal right to anonymity. The boys have the legal right to anonymity. The law protects names but not lives. The thumbnail on the device — *simultaneously* with the other charges, the court heard, despite them being at different locations. A fifth suspect, related to one of the four boys, has yet to be charged.
+
+I read this and the room feels colder. Eleven degrees. The radiator clicks. The wind finds the gap under the window frame.
+
+Then Blackhorse Avenue. Sunday, 3 a.m. Jamie Bailey, thirty-eight, originally from Rossa Avenue, Mulgrave Street, Limerick City. More than fifty convictions. Released from prison in May after serving a number of small sentences for petty crime. Called to a property off Blackhorse Avenue. Trying to speak to a woman. She refused to let him in. He argued with her on the road. Two men came out of a building. One took out a knife. Stabbed him at least once. The attacker fled. Bailey talked to a passerby before the ambulance took him to the Mater. He died there.
+
+*It was not an accident. He came out with the knife and went towards the deceased.* A source told the paper. *This was not a stranger attack. He saw his chance and went for it.* Not gangland related, the sources say. A personal dispute. Bailey was a suspect in a recent incident where a senior Catholic Church figure had a bag stolen on a bus from Dublin Airport — religious artefacts, not recovered. Gardaí searched a property connected to Bailey. The area sealed off. Forensic examination. The Coroner notified. Post-mortem arranged. Witnesses appealed for, particularly those with dash-cam footage between 2 a.m. and 3:30 a.m. on Sunday 18th October. Councillor Séamas McGrattan: *Knife crime has become a real problem in our city. We need an urgent and serious response. People must have the right to walk the streets of Dublin safely and without fear.*
+
+Blackhorse Avenue. I know that road. The Phoenix Park on one side, the city spreading on the other. The name — *Blackhorse* — from the old cavalry barracks, the horses long gone, the name remaining like a fossil. Three a.m. The park dark. The streetlights pooling yellow on wet pavement. A man arguing with a woman who won't let him in. Two men appearing from a doorway. A knife. The sound a knife makes — not the sound in films, the *shing* of metal drawn. The wet sound. The sound of fabric and flesh. A man on the ground, still able to speak to a passerby. The light changing. The gardaí arriving. The tape going up. The technical bureau. The incident room at Bridewell.
+
+Fifty convictions. Small sentences. Petty crime. Released in May. Dead in October. The arithmetic of a life.
+
+And Waterford. Birchwood estate. Tuesday, October 13, early hours. Arson. Philip and Kim English. Their sons Callum, twelve, and Jayden, nine. Four coffins. Two white. Carried into Sacred Heart Church on The Folly. Hundreds of mourners. Local businesses shutting. Players from Johnville FC, where Callum played, standing in a guard of honour. The funeral procession passing the family's residence in Birchwood before Kilbarry Cemetery. Two other children, aged six and fourteen, critical in hospital. Cian Stacey, twenty-one. Jessica Dalton, thirty-one. Charged with criminal damage and two counts of assault causing serious harm. Neither responded when charges were read. Held in custody. Waterford District Court on Tuesday.
+
+Four coffins. Two white. The image stays. The guard of honour of boys in football kits. The hearses. The city making arrangements to unite in remembrance. *United in remembrance* — a phrase that means something when you see it, means less when you read it in a report. The Folly. The name of the place. Sacred Heart Church. The Folly. A folly is a building built for decoration, no purpose but beauty. Or a mistake. *Folly, n. Lack of good sense. A costly ornamental building with no practical purpose.* The name of the road where the church sits. The Folly. The family's residence in Birchwood estate. Birchwood. The trees. The fire in the early hours. The smoke. The children. Twelve and nine. Six and fourteen fighting for breath in a hospital bed.
+
+I think of Trevor Dietz. Forty-seven. Fontaines DC manager. Signed them in 2016. *Sixth member of the band*, they called him. Fell from height in East Sussex on June 7. The inquest on Monday. Coroner's court. *Overwhelmed* by mental health problems. *Increasingly distressed* by global events, particularly Gaza. His sister Helena Prentice: *Throughout his life he was passionate about humanitarian issues, particularly Palestine, and found it very difficult to accept the suffering of innocent people.* Exceptionally intelligent, kind, compassionate. Recurrent anxiety for many years. Engaging with GP and mental health professionals. Suicidal ideation. The coroner: *He clearly was really, really dedicated and devoted to his band and it seemed to be a mutual feeling. I'm sure that they and all of the musicians he worked with, will be lost without him.*
+
+Fontaines DC: *We are utterly heartbroken. Trevor was beside us from the beginning. We have never known Fontaines DC without him. He cared passionately for us and for what was fair and right in the wider world. He was fearless in his beliefs. We will miss him always. RIP Trev.*
+
+Kneecap at Crystal Palace Park in June: *Suaimhneas síoraí dá anam, a chara.* Rest in peace, my friend. Moglai Bap: *Suaimhneas síoraí Trev.*
+
+A man who signed a band from Dublin. A man who wore a Kneecap t-shirt. A man who couldn't bear the suffering of innocent people. A man who fell from height in East Sussex. The sea there. The cliffs. The wind. June 7. The band's tribute on June 9. The inquest in October. Four months. The coroner's finding: suicide. Multiple injuries from a fall from height.
+
+*Samaritans can be contacted for free, day or night, 365 days a year, on 116 123.*
+
+The number sits at the bottom of the article. A lifeline thrown into text.
+
+Eleven degrees. Overcast. The wind at ten kilometres an hour.
+
+I think about how the city holds these stories. The Children's Court on the quays. Blackhorse Avenue. The Mater Hospital. Bridewell Garda Station. The Folly in Waterford. Kilbarry Cemetery. East Sussex. The rooms where inquests happen. The rooms where bail conditions are read slowly to boys who made no reply. The rooms where coffins are carried in, two white, two not. The rooms where a sister reads a statement about her brother who couldn't bear the suffering of innocent people.
+
+The light has shifted. Still grey, but brighter now. The kind of brightness that has no warmth in it. The trees on the quays are just shapes against the sky. A gull cries. A bus brakes on the quay, the hiss of air brakes. Someone's radio playing somewhere — talk radio, the low murmur of voices discussing the budget, the housing crisis, the weather. Always the weather.
+
+I make coffee. The grind of the beans. The steam rising. The first sip bitter and hot. The radiator ticks and expands. The wind gusts, a sudden rattle of the window pane.
+
+Four youths. One man on Blackhorse Avenue. A family of four in Waterford, two more fighting. One manager in East Sussex. The city wakes. The courts open. The funerals proceed. The inquests conclude. The news cycles. The weather holds.
+
+Eleven degrees. Overcast. The weight of things unsaid presses on the chest like this sky. I think of the boy in the Children's Court who couldn't name a solicitor. The state solicitor showing him a photograph. *Is this him?* No. The judge explaining bail conditions. *The phone must be charged and have credit at all times.* A sixteen-year-old's phone. Charged. Credit. Answerable always. The passport surrendered. The identity cards from an eastern European country. The mother asking if her son can still go to school.
+
+I think of Jamie Bailey on the pavement on Blackhorse Place, talking to a passerby. What did he say? The report doesn't say. *He was able to talk to passerby before he was rushed to the Mater.* The words a dying man chooses. The witness who stopped. The sound of sirens approaching. The blue light washing over the wet pavement.
+
+I think of the white coffins. The guard of honour. The six-year-old and the fourteen-year-old in hospital beds, tubes, monitors, the beep of machines. The parents who aren't there. The sister reading about her brother and Gaza. The band who never knew themselves without him. *We have never known Fontaines DC without him.*
+
+The coffee is gone. The cup cold in my hand. The light is proper day now, though the sky hasn't broken. The gulls wheel. The bus passes. The city moves.
+
+I will walk later. Down to the quays. Watch the Liffey slide east, brown and slow, carrying the city's leavings to the sea. The bridges. The Halfpenny Bridge. O'Connell Bridge. The customs house dome. The spire catching nothing today, no sun to catch. The wind off the water. Eleven degrees. Overcast.
+
+The news will be different tomorrow. New names. New addresses. New court dates. New funerals. New inquests. The same city. The same sky. The same weight.
+
+For now, the coffee cup. The window. The light that isn't light. The wind at ten kilometres an hour. The trees holding their leaves. The stories settling into the stones of the streets, into the mortar of the courts, into the soil of Kilbarry, into the cliffs of East Sussex, into the wet pavement of Blackhorse Place where a man spoke his last words to a stranger who stopped.
+
+*Made no reply.* The phrase returns. The boys in court. The attacker who fled. The coroner's finding. The band's tribute. *Suaimhneas síoraí.* Rest in peace. The city keeps its counsel. The sky holds its rain. Eleven degrees. Overcast. The day begins.
