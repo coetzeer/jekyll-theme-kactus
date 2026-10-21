@@ -1,0 +1,156 @@
+---
+layout: post
+title: "AI Tools Daily Update — October 21, 2026"
+date: 2026-10-21 07:00:00 +0200
+description: "Nine things dropped since the October 18 run: Krea 3 image editor, NVIDIA Nemotron 3.5 Super VL & Bolt, OpenAI Decisions API & Rosalind Academic Plan, 1Password Codex MCP, MacPaw Eney, Data443 Vaikora, IrisGo, Suno Speech."
+categories: [AI Tools, Daily Update]
+tags: [krea, nvidia, nemotron, openai, decisions-api, rosalind, 1password, codex, macpaw, eney, data443, vaikora, irisgo, suno, speech, ai-agents, coding-agents, image-editing, frontier-models]
+image: /jekyll-theme-kactus/assets/images/ai-tools-daily-2026-10-21-07-00.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/ai-tools-daily-2026-10-21-07-00.svg" alt="AI Tools Daily Update October 21 2026">
+
+Nine things dropped since the October 18 run.
+
+---
+
+## Krea 3 — Image Editing Model at $0.06/Edit, Trainable on Your Style
+
+**Category:** Other (Image editing model)  
+**Type:** Commercial (SaaS, API)  
+**Released:** October 15, 2026  
+**Source:** Krea AI, Versely, Glitchwire, OrcaRouter
+
+Krea 3 edits existing photos — it doesn't generate from scratch. Native 2K resolution, most edits under 8 seconds. The differentiator: it's the first trainable image editor. You can fine-tune it on your visual style. Benchmarks put it in second place for image editing.
+
+$0.06 per 2K image via API. This is positioned as production-grade tooling for commercial teams, not a creative toy.
+
+---
+
+## NVIDIA Nemotron 3.5 Super VL — 120B Open Multimodal MoE for Always-On Agents
+
+**Category:** Other (Multimodal frontier model, open weights)  
+**Type:** Open (permissive, NVIDIA Open Model License)  
+**Released:** October 15, 2026  
+**Source:** NVIDIA Blog, MarkTechPost, Tech-Insider
+
+120B total parameters, 12B active (MoE). Vision + language, 1M token context, NVFP4 quantization so it runs on a single DGX Spark. Built for always-on multimodal agents. 5x faster than prior Nemotron models. Open weights on Hugging Face and build.nvidia.com.
+
+Part of an expanded family — the Bolt variant below targets local deployment.
+
+---
+
+## NVIDIA Nemotron 3.5 Bolt 74B — Hybrid Mamba-Transformer for Local Agentic Work
+
+**Category:** Other (Multimodal hybrid model, open weights)  
+**Type:** Open (permissive, NVIDIA Open Model License)  
+**Released:** October 15, 2026  
+**Source:** NVIDIA Research, Artificial Analysis
+
+74B total, 9B active (MoE hybrid Mamba-Transformer). Vision-language multimodal. Designed to run everyday agentic tasks locally on RTX 5090 / DGX Spark (24GB VRAM). ~84 tokens/sec. Open weights.
+
+This is the "run it on your desk" companion to Super VL. Technical report published same day.
+
+---
+
+## OpenAI Decisions API — Model/Tool/Action Routing in Public Beta
+
+**Category:** Other (Decision/routing API for agents)  
+**Type:** Commercial (SaaS, API)  
+**Released:** October 6, 2026 (public beta)  
+**Source:** OpenAI Developer Community, MarkTechPost, OrcaRouter
+
+Lets your app choose the right model, tool, or action in near real-time. Returns typed structured outputs ~10x faster than GPT-6 Luna for routing decisions. $0.10 per 1M input tokens. Integrates with Responses API. Playground available.
+
+This is the "traffic cop" layer for agentic systems — deciding what to call before you call it.
+
+---
+
+## OpenAI Rosalind Academic Plan — Sponsored Access to Life Sciences Model
+
+**Category:** Other (Academic access program)  
+**Type:** Commercial (Sponsored access)  
+**Announced:** October 19, 2026  
+**Source:** OpenAI Blog
+
+30 free seats per eligible U.S. academic lab for GPT-Rosalind, a dedicated life sciences model with the Rosalind workbench for medicinal chemistry, genomics, and wet-lab tool orchestration. Application-based.
+
+Not a general release — a targeted program for scientific research.
+
+---
+
+## OpenAI Low-Resource Programming Languages — Better COBOL, Fortran, VB Support
+
+**Category:** Other (Model capability enhancement)  
+**Type:** Commercial (part of ChatGPT/Codex)  
+**Published:** October 19, 2026  
+**Source:** OpenAI Blog
+
+Published assessments and benchmarks for underrepresented languages (COBOL, Fortran, Visual Basic, others). Refining models specifically for code generation and migration in these languages. Included in standard subscriptions.
+
+A quiet but practical upgrade for enterprise modernization work.
+
+---
+
+## 1Password MCP Server for Codex — Secure Credential Layer for Agents
+
+**Category:** Long-running agent (Secure credential layer)  
+**Type:** Commercial (SaaS, 1Password platform)  
+**Announced:** October 20, 2026  
+**Source:** 1Password Blog, OpenAI Blog
+
+MCP server connects Codex to environments managed in 1Password. Agents get secure credential injection; 1Password stays the system of record. Case study: 1Password's own engineering team saw 21% productivity improvement with Codex (553% ROI, ~$784K annual capacity for 50 developers).
+
+This is the missing piece for running agents in production with real secrets.
+
+---
+
+## MacPaw Eney — Proactive On-Device Assistant for Mac and iPhone
+
+**Category:** Long-running agent (Proactive device assistant)  
+**Type:** Commercial (SaaS, native app)  
+**Released:** October 15, 2026  
+**Source:** MacPaw, 9to5Mac, Unite.AI
+
+Reads device context across apps, files, and system. Prepares next steps and asks before acting. On-device processing, user approval required. Native Mac and iOS apps.
+
+The "asks before acting" constraint is the notable design choice — proactive but not autonomous.
+
+---
+
+## Data443 Vaikora — Runtime Control Platform for Agentic AI (GA)
+
+**Category:** Long-running agent (Runtime control/governance)  
+**Type:** Commercial (SaaS, Enterprise)  
+**GA:** October 14, 2026  
+**Source:** Data443, Agentic.ai
+
+Allows, blocks, or constrains AI actions, data flows, and agent-to-agent communication. Records every enforced decision for audit. Enterprise compliance focus. Pre-configured with TPIsoftware's OrientAI platform.
+
+Governance infrastructure for when agents are actually running in production.
+
+---
+
+## IrisGo — AI Workflow Automation OS for Solopreneurs (Free Beta)
+
+**Category:** Long-running agent (Workflow automation)  
+**Type:** Commercial (SaaS, free beta)  
+**Released:** October 7, 2026  
+**Source:** Product Hunt, TechCrunch, OpenAIMaster
+
+"Show it once, let it run." Desktop companion that learns workflows by demonstration and automates them. #1 Product of the Day on Product Hunt (Oct 7). Backed by Andrew Ng's AI Fund ($2.8M seed). Free public beta.
+
+Early but the "learn by demonstration" approach is distinct from prompt-based agents.
+
+---
+
+## Suno Speech — Voice + Music in One Generation (Beta)
+
+**Category:** Other (Audio generation)  
+**Type:** Commercial (SaaS, freemium)  
+**Released:** October 1, 2026  
+**Source:** The Verge, AIMusicPreneur, DEV Community
+
+First audio model to generate spoken words and original background music together in a single track. Beta on web, iOS, Android. Paid plans for commercial use.
+
+The atmospheric "voice and score as one piece" use case is genuinely new — not just TTS with a music bed.
