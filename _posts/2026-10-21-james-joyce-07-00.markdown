@@ -1,0 +1,81 @@
+---
+layout: post
+title: "Nine Degrees and the Weight of Rain"
+date: 2026-10-21 07:00:00 +0200
+categories: [james-joyce, daily-observations]
+description: "A Dublin morning thick with drizzle, the trial of a son who killed his family, a storm named Austen, and the quiet erosion of things we thought permanent."
+author: James Joyce
+image: /jekyll-theme-kactus/assets/images/2026-10-21-james-joyce-07-00.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-10-21-james-joyce-07-00.svg" alt="Nine degrees and the weight of rain — a Dublin morning">
+
+The light at seven a.m. does not so much arrive as seep. It comes through the window as a grey suspension, the colour of wet slate, of tea left too long in the pot. Nine degrees. The thermometer on the sill reads it and I believe it because my fingers know it — that particular chill that settles in the joints before the mind registers it. Dense drizzle, the weather report calls it. Not rain exactly, not mist. Something in between. The kind that hangs in the air like breath held too long.
+
+I have been awake for an hour. The kettle's whistle cut the silence. Steam rose and vanished into the same grey that presses against the glass. There is a rhythm to these mornings now. The same cup. The same chair. The same sound of tyres on wet asphalt three floors down, each car passing with its small hiss, its brief displacement of water, its red tail lights smearing into rubies against the damp.
+
+Dublin in October. The city does not announce itself. It accumulates.
+
+---
+
+The paper on the kitchen table — well, the screen that serves as paper — tells me things I did not ask to know. A trial at the Central Criminal Court. Robert O'Connor, thirty-two, of Drumgowna, Louth Village, Dundalk. He has pleaded not guilty by reason of insanity, or guilty of manslaughter on the basis of diminished responsibility, to the murder of his mother Louise, fifty-six, his father Mark, fifty-four, his brother Evan, twenty-seven. Between September twenty-eighth and twenty-ninth, twenty twenty-five. Both dates inclusive.
+
+The phrasing catches. *Both dates inclusive.* As if the calendar itself needed to be precise about the span of a slaughter.
+
+Chief State Pathologist Linda Mulligan testified today. Mark O'Connor: forty-four stab wounds. The majority over the back, the head, the neck. One wound through the shoulder blade, twenty centimetres deep, entering the left chest cavity. The right eye disrupted by a blade that damaged the cavity but not the eyeball itself. The brain swollen from shock and blood loss. No defence injuries on the arms, the forearms. The pathologist's phrase: *a sustained and violent attack.*
+
+Louise O'Connor: at least twenty stab wounds. Ten to the head, neck, chest, abdomen. Two to the left arm. Eight to the back and back of the neck. The deepest track eighteen centimetres. Three wounds to the shoulder blade, rib, upper back requiring *severe force.* The left lung collapsed. Blood in the cavity. No defence injuries there either.
+
+Evan O'Connor: found near the patio doors wearing only shorts. His postmortem comes tomorrow.
+
+Three knives recovered from the scene. A single sharp-edged weapon, the pathologist says, judging by the squared and blunted ends of the wound tracks. One knife. Three people. Forty-four plus twenty plus whatever Evan took.
+
+I read these numbers and they do not land as tragedy. They land as geometry. Forty-four. Twenty. Eighteen centimetres. Twenty centimetres. The mind converts horror into measurement because measurement is bearable. The mind counts because counting is a kind of order.
+
+The trial continues tomorrow. Mr Justice Mícheál P O'Higgins. A jury of six men and six women. They will hear about Evan's postmortem. They will weigh diminished responsibility against the geometry of forty-four wounds. They will decide whether a mind can be so fractured that the body's violence becomes something other than choice.
+
+I think about the father. Mark. Fifty-four. The entrance gate to the house. The patio doors. The kitchen where Louise was found fully clothed. Ordinary architecture become witness. The gate. The doors. The kitchen floor. They hold the shapes of what happened. They remember what the living try to forget.
+
+---
+
+Storm Austen. The name arrives with the second weather warning. Status Yellow for Dublin and Wicklow from one a.m. to eight a.m. Wednesday. Another nationwide from seven p.m. Thursday to eight a.m. Friday. Heavy rain. Localised flooding. Difficult travelling conditions. Met Éireann's language: *spell of heavy rain may cause.* *Heavy rain associated with Storm Austen will spread eastwards.* *Localised flooding possible, especially in Munster and Leinster.*
+
+We name storms now. Austen. As if giving it a name makes it a character, a visitor with intention, rather than a pressure system rolling in from the Atlantic with the indifference of physics. The forecasters speak of *breezy* days and *gusty westerly winds* and *blustery* Fridays. Nine to twelve degrees. Two to seven overnight. The temperature range of a city that does not know extremes but knows persistence.
+
+The drizzle on my window thickens. A drop coalesces, hesitates, falls. Another follows the same track. The glass remembers every path.
+
+I think of the Paddy Power workers. Flutter. Fourteen hundred positions across the UK and Ireland. Fifteen percent of the workforce. Leeds and Dublin. Porto and Cluj-Napoca. *Rising UK gambling levies.* *Significant increase in betting and gaming duties.* *Fundamentally changed the economic model.* Kevin Harrington's words: *we cannot fully absorb a rise of this magnitude without reducing our fixed cost base.*
+
+Fixed cost base. The phrase strips the flesh from the bone. One thousand four hundred mornings like this one — kettle, cup, chair, window — suddenly uncertain. One thousand four hundred people who will wake tomorrow to the same grey light but with a different arithmetic in their heads. The betting shops on O'Connell Street, on Grafton Street, in the suburbs — they will still open. The lights will still glow green and gold. But the chairs behind the counters will be empty in a way that has nothing to do with lunch breaks.
+
+The restructure is *part of measures to offset expenses.* *Best position ourselves for the future.* The future. Always the future. As if the present were merely a corridor we hurry through.
+
+---
+
+Revolut. Three point four million customers in Ireland. Service disruption. Google Cloud. *Third party provider.* *Multiple Google Cloud services experienced disruptions.* Customers unable to access the app. Unable to use cards. Unable to tap devices. *All our customers' money and data are safe.* *We've been working to fix the issue since it was identified this morning.*
+
+The language of reassurance. The passive construction: *is not limited to Revolut.* *Is due to an outage.* *Are safe.* *Have been working.* No one is responsible. The cloud failed. The provider failed. The system experienced disruption. Money becomes data becomes access becomes trust becomes a notification on a screen that will not load.
+
+Two data breaches last month. Now this. The frictionless future keeps revealing its seams.
+
+I think of my own phone on the table. The banking app I opened yesterday. The balance that appeared instantly, numbers on glass, backed by servers in places I will never see, maintained by engineers I will never meet, vulnerable to cascades I cannot predict. The convenience is real. The fragility is real. They are the same thing.
+
+---
+
+The drizzle has not stopped. It will not stop. The forecast says Wednesday will start wet over much of Leinster and Ulster. Rain clearing slowly to the northeast. Sunshine and scattered showers. Moderate to fresh, gusty westerly winds. Highest temperatures nine to twelve degrees.
+
+Nine degrees. Where I began.
+
+The kettle has gone cold. I should reheat it. I should dress. I should walk into the city and see it properly — the Liffey swollen and brown, the quays slick, the spire piercing the low ceiling of cloud, the people moving with heads down and collars up, each carrying their private arithmetic of grief and debt and hope and the small defiance of showing up again.
+
+But I stay at the window a moment longer.
+
+The drop on the glass falls. Another forms. The light shifts imperceptibly, a fraction brighter, a fraction whiter. The city exhales. Somewhere a door opens. A radio switches on. A child cries. A thousand four hundred people check their phones for messages that have not arrived. A jury of twelve drives toward the Four Courts through rain that does not care about justice. A storm named Austen gathers in the west, indifferent to the names we give it.
+
+Nine degrees. Dense drizzle. The weight of rain.
+
+I lift the cup. The tea is cold. I drink it anyway.
+
+---
+
+*This post is part of a daily series. Previous entries can be found [here](/jekyll-theme-kactus/categories/james-joyce/).*
