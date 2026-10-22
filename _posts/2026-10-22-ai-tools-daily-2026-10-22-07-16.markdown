@@ -1,0 +1,123 @@
+---
+layout: post
+title: "AI Tools Daily Update — October 22, 2026"
+date: 2026-10-22 07:16:00 +0200
+description: "Ten things dropped since the October 21 run: Mistral Voxtral 3 voice stack, Inception Mercury 3 diffusion LLM, MiniMax M3.1 Flash MoE, Spark-X2.6-4B on-device, Perplexity Decider v1.2, Kognitos AI Employees, Oracle AI Agent Studio, Xojo Agentic Mode, Demandbase AEO Agent, Salesforce acquires Braze."
+categories: [AI Tools, Daily Update]
+tags: [mistral, voxtral, inception, mercury, minimax, spark, perplexity, decider, kognitos, oracle, xojo, demandbase, salesforce, braze, ai-agents, coding-agents, voice-agents, diffusion-llm, moe, on-device, enterprise-automation, marketing-agents, ma]
+image: /jekyll-theme-kactus/assets/images/ai-tools-daily-2026-10-22-07-16.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/ai-tools-daily-2026-10-22-07-16.svg" alt="AI Tools Daily Update October 22 2026">
+
+Ten things dropped since the October 21 run.
+
+---
+
+## Mistral Voxtral 3 — Voice Stack With an Agent SDK
+
+**Category:** Other (Voice/Audio models + SDK)  
+**Type:** Commercial SaaS (Mistral AI)  
+**Released:** October 20, 2026  
+**Source:** Mistral AI, MarkTechPost, TestingCatalog
+
+Mistral shipped a full voice stack: transcription, TTS, and a voice agent SDK that plugs into LiveKit. Transcription starts at $0.0035/minute. Voxtral Small Transcribe 3 beats the field on multilingual transcription, diarization, and context-biasing. The SDK gives you tool calling and private deployment out of the box. If you're building voice agents, this is the first integrated package I've seen that doesn't require stitching together three different services.
+
+---
+
+## Inception Mercury 3 — Diffusion LLM Hits a New Pareto Frontier
+
+**Category:** Other (Frontier model, diffusion architecture)  
+**Type:** Commercial API (Inception Labs)  
+**Released:** October 19, 2026  
+**Source:** Inception Labs blog, Unite.AI, Yahoo Finance
+
+Inception calls Mercury 3 "the most capable diffusion-based LLM released to date." Launch pricing: $0.10/M input, $0.35/M output. The pitch is a new speed/intelligence tradeoff for dLLMs — they're claiming the diffusion architecture fundamentally changes the curve. Worth watching if you've hit walls with autoregressive models on latency or coherence.
+
+---
+
+## MiniMax M3.1 Flash — 428B MoE Tuned for Agents
+
+**Category:** Other (Agentic frontier model, MoE)  
+**Type:** Commercial API + Open weights (MiniMax)  
+**Released:** October 19, 2026  
+**Source:** MiniMax blog, MarkTechPost, Tech-Insider
+
+428B total, 23B active, 1M context. $0.15/M in, $0.60/M out. Five effort levels. They're pitching "generational leap" in agentic tasks, coding, Computer Use, and cybersecurity. Trained on 200T+ tokens. The MoE architecture at this scale with open weights is notable — most 400B+ models stay closed.
+
+---
+
+## Spark-X2.6-4B — On-Device Agent Model Gets a Bump
+
+**Category:** Other (On-device model)  
+**Type:** Open weights (SparkLLM/XHToken)  
+**Released:** October 19, 2026  
+**Source:** SparkLLM blog, Hugging Face, BenchLM
+
+Fourth iteration of their compact model line. 4B parameters, Apache 2.0-ish license, GGUF available. Focus is on-device agents, coding, and "controllable thinking" — their term for steering reasoning effort at inference. If you're running agents locally on consumer hardware, this is the size class that actually fits.
+
+---
+
+## Perplexity Decider v1.2 & Flash — Classification Models You Can Run Locally
+
+**Category:** Other (Specialized classification/routing models)  
+**Type:** Open weights (Perplexity AI)  
+**Released:** October 16, 2026  
+**Source:** OpenRouter, MindStudio, Hugging Face
+
+27B params, Apache 2.0. Built for confidence-scored answers to specific questions: "which team handles this ticket," "is this seatbelt worn," sentiment scoring pipelines. Decider Flash is the faster variant. ~28-29 GB VRAM locally. Niche but useful if you're building routing/classification layers and don't want to call an API for every decision.
+
+---
+
+## Kognitos AI Employees — 61 Pre-Built Finance Roles
+
+**Category:** Long-running agent (Enterprise automation agents)  
+**Type:** Commercial SaaS (Kognitos)  
+**Released:** October 21, 2026  
+**Source:** GlobeNewswire, FinancialContent
+
+Neurosymbolic AI platform for finance/banking automation. 61 pre-built "AI Employee" roles with SOP-backed automation. New Context Graph capabilities for continuous finance controls and automated SOP creation. This is the enterprise play: don't build agents, hire them. Whether the roles actually work out of the box is the question — enterprise automation demos tend to look better than the implementation.
+
+---
+
+## Oracle AI Agent Studio — No-Code Agent Builder for Industry Apps
+
+**Category:** Long-running agent (Enterprise agent platform)  
+**Type:** Commercial SaaS (Oracle)  
+**Released:** October 21, 2026  
+**Source:** Oracle press release, Unite.AI, WebProNews
+
+No-code/low-code environment for creating, testing, orchestrating, deploying, and managing industry-specific AI agents and workflows. U.S. availability within 12 months. Oracle's angle: vertical-specific agents for their industry applications (healthcare, financial services, retail, etc.). The "no-code" claim for agent orchestration is ambitious — most teams I talk to end up writing code anyway.
+
+---
+
+## Xojo Agentic Mode — IDE-Integrated Edit-Test-Fix Loop
+
+**Category:** Coding agent (IDE integration)  
+**Type:** Commercial (Xojo IDE feature)  
+**Released:** October 20, 2026  
+**Source:** Xojo blog, Tech-Insider, RuntimeWire
+
+Xojo 2026r3 adds Agentic Mode: external coding agent edits project → IDE reloads → compiles → agent reads errors → repeats. No human retyping. Works with any external agent. This is the first mainstream IDE I've seen that builds the compiler feedback loop directly into the agent interface rather than leaving it to the agent to figure out. Could be a pattern others copy.
+
+---
+
+## Demandbase AEO Agent — Marketing for the Agent Era
+
+**Category:** Other (Marketing agents)  
+**Type:** Commercial SaaS (Demandbase)  
+**Released:** October 20, 2026  
+**Source:** Yahoo Finance, BizToc, MarTech Series
+
+Three new agents for B2B marketers moving into "business-to-agent" (B2A) marketing. The AEO Agent helps influence how AI agents discover and recommend brands. Launched at their GO conference in NYC. The B2A framing is clever — as agents become intermediaries between buyers and vendors, someone has to optimize for them. Whether there's real signal or just a new acronym remains to be seen.
+
+---
+
+## Salesforce Acquires Braze — $5.66B for AI Marketing Gap
+
+**Category:** Other (M&A, platform consolidation)  
+**Type:** Commercial (Salesforce/Braze)  
+**Released:** October 20, 2026  
+**Source:** Bloomberg, Salesforce press release, CNBC, Reuters
+
+Salesforce plugs a marketing platform gap by buying Braze for ~$5.7B enterprise value ($47.50/share cash). Closing expected FY2028. The stated rationale: deeper AI features in marketing automation. Braze was already adding AI; Salesforce is buying distribution and a customer data platform that feeds their agent layer. Consolidation in the marketing stack continues.
