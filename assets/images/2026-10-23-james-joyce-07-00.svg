@@ -1,0 +1,108 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#161b22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="drizzleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.15" />
+      <stop offset="50%" style="stop-color:#a371f7;stop-opacity:0.08" />
+      <stop offset="100%" style="stop-color:#3fb950;stop-opacity:0.1" />
+    </linearGradient>
+    <radialGradient id="lampGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#f78166;stop-opacity:0.4" />
+      <stop offset="70%" style="stop-color:#f78166;stop-opacity:0.05" />
+      <stop offset="100%" style="stop-color:#f78166;stop-opacity:0" />
+    </radialGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#skyGradient)"/>
+
+  <!-- Subtle atmospheric texture -->
+  <rect width="1200" height="630" fill="url(#drizzleGradient)"/>
+
+  <!-- Drizzle streaks -->
+  <g stroke="#58a6ff" stroke-width="0.5" opacity="0.3">
+    <line x1="100" y1="0" x2="90" y2="630"/>
+    <line x1="250" y1="0" x2="240" y2="630"/>
+    <line x1="400" y1="0" x2="390" y2="630"/>
+    <line x1="550" y1="0" x2="540" y2="630"/>
+    <line x1="700" y1="0" x2="690" y2="630"/>
+    <line x1="850" y1="0" x2="840" y2="630"/>
+    <line x1="1000" y1="0" x2="990" y2="630"/>
+    <line x1="1150" y1="0" x2="1140" y2="630"/>
+  </g>
+
+  <!-- Streetlamp halos -->
+  <g filter="url(#softGlow)">
+    <ellipse cx="150" cy="120" rx="80" ry="40" fill="url(#lampGlow)"/>
+    <ellipse cx="1050" cy="140" rx="70" ry="35" fill="url(#lampGlow)"/>
+    <ellipse cx="600" cy="200" rx="60" ry="30" fill="url(#lampGlow)"/>
+  </g>
+
+  <!-- Cobblestone suggestion at bottom -->
+  <g fill="#1a1f26" opacity="0.6">
+    <ellipse cx="100" cy="580" rx="40" ry="8"/>
+    <ellipse cx="200" cy="590" rx="35" ry="7"/>
+    <ellipse cx="320" cy="585" rx="38" ry="8"/>
+    <ellipse cx="450" cy="595" rx="42" ry="9"/>
+    <ellipse cx="600" cy="580" rx="40" ry="8"/>
+    <ellipse cx="750" cy="590" rx="35" ry="7"/>
+    <ellipse cx="900" cy="585" rx="38" ry="8"/>
+    <ellipse cx="1050" cy="595" rx="42" ry="9"/>
+    <ellipse cx="1150" cy="580" rx="35" ry="7"/>
+  </g>
+
+  <!-- Laneway suggestion - vertical perspective lines -->
+  <g stroke="#30363d" stroke-width="1.5" opacity="0.4">
+    <line x1="300" y1="400" x2="200" y2="630"/>
+    <line x1="900" y1="400" x2="1000" y2="630"/>
+    <line x1="400" y1="450" x2="350" y2="630"/>
+    <line x1="800" y1="450" x2="850" y2="630"/>
+  </g>
+
+  <!-- Title text -->
+  <text x="600" y="220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">Nine Degrees and the Weight of Remembering</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="285" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" fill="#8b949e" text-anchor="middle" font-style="italic">A Dublin morning thick with drizzle and memory</text>
+
+  <!-- Divider line -->
+  <line x1="450" y2="310" y1="310" x2="750" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Category tags -->
+  <text x="600" y="345" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#58a6ff" text-anchor="middle">James Joyce · Daily Observations · 23 October 2026</text>
+
+  <!-- Decorative elements - small circles suggesting droplets/memory points -->
+  <g fill="#58a6ff" opacity="0.4">
+    <circle cx="200" cy="300" r="3"/>
+    <circle cx="1000" cy="280" r="2"/>
+    <circle cx="180" cy="400" r="2.5"/>
+    <circle cx="1020" cy="380" r="2"/>
+    <circle cx="300" cy="500" r="2"/>
+    <circle cx="900" cy="520" r="3"/>
+  </g>
+
+  <g fill="#a371f7" opacity="0.3">
+    <circle cx="400" cy="350" r="2"/>
+    <circle cx="800" cy="340" r="2.5"/>
+    <circle cx="450" cy="480" r="1.5"/>
+    <circle cx="750" cy="490" r="2"/>
+  </g>
+
+  <g fill="#3fb950" opacity="0.3">
+    <circle cx="550" cy="250" r="1.5"/>
+    <circle cx="650" cy="260" r="2"/>
+    <circle cx="580" cy="550" r="1.5"/>
+    <circle cx="620" cy="560" r="2"/>
+  </g>
+</svg>
