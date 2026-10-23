@@ -1,0 +1,79 @@
+---
+layout: post
+title: "AI Tools Daily Update — October 23, 2026"
+date: 2026-10-23 07:16:00 +0200
+description: "Six things dropped since the October 22 run: NVIDIA Nemotron 3.5 Bolt E4B 4GB edge model, Recursive Flint free laptop coding model, MiniMax M3.1 Flash MoE, Kognitos AI Employees, Walmart Agent Gateway MCP server, AWS SageMaker Training Sessions GA."
+categories: [AI Tools, Daily Update]
+tags: [nvidia, nemotron, recursive, flint, minimax, kognitos, walmart, aws, sagemaker, ai-agents, coding-agents, edge-ai, enterprise-automation, agent-commerce, fine-tuning, open-weights, mcp]
+image: /jekyll-theme-kactus/assets/images/ai-tools-daily-2026-10-23-07-16.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/ai-tools-daily-2026-10-23-07-16.svg" alt="AI Tools Daily Update October 23 2026">
+
+Six things dropped since the October 22 run.
+
+---
+
+## NVIDIA Nemotron 3.5 Bolt E4B — 4GB Edge Model for NPCs
+
+**Category:** Other (Edge/local model, open weights)  
+**Type:** Open source (NVIDIA Open Model License)  
+**Released:** October 23, 2026 (scheduled)  
+**Source:** NVIDIA, GameGPU, CellCog, Shattered.io
+
+A 4GB model that runs on a laptop. NVIDIA released it alongside Super VL (vision-language) and Bolt 74B-A9B (24GB) back on October 15, but the E4B was held for today. The pitch: fast dialogue for game NPCs, no cloud needed. Free open weights under NVIDIA's permissive license. If you have 4GB VRAM, it runs.
+
+---
+
+## Recursive Flint — Free Laptop Coding Model Built by AI
+
+**Category:** Coding agent (Local model)  
+**Type:** Open source (Apache 2.0)  
+**Released:** October 21, 2026  
+**Source:** Recursive, TechCrunch, TechTimes, Gokhshtein
+
+This one's weird in a good way. Recursive's "Eureka Machine" — their self-improving AI system — built a 7B coding model that runs on a laptop. No cloud, no API keys, no per-token fees. Apache 2.0 license. 8GB RAM, CPU or GPU. Beats some larger cloud models on HumanEval and MBPP. No telemetry, fully offline. The "AI building AI" framing is marketing, but the artifact is real and it's free.
+
+---
+
+## MiniMax M3.1 Flash — 428B MoE Tuned for Agents
+
+**Category:** Other (Agentic frontier model, MoE)  
+**Type:** Commercial API + Open weights (MiniMax)  
+**Released:** October 19, 2026  
+**Source:** MiniMax blog, MarkTechPost, VentureBeat, Tech-Insider
+
+428B total, 23B active. 1M context. Five effort levels let you trade speed for quality. API pricing is aggressive: $0.15/M in, $0.60/M out, flat — no long-context surcharge. They claim a "generational leap" on agentic tasks, coding, Computer Use, and cybersecurity. VentureBeat notes a high hallucination rate. Open weights on Hugging Face if you want to self-host.
+
+---
+
+## Kognitos AI Employees — 61 Pre-Built Finance/Banking Agents
+
+**Category:** Long-running agent (Enterprise automation)  
+**Type:** Commercial SaaS (Kognitos)  
+**Released:** October 21, 2026  
+**Source:** Kognitos, GlobeNewswire, Yahoo Finance, Manila Times
+
+Neurosymbolic platform for finance and banking. 61 pre-built "AI Employee" roles that execute SOPs written in plain English — deterministically. Context Graphs preserve decisions and audit trails across human-agent handoffs. Built for regulated environments where you need to trace why an exception happened. Enterprise pricing, contact sales. Not a tool you'll play with on a laptop.
+
+---
+
+## Walmart Agent Gateway — MCP Server for Agent Commerce
+
+**Category:** Other (MCP server for agent-commerce)  
+**Type:** Commercial SaaS (Walmart)  
+**Released:** October 21, 2026  
+**Source:** Walmart Corporate, TechCrunch, UA.NEWS
+
+While Amazon blocks AI agents, Walmart built an MCP server for them. Approved agents get their own profiles with permissions and audit trails. They can search inventory and buy on Walmart.com and SamsClub.com — faster and more reliably than scraping. The "Agent Profiles" concept is interesting: each agent gets an identity, not just an API key. Enterprise/B2B partnership model, no public pricing.
+
+---
+
+## AWS SageMaker Training Sessions — Serverless Fine-Tuning GA
+
+**Category:** Other (Model fine-tuning platform)  
+**Type:** Commercial SaaS (AWS)  
+**Released:** October 22, 2026 (GA)  
+**Source:** AWS, VentureBeat, The AI Economy, CryptoBriefing
+
+Serverless fine-tuning for open-weight models. You write the training code (PyTorch, JAX, whatever); AWS runs the GPUs. Targets tool-use adaptation and firm-specific tasks for Llama, Gemma, Qwen, Mistral. Pay per second of compute, no idle cluster costs. Went GA yesterday after preview.
