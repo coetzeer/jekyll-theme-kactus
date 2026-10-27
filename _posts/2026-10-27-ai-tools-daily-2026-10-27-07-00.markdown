@@ -1,0 +1,69 @@
+---
+layout: post
+title: "AI Tools Daily Update — October 27, 2026"
+date: 2026-10-27 07:00:00 +0200
+description: "Seven things dropped since the October 23 run: Kimi K3.1 Pro 2.8T MoE, Nanbeige4.3-33B dense coder, Agent S4 computer-use agent, Gemini API CLI, Moli headless browser, TanStack AI 1.0 framework, Mistral Large 4 frontier MoE."
+categories: [AI Tools, Daily Update]
+tags: [kimi, moonshot, nanbeige, simular, agent-s4, gemini, cli, moli, lexmount, tanstack, mistral, large-4, ai-agents, coding-agents, open-weights, moe, frontier-models, agent-frameworks, browser-automation]
+image: /jekyll-theme-kactus/assets/images/ai-tools-daily-2026-10-27-07-00.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/ai-tools-daily-2026-10-27-07-00.svg" alt="AI Tools Daily Update October 27 2026">
+
+Seven things dropped since the October 23 run.
+
+---
+
+## Kimi K3.1 Pro — 2.8T MoE, 1M Context, Open Weights
+
+**Category:** Coding agent  |  **Type:** Open source (weights) + Commercial API  |  **Released:** Oct 23, 2026
+
+Moonshot's first K3.1 series model. A 2.8-trillion-parameter MoE with a 1-million-token context window. It scores 65.7% on Terminal-Bench 4.0 — ahead of GPT-6 Astra at 58.2%. Strong on long coding sessions, agent tasks, and 3D/Blender work. The Highspeed variant runs 2-3x faster for responsive interactions. Full weights drop by Nov 4. Free on Kimi web/app; API on platform.kimi.ai.
+
+---
+
+## Nanbeige4.3-33B — 33B Dense Apache 2.0 Agent Model
+
+**Category:** Coding agent  |  **Type:** Open source (Apache 2.0)  |  **Released:** Oct 24, 2026
+
+A dense 33B model (not MoE) with 512K context and a self-reported 80.9 on Terminal-Bench 2.1. Built for coding and office-style agents. Leads three comparable 30B-class models on most benchmarks. Available on Hugging Face and ModelScope under Apache 2.0. If you want a strong open ~30B model for self-hosted coding agents, this is the one to benchmark.
+
+---
+
+## Agent S4 — Computer-Use Agents That Evolve Their Own Interfaces
+
+**Category:** Long-running agent  |  **Type:** Commercial (SaaS)  |  **Released:** Oct 21, 2026
+
+Simular's next-gen computer-use agent. The core idea: agents are limited by the interfaces humans give them. An agent types a spreadsheet cell by cell when a single line of code would do. Agent S4 lets agents discover and use better interfaces dynamically — shell, APIs, whatever works — instead of clicking through GUIs. It learns new interfaces as tasks demand, not just preset actions. Reduces the manual researcher loop of reading trajectories → writing primitives → shipping frameworks.
+
+---
+
+## Gemini API CLI — Multimodal Generation from the Terminal
+
+**Category:** Coding agent  |  **Type:** Open source (experimental)  |  **Released:** Oct 26, 2026
+
+An experimental CLI for the Gemini API. Lets coding agents (Codex, Claude Code, Antigravity) generate images, speech, music, and video while building an app — no SDK code needed. Direct CLI invocation from agents. On GitHub at google-gemini/gemini-api-cli. Early, but the direction is clear: agents that can call multimodal tools as easily as they call `ls`.
+
+---
+
+## Moli by Lexmount — Headless Browser Built for Agents, Not Humans
+
+**Category:** Other (Infrastructure)  |  **Type:** Open source (Rust)  |  **Released:** Oct 2, 2026
+
+A headless browser written in Rust, purpose-built for AI agents. Creates browser sessions on demand, runs them in parallel, lets you observe live execution, hands off to humans when needed, preserves recordings for review and debugging. "Lite, Fast, High-Compatibility." On GitHub at lexmount/moli. If your agent fetches lots of pages and Chrome is too slow or memory-hungry, this is worth a look.
+
+---
+
+## TanStack AI 1.0 — 76 Packages, Stable Agent Framework
+
+**Category:** Other (Agent framework)  |  **Type:** Open source (MIT)  |  **Released:** Oct 23, 2026
+
+TanStack AI hits 1.0 with 76 stabilized packages. Formal support for agents, subagents, coding-agent workflows, sandboxes, provider adapters, and an experimental harness for running agents in multiple environments. Framework-agnostic — works with React, Vue, Solid, Svelte, vanilla JS. TypeScript-first. "Still Your AI, Still Your Way." The agent harness is experimental but the core APIs are stable.
+
+---
+
+## Mistral Large 4 (ML4 / le Chonk) — 1T Parameter European MoE
+
+**Category:** Other (Frontier model)  |  **Type:** Commercial API + Open weights (pending)  |  **Released:** Oct 6, 2026 (preview)
+
+Mistral's largest model yet: 1 trillion parameters, 52B active, natively multimodal, 1M context. Trained on 3,800 Grace Blackwell GPUs in European datacenters. Self-reported DeepSWE 61.7%, Coding Agent Index 49.8%, CyberGym-E2E 82%. State-of-the-art among open models on cybersecurity, finance, law. Weights drop end of October after red-teaming. Preview API on Mistral Studio now.
