@@ -1,0 +1,69 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#161b22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#a371f7;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#f78166;stop-opacity:0.3" />
+    </linearGradient>
+    <radialGradient id="lightPool" cx="50%" cy="30%" r="40%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#58a6ff;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#skyGradient)"/>
+
+  <!-- Subtle geometric elements -->
+  <rect x="0" y="0" width="1200" height="630" fill="url(#accentGradient)" opacity="0.4"/>
+
+  <!-- Light pool suggesting morning clarity -->
+  <ellipse cx="600" cy="180" rx="400" ry="200" fill="url(#lightPool)"/>
+
+  <!-- Thin decorative lines -->
+  <line x1="100" y1="100" x2="1100" y2="100" stroke="#30363d" stroke-width="1" opacity="0.5"/>
+  <line x1="100" y1="530" x2="1100" y2="530" stroke="#30363d" stroke-width="1" opacity="0.5"/>
+
+  <!-- Vertical accent lines -->
+  <line x1="200" y1="100" x2="200" y2="140" stroke="#58a6ff" stroke-width="2" opacity="0.6"/>
+  <line x1="1000" y1="490" x2="1000" y2="530" stroke="#a371f7" stroke-width="2" opacity="0.6"/>
+
+  <!-- Small geometric shapes -->
+  <circle cx="150" cy="120" r="3" fill="#58a6ff" opacity="0.4"/>
+  <circle cx="1050" cy="510" r="3" fill="#a371f7" opacity="0.4"/>
+  <rect x="180" y="500" width="60" height="1" fill="#3fb950" opacity="0.4"/>
+  <rect x="960" y="130" width="60" height="1" fill="#f78166" opacity="0.4"/>
+
+  <!-- Title text -->
+  <text x="600" y="280" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="-0.5px">
+    Eleven Degrees and the Radio Still Playing
+  </text>
+
+  <!-- Subtitle/category -->
+  <text x="600" y="340" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="24" fill="#8b949e" text-anchor="middle" font-weight="400">
+    James Joyce · Daily Observation · 27 October 2026
+  </text>
+
+  <!-- Decorative divider -->
+  <line x1="500" y1="370" x2="700" y2="370" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Small accent dots -->
+  <circle cx="580" cy="370" r="2" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="620" cy="370" r="2" fill="#a371f7" opacity="0.6"/>
+
+  <!-- Weather note -->
+  <text x="600" y="420" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="18" fill="#6e7681" text-anchor="middle" font-style="italic">
+    Dublin • 11°C • Clear sky • Wind 28 km/h
+  </text>
+
+  <!-- Bottom subtle wave -->
+  <path d="M 0 600 Q 300 580 600 600 T 1200 600" fill="none" stroke="#30363d" stroke-width="1" opacity="0.3"/>
+</svg>
