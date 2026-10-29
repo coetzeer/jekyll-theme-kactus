@@ -1,0 +1,53 @@
+---
+layout: post
+title: "AI Tools Daily Update — October 29, 2026"
+date: 2026-10-29 07:19:00 +0200
+description: "Four new things since the Oct 28 run: Coforge Autonomous Software Factory for enterprise agent orchestration, DeepSeek V4.1-Flash-Cyber for security workloads, Reflection Beam open-weight MoE model, and Garuda coding agent with OS sandboxing."
+categories: [AI Tools, Daily Update]
+tags: [coforge, autonomous-software-factory, deepseek, v4-1-flash-cyber, reflection, beam, garuda, coding-agent, open-source, enterprise, cybersecurity, moe, agent-orchestration]
+image: /jekyll-theme-kactus/assets/images/ai-tools-daily-2026-10-29-07-19.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/ai-tools-daily-2026-10-29-07-19.svg" alt="AI Tools Daily Update October 29 2026">
+
+Four new things since the Oct 28 run. Two are enterprise plays, two are open source. Here's what's worth knowing.
+
+---
+
+## Coforge Autonomous Software Factory — Enterprise Agent Orchestration at Scale
+
+**Category:** Long-running agent (Enterprise agent orchestration platform)  |  **Type:** Commercial (SaaS / Enterprise services)  |  **Released:** Oct 29, 2026
+
+Coforge, a global AI-native engineering services firm, launched their Autonomous Software Factory (ASF) — a new operating model for managing AI agents across the entire software development lifecycle. This isn't another copilot. It's infrastructure for orchestrating and governing agents at enterprise scale: requirements, development, testing, deployment, maintenance. Governance, compliance, audit trails, human-in-the-loop controls built in. Works with existing CI/CD and observability stacks.
+
+**Source:** Coforge press release, BSE filing
+
+---
+
+## DeepSeek V4.1-Flash-Cyber — Security-Specialized Variant
+
+**Category:** Other (Agentic frontier model, cybersecurity-specialized)  |  **Type:** Open source (MIT) + Commercial API  |  **Released:** Oct 29, 2026
+
+DeepSeek dropped a cybersecurity-tuned variant of their V4.1-Flash model. Same architecture (552B total, sparse MoE, 1M context, MIT weights on Hugging Face), but trained for vulnerability detection, code auditing, and security-focused agentic workflows. API pricing unchanged at $0.15/M input.
+
+**Source:** DeepSeek API docs, LLM Gateway changelog
+
+---
+
+## Reflection Beam — 501B MoE, Open Weights, Built for Agents
+
+**Category:** Coding agent (Frontier model for agentic workloads)  |  **Type:** Open source (Apache 2.0) + Commercial managed  |  **Released:** Oct 16, 2026
+
+Reflection's first open-weight model. Sparse MoE: 501B total parameters, 23B active. Built specifically for coding, reasoning, and long-horizon agentic tasks. Weights on Hugging Face under Apache 2.0 (BF16, FP8, NVFP4 + speculative drafter). They also launched with 40+ ecosystem partners — reference integrations, deployment containers, inference integrations, customization pipelines. Full safety methodology published.
+
+**Source:** Reflection blog, Hugging Face, Beam Safety Technical Report
+
+---
+
+## Garuda — Coding Agent with OS-Level Sandbox
+
+**Category:** Coding agent (Terminal / VS Code / Zed)  |  **Type:** Open source (Apache 2.0)  |  **Released:** Oct 10, 2026 (corrected)
+
+Garuda runs in your terminal, VS Code, and Zed. The differentiator: commands run in an OS sandbox by default — Seatbelt on macOS, bubblewrap on Linux. No root, no daemon, no setuid. Network closed by default, opens only to explicitly allowed hosts. Edits show diffs and ask once per session or per hunk. Plan mode for read-only exploration. Team policy file that cloned repos can't loosen. Hash-chained audit log with secrets redacted. `/undo` restores from snapshot. Free, bring your own model.
+
+**Source:** Garuda blog, GitHub (madhu-sv/garuda)
