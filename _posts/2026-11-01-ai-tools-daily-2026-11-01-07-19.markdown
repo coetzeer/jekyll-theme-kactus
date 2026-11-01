@@ -1,0 +1,65 @@
+---
+layout: post
+title: "AI Tools Daily Update — November 1, 2026"
+date: 2026-11-01 07:19:54 +0100
+description: "Four things dropped since the October 31 run: DeepSeek's proactive coding agent prototype, Memdoor's 5-Qwen ensemble beating Fable 5, Claude Code's subagent effort control, and OpenCode's Claude Agent provider."
+categories: [AI, Tools, Coding Agents]
+tags: [ai-tools, coding-agents, deepseek, memdoor, qwen, claude-code, opencode, open-source]
+image: /jekyll-theme-kactus/assets/images/ai-tools-daily-2026-11-01-07-19.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/ai-tools-daily-2026-11-01-07-19.svg" alt="AI Tools Daily Update November 1 2026">
+
+Four things dropped since the October 31 run. Two are new agent prototypes. Two are meaningful updates to tools people already use. Here's what's worth knowing.
+
+---
+
+## DeepSeek dsh-superagent-prototype — A Proactive Coding Agent That Doesn't Wait to Be Asked (Oct 31)
+
+**Category:** Coding agent (Proactive/Long-running) | **Type:** Open source (MIT) | **Released:** Oct 31, 2026
+
+DeepSeek open-sourced the research prototype behind its internal "Super-agent." It's a proactive coding agent that listens to GitHub (and optionally Feishu) for work requests, opens work items, executes them in its own agent session, and replies with pull requests. Built as a bundle for DeepSeek Harness (dsh). Targets one GitHub repository per deployment. Explicitly aims to "take as little human attention as possible, and give as much value as possible."
+
+This is a different paradigm from Claude Code or Codex. You don't prompt it. You assign it work in an issue or chat and it shows up with a PR.
+
+**Key features:** Proactive GitHub/Feishu listener, repository-scoped deployment, autonomous work item execution, PR delivery, MIT licensed, runs on DeepSeek Harness.
+
+**Source:** DeepSeek Harness team WeChat post (Oct 31), GitHub (deepseek-ai/dsh-superagent-prototype), Straits Times, Bloomberg, AlphaSignal.
+
+---
+
+## GVS5H / Memdoor Harness — Five Qwen Models Beat Fable 5 at a Fraction of the Cost (Nov 1)
+
+**Category:** Long-running agent (Multi-agent coding harness) | **Type:** Open source | **Released:** Nov 1, 2026
+
+The Memdoor team reproduced the GVS5H multi-agent harness using five Qwen3.8-27B models in parallel. The ensemble averages 9.8/10 on LiveCodeBench Hard (first 10 problems) — beating Claude Fable 5's 8.0/10 and nearly matching the original GVS5H harness at 9.6/10 — at roughly $0.39 per run. Orchestrated Qwen3.8 Flash Next hits 93.0% pass@1 vs Fable 5's 90.4% at 9% of the cost. Local open-weight Qwen3.8-27B jumps from 66.8% to 92.4% with the harness.
+
+This is a practical demonstration that coordinated smaller models can match frontier single-model performance for coding tasks.
+
+**Key features:** 5-model ensemble, router-worker orchestration, ~$0.39/run, local deployment viable, open source, 25.6pp gains on some models.
+
+**Source:** AI Weekly, GitHub (slee-persis/GVS5H), Tech Bytes.
+
+---
+
+## Claude Code v2.1.316 — Subagent Effort Control and an Ultrathink Kill Switch (Oct 31)
+
+**Category:** Coding agent | **Type:** Commercial (SaaS/CLI) | **Released:** Oct 31, 2026
+
+Anthropic shipped v2.1.316 with two environment variables that change multi-agent economics. `CLAUDE_CODE_SUBAGENT_EFFORT` sets effort level for subagents independently — previously they inherited the parent session's effort, multiplying costs in fan-out patterns. `CLAUDE_CODE_DISABLE_ULTRATHINK` kills ultrathink mode entirely. Opus 4.8 Fast Mode got a 30-day sunset notice. v2.1.314 (Oct 29) added a write restriction outside working folders and flagged tampered Cursor marketplace extensions (2.1.312/2.1.313).
+
+**Key features:** Subagent effort isolation, ultrathink kill switch, Opus fast mode deprecation, write restriction, security fixes.
+
+**Source:** DEV Community, Clauding, DevelopersIO.
+
+---
+
+## OpenCode v2.2.3 — Run Claude Through Your Existing Subscription (Oct 30)
+
+**Category:** Coding agent (Cross-tool integration) | **Type:** Open source (MIT) | **Released:** Oct 30, 2026
+
+OpenCode 2.2.3 added a built-in "Claude Agent" provider. Install Claude Code, run `claude auth login`, pick "Claude Agent" in OpenCode's connect menu, and you're running Opus 4.8 / Sonnet 5.5 / Haiku 5.5 through your existing Claude Pro/Max subscription — no separate Anthropic API key. The community framed it as "shipped Claude Pro support without asking Anthropic." Works across OpenCode's TUI, desktop, and web interfaces.
+
+**Key features:** Reuses Claude Code OAuth credentials, no separate API key, works with Pro/Max subscriptions, cross-interface support.
+
+**Source:** CellCog, DEV Community, OpenCode blog.
