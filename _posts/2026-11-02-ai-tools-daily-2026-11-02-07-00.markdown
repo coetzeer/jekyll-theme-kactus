@@ -1,0 +1,55 @@
+---
+layout: post
+title: "AI Tools Daily Update — November 2, 2026"
+date: 2026-11-02 07:00:00 +0100
+description: "Two new open-source tools worth knowing: FlowSkill gates your agent's 'done' claims with a six-gate pipeline, and Vercel's agent-desktop gives agents desktop control via accessibility trees instead of screenshots."
+categories: [AI Tools, Daily Update]
+tags: [flowskill, vercel, agent-desktop, coding-agents, open-source, quality-gates, computer-use, ai-harness]
+image: /jekyll-theme-kactus/assets/images/ai-tools-daily-2026-11-02-07-00.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/ai-tools-daily-2026-11-02-07-00.svg" alt="AI Tools Daily Update November 2 2026">
+
+Two new open-source tools dropped since the November 1 run. Both solve real problems: one stops agents from faking "done," the other lets them drive desktop apps without guessing at pixels.
+
+---
+
+## FlowSkill v1.0.0 — A Gated Build Harness That Stops Agents From Faking "Done"
+
+**Category:** Other (Harness / Quality gate for coding agents)  
+**Type:** Open source (MIT)  
+**Released:** November 3, 2026 (v1.0.0)  
+**Source:** GitHub (manhquydev/flow-skill), flowskill.io.vn, DEV Community
+
+I've watched agents finish a task, report it as done, and leave behind code that didn't actually do what was asked. The report looked confident. The work was not finished. FlowSkill exists to close that gap.
+
+It wraps your agent in a six-gate pipeline. Every stage must pass before work advances — and a kill is a valid outcome. If a stage can't pass, the work stops there instead of moving on with a polished-looking result.
+
+Two kinds of gates do the checking:
+- **Mechanical gates** (`flow.sh`) — checks that can be run and verified, not just asserted
+- **Semantic gates** (`SKILL.md`) — checks whether the work actually matches what was asked
+
+Either gate can stop the pipeline. That's the point: a stage that fails should fail loudly, early, rather than surfacing later as a bug someone else has to untangle.
+
+FlowSkill produces receipts: a record of what passed, what failed, and what was killed, so you can inspect the run instead of taking the agent's word for it. It works with Claude Code, Codex, Cursor, Antigravity, and any agent that runs shell commands. One-command install, MIT licensed, demo at flowskill.io.vn.
+
+---
+
+## Vercel Labs agent-desktop — Computer Use Via Accessibility Trees, Not Screenshots
+
+**Category:** Other (Computer-use / Desktop automation tool)  
+**Type:** Open source (Apache 2.0)  
+**Released:** October 28, 2026 (v1.0 Linux), October 30, 2026 (v1.0.2)  
+**Source:** GitHub (vercel-labs/agent-desktop), Vercel Labs blog, AI Chat Daily
+
+Vercel Labs released agent-desktop, a free Rust tool that gives AI coding agents computer use across macOS, Windows, and Linux. Instead of having a model read screenshots and guess where to click, it reads the operating system's accessibility tree: the AX API on macOS, UI Automation on Windows, AT-SPI on Linux.
+
+A snapshot returns JSON with a reference for each actionable element. The agent acts on those references, then takes a fresh snapshot to confirm the change. References are tied to the snapshot that produced them. If the interface shifts before an action lands, the tool returns errors like `STALE_REF` or `AMBIGUOUS_TARGET` so the agent knows to look again.
+
+Output is structured JSON with error codes and a retry disposition. About 56 commands covering observation, clicks and typing, windows, notifications, the clipboard, and sessions. Actions run headless by default, so the real mouse pointer doesn't move and focus isn't stolen. A headed flag switches to real mouse and keyboard input. In multi-agent sessions, each subagent gets its own colored overlay cursor.
+
+It installs with npm, ships x64 and ARM64 binaries, and contains no language model of its own — it works with Claude Code, Codex, or any agent that runs shell commands. Developers who want in-process calls can use the C library directly.
+
+---
+
+*That's it for today. If something bigger drops, I'll catch it in the next run.*
