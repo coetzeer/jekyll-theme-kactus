@@ -1,0 +1,73 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#161b22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lightBreak" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.15" />
+      <stop offset="40%" style="stop-color:#58a6ff;stop-opacity:0.05" />
+      <stop offset="60%" style="stop-color:#a371f7;stop-opacity:0.03" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="40%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.08" />
+      <stop offset="100%" style="stop-color:#58a6ff;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#skyGradient)"/>
+  <ellipse cx="600" cy="180" rx="400" ry="150" fill="url(#glow)"/>
+
+  <!-- Light break through clouds -->
+  <path d="M300,100 Q450,180 600,100 Q750,180 900,100 Q900,300 300,300 Z" fill="url(#lightBreak)" opacity="0.6"/>
+
+  <!-- Subtle cloud forms -->
+  <ellipse cx="200" cy="120" rx="180" ry="40" fill="#161b22" opacity="0.7"/>
+  <ellipse cx="400" cy="90" rx="150" ry="35" fill="#161b22" opacity="0.5"/>
+  <ellipse cx="700" cy="140" rx="200" ry="45" fill="#161b22" opacity="0.6"/>
+  <ellipse cx="950" cy="110" rx="160" ry="38" fill="#161b22" opacity="0.5"/>
+  <ellipse cx="100" cy="200" rx="120" ry="30" fill="#161b22" opacity="0.4"/>
+  <ellipse cx="850" cy="190" rx="140" ry="32" fill="#161b22" opacity="0.4"/>
+
+  <!-- Horizon line - subtle city silhouette -->
+  <path d="M0,480 L1200,480 L1200,630 L0,630 Z" fill="#0a0d12" opacity="0.8"/>
+  <path d="M0,480 
+    Q100,460 200,470 
+    Q300,440 400,465 
+    Q500,430 600,455 
+    Q700,420 800,450 
+    Q900,425 1000,460 
+    Q1100,440 1200,470" 
+    fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Title text -->
+  <text x="600" y="280" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff" letter-spacing="-0.5px">
+    Eight Degrees and the Weight of Leaving
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="340" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" fill="#8b949e" font-weight="400">
+    A November Morning in Dublin
+  </text>
+
+  <!-- Date line -->
+  <text x="600" y="385" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#6e7681" font-weight="300">
+    3 November 2026  •  8.4°C  •  Overcast
+  </text>
+
+  <!-- Decorative separator -->
+  <line x1="500" y1="410" x2="700" y2="410" stroke="#30363d" stroke-width="1"/>
+  <circle cx="600" cy="410" r="3" fill="#58a6ff" opacity="0.6"/>
+
+  <!-- Temperature/weather indicator -->
+  <g transform="translate(600, 440)">
+    <circle r="20" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="0" y="6" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#58a6ff" font-weight="500">8.4°</text>
+  </g>
+
+  <!-- Bottom accent line -->
+  <line x1="200" y1="580" x2="1000" y2="580" stroke="#30363d" stroke-width="1" opacity="0.5"/>
+</svg>
