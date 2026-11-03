@@ -1,0 +1,89 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#a371f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f78166;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c9d1d9;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle grid pattern -->
+  <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+    <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#30363d" stroke-width="0.5"/>
+  </pattern>
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.3"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="80" fill="#58a6ff" opacity="0.08" filter="url(#glow)"/>
+  <circle cx="1100" cy="530" r="120" fill="#a371f7" opacity="0.06" filter="url(#glow)"/>
+  <circle cx="600" cy="315" r="200" fill="#f78166" opacity="0.03" filter="url(#glow)"/>
+  
+  <!-- Accent line -->
+  <line x1="100" y1="180" x2="1100" y2="180" stroke="url(#accentGrad)" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Title -->
+  <text x="100" y="260" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="url(#titleGrad)" letter-spacing="-1">
+    This Week in AI Tools
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="100" y="330" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="400" fill="#8b949e">
+    Agents get memory, harnesses get gates, and desktop automation goes open source
+  </text>
+  
+  <!-- Date badge -->
+  <rect x="100" y="370" width="280" height="44" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <text x="240" y="402" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#58a6ff" text-anchor="middle">
+    November 3, 2026
+  </text>
+  
+  <!-- Category tags -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="500">
+    <rect x="100" y="440" width="110" height="28" rx="3" fill="#58a6ff" opacity="0.2"/>
+    <text x="155" y="460" fill="#58a6ff" text-anchor="middle">Coding Agents</text>
+    
+    <rect x="220" y="440" width="110" height="28" rx="3" fill="#a371f7" opacity="0.2"/>
+    <text x="275" y="460" fill="#a371f7" text-anchor="middle">Harnesses</text>
+    
+    <rect x="340" y="440" width="140" height="28" rx="3" fill="#f78166" opacity="0.2"/>
+    <text x="410" y="460" fill="#f78166" text-anchor="middle">Desktop Tools</text>
+    
+    <rect x="490" y="440" width="120" height="28" rx="3" fill="#3fb950" opacity="0.2"/>
+    <text x="550" y="460" fill="#3fb950" text-anchor="middle">Memory Layers</text>
+  </g>
+  
+  <!-- Bottom accent -->
+  <line x1="100" y1="550" x2="1100" y2="550" stroke="#30363d" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Source attribution -->
+  <text x="100" y="585" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#6e7681">
+    Sources: GitHub, Munderdiffin, The Neuron, DeepSeek, Vercel Labs, Asymptote Labs
+  </text>
+  
+  <!-- Right side decorative code-like elements -->
+  <g font-family="'SF Mono', 'Fira Code', monospace" font-size="13" fill="#6e7681" opacity="0.4">
+    <text x="850" y="280">flowskill install</text>
+    <text x="850" y="310">beacon.sh memory</text>
+    <text x="850" y="340">agent-desktop ax</text>
+    <text x="850" y="370">t3code control</text>
+    <text x="850" y="400">dsh creator-mode</text>
+  </g>
+</svg>
