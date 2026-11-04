@@ -1,0 +1,85 @@
+---
+layout: post
+title: "AI Tools Daily Update — November 3, 2026"
+date: 2026-11-04 07:07:00 +0100
+description: "Three things since the October 31 run: DeepSeek dsh-superagent open coding agent, Mistral Large 4 trillion-parameter open weights, Microsoft Agent Framework 1.24.0. Plus four late-October misses."
+categories: [AI Tools, Daily Update]
+tags: [deepseek, mistral, microsoft, recursive, infini-ai-lab, android-studio, openai, coding-agents, open-weights, frontier-models, agent-frameworks]
+image: /jekyll-theme-kactus/assets/images/ai-tools-daily-2026-11-04-07-07.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/ai-tools-daily-2026-11-04-07-07.svg" alt="AI Tools Daily Update November 3 2026">
+
+Three things since the October 31 run. Two are open-weight drops. One is a framework update. Here's what matters.
+
+---
+
+## DeepSeek dsh-superagent — Open Coding Agent Targeting Claude Code
+
+**Category:** Coding agent  |  **Type:** Open source (DeepSeek)  |  **Released:** November 1, 2026
+
+DeepSeek dropped an enhanced coding agent prototype on November 1, explicitly gunning for Anthropic's Claude Code. Called dsh-superagent. Open source.
+
+The pitch: a more autonomous coding agent that handles complex software engineering tasks without constant hand-holding. Early reports say it's competitive on benchmarks. The real test is messy real-world codebases. If you've been waiting for a credible open alternative to Claude Code, this is the first one that looks serious.
+
+**Source:** Bloomberg, TechCrunch, Dataconomy, Emergent.sh
+
+---
+
+## Mistral Large 4 (ML4) — Trillion-Parameter Open Weights
+
+**Category:** Other (Frontier model, multimodal)  |  **Type:** Open weights (Mistral AI)  |  **Weights released:** November 2, 2026
+
+Mistral dropped weights for Mistral Large 4 — 1 trillion parameters, natively multimodal, 52 billion active (MoE). They're calling it "Le Chonk." Preview API has been on Mistral Studio since late October; weights release means anyone can download, run locally, or fine-tune.
+
+Mistral claims it matches Z.ai's GLM-5.3, especially on cybersecurity and sovereign defense benchmarks. Targets enterprise and government customers who need data sovereignty. Apache-2.0.
+
+**Source:** Mistral AI blog, TechCrunch, The AI Insider
+
+---
+
+## Microsoft Agent Framework 1.24.0 — MCP Approval Defaults, Redis Migration
+
+**Category:** Long-running agent (Framework)  |  **Type:** Open source (Microsoft)  |  **Released:** November 2, 2026
+
+Microsoft shipped 1.24.0 with practical changes: explicit default approval mode for local MCP tools (no more implicitly approving everything), agent-triggered context compaction, Python 3.11 baseline, Redis context index migration, default telemetry resource attributes. Also bumped Microsoft.Agents.AI to 1.27.0.
+
+This is the unified framework that replaced AutoGen and Semantic Kernel. If you're building multi-agent systems on Microsoft's stack, this is the maintenance release to pull.
+
+**Source:** GitHub releases, Releasebot, CodeHalwell PR #388
+
+---
+
+## Previously missed from late October (not in Oct 31 run)
+
+### Recursive Flint — Laptop-Sized Open Coding Model
+
+**Category:** Coding agent (Local model)  |  **Type:** Open weights (Recursive)  |  **Released:** October 21, 2026
+
+40B MoE, only 2.5B active parameters. 74.2% on SWE-bench Verified. Built largely by Recursive's own AI research system as a test of AI improving AI. Free, runs on a laptop.
+
+**Source:** Recursive blog, TechCrunch, MarkTechPost
+
+### Infini-AI-Lab Hermit v0.1.0 — Harness Adapter Framework
+
+**Category:** Long-running agent (Framework)  |  **Type:** Open source (Infini-AI-Lab)  |  **Released:** October 25, 2026
+
+Trains an external "harness adapter" while the agent's model and harness stay frozen. Lets you adapt Codex, Claude Code, or other agents to new tasks without fine-tuning or forking. `pip install hermit-harness`, Apache-2.0.
+
+**Source:** MarkTechPost, GitHub, daily.dev
+
+### Android Studio Rabbit 2 BYOA — 40+ Agents Via ACP
+
+**Category:** Coding agent (IDE integration)  |  **Type:** Commercial (Google)  |  **Stable:** October 28, 2026
+
+Bring Your Own Agent support via Agent Client Protocol. Plug in Claude Agent, Codex, Antigravity, Junie, and 40+ other ACP-compatible agents directly into Android Studio. Native platform capability, not a plugin.
+
+**Source:** Android Developers Blog, XenoSpectrum, Pathubs
+
+### GPT-6 Rosalind Research — Life Sciences Specialist
+
+**Category:** Other (Frontier model, life sciences)  |  **Type:** Commercial API (OpenAI)  |  **Released:** October 30, 2026
+
+GPT-6 reasoning applied to multistep life sciences work with biological safeguards. Limited rollout to approved Research customers in Work, Codex, and API. Enterprise opt-in preview coming.
+
+**Source:** OpenAI Releasebot, AI/TLDR, reconn-ai
