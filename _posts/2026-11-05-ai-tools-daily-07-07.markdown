@@ -1,0 +1,85 @@
+---
+layout: post
+title: "AI Tools Daily Update — November 5, 2026"
+date: 2026-11-05 07:07:00 +0100
+description: "Six new things since November 3: three open-weight drops, two agent platforms, one coding-model refresh. Cognition SWE-2 Flash, Kimi K3.1 Pro weights, Tencent Hy4, Profitmind Awase, TestGrid ONE, Flowchart for Claude Code."
+categories: [AI Tools, Daily Update]
+tags: [coding-agents, frontier-models, open-weights, long-running-agents, retail-ai, quality-engineering]
+image: /jekyll-theme-kactus/assets/images/2026-11-05-ai-tools-daily-07-07.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-11-05-ai-tools-daily-07-07.svg" alt="AI Tools Daily Update November 5 2026">
+
+Six things since the November 3 run. Three open-weight drops. Two agent platforms. One coding-model refresh. Here's what actually matters.
+
+---
+
+## Cognition SWE-2 Flash — The Cheap, Fast Model Inside Devin
+
+**Category:** Coding agent (Model)  |  **Type:** Commercial (Cognition)  |  **Released:** November 4, 2026
+
+Cognition shipped SWE-2 Flash — a smaller coding model built on Thinking Machines' open-weight Inkling-Small. Runs 3x faster at 1/5 the price of SWE-2. Available now in Devin Desktop and CLI, free through November 30. Weights are gated; Cognition says they're building a secure sharing program for partners and researchers. Claims 89.2% on Terminal-Bench vs. Ripple's 80.5%, beating all American open-weight models even at 3x the size.
+
+I've been watching Cognition's model strategy for a while. They're not trying to build the biggest model — they're building the right-sized one for agent workloads. SWE-2 Flash is explicitly for high-volume Devin tasks: automations, code review, docs, feature work. The kind of stuff that adds up when you're running an agent fleet. Free through November is a smart move — gets people hooked before the meter starts.
+
+**Source:** Cognition blog, Unite.AI, explainx.ai, OrcaRouter, X (cognition)
+
+---
+
+## Kimi K3.1 Pro Weights — 2.8 Trillion Parameters, 1.56 TB Download
+
+**Category:** Other (Frontier model, multimodal)  |  **Type:** Open weights (Moonshot AI)  |  **Weights released:** November 4, 2026
+
+Moonshot AI dropped the full 2.8-trillion-parameter weights for Kimi K3.1 Pro on Hugging Face — 96 shards, 1.56 TB total. Mixture-of-Experts with a 1-million-token context window, native multimodal (text + images). Custom non-OSI license that permits commercial use with conditions. Beats Opus 5.5 on 16 of 37 benchmark tests. API pricing: $2.00/million input, $0.20/million output (Turbo), $20.00/million output (full).
+
+Let me be honest: 1.56 TB is not a "download and run locally" situation for most people. This is for labs and companies with serious GPU clusters. But the fact that Moonshot actually delivered on their November 4 promise — after previewing the model in October — matters. Chinese labs have been shipping open weights on schedule while some Western labs keep moving goalposts. The custom license is the catch: not Apache 2.0, not MIT. Read it before building a product on top.
+
+**Source:** Hugging Face (MoonshotAI/Kimi-K3.1-Pro), Startup Fortune, RuntimeWire, OrcaRouter, KuCoin
+
+---
+
+## Tencent Hy4 — 770B MoE That Uses a Computer, Apache 2.0
+
+**Category:** Other (Frontier model, computer use)  |  **Type:** Open weights (Tencent)  |  **Released:** November 4, 2026
+
+Tencent released Hy4, a 770-billion-parameter MoE with 49B activated parameters, 1-million-token context, vision understanding, and native computer-operation skills. Weights live on Hugging Face (tencent/Hy4-preview), ModelScope, GitCode, and CNB under Apache 2.0 — both BF16 and FP8 quantized variants. Prebuilt vLLM and SGLang images available. Tencent says it delivers "the largest generation-over-generation gain we've measured" across the Hunyuan/Hy lineage. WorkBuddy and CodeBuddy free on Tencent Cloud TokenHub through Nov 15, 50% off through Dec 31.
+
+This is the one I'm actually excited to test. Computer use — real computer use, not just "we added a screenshot tool" — has been the missing piece for open-weight models. Anthropic's had it in Claude. OpenAI's had it in GPT-6.1 Terra. Now Tencent ships it open, Apache 2.0, with prebuilt inference containers. If Hy4's computer-use skills are genuinely usable, this changes the economics of building your own operator-style agents. The free tier through November 15 on Tencent Cloud is a low-friction way to kick the tires.
+
+**Source:** Tencent press release, Emergent.sh, AF.net, Byteiota, explainx.ai, OmniaKey
+
+---
+
+## Profitmind Awase — The Retail Agent That Matches Products Without Barcodes
+
+**Category:** Long-running agent (Retail AI suite)  |  **Type:** Commercial (Profitmind)  |  **GA:** November 3, 2026
+
+Profitmind launched Awase to general availability — a product-matching model that identifies the same product across competing online catalogs without relying on shared barcodes. Analyzes photography, descriptions, and specs together. Running in production since April 2026 with <1% match rejection by merchandising teams. Part of a 10-agent suite (Data Load, Strategy, Competitive Intelligence, Pricing, Inventory, Monday Morning, Promotions, Assortment, Planning). US retailer Batteries Plus already using it.
+
+Retail AI gets less attention than coding agents, but the money is real. Matching products across catalogs without barcodes is a genuinely hard problem — different photos, different descriptions, different SKU schemes. Awase has been in production since April with <1% rejection. That's not a demo. That's a working system. The 10-agent suite suggests Profitmind is building an entire retail operating layer, not a point solution. Worth watching if you're in that space.
+
+**Source:** Business Wire, Morningstar, SalesTechStar, WWD, RetailTechInnovationHub
+
+---
+
+## TestGrid ONE — AI OS for Quality Engineering
+
+**Category:** Long-running agent (QE platform)  |  **Type:** Commercial (TestGrid)  |  **Launched:** November 4, 2026
+
+TestGrid launched TestGrid ONE, successor to TestOS, extending their unified testing platform into an AI operating system for quality engineering. Combines agentic test creation and maintenance with the infrastructure those tests execute on — real mobile devices and browsers across dedicated cloud, on-premises, and hybrid environments. Unifies AI agents, test automation, real devices, and reporting. Fortune 100 enterprises already using it.
+
+Testing is one of those areas where agents make obvious sense: write the test, run it on real devices, maintain it when the app changes, report results. TestGrid has been doing the infrastructure part for years. Adding the agent layer on top — creation, maintenance, orchestration — is the logical evolution. "AI operating system" is marketing language, but the underlying idea (agents + infrastructure as one product) is where this category is heading.
+
+**Source:** GlobeNewswire, TestGrid.io, AI Agents Directory, Aninews
+
+---
+
+## Flowchart for Claude Code — Open-Source Workflow Visualizer
+
+**Category:** Coding agent (Tool)  |  **Type:** Open source (alexabbi)  |  **Released:** November 3, 2026
+
+Developer alexabbi launched Flowchart for Claude Code (FCC), an open-source tool that visualizes AI coding workflows for Anthropic's Claude Code assistant. Helps developers understand and debug complex agent workflows. Available on GitHub.
+
+Small tool, solves a real pain point. If you've ever tried to explain a multi-step Claude Code session to a colleague — or debug why the agent went off the rails — you know why this exists. Open source, MIT licensed, ready to use.
+
+**Source:** Emergent.sh, GitHub (caramaschiHG/awesome-ai-agents-2026)
