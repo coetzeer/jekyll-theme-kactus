@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 520" width="1400" height="520">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .panel { fill: #161b22; stroke: #30363d; stroke-width: 1.5; rx: 8; }
+      .title { fill: #ffffff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 18px; font-weight: 700; }
+      .subtitle { fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; }
+      .label { fill: #e6edf3; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 12px; font-weight: 600; }
+      .sub { fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 11px; }
+      .code { fill: #c9d1d9; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 11px; }
+      .arrow { fill: none; stroke: #64748b; stroke-width: 1.5; marker-end: url(#arrowhead); }
+      .dashed { fill: none; stroke: #475569; stroke-width: 1.2; stroke-dasharray: 4 3; marker-end: url(#arrowhead); }
+      .accent-blue { fill: #58a6ff; }
+      .accent-cyan { fill: #39c5cf; }
+      .accent-violet { fill: #a371f7; }
+      .accent-amber { fill: #f78166; }
+      .accent-rose { fill: #f78166; }
+      .accent-emerald { fill: #3fb950; }
+      .accent-orange { fill: #d29922; }
+    </style>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#64748b" />
+    </marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="1400" height="520" />
+  
+  <!-- Header -->
+  <text x="700" y="36" text-anchor="middle" class="title">This Week in AI Tools — Hermes v0.23, Kiro Bots, Ripple-65B</text>
+  <text x="700" y="56" text-anchor="middle" class="subtitle">Platform release · Persistent agents · Open coding model · Agent security · Nov 4–6, 2026</text>
+  
+  <!-- Category: Agent Platforms / Workspaces -->
+  <rect x="40" y="85" width="300" height="180" class="panel" />
+  <text x="190" y="110" text-anchor="middle" class="label" fill="#58a6ff">AGENT PLATFORMS</text>
+  <text x="60" y="135" class="sub">Hermes Agent v0.23.0</text>
+  <text x="60" y="150" class="code">Desktop in browser · Gateway · /rewind</text>
+  <text x="60" y="170" class="sub">AWS Kiro Crew Bots (GA)</text>
+  <text x="60" y="185" class="code">Named persistent agents · Memory · $20/mo Pro</text>
+  <text x="60" y="205" class="sub">Lmux (Show HN)</text>
+  <text x="60" y="220" class="code">macOS terminal for Claude Code · MIT</text>
+  <text x="60" y="240" class="sub">Inkling 2 Small (TML)</text>
+  <text x="60" y="255" class="code">594B MoE via Tinker · Weights gated</text>
+  
+  <!-- Category: Open Models / Coding -->
+  <rect x="370" y="85" width="320" height="180" class="panel" />
+  <text x="530" y="110" text-anchor="middle" class="label" fill="#3fb950">OPEN MODELS / CODING</text>
+  <text x="390" y="135" class="sub">Ripple-65B Preview</text>
+  <text x="390" y="150" class="code">65B dense · 12T tokens · SOTA US agentic coding</text>
+  <text x="390" y="170" class="code">Apache-2.0 · $32M compute · Beats 800B+ models</text>
+  <text x="390" y="190" class="sub">Recursive Intelligence</text>
+  <text x="390" y="205" class="code">Chip-design platform spinout · Preview</text>
+  
+  <!-- Category: Enterprise Governance / Security -->
+  <rect x="720" y="85" width="300" height="180" class="panel" />
+  <text x="870" y="110" text-anchor="middle" class="label" fill="#a371f7">ENTERPRISE GOVERNANCE</text>
+  <text x="740" y="135" class="sub">Kong AI Management</text>
+  <text x="740" y="150" class="code">Registry · Gateway 2.3 · Token Vault (GA)</text>
+  <text x="740" y="170" class="code">Cost mgmt · Observability · Konnect</text>
+  <text x="740" y="190" class="sub">CrowdStrike Agent Insider</text>
+  <text x="740" y="205" class="code">Behavioral detection · AI Kill Switch</text>
+  <text x="740" y="225" class="code">Multi-agent investigations · Q4 2026</text>
+  
+  <!-- Category: Voice / Multimodal -->
+  <rect x="1050" y="85" width="310" height="180" class="panel" />
+  <text x="1205" y="110" text-anchor="middle" class="label" fill="#f78166">VOICE / MULTIMODAL</text>
+  <text x="1070" y="135" class="sub">Phonic-1</text>
+  <text x="1070" y="150" class="code">Speech-to-speech · 50+ languages</text>
+  <text x="1070" y="170" class="code">Tool use mid-speech · $27.5M Series A</text>
+  <text x="1070" y="190" class="sub">Inkling 2 Small (vision)</text>
+  <text x="1070" y="205" class="code">292M vision encoder · Tinker platform</text>
+  
+  <!-- What I'm Watching -->
+  <rect x="40" y="295" width="660" height="185" class="panel" />
+  <text x="370" y="320" text-anchor="middle" class="label" fill="#d29922">WATCHING THIS MONTH</text>
+  <text x="60" y="345" class="code">1. Persistent agent workspaces (Hermes, Kiro) — memory changes everything</text>
+  <text x="60" y="365" class="code">2. US open-weight coding models (Ripple-65B) — punching above weight class</text>
+  <text x="60" y="385" class="code">3. Agent security/governance (CrowdStrike, Kong) — the insider threat is real</text>
+  <text x="60" y="405" class="code">4. Terminal-native agents (Lmux) — where the developers actually live</text>
+  <text x="60" y="425" class="code">5. Speech-to-speech (Phonic) — voice agents finally sound human</text>
+  <text x="60" y="445" class="code">6. Gated weights via platform (Inkling/Tinker) — new distribution model</text>
+  
+  <!-- KB Update Note -->
+  <rect x="730" y="295" width="630" height="185" class="panel" />
+  <text x="1045" y="320" text-anchor="middle" class="label" fill="#58a6ff">KB ENTITIES UPDATED</text>
+  <text x="750" y="345" class="sub">New entities in ai_tools KB:</text>
+  <text x="750" y="365" class="code">hermes-agent-v023 · lmux · aws-kiro-bots</text>
+  <text x="750" y="385" class="code">ripple-65b · crowdstrike-agent-insider</text>
+  <text x="750" y="405" class="code">kong-ai-management · inkling-2-small · phonic-1</text>
+  <text x="750" y="425" class="sub">~/Documents/knowledge_bases/ai_tools/entities/</text>
+  <text x="750" y="445" class="code">Auto-committed by cron · Nov 6, 2026 07:00 CET</text>
+  
+  <!-- Legend -->
+  <rect x="40" y="490" width="1320" height="25" class="panel" />
+  <text x="60" y="508" class="sub">■ Agent Platforms (Blue)</text>
+  <text x="270" y="508" class="sub">■ Open Models/Coding (Emerald)</text>
+  <text x="520" y="508" class="sub">■ Enterprise Governance (Violet)</text>
+  <text x="760" y="508" class="sub">■ Voice/Multimodal (Coral)</text>
+  <text x="980" y="508" class="sub">■ Watchlist (Amber)</text>
+  <text x="1150" y="508" class="sub">■ KB Update (Blue)</text>
+</svg>
