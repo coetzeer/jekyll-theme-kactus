@@ -1,0 +1,109 @@
+---
+layout: post
+title: "AI Tools Daily — November 7, 2026"
+date: 2026-11-07 07:03:00 +0100
+description: "GPT-6 Cyber restricted release, Meta acquires Conductor, Tencent Hy4 full launch, Mistral Studio managed agents preview, Zed 1.27, OpenCode 2.2.5"
+categories: [AI Tools, Daily Update]
+tags: [gpt-6-cyber, conductor-meta, tencent-hy4, mistral-studio, zed, opencode]
+image: /jekyll-theme-kactus/assets/images/ai-tools-daily-2026-11-07-07-03.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/ai-tools-daily-2026-11-07-07-03.svg" alt="AI Tools Daily November 7 2026 banner">
+
+Six new things since yesterday. One restricted cybersecurity model, one acquisition killing a product, one major Chinese open-weight release, one enterprise agent platform, plus updates to two coding agents.
+
+---
+
+## GPT-6 Cyber — OpenAI's Restricted Cybersecurity Model (Nov 5)
+
+**Category:** Other (Cybersecurity AI) | **Type:** Commercial (OpenAI, restricted access) | **Released:** Nov 5, 2026
+
+OpenAI released GPT-6 Cyber, a cyber-specialized variant of GPT-6 Astra built for authorized security work — vulnerability discovery, exploit development, web pentesting. Researchers used it to find 81 previously unknown high-severity vulnerabilities in Firefox and develop working exploits for 948 Linux kernel vulnerabilities through an autonomous pipeline. The model claims 99.93% scope adherence, meaning it stays within authorized testing boundaries.
+
+It's restricted to approved Daybreak Red customers only. Identity verification, MFA, SSO, API IP allowlisting required. Access expanding to all Red customers over coming weeks. Also expanding early testing of GPT-6 Astra for defensive security to more orgs and individual researchers.
+
+The Firefox and Linux kernel results are real — Mozilla has started fixing the 81 vulns. But the restricted access means most of us can't touch it. If you're not a Daybreak Red customer, you're watching from the sidelines.
+
+**Source:** OpenAI blog, The Register, The Hacker News, Fortune, CyberScoop, OpenAI X announcement.
+
+---
+
+## Conductor Acquired by Meta — Product Winding Down (Nov 4)
+
+**Category:** Long-running agent (Agent orchestration) | **Type:** Commercial (Meta) | **Announced:** Nov 4, 2026
+
+Meta acquired Conductor, the AI coding orchestration platform that lets developers run multiple coding agents (Claude Code, Codex, Cursor, OpenCode) in parallel isolated workspaces. Conductor launched July 2025, founded by Charlie Holtz and Jackson de Campos, raised $22M Series A.
+
+The product is winding down in stages: new sign-ups stopped Nov 4. Conductor Cloud goes read-only Nov 13, shuts down Nov 20 (data deletion begins). Local Mac app continues getting new models and critical bug fixes until early 2027, then winds down. Team joins Meta Superintelligence Labs. Financial terms not disclosed.
+
+This gives Meta a model-agnostic orchestration layer above individual coding agents — something Microsoft has via GitHub Copilot, OpenAI and Anthropic have via their own tools. Meta now has the infrastructure to coordinate competing agents. If you're a Conductor user, export your data now. Cloud workspaces become read-only in a week.
+
+**Source:** TechCrunch, Axios, Conductor blog, SiliconANGLE, The Next Web, InfoWorld, Dealroom.
+
+---
+
+## Tencent Hy4 — 770B MoE With Vision and Computer Use (Nov 4)
+
+**Category:** Other (Frontier model) | **Type:** Commercial (Tencent, hosted) with open-weight promise | **Released:** Nov 4, 2026
+
+Tencent released the full Hy4, a 770-billion-parameter Mixture-of-Experts model (49B activated) with 1M token context. First in the Hy line with vision understanding and native computer-operation skills — not just screenshot tools. Can read charts, diagrams, screenshots, operate CLI and GUI, trained on Blender, CAD, cross-app long-horizon tasks.
+
+Benchmarks: #1 Chinese model on Agent Arena, #14 overall. On Terminal Bench 4.0 scores 44.4 vs 66.4 for Claude Opus 5.5. Financial blind test: 213 experts on 579 tasks, Hy4 beats Kimi K3.1 Pro, GLM-5.3, DeepSeek-V4.1-Flash. Hallucination rate dropped from 12.95% (preview) to 7.2%.
+
+Currently hosted only: Tencent Cloud TokenHub, WorkBuddy, CodeBuddy, Yuanbao, ima, OpenRouter, Hermes, OpenCode. Weights promised "in coming days" under Apache 2.0. Hy4 Flash coming soon for cost efficiency. Free tier on WorkBuddy/CodeBuddy through Nov 15, 50% off TokenHub through Dec 31.
+
+This is the first major open-weight model with genuine computer-use skills. Anthropic and OpenAI have had computer use in closed models; Tencent shipping it open with prebuilt vLLM/SGLang containers changes the economics of building operator-style agents. The weights release is the test to watch — until then it's a hosted service with a promise attached.
+
+**Source:** Tencent press release, hy.tencent.ai, Pandaily, Tencent News, Arena.ai X, Ryzm X analysis.
+
+---
+
+## Mistral Studio Managed Agents — Public Preview (Nov 5)
+
+**Category:** Long-running agent (Enterprise agent platform) | **Type:** Commercial (Mistral) | **Public Preview:** Nov 5, 2026
+
+Mistral added managed agents, Agents SDK, natural-language workflow builder (Vibe writes, tests, deploys), Apps CLI, and evaluation/tracing tools to Mistral Studio. Agents can run in-process, self-hosted, or on Mistral's cloud. Workflows reached GA with event triggers, resumable runs, visual graphs. Apps (preview) bundle hosting, auth, access controls for enterprise internal tools.
+
+Mistral Large 4 ("Le Chonk") anchors the platform. Skills, sandboxes, subagents, hooks are building blocks. API, behavior, limits can change during preview. Enterprise deployment options: cloud, VPC, on-premises.
+
+Mistral's been quiet for a while. This is their play for the enterprise agent market — not just models, but the whole platform. The workflow builder turning natural language into working workflows is the part that could actually matter for teams that don't want to hand-code agent graphs.
+
+**Source:** Mistral blog, DataStudios, AI/TLDR, AlphaSignal, Superpower Daily, Technobezz, AI Weekly.
+
+---
+
+## Zed 1.27.0 — AI Commit Messages and Agent Panel Improvements (Nov 4)
+
+**Category:** Coding agent (IDE) | **Type:** Commercial (Zed Industries) | **Released:** Nov 4, 2026
+
+Zed 1.27.0 adds AI commit messages that follow your repository's recent commit style. Improved Agent Panel memory usage by loading tool-call diffs and parsing thread message Markdown only when first viewed. Fixed checkpointing slowness in large Git repos. Added GPT-6 Astra, Claude Fable 5.1, Claude Opus 5.5 to Amazon Bedrock provider.
+
+Solid incremental update. The commit message feature is the kind of quality-of-life thing that actually saves time daily. The memory fix matters if you're running agents on large repos.
+
+**Source:** Zed releases page.
+
+---
+
+## OpenCode 2.2.5 — Continued Iteration on Shared Service Architecture (Oct 30)
+
+**Category:** Coding agent (Terminal agent) | **Type:** Open source (MIT) | **Released:** Oct 30, 2026
+
+OpenCode 2.x (launched Sept 11 as separate @opencode/cli package) reached v2.2.5. Key v2 features: shared background service connecting terminal TUI, desktop app, web UI, and mobile; Code Mode for programmable async execution with background agents; worktree API for parallel agents in isolated directories; AGENTS.md replaces CLAUDE.md for project instructions; plugin API rewritten. 29 releases in 32 days (2.0.0 Sept 11 to 2.0.28 Oct 13, now 2.2.5 Oct 30).
+
+Migration note: V1 plugins don't work in V2. Install script still pulls 1.x by default; use `curl -fsSL opencode.ai/v2/install | bash` for v2.
+
+OpenCode is the only open-source agent matching the cross-surface continuity that Claude Code and Codex CLI have. The shared background service means you can start a task in terminal, switch to desktop, check on mobile — same session. That's genuinely useful.
+
+**Source:** OpenCode changelog, ByteIota, Capital & Compute, Layer3Labs, ByteChap, OrigoTech.
+
+---
+
+## KB Entities Updated
+
+Created/updated entity cards in `~/Documents/knowledge_bases/ai_tools/entities/`:
+- `gpt-6-cyber` (new, Nov 5)
+- `conductor-meta` (new, Nov 4)
+- `tencent-hy4` (updated, Nov 4 full release)
+- `mistral-studio-managed-agents` (new, Nov 5)
+- `zed-1.27` (new, Nov 4)
+- `opencode-2.2` (updated, Oct 30)
