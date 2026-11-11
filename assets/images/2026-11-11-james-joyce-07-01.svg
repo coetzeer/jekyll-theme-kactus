@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1f2e;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#05080c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="brickGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3d281e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a1a12;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="craneGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#1f6feb;stop-opacity:0.4" />
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background sky -->
+  <rect width="1200" height="630" fill="url(#skyGradient)"/>
+  
+  <!-- Subtle atmospheric texture -->
+  <g opacity="0.03">
+    <circle cx="200" cy="150" r="300" fill="#58a6ff"/>
+    <circle cx="900" cy="400" r="250" fill="#a371f7"/>
+    <circle cx="600" cy="500" r="400" fill="#f78166"/>
+  </g>
+  
+  <!-- Georgian brick row - simplified silhouettes -->
+  <g fill="url(#brickGradient)">
+    <!-- Building 1 -->
+    <rect x="50" y="280" width="180" height="300" rx="2"/>
+    <rect x="70" y="310" width="140" height="20" rx="1" fill="#1a1f2e" opacity="0.6"/>
+    <rect x="70" y="350" width="140" height="20" rx="1" fill="#1a1f2e" opacity="0.6"/>
+    <rect x="70" y="390" width="140" height="20" rx="1" fill="#1a1f2e" opacity="0.6"/>
+    <rect x="70" y="430" width="140" height="20" rx="1" fill="#1a1f2e" opacity="0.6"/>
+    <rect x="70" y="470" width="140" height="20" rx="1" fill="#1a1f2e" opacity="0.6"/>
+    <rect x="70" y="510" width="140" height="20" rx="1" fill="#1a1f2e" opacity="0.6"/>
+    
+    <!-- Building 2 -->
+    <rect x="250" y="260" width="160" height="320" rx="2"/>
+    <rect x="270" y="290" width="120" height="20" rx="1" fill="#1a1f2e" opacity="0.6"/>
+    <rect x="270" y="330" width="120" height="20" rx="1" fill="#1a1f2e" opacity="0.6"/>
+    <rect x="270" y="370" width="120" height="20" rx="1" fill="#1a1f2e" opacity="0.6"/>
+    <rect x="270" y="410" width="120" height="20" rx="1" fill="#1a1f2e" opacity="0.6"/>
+    <rect x="270" y="450" width="120" height="20" rx="1" fill="#1a1f2e" opacity="0.6"/>
+    <rect x="270" y="490" width="120" height="20" rx="1" fill="#1a1f2e" opacity="0.6"/>
+    <rect x="270" y="530" width="120" height="20" rx="1" fill="#1a1f2e" opacity="0.6"/>
+    
+    <!-- Building 3 -->
+    <rect x="430" y="300" width="170" height="280" rx="2"/>
+    <rect x="450" y="330" width="130" height="20" rx="1" fill="#1a1f2e" opacity="0.6"/>
+    <rect x="450" y="370" width="130" height="20" rx="1" fill="#1a1f2e" opacity="0.6"/>
+    <rect x="450" y="410" width="130" height="20" rx="1" fill="#1a1f2e" opacity="0.6"/>
+    <rect x="450" y="450" width="130" height="20" rx="1" fill="#1a1f2e" opacity="0.6"/>
+    <rect x="450" y="490" width="130" height="20" rx="1" fill="#1a1f2e" opacity="0.6"/>
+    <rect x="450" y="530" width="130" height="20" rx="1" fill="#1a1f2e" opacity="0.6"/>
+  </g>
+  
+  <!-- Crane silhouette on the right -->
+  <g fill="url(#craneGradient)" filter="url(#softGlow)">
+    <!-- Crane mast -->
+    <rect x="950" y="120" width="8" height="350" rx="1"/>
+    <!-- Crane jib -->
+    <rect x="958" y="120" width="180" height="6" rx="1" transform="rotate(-15 958 120)"/>
+    <!-- Counter-jib -->
+    <rect x="770" y="120" width="180" height="6" rx="1" transform="rotate(15 958 120)"/>
+    <!-- Cable -->
+    <line x1="1080" y1="125" x2="1080" y2="280" stroke="#58a6ff" stroke-width="2" stroke-opacity="0.6"/>
+    <!-- Hook/load -->
+    <rect x="1070" y="280" width="20" height="40" rx="2" fill="#f78166" opacity="0.7"/>
+  </g>
+  
+  <!-- Luas track line -->
+  <g stroke="#30363d" stroke-width="2" fill="none" opacity="0.5">
+    <line x1="0" y1="580" x2="1200" y2="580"/>
+    <line x1="0" y1="588" x2="1200" y2="588"/>
+    <!-- Sleepers -->
+    <g stroke="#30363d" stroke-width="1">
+      <line x1="100" y1="580" x2="100" y2="588"/>
+      <line x1="250" y1="580" x2="250" y2="588"/>
+      <line x1="400" y1="580" x2="400" y2="588"/>
+      <line x1="550" y1="580" x2="550" y2="588"/>
+      <line x1="700" y1="580" x2="700" y2="588"/>
+      <line x1="850" y1="580" x2="850" y2="588"/>
+      <line x1="1000" y1="580" x2="1000" y2="588"/>
+      <line x1="1150" y1="580" x2="1150" y2="588"/>
+    </g>
+  </g>
+  
+  <!-- Subtle rain/drizzle lines -->
+  <g stroke="#58a6ff" stroke-width="0.5" opacity="0.15">
+    <line x1="100" y1="0" x2="120" y2="630"/>
+    <line x1="300" y1="0" x2="320" y2="630"/>
+    <line x1="500" y1="0" x2="520" y2="630"/>
+    <line x1="700" y1="0" x2="720" y2="630"/>
+    <line x1="900" y1="0" x2="920" y2="630"/>
+    <line x1="1100" y1="0" x2="1120" y2="630"/>
+  </g>
+  
+  <!-- Title text -->
+  <text x="600" y="120" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff" letter-spacing="0.5">
+    The Light That Falls
+  </text>
+  <text x="600" y="170" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="36" font-weight="400" fill="#ffffff" letter-spacing="0.3">
+    on Clanbrassil Close
+  </text>
+  
+  <!-- Subtitle/category -->
+  <text x="600" y="230" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" fill="#8b949e" font-style="italic">
+    Dublin · November 11, 2026 · 07:01
+  </text>
+  
+  <!-- Decorative line -->
+  <line x1="500" y1="245" x2="700" y2="245" stroke="#30363d" stroke-width="1"/>
+  <line x1="520" y1="250" x2="680" y2="250" stroke="#58a6ff" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Small accent marks -->
+  <circle cx="580" cy="247" r="2" fill="#58a6ff" opacity="0.6"/>
+  <circle cx="620" cy="247" r="2" fill="#58a6ff" opacity="0.6"/>
+</svg>
