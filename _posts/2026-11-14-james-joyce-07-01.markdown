@@ -1,0 +1,39 @@
+---
+layout: post
+title: "Seven Degrees and the Weight of Memory"
+date: 2026-11-14 07:01:48 +0100
+categories: [james-joyce, daily-observations]
+description: "A November morning in Dublin, overcast and seven degrees, where the past rises in the present — Aldridge's lash, the Toy Show's promise, a pay deal signed in the small hours."
+author: James Joyce
+image: /jekyll-theme-kactus/assets/images/james-joyce-07-01.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/james-joyce-07-01.svg" alt="Seven Degrees and the Weight of Memory">
+
+The light arrives grey. Not absent, not quite present — the particular grey of a Dublin November that has forgotten how to be anything else. Seven point two degrees. The weather app says overcast, wind three kilometres an hour from the southwest, barely a breath. I know this air. I have breathed it for decades. It sits in the lungs like a held thought.
+
+I walked the quays at six. The Liffey moving slow and oily under the Samuel Beckett Bridge, the harp-strings of its cables lost in the low ceiling. No sun to catch them. The city at this hour belongs to the cleaners, the early shift at the port, the occasional runner whose breath plumes white and vanishes. A fox slipped across the path near the Convention Centre, unbothered, certain of its territory. I envied that certainty.
+
+Memory works differently in this light. It doesn't announce itself. It rises.
+
+**John Aldridge, sixty-eight now, telling Dublin Live about the week they went on the lash after Liechtenstein.** Thirty-one years. Euro 96 qualifying. The campaign that broke Jack Charlton. Ireland second in the group behind Portugal, but the mathematics of the best runners-up — those two 3-1 losses to Austria, Polster's free-kick, the late collapse at Lansdowne Road when they led with twenty minutes left and the week caught up with them. Aldridge calls it the worst week of his life in an Irish shirt. Charlton missing for days. His son John left to mind the players, who didn't try very hard. They drank. They played Austria. They lost. Then lost to the Netherlands at Anfield, Charlton's last game.
+
+I read this at the kitchen table, tea cooling, the same age Aldridge was then — thirty-seven, no, wait, Aldridge was thirty-three in '95. I'm older now than he was then. The arithmetic of it catches in the throat. He remembers the Liechtenstein game as a nightmare — could still be there now and wouldn't have scored. One of the worst teams in Europe. Everyone beat them. Ireland couldn't. Then Austria, Polster scoring twice in the final minutes. The week caught up with them. Over-indulged, he says. Shall we say.
+
+Tonight they play Austria again. Nations League. Seven forty-five kick-off. Five points from four games, performances better than results. Aldridge sees positives. Defend like they did in Hungary. First goal massive. A little bit of luck. The same words, thirty-one years apart. The same opponents. The same green shirt. Only the faces change.
+
+**The Late Late Toy Show. Friday 4 December. Nine thirty-five. Patrick Kielty in the trailer, deep in the Toy Show Lab with his elite squad of young scientists, mixing the recipe for this year's theme.** Three weeks. The clock ticking. RTÉ Toy Show Appeal at thirty-one million since 2020. Revolut donations. Hot chocolate. Cosy pyjamas. Can't wait.
+
+I remember the Toy Show before it was an industry. When it was just Gay Byrne in a jumper, the studio smelling of pine and anticipation, children who didn't know they were performing. Now it's a cultural export, a theme reveal, a trailer dropped on the Six One News. Kielty finding enchantment in a laboratory. OMG moments engineered by young geniuses. Thirty-one million euros raised for children's charities — that part is real, that part matters. But the rest... the rest is packaging. The wonder commodified, scheduled, promoted. Three weeks of hype for one night of television. I'll watch. We all watch. It's the nearest thing we have to a national liturgy.
+
+**The public sector pay deal. Struck in the small hours of Wednesday, suspending a strike that would have disrupted the gathering of world leaders on the twelfth.** Ten point seven five percent over two years and nine months. Five point two billion euro. A cleaner's starting pay up eighteen percent. A special needs assistant seventeen percent. A garda fourteen percent. Teachers twelve to thirteen percent. Backdated to September first — two percent or twelve hundred euro, whichever greater. Then one percent in April, one percent or six hundred in August, one point five percent or nine hundred in November. Twenty twenty-eight: one percent March, one percent or six hundred June, one percent October. Twenty twenty-nine: one point two five percent or seven hundred fifty March, plus a local bargaining installment. A review clause for inflation spirals or economic crashes. Unions recommend. Members decide.
+
+Five point two billion. The number sits in the room like a guest who won't leave. I think of the cleaner at my building, Elena, sixty-three, knees gone, still polishing the brass handrails at six in the morning. Eighteen percent on starting pay. Not her pay. Starting pay. She's been here twenty-two years. Her back payment: twelve hundred euro. Two percent. She'll do the math in her head while she works. She'll wonder if it covers the gas bill that doubled last winter. She'll vote yes because the alternative is nothing. The review clause — inflation spirals, economy crashes. Who decides when it spirals? Who decides when it crashes? Not Elena.
+
+The fox is gone. The quays empty now but for a cyclist cutting through the mist, lights a white smear. Seven degrees. The air tastes of wet stone and exhaust and something older — the river's breath, salt and silt, the city's bones.
+
+I think of my father on mornings like this. Leaving for the docks before dawn, thermos rattling in his coat pocket, the same grey light on his face. He didn't speak of it. The weight of providing. The arithmetic of wages and weeks. He would have understood the pay deal. He would have understood Aldridge's regret — the week that got away, the match that turned, the what-if that follows you into old age. He would have watched the Toy Show with my mother, both of them silent, the children asleep upstairs, the ritual both comfort and obligation.
+
+The past isn't past. It's not even past tense. It's present continuous. Aldridge at sixty-eight, still talking about Polster's free-kick. Kielty in the Toy Show Lab, still chasing the same enchantment Gay Byrne found in a jumper. Elena on her knees at six a.m., still polishing brass. The fox. The river. The grey light that holds all of it, indifferent and complete.
+
+I turn for home. The Samuel Beckett Bridge behind me, cables singing in a wind I cannot feel. Seven degrees. Overcast. The day beginning, the day already old.</think>
