@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .panel { fill: #161b22; stroke: #30363d; stroke-width: 1.5; rx: 8; }
+      .title { fill: #ffffff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 42px; font-weight: 700; }
+      .subtitle { fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 22px; }
+      .label { fill: #e6edf3; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 600; }
+      .sub { fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; }
+      .code { fill: #c9d1d9; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 13px; }
+      .accent-blue { fill: #58a6ff; }
+      .accent-cyan { fill: #39c5cf; }
+      .accent-violet { fill: #a371f7; }
+      .accent-amber { fill: #d29922; }
+      .accent-emerald { fill: #3fb950; }
+      .accent-rose { fill: #f78166; }
+      .accent-orange { fill: #f97316; }
+    </style>
+    <linearGradient id="grad-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#58a6ff;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient id="grad-violet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a371f7;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#a371f7;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  <rect class="bg" x="0" y="0" width="1200" height="630" />
+  
+  <!-- Decorative grid lines -->
+  <g stroke="#21262d" stroke-width="0.5">
+    <line x1="0" y1="100" x2="1200" y2="100" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="0" y1="500" x2="1200" y2="500" />
+  </g>
+  
+  <!-- Header -->
+  <text x="600" y="70" text-anchor="middle" class="title">AI Tools Daily — Nov 12–13, 2026</text>
+  <text x="600" y="100" text-anchor="middle" class="subtitle">Six launches that actually ship</text>
+  
+  <!-- Row 1: Major launches -->
+  <!-- Edge0-145B -->
+  <rect x="30" y="130" width="360" height="160" class="panel" fill="url(#grad-blue)" />
+  <text x="210" y="155" text-anchor="middle" class="label" fill="#58a6ff">EDGE0-145B / 120B</text>
+  <text x="50" y="180" class="sub">Latent MoE · 145B total · ~10B active</text>
+  <text x="50" y="200" class="code">29GB peak · 80+ tok/s · 256K ctx</text>
+  <text x="50" y="220" class="code">NVFP4 / Q3_K · edge0-strata · CUDA 13</text>
+  <text x="50" y="240" class="sub">Edge0 Community Model License 1.0</text>
+  <text x="50" y="260" class="code">Framework Apache 2.0 · Weights restricted</text>
+  
+  <!-- llama.cpp 1.0 -->
+  <rect x="420" y="130" width="360" height="160" class="panel" fill="url(#grad-violet)" />
+  <text x="600" y="155" text-anchor="middle" class="label" fill="#a371f7">LLAMA.CPP 1.0 / GGML 1.0</text>
+  <text x="440" y="180" class="sub">Semantic versioning · API stability contract</text>
+  <text x="440" y="200" class="code">35 deprecated fns removed · NextN stable</text>
+  <text x="440" y="220" class="code">FP8 KV · Host MoE cache · PLE shards</text>
+  <text x="440" y="240" class="sub">New: Kimi-K3.1-Pro, Ripple, drama-3 TTS</text>
+  <text x="440" y="260" class="code">Server hardened · Web UI redesigned</text>
+  
+  <!-- Pine Drama Studio -->
+  <rect x="810" y="130" width="360" height="160" class="panel" />
+  <text x="990" y="155" text-anchor="middle" class="label" fill="#f78166">PINE DRAMA STUDIO</text>
+  <text x="830" y="180" class="sub">AI filmmaking · Screenplay → episodes</text>
+  <text x="830" y="200" class="code">Characters/props once · Consistency checks</text>
+  <text x="830" y="220" class="code">Parallel episodes · Human approval gates</text>
+  <text x="830" y="240" class="sub">Pine Phone · Real-world calls · 87.3% τ³</text>
+  <text x="830" y="260" class="code">Apache 2.0 · Code-OSS desktop · Cloud paid</text>
+  
+  <!-- Row 2: More launches -->
+  <!-- AgentSDR -->
+  <rect x="30" y="320" width="360" height="160" class="panel" />
+  <text x="210" y="345" text-anchor="middle" class="label" fill="#3fb950">AGENTSDR</text>
+  <text x="50" y="370" class="sub">Open-source AI SDR · Self-hosted</text>
+  <text x="50" y="390" class="code">Email · LinkedIn · WhatsApp · AI CRM</text>
+  <text x="50" y="410" class="code">Reply classification · Auto-draft responses</text>
+  <text x="50" y="430" class="sub">BYOAI key · TypeScript · Apache 2.0</text>
+  <text x="50" y="450" class="code">Docker deploy · API-first</text>
+  
+  <!-- Gemini 4 Hydrogen -->
+  <rect x="420" y="320" width="360" height="160" class="panel" />
+  <text x="600" y="345" text-anchor="middle" class="label" fill="#58a6ff">GEMINI 4 HYDROGEN</text>
+  <text x="440" y="370" class="sub">Google · Speed/lightweight variant</text>
+  <text x="440" y="390" class="code">Multimodal · 1M+ ctx · Native tools</text>
+  <text x="440" y="410" class="code">Vertex AI / Gemini API</text>
+  <text x="440" y="430" class="sub">Family: Argon (flagship) → Carbon → Hydrogen</text>
+  <text x="440" y="450" class="code">Pricing below Carbon (expected)</text>
+  
+  <!-- Personal Agent Protocol (Poppy) -->
+  <rect x="810" y="320" width="360" height="160" class="panel" />
+  <text x="990" y="345" text-anchor="middle" class="label" fill="#a371f7">PERSONAL AGENT PROTOCOL</text>
+  <text x="830" y="370" class="sub">Poppy v1.0 · Sierra · Interop standard</text>
+  <text x="830" y="390" class="code">Agent discovery · Capability negotiation</text>
+  <text x="830" y="410" class="code">Identity/trust · State sync</text>
+  <text x="830" y="430" class="sub">Live: Meta Muse · Shopify · Design partners</text>
+  <text x="830" y="450" class="code">Frozen spec · Back-compat · Reference impls</text>
+  
+  <!-- Footer legend -->
+  <rect x="30" y="500" width="1140" height="110" class="panel" />
+  <text x="600" y="525" text-anchor="middle" class="label" fill="#8b949e">WHAT MATTERS THIS WEEK</text>
+  <text x="60" y="555" class="code" fill="#58a6ff">■ Local inference thresholds crossed (145B on laptop, llama.cpp stability)</text>
+  <text x="60" y="575" class="code" fill="#f78166">■ Agent apps becoming production software (Pine Drama Studio pattern)</text>
+  <text x="60" y="595" class="code" fill="#a371f7">■ Interoperability as the next bottleneck (Poppy, BYOAI, license splits)</text>
+  <text x="650" y="555" class="code" fill="#3fb950">■ Sales automation you own (AgentSDR self-hosted)</text>
+  <text x="650" y="575" class="code" fill="#d29922">■ Google's speed tier for high-volume workloads</text>
+  <text x="650" y="595" class="code" fill="#8b949e">■ Entity cards updated in KB for all six launches</text>
+</svg>

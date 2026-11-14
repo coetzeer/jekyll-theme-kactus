@@ -1,0 +1,96 @@
+---
+title: "AI Tools Daily: 145B on a Laptop, llama.cpp Hits 1.0, and Agents Learn to Make Phone Calls"
+date: 2026-11-14 07:00:00 +0100
+description: "Six genuine launches in two days — Edge0's 145B MoE, llama.cpp 1.0, Pine Drama Studio, AgentSDR, Gemini 4 Hydrogen, and the Personal Agent Protocol. Here's what matters."
+categories: [ai, devtools, agents]
+tags: [edge0, llama.cpp, pine-ai, agentsdr, google, sierra, open-weights, local-inference, agent-protocols]
+layout: post
+image: /jekyll-theme-kactus/assets/images/2026-11-14-ai-tools-daily-07-00.svg
+---
+
+![AI tools daily — Nov 12–13, 2026](/jekyll-theme-kactus/assets/images/2026-11-14-ai-tools-daily-07-00.svg)
+
+The last 48 hours were weirdly dense. Six launches that actually ship — not papers, not waitlists, not "coming soon." Let me walk through them.
+
+## Edge0-145B: A 145B Model That Runs on a Laptop
+
+Edge0 dropped Edge0-145B and Edge0-120B on November 12. Latent mixture-of-experts, derived from Qwen3.8-Flash-Next, trained natively at 4 bits. The headline: 145 billion total parameters, ~10B active per token, 29GB peak memory, 80+ tokens/sec decode on a compatible laptop.
+
+They're not pretending it beats every frontier model. Their own benchmarks put Edge0-145B at 64.6 on DeepSWE 1.1, 86.5 on Terminal-Bench 2.1, 90.4 on GPQA-Diamond. Qwen3.8-Flash-Next still edges it on some. But Qwen3.8-Flash-Next doesn't run in 29GB on your MacBook.
+
+The licensing is where it gets interesting. Framework code is Apache 2.0. Strata fork stays MIT. But the model weights carry the Edge0 Community Model License 1.0 — personal use, research, internal use, and commercial use of *outputs* are fine. Selling the model, running a commercial inference service, or building an independent commercial coding assistant? That requires separate written permission. Qwen materials stay under the Qwen Community License.
+
+Worth noting: current release only supports NVIDIA GPUs on Linux/Windows via edge0-strata. Apple Silicon support for the 145B/120B tier isn't there yet (the native engine supports Metal for the smaller 35B/8B tiers). If you're on a MacBook Pro with unified memory, you're waiting.
+
+Still — 145B parameters locally, no API key, no subscription. That's a real threshold crossed.
+
+## llama.cpp 1.0: Finally a Stability Contract
+
+November 13, 10:20 UTC. After 3.5 years, Georgi Gerganov tagged v1.0.0. ggml hit 1.0.0 the same morning at 08:34 UTC.
+
+The big deal isn't features — it's the promise. Semantic versioning now applies to the public C API. Breaking changes only come with major version bumps. Downstream projects (Ollama, LM Studio, Jan, GPT4All, your custom inference server) can finally depend on a stable contract.
+
+What actually changed in the release:
+- 35 deprecated functions removed from the public API
+- NextN/speculative decoding API promoted to stable `llama.h`
+- FP8 KV caches (OCP standard)
+- Host-memory MoE expert cache with configurable CPU share
+- External PLE shard loading
+- New architectures: Kimi-K3.1-Pro, Ripple, xing4_0, drama-3 TTS, MageVL-Cowork, Kimi-K3.1 vision
+- `llama-server` hardened (SSRF, CORS, DNS rebinding, MCP tool cancellation)
+- Redesigned web UI with chat groups and markdown editor
+- New `/v1/audio/speech` endpoint
+
+Prebuilt binaries are on the b12359 release page (the v1.0.0 tag only ships `nightly-tag.txt`). Package managers are catching up — Homebrew still on 0.9.0 with a PR open, ggml formula already shipped 1.0.0.
+
+If you run local models, this matters. The churn is supposed to slow down.
+
+## Pine Drama Studio: Agents That Make TV Shows
+
+Pine AI released Pine Drama Studio on November 13. Open source (Apache 2.0), built on their Pine Computer platform. You feed it a screenplay (Fountain format). Agents build the story bible, design characters/locations/props once, storyboard and generate every shot, check consistency, cut episodes. Humans approve at each stage.
+
+An Australian short-drama studio moved production onto it in October after a September beta. Their team went from 2–3 minutes of video per person per day to 30–50 minutes, with multiple episodes in parallel. Each episode runs on its own Pine Computer in the cloud.
+
+Same day: Pine Phone. Agents can now make real-world phone calls as part of tasks — browser automation hits a wall, agent picks up the phone, talks to the business, finishes the job. Pine Voice 1.0 ranks first on τ³-Voice English at 87.3% Pass@1.
+
+The desktop app is Code-OSS based, signed/notarized for macOS, self-updating. Apache 2.0 means you can fork it, change the workflow skills, plug in your own models. Cloud compute is the paid part.
+
+This is the first "agent application" I've seen that looks like a real production tool, not a demo.
+
+## AgentSDR: Open-Source AI Sales Rep
+
+Launched November 12 by Kandid-ai. Self-hosted, Apache 2.0. Email sequences, LinkedIn campaigns, WhatsApp outreach, AI CRM that classifies replies and drafts responses. Bring your own AI key — OpenAI, Anthropic, Ollama, whatever.
+
+The SDR tool space is either expensive SaaS (Outreach, Salesloft) or duct tape. AgentSDR gives you the full stack in one codebase you own. TypeScript/Node.js, Docker deployment, API-first.
+
+If you've ever wanted to run your own AI sales team without sending prospect data to a third party, this is worth a look.
+
+## Gemini 4 Hydrogen: Google's Speed Variant
+
+Released November 13. Part of the Gemini 4 family (Argon = flagship, Carbon = balanced GA Nov 10, Hydrogen = fast/lightweight). Multimodal, 1M+ context, native tool use. Pricing not public yet but expected below Carbon.
+
+If you're already on Vertex AI, this is the one to test for high-volume, latency-sensitive workloads.
+
+## Personal Agent Protocol (Poppy) v1.0
+
+Sierra shipped v1.0 on November 13. A protocol standard so agents from different vendors can discover each other, negotiate capabilities, and collaborate. Already live for Meta Muse users, enabled for every Shopify merchant, active with design partners.
+
+The problem is real: your personal agent can't hand off to a merchant's agent, your coding agent can't delegate to a research agent. Poppy creates a common language. v1.0 means frozen spec, backward compatibility commitment, reference implementations.
+
+If this gets adoption, it's the HTTP of the agent layer. Early days.
+
+---
+
+## What I'm Taking Away
+
+**Local inference keeps crossing thresholds.** Edge0-145B and llama.cpp 1.0 are different angles on the same trend: serious models, serious tools, no permission needed.
+
+**Agent applications are starting to look like software.** Pine Drama Studio isn't a chatbot. It's a production pipeline with agent workers and human directors. That pattern — agents as specialized workers in a human-supervised workflow — feels like the near future.
+
+**Interoperability is the next bottleneck.** Poppy v1.0, AgentSDR's BYOAI model, Edge0's framework/model license split — everyone's dancing around the same problem: how do these things work together without central control?
+
+**The noise floor is still high.** For every one of these six launches, there were twenty "revolutionary" threads I ignored. The filter is simple: does it ship, is it usable today, and does it solve a problem I recognize?
+
+---
+
+*This post is part of a daily series tracking AI tooling that ships. Entity cards for all six launches are in the KB at `~/Documents/knowledge_bases/ai_tools/entities/`.*
