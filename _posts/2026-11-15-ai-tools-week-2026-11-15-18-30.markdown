@@ -1,0 +1,89 @@
+---
+layout: post
+title: "AI Tools This Week: November 9–15, 2026"
+date: 2026-11-15 18:30:00 +0100
+description: "20+ significant AI tool launches this week: DeepSeek's coding agent, Gemini 4 Hydrogen/Carbon, Nod personal agent, Plurai simulation testing, self-hosted Claude Managed Agents, kagent 1.0, and more."
+categories: [AI Tools, Weekly Roundup]
+tags: [coding-agents, long-running-agents, foundation-models, agent-platforms, open-source]
+image: /jekyll-theme-kactus/assets/images/ai-tools-week-2026-11-15.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/ai-tools-week-2026-11-15.svg" alt="AI Tools Weekly Roundup November 9-15 2026">
+
+This week was dense. Twenty-plus launches. Coding agents, personal agents, agent platforms, foundation models, testing infrastructure. The pattern jumps out: everyone is shipping the layer *above* the model — orchestration, governance, simulation, self-hosting — while Google, Meta, and DeepSeek slice their model lineups into specialized tiers for agentic workloads.
+
+## Coding agents: new contenders and a multi-agent orchestrator
+
+**DeepSeek Enhanced Coding Agent** (Nov 1) — Prototype autonomous coding agent positioned as a direct rival to Claude Code. Still early. But it signals DeepSeek's intent: they want in on the terminal-agent space, not just model serving.
+
+**Caveman Code** (Nov 12, YC F26) — Runs Claude, Codex, and Cursor side by side on the keys you already pay for. A "Chief" agent coordinates and reports back with PR review guides. Cloud desktop and browser for agents in beta. Vendor claims: 21% cheaper than Codex on Terminal-Bench, 14% cheaper than Claude Code while solving more tasks, 76% cheaper over day-long sessions. Free if you bring your own subscriptions.
+
+I haven't verified those numbers. But the approach — orchestrating multiple agents you already subscribe to — feels like where this goes. One subscription, multiple specialists, a coordinator that handles the routing.
+
+## Foundation models: Google slices Gemini 4, Meta targets agent internals
+
+**Gemini 4 Hydrogen** (Nov 12) — Google calls it their "daily driver for agentic workflows." 2.5x faster than Gemini 3.8 Flash, four reasoning levels, 1M context, $1.50/$7.50 per 1M tokens. Built for everyday coding, research, data analysis, codebase navigation.
+
+**Gemini 4 Carbon** (Nov 10) — Strongest Gemini 4 for long-horizon agentic work. Promo pricing through Nov 30: $2/$10 per 1M; then $4/$20. Carbon for complex/long tasks, Hydrogen for fast/everyday. Two tiers, same family.
+
+**Meta Muse Ember** (Nov 9) — Smallest, most efficient Muse model. Targets high-volume agent-internal work: tool calls, routing, extraction, parsing, coding subtasks. 1M context, 512K output, Responses API support. $0.10/$0.50 per 1M tokens. Available on Meta Model API and in Muse Code as `muse-ember-1.0`.
+
+The model layer is fragmenting. Not just "which model" but "which tier of which model family for which agent sub-task." That complexity is real.
+
+## Personal and long-running agents: local-first and self-hosted
+
+**Nod by n8n** (Nov 10) — Standalone personal agent app (Apache 2.0, research preview). Runs locally on Mac and Windows with its own browser and sandbox. Works across Gmail, Calendar, Drive, Slack, Notion, and arbitrary websites — no integrations needed. Asks before it sends, pays, or cancels. Bring your own model: any OpenAI-compatible API, ChatGPT plan, or local via Ollama/LM Studio. n8n claims 98% task completion on 226 test errands with GPT-6.1 Sol. Those are their tests.
+
+This one matters. Local-first personal agent that doesn't need your credentials in the cloud. The confirmation-before-action design is the right default.
+
+**Self-hosted Claude Managed Agents** (Nov 12, private beta) — Anthropic's full Managed Agents stack on your infrastructure. You run the server, Postgres 16+, and workers. Model requests route to Anthropic, Bedrock, Google Agent Platform, Microsoft Foundry, or your own gateway. Your DB, your SSO (OIDC), your secret manager, signed agent-identity tokens for MCP. Docker Compose and Helm chart.
+
+Private beta, request access. But this is the compliance play: regulated teams that need agent data in-house.
+
+**Fireflies Fred** (Nov 11) — Notetaker turned AI teammate across meetings, email, Slack, connected apps. Live Assist, daily briefs, free unlimited voice typing with Command Mode, Email Assistant, Slack Assistant, Artifacts (docs, decks, dashboards from conversations), Knowledge Search, Voice Agents for screening, discovery, support, interview calls. 240+ connected apps, 100+ MCP connectors. Pro $10/seat/mo, Business $19/seat/mo (annual) plus credits.
+
+Fireflies has been building toward this for a while. The meeting-notetaker wedge into general-purpose teammate.
+
+## Agent platforms: Kubernetes, self-improvement, governance
+
+**kagent 1.0 + Agent Substrate 1.0** (Nov 10) — Both CNCF Sandbox, both GA. Kubernetes-native agent orchestration. Substrate suspends idle actors (snapshotting workspace), resumes them on free workers, runs each actor in gVisor or microVM sandbox. A2A and MCP support, UI, CLI, OpenTelemetry traces and metrics. Solo.io enterprise GA same day: access control, tracing, evaluations, air-gapped installs.
+
+If you're running many agent sessions on Kubernetes and need suspend/resume with isolation, this is the stack to watch.
+
+**AgentRun** (Nov 10, open source alpha) — Adds self-improvement, durable runs, and a control plane *on top of* existing harnesses: pi, Claude Code, Codex, OpenCode, anything speaking Agent Client Protocol. Learns from past runs, resumes where stopped, Mission Control for cost/tokens/success rates, on-demand compute switching between tool calls. Templates: code review, release notes, KYB due diligence, lead research, competitor monitor. Triggers: schedules, webhook, GitHub, Slack. Local via npx or ~$27.50/mo on Render.
+
+The "on top of existing harnesses" part is smart. You don't switch runtimes; you add durability and learning to what you already use.
+
+**OpenBot 1.0** (Nov 10, MIT) — Self-hostable workspace for AI coworkers. Personal desktop app (Mac/Windows) or Business on your Kubernetes (one Helm chart). BYO models and AG-UI agents. Per-tool permissions, audit trail. CopilotKit Intelligence licensed separately.
+
+**Imagine Enterprise** (Nov 10, IBM + Microsoft) — Joint platform for regulated industries. IBM brings 6,000+ prebuilt agents from Consulting Advantage (Process Studio, Context Studio, Advantage Core). Microsoft brings Foundry, Copilot, Copilot Studio, plus Fabric, 365, Entra, Purview, Defender, Azure. First frameworks: financial services, insurance, retail. Manufacturing, energy, public sector, mobility next. Deployment: IBM runs it, co-build, or you manage it.
+
+**Mirantis Agent Platform** (Nov 10, GA at KubeCon) — Self-hosted, governed AI agents on Kubernetes. Policy-based access, per-agent sandbox, spend caps at org/project/agent level, full audit trails, one-click network cutoff for all agents, human approval before fixes. Forward-deployed engineers for custom agents.
+
+## Testing and simulation: the missing layer
+
+**Plurai Simulation** (Nov 11) — One command inside Claude Code, Codex, or Copilot builds a sandboxed world from your code: fake users with different personalities, synthetic documents, mocked tools, APIs, databases that never touch production. Verifies what the agent *actually did* (did the refund happen?), not what it said. Failures return the conversation trace and a suggested fix; production failures replay from the breaking step. #1 Product Hunt day after launch. Free: 2 setups, 3 runs, 10 hours; Base $60/mo.
+
+This is the one I'd try first if I were shipping agents to production. The "verify outcomes not claims" framing is exactly the gap everyone has.
+
+**Expo Simulators** (Nov 12) — Cloud iOS and Android simulators for coding agents (Cursor, Claude Code, Codex). $0.10/min, 60 min/month included on paid plans. Screen recordings, screenshots, logs on PR. Shareable running build links — no TestFlight needed. Agent Sessions layer (trigger agents from customer feedback with prompt-injection protection) coming end of November.
+
+Mobile testing without a Mac. That's been a real gap for agent workflows.
+
+## Voice and specialized agents
+
+**Retell Tell-1** (Nov 12) — LLM built for live contact-center calls, trained on hundreds of millions of calls. Interleaved reasoning: thinks while speaking for partial answers, topic detours, tool lookups mid-call. $0.035/min. Retell Dialer same day: outbound campaigns, callbacks at local time, specialist hand-offs, SMS nurture, spam monitoring, CRM integration.
+
+**ThunderPhone v3 / Zeus** (Nov 9) — Agentic harness for voice AI. Creates voice agents from conversation or call recordings/SOPs. Imports from Vapi, Retell, Bland, ElevenLabs. Runs text and audio simulations, flags live-call problems, proposes A/B tests. Optimizes toward price cap or conversion minus call cost. Free for now; calls cost-plus 17-25% margin.
+
+**Kimi Hosted Agents** (Moonshot AI) — Long-horizon multi-agent workloads without building your own runtime. Isolated cloud sandboxes, network controls.
+
+## What I'm watching
+
+The model layer is fragmenting into specialized tiers: Hydrogen vs Carbon, Muse Ember. The action is in the orchestration layer — self-hosting for compliance (Claude Managed Agents self-hosted, Mirantis, OpenBot), Kubernetes-native platforms (kagent, Agent Substrate), self-improving durability (AgentRun), simulation-based verification (Plurai). Personal agents went local-first (Nod). Testing infrastructure finally caught up to agent capabilities (Plurai, Expo Simulators).
+
+If you're building with agents this week, practical takeaways: Plurai for catching agent bugs before production. Expo for mobile testing without a Mac. Nod for local personal automation without handing over credentials. kagent/Agent Substrate if you're running many agents on Kubernetes and need suspend/resume with isolation.
+
+---
+
+*Entity files updated in the AI Tools KB: deepseek-coding-agent, gemini-4-hydrogen, gemini-4-carbon, nod-n8n, plurai-simulation, claude-managed-agents-selfhosted, kagent-agent-substrate, meta-muse-ember, caveman-code, expo-simulators, openbot-copilotkit, agentrun-parcha, imagine-enterprise-ibm-microsoft.*
