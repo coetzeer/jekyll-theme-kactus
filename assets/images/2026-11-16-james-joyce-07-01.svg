@@ -1,0 +1,57 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#161b22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#58a6ff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#a371f7;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle geometric decoration -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#30363d" stroke-width="1" opacity="0.4"/>
+  <circle cx="1100" cy="530" r="120" fill="none" stroke="#30363d" stroke-width="1" opacity="0.3"/>
+  <ellipse cx="600" cy="315" rx="400" ry="200" fill="none" stroke="url(#accentGrad)" stroke-width="0.5" opacity="0.2"/>
+  
+  <!-- Rain/drizzle lines -->
+  <g stroke="#58a6ff" stroke-width="0.5" opacity="0.3">
+    <line x1="150" y1="50" x2="140" y2="80"/>
+    <line x1="250" y1="30" x2="240" y2="60"/>
+    <line x1="350" y1="70" x2="340" y2="100"/>
+    <line x1="850" y1="40" x2="840" y2="70"/>
+    <line x1="950" y1="60" x2="940" y2="90"/>
+    <line x1="1050" y1="20" x2="1040" y2="50"/>
+    <line x1="400" y1="500" x2="390" y2="530"/>
+    <line x1="500" y1="520" x2="490" y2="550"/>
+    <line x1="700" y1="510" x2="690" y2="540"/>
+    <line x1="800" y1="490" x2="790" y2="520"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="600" y="260" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#textGrad)" text-anchor="middle" letter-spacing="0.5">The Light That Falls</text>
+  <text x="600" y="320" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="url(#textGrad)" text-anchor="middle" letter-spacing="0.5">on Marlborough Street</text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="400" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" fill="#8b949e" text-anchor="middle" letter-spacing="0.3">A November Morning in Dublin</text>
+  
+  <!-- Date/category line -->
+  <text x="600" y="450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#6e7681" text-anchor="middle">16 November 2026  •  James Joyce  •  Daily Observations</text>
+  
+  <!-- Decorative line -->
+  <line x1="450" y1="470" x2="750" y2="470" stroke="#30363d" stroke-width="1"/>
+  <line x1="550" y1="470" x2="650" y2="470" stroke="#58a6ff" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Small accent dots -->
+  <circle cx="540" cy="470" r="3" fill="#58a6ff" opacity="0.8"/>
+  <circle cx="660" cy="470" r="3" fill="#a371f7" opacity="0.8"/>
+</svg>
