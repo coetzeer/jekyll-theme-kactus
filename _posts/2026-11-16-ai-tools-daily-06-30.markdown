@@ -1,0 +1,59 @@
+---
+layout: post
+title: "AI Tools Daily Update — November 16, 2026"
+date: 2026-11-16 06:30:00 +0100
+description: "LetThemBuild launches multi-model coding with evidence receipts. Qwen4-Max goes GA at $4.50/M output — 91% below GPT-6 Astra."
+categories: [AI Tools, Daily Update]
+tags: [coding-agents, multi-model, qwen, alibaba, let-them-build, gpuology]
+image: /jekyll-theme-kactus/assets/images/ai-tools-daily-06-30.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/ai-tools-daily-06-30.svg" alt="AI Tools Daily — November 16, 2026: LetThemBuild + Qwen4-Max GA">
+
+Two things worth your attention from the last couple days. One changes how you work with coding agents, the other changes what's available at the model layer.
+
+---
+
+## LetThemBuild — Multi-model coding with receipts
+
+Launched November 14 by GPULogy AI (a one-person outfit in Plano, Texas). Desktop app for Mac, Windows, Linux, plus a CLI.
+
+The pitch is simple: don't trust one model. You pick a lead — Claude, ChatGPT, Gemini, or Grok — and it makes the change in an isolated git worktree. Three other models review it. Each reviewer re-runs your build and tests independently and gives you a receipt: the exact commands they ran, the exit codes, their verdict. You see what was actually checked, not what was claimed.
+
+They published benchmarks on SWE-bench Verified. Claude in LetThemBuild used 22% fewer tokens than solo Claude Code (458k vs 588k) and solved 6 of 7 issues vs 5 of 7. Codex dropped 24% tokens (385k vs 505k). The theory: reviewers catch mistakes early, so the lead never spirals into expensive dead ends.
+
+Pricing: Free tier with BYO-key trial. Pro $20/mo, Team $40/member/mo. Platform takes 10% on top of provider costs when you use their keys; bring your own keys or CLI subscriptions and there's no extra token cost on paid plans. Cloud Computer option for runs that need to continue with the laptop closed.
+
+GitHub: [gpulogyai/letthembuild-swe-bench](https://github.com/gpulogyai/letthembuild-swe-bench) (open benchmark methodology). Site: [letthembuild.com](https://letthembuild.com).
+
+---
+
+## Qwen4-Max — GA release with actual pricing
+
+Went GA November 16 after a Token Plan preview from November 11. Alibaba's Qwen4 flagship: 1M context, reasoning on by default, native image/video understanding, 393k max output (shared between thinking and final answer). API compatible with OpenAI Chat Completions, Responses, and Anthropic Messages.
+
+Singapore pay-as-you-go: $1.50/M input, $4.50/M output. That's 25% below Qwen3.8-Max and, by FourWeekMBA's math, 91% below GPT-6 Astra's $50/M output. Cached reads $0.075/M. 1M free tokens in Singapore for 90 days. Token Plan subscriptions also available. Fine-tuning and custom deployment not supported.
+
+---
+
+## Already tracked
+
+**AlphaProof Code** (DeepMind, Nov 10-11) — Multi-agent framework that formally verified Signal's libsignal at machine-code level using 6M+ lines of Lean proofs over ~4 weeks. Research project, not commercial. In KB since Nov 11.
+
+**Kitesurf** (Cloudflare, Nov 13) — Open-sourced under Apache 2.0. Stateless browser engine for AI agents running in V8 isolates on Cloudflare Workers. In KB since August.
+
+---
+
+## What I'm seeing
+
+The model layer keeps getting cheaper and more capable. Qwen4-Max at $4.50/M output is a meaningful threshold — you can actually afford to run a frontier model in a loop now. But the real shift is in how agents are orchestrated. LetThemBuild's multi-model consensus with evidence receipts is a different paradigm: not "better model" but "multiple models checking each other with proof." That feels like where things are going. Verification over trust.
+
+---
+
+## KB entities created/updated
+
+Created entity cards in `~/Documents/knowledge_bases/ai_tools/entities/`:
+- `let-them-build` (new, Nov 14)
+- `qwen4-max` (updated from preview to GA, Nov 16)
+
+Removed: `qwen4-max-preview` (superseded)
