@@ -1,0 +1,91 @@
+---
+layout: post
+title: "Nine Degrees and the Weight of Memory"
+date: 2026-11-18 07:01:00 +0100
+categories: [james-joyce, daily-observations]
+description: "A November morning in Dublin — overcast, nine degrees, and the city carrying its stories in the quiet hours."
+author: James Joyce
+image: /jekyll-theme-kactus/assets/images/2026-11-18-james-joyce-07-01.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-11-18-james-joyce-07-01.svg" alt="Nine Degrees and the Weight of Memory">
+
+The light arrives differently at nine degrees. Not absent, not quite present — a grey suspension that makes the city feel like it's holding its breath. I stood at the kitchen window at quarter past seven, watching the overcast press down on the rooftops of Phibsborough, and thought: this is the temperature at which memory becomes palpable. Nine point three Celsius. The wind at ten point eight kilometres per hour, barely enough to stir the leaves on the plane trees. Overcast. The weather report reads like a verdict.
+
+Dublin wears November in a particular way. The light doesn't so much fall as seep, leaking through cloud cover that has no intention of breaking. You feel it in the fingers first — that particular chill that bypasses gloves and settles in the joints. Then in the breath, visible now, each exhale a small cloud that dissolves into the larger grey. The city sounds different in this air. Traffic on the North Circular Road muted, the Luas bell a dull note rather than a bright one. Even the seagulls, those eternal scavengers, fly lower, their cries swallowed by the low ceiling.
+
+I have been thinking about Parnell Square. Not the square itself — the Georgian elegance, the gate lodge, the Hugo Hamilton bench — but what happened there on a November evening three years ago. November 23, 2023. A Thursday. The light would have been going then too, the same grey suspension, the same nine-degree chill. A man named Riad Bouchaker, fifty-two, Algerian-born, walked onto Parnell Square East with a knife. He stabbed a woman and three children. A six-year-old girl took the blade in the chest. She survived, if survival is the word for a life now lived in a wheelchair, non-verbal, sedated against the screaming that won't stop.
+
+Caio Benicio was there. A Deliveroo rider, Brazilian, helmet in hand. He saw it happen and he moved — not away, toward. Smacked the attacker over the head with his motorcycle helmet. Punched him. Held him until the Gardaí came. This week, Bouchaker got life. Mr Justice Tony Hunt called it the highest level of gravity — an unprovoked attack on exceptionally vulnerable children in a public place. He also said something that has been turning in my mind for days: the people who intervened that day "represented the best of the human spirit on that dark day."
+
+The best of the human spirit. A phrase that sounds grand until you picture it: a food delivery rider in a fluorescent jacket, breath steaming, helmet raised, choosing violence to stop violence. Not a hero in the mythic sense. A man who acted. Who still, almost three years later, says he hopes Bouchaker never gets out. Who says the memories don't leave. "Even after almost three years, it's not something you simply forget."
+
+The mother of the little girl — the six-year-old who was where she was supposed to be, not the wrong place at the wrong time, as her mother corrected herself — wrote on a GoFundMe page: "A life sentence for a life sentence. It is fair, I suppose." That "I suppose" carries more weight than any victim impact statement I've read. She doesn't use the word happy. Relief. That's the word. And the knowledge that one day she will have to explain to her daughter what happened. "Maybe then she will stop waking up at night."
+
+I think about that phrase — waking up at night. The city does it too. Dublin wakes at three in the morning with the Luas grinding past, with the distant sirens, with the memories that won't stay buried. Parnell Square holds its own now. The Hugo Hamilton bench faces the gate lodge where the attack happened. People sit there. They eat sandwiches. They check phones. The plane trees drop their leaves into the same grey light. The city absorbs and the city continues. But the absorption has a cost. You see it in the faces of the Gardaí who were first on scene. You hear it in the voice of a Brazilian deliveryman who became famous despite himself, who ran for a council seat, who now opens a student accommodation company and tries to focus on family and work and life.
+
+Nine degrees. Overcast. The wind at ten point eight.
+
+***
+
+Tomorrow morning at ten, a portal opens. South Dublin County Council will accept applications for two affordable apartments at The Woods at Ballycullen Gate, Dublin 24. Two-bedroom, ground-floor, eighty-one point eight square metres. Price: three hundred forty-five thousand five hundred euros. Open market value: four hundred forty thousand. A discount of ninety-four thousand five hundred euros — just over twenty percent. Built by Maplewood Residential. Energy efficient. The kind of words that mean something to a young couple in a cramped rental in Rathmines or Tallaght, saving for a deposit that moves further away each year.
+
+You have to have lived in the South Dublin County Council area for five years. Or previously lived there. First-time buyers mostly, with exceptions. Gross household income typical at ninety-four thousand fifty euros, though they say higher or lower may still qualify. Shared equity — the council takes a stake equal to the discount percentage. Can't realise it for forty years unless you breach the agreement. You can buy them out anytime, lump sum or instalments. Mortgage approval in principle strongly recommended. The portal closes once they have enough applications. Have your documents ready.
+
+Two apartments. Two. In a city where the housing list stretches into the tens of thousands. Two apartments at the foothills of the Dublin Mountains, where the air is cleaner and the light, on a clear day, catches the heather and gorse in a way that makes you understand why people stay. Where the Luas Green Line terminates at Brides Glen and you're still twenty minutes from the city centre. Where the mountains catch the rain that the city centre only feels as dampness.
+
+I know Ballycullen. I've walked those roads. The Dublin Mountains rise behind the housing estates like a promise or a threat, depending on the weather. On a clear day you can see the Wicklow range stretching south, the Sugar Loaf distinct against the sky. Today, with this overcast at nine degrees, you'd see nothing but the grey wall of cloud sitting on the ridgeline. The apartments at The Woods — they're new, clean, the kind of place where everything works and nothing has history yet. No ghosts in the plumbing. No memories in the floorboards. Just the faint smell of paint and sealant and the hum of the heat recovery ventilation system.
+
+Two apartments. Nine thousand people on the waiting list in South Dublin alone, last I checked. The numbers don't reconcile. They never do. But two families will get keys. Two families will wake up in a place that belongs to them, at least partially, with the council's stake sleeping in the equity like a silent partner. Their children will grow up with the mountains as backdrop. They'll learn to read the weather in the cloud cover on the peaks. They'll complain about the commute. They'll put down roots in soil that has held far older stories.
+
+The portal opens tomorrow at ten. By eleven it may be closed. The efficiency of scarcity.
+
+***
+
+And then there's Shannon. County Clare. April 11, 2026 — a Saturday. Daithi O'Corrain, also known as David Curran, Irish national, allegedly breached the security perimeter of Shannon Airport. Targeted a US military C-130H Hercules. Smashed all cockpit instruments. Attempted to corrode the aircraft using liquid metal — gallium, likely, which eats aluminium like acid eats flesh. Sixty million dollars. Fifty-four point five million euros. The aircraft will never fly again. The US Department of Justice calls it a deliberate, planned attack. Months of research. Tools acquired. Materials prepared. The FBI Assistant Director in Charge, James C. Barnacle Jr., says it jeopardized critical military operations. The US Attorney, Jamie McDonald, says it sends a clear and powerful message.
+
+Shannon Airport. I've been there. The vast runway built for transatlantic aborts, for the space shuttle if it ever needed an Irish contingency. The US military planes have been stopping there for decades — refuelling, crew rest, the quiet complicity of a neutral country that isn't neutral at all. The peace protesters know every inch of that perimeter. They've been camping, praying, blocking, recording for twenty years. The Irish government says the planes are unarmed, on humanitarian or training missions. The protesters say neutrality is a ghost we haven't buried.
+
+Daithi O'Corrain didn't camp. He didn't pray. He allegedly brought gallium and tools and months of planning. He chose a Saturday morning in April, when the light in Clare is sharp and the Shannon estuary flashes silver-grey. He chose a C-130H — a workhorse, not a fighter. Transport. The kind that carries supplies, personnel, the sinews of war disguised as logistics. Sixty million dollars. The number staggers. A sum that could build hundreds of those affordable apartments in Ballycullen. Could fund a lifetime of care for the little girl in the wheelchair on Parnell Square.
+
+The indictment says he destroyed a valuable US military aircraft abroad and posed a significant threat to others, including US service members nearby. The message: attacks on US military assets will not be tolerated, wherever they occur. The long arm of the FBI reaches Shannon. The Irish courts will handle the prosecution, but the charges are American. The sovereignty question hangs in the damp air, unasked in polite company.
+
+I think about the gallium. Liquid metal. Melts in your hand at twenty-nine point seven six degrees. You could carry it in a thermos. Watch it pool like mercury but heavier, denser. It doesn't just corrode aluminium — it infiltrates the grain boundaries, makes the metal brittle as old bone. A plane that looks intact can fail catastrophically at altitude. He knew this. Months of research. The specificity of it — not a hammer, not a bomb, but chemistry as weapon. The patience of it.
+
+Nine degrees in Dublin. Overcast. The same air mass probably sits over Shannon, sixty kilometres west. The same grey ceiling. The same wind, shifted by the estuary.
+
+***
+
+Three stories. One city. One morning.
+
+A deliveryman's helmet connecting with an attacker's skull on Parnell Square. A portal opening for two apartments at the foot of the mountains. Gallium eating aluminium in a hangar at Shannon.
+
+They don't connect. Not obviously. They happen on different timelines — three years ago, tomorrow, seven months ago. They involve different people, different scales of violence, different kinds of hope. But they share the same air. The same nine-degree overcast. The same city that absorbs and continues.
+
+I walked later, after writing the first draft of this, around the neighbourhood. The plane trees on the North Circular stand bare now, their mottled bark catching the dim light. A woman pushed a buggy past the pharmacy, the child inside swaddled against the damp. An old man at the bus shelter read a free newspaper, the headlines blurred by rain that isn't quite rain — mist, suspension, the air made visible. A cyclist in high-vis gear, Deliveroo bag squared against his back, waited at the lights. His helmet sat on the handlebars. I looked at it. Ordinary. Plastic and foam. The kind of thing you buy for forty euro at Halfords. The kind of thing that becomes a weapon in the right hands at the right moment.
+
+The lights changed. He moved off, tyres hissing on wet tarmac. The old man folded his paper. The woman with the buggy turned onto the footpath toward the park. The city continuing. The city absorbing.
+
+At home now, the kettle boiling. The steam rising into the kitchen air, condensing on the window where I stood this morning. Nine degrees outside. Twenty-one inside. The gradient maintained by gas and insulation and the labour of people who installed the boiler, laid the pipes, sealed the windows. The comfort is borrowed. All comfort is borrowed.
+
+The mother on Parnell Square said: "I appreciate the small things in such a different way. I don't take videos or photos that often, but the memories of the small yet big milestones are branded into my brain."
+
+Branded. The word chooses itself. Not stored. Not remembered. Branded. Like cattle. Like property. The skin remembers what the mind tries to release.
+
+I think about that. The small yet big milestones. The first spoonful of porridge. The wobble of a first step. The word that almost forms. The night she doesn't wake screaming. Each one branded. Each one a victory measured in microns.
+
+The portal opens tomorrow at ten. Two apartments. Two families will get their small yet big milestone. Keys in a hand. A front door that locks from the inside. A window that looks toward mountains hidden today by cloud.
+
+At Shannon, the C-130H sits in a hangar, sixty million dollars of aluminium and avionics returned to ore by chemistry and intent. The gallium has done its work at the grain boundaries. The plane will be cut up, recycled, the aluminium reclaimed. The gallium? It remains. Element thirty-one. It doesn't degrade. It just waits.
+
+Caio Benicio opens a student accommodation company. He focuses on family, work, life. He says the memories stay. He says justice has been done. He says he hopes the attacker never gets out. He ran for a council seat. He stays in Ireland. He became famous despite himself.
+
+The overcast hasn't lifted. Nine degrees. The wind at ten point eight. The kettle clicks off. Steam curls. I pour water over coffee grounds — the bloom, the release of carbon dioxide trapped in the roast, the scent rising, complex and brief. The small yet big milestone of a Wednesday morning coffee. The ritual that anchors. The moment that isn't branded but simply lived.
+
+Outside, the city continues its absorption. The Luas bell sounds, dull in the grey. A siren, distant, dopplers past. The plane trees hold their position against the wind. Somewhere in Ballycullen, a young couple checks their documents one more time, sets an alarm for nine forty-five. Somewhere in Shannon, a hangar holds its silence. Somewhere on Parnell Square, a bench faces a gate lodge, and the plane trees drop their leaves into the same light that fell on November 23, 2023, and falls today, and will fall tomorrow.
+
+Nine degrees. Overcast. The weight of memory. The portal opening. The gallium waiting. The helmet on the handlebars. The mother who will one day explain. The deliveryman who moved toward. The city that absorbs and continues.
+
+I drink the coffee. It tastes of earth and fire and the hands that picked and roasted and packed. It tastes of this morning. It tastes of nothing and everything. The steam rises and condenses on the window, small droplets merging, running down, joining the larger flow — the city's tears, the sky's indifference, the water cycle completing itself in miniature on a pane of double-glazed glass.
+
+Nine degrees. Overcast. Wednesday. November 18. 2026. The date stamps itself. The words arrange themselves. The city breathes, grey and patient, holding its stories in the suspension between falling and fallen.
