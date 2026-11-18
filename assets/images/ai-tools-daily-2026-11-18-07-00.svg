@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a371f7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f78166;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3fb950;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- Subtle grid pattern -->
+  <g stroke="#30363d" stroke-width="0.5" opacity="0.3">
+    <line x1="0" y1="0" x2="1200" y2="630"/>
+    <line x1="1200" y1="0" x2="0" y2="630"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="0" y1="157.5" x2="1200" y2="157.5"/>
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="472.5" x2="1200" y2="472.5"/>
+  </g>
+
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="url(#accentGrad)" stroke-width="1" opacity="0.2"/>
+  <circle cx="1100" cy="530" r="120" fill="none" stroke="url(#accentGrad2)" stroke-width="1" opacity="0.15"/>
+  <circle cx="200" cy="500" r="60" fill="none" stroke="#58a6ff" stroke-width="0.5" opacity="0.1"/>
+
+  <!-- Title area -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <!-- Category badge -->
+    <rect x="100" y="180" width="160" height="36" rx="18" fill="url(#accentGrad)" opacity="0.2"/>
+    <text x="180" y="206" text-anchor="middle" font-size="14" font-weight="600" fill="#58a6ff" letter-spacing="0.5px">AI TOOLS DAILY</text>
+
+    <!-- Main title -->
+    <text x="100" y="300" font-size="48" font-weight="700" fill="#ffffff" line-height="1.2">Four things from</text>
+    <text x="100" y="360" font-size="48" font-weight="700" fill="url(#accentGrad)" line-height="1.2">the last 48 hours</text>
+
+    <!-- Subtitle -->
+    <text x="100" y="430" font-size="22" font-weight="400" fill="#8b949e">Devin Bots, Ignite 2026, GPT-6.2, Agent Name Service</text>
+
+    <!-- Date -->
+    <text x="100" y="500" font-size="18" font-weight="500" fill="#8b949e">November 18, 2026</text>
+
+    <!-- Tags -->
+    <g font-size="13" font-weight="500">
+      <rect x="100" y="530" width="80" height="26" rx="13" fill="#30363d"/>
+      <text x="140" y="548" text-anchor="middle" fill="#58a6ff">Devin</text>
+
+      <rect x="190" y="530" width="100" height="26" rx="13" fill="#30363d"/>
+      <text x="240" y="548" text-anchor="middle" fill="#a371f7">Microsoft</text>
+
+      <rect x="300" y="530" width="90" height="26" rx="13" fill="#30363d"/>
+      <text x="345" y="548" text-anchor="middle" fill="#f78166">OpenAI</text>
+
+      <rect x="400" y="530" width="110" height="26" rx="13" fill="#30363d"/>
+      <text x="455" y="548" text-anchor="middle" fill="#3fb950">Governance</text>
+    </g>
+  </g>
+
+  <!-- Right side decorative elements -->
+  <g transform="translate(850, 150)">
+    <!-- Agent icons representing fleet -->
+    <g fill="none" stroke="url(#accentGrad)" stroke-width="2" filter="url(#glow)">
+      <circle cx="0" cy="0" r="30" opacity="0.8"/>
+      <circle cx="80" cy="-20" r="22" opacity="0.6"/>
+      <circle cx="150" cy="10" r="18" opacity="0.5"/>
+      <circle cx="40" cy="80" r="20" opacity="0.5"/>
+      <circle cx="120" cy="70" r="16" opacity="0.4"/>
+    </g>
+
+    <!-- Connection lines -->
+    <g stroke="#30363d" stroke-width="1" stroke-dasharray="4,4" opacity="0.5">
+      <line x1="0" y1="0" x2="80" y2="-20"/>
+      <line x1="0" y1="0" x2="40" y2="80"/>
+      <line x1="80" y1="-20" x2="150" y2="10"/>
+      <line x1="40" y1="80" x2="120" y2="70"/>
+    </g>
+
+    <!-- Manager icon (larger, distinct) -->
+    <circle cx="60" cy="20" r="35" fill="url(#accentGrad2)" opacity="0.2" stroke="url(#accentGrad2)" stroke-width="2"/>
+    <text x="60" y="26" text-anchor="middle" font-size="16" font-weight="bold" fill="url(#accentGrad2)">⬢</text>
+  </g>
+</svg>

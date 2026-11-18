@@ -1,0 +1,88 @@
+---
+layout: post
+title: "AI Tools Daily — November 18, 2026"
+date: 2026-11-18 07:00:00 +0100
+description: "Devin Bots, Microsoft Ignite 2026 agent announcements, GPT-6.2 reception, and the Linux Foundation's Agent Name Service. The orchestration layer is where the movement is."
+categories: [AI, Tools, Agents]
+tags: [devin, microsoft, openai, agent-governance, linux-foundation]
+image: /jekyll-theme-kactus/assets/images/ai-tools-daily-2026-11-18-07-00.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/ai-tools-daily-2026-11-18-07-00.svg" alt="AI Tools Daily November 18 2026">
+
+Four things from the last 48 hours. Three change how agent fleets get managed. One changes what's available at the model layer.
+
+---
+
+## Devin Bots — Agent managers for multi-week projects
+
+Launched November 17 by Cognition ($48B valuation, $1B+ ARR as of September). This isn't another coding agent. It's a *manager* agent that leads teams of Devin instances on complex, multi-week work.
+
+You give it an outcome. It breaks the project into tasks, spawns Devins in parallel on separate cloud VMs, routes cheaper models to routine code and premium models to hard reasoning, and only brings you decisions that need human judgment. Joins your Slack, remembers context across weeks.
+
+Early numbers: one game studio went from ~50 to ~1,900 weekly PRs. Citigroup running 14,000 engineers on the platform. Bot usage grew 10x in two weeks among early access customers (Decagon, Fireworks AI, Reducto).
+
+No public pricing or GA date yet. Access through the existing Devin chat interface — assign an outcome to a Bot.
+
+This is Cognition's answer to Anthropic's Duet and OpenAI's Dots (both shipped in the preceding weeks). Different paradigm: not "better single agent" but "agent that manages agents."
+
+---
+
+## Microsoft Ignite 2026 — Agents become directory citizens
+
+November 17–18. Three concrete moves:
+
+**Copilot Autopilot** (the persistent personal agent, formerly Scout) now rolling out to Frontier customers. 24×7 proactive operation across Teams, Outlook, SharePoint. Has its own Entra directory identity. Grounded in "Work IQ" — Microsoft's term for the org knowledge graph.
+
+**Copilot Code** (natural language → apps/dashboards) going GA in the coming weeks. **Copilot Managed Runtime** (secure hosting for these apps) already GA.
+
+**Microsoft Entra Agent ID** — new. Gives each agent (starting with GitHub Copilot CLI, Claude Code) its own directory identity, separate from the human. Admins can permission, audit, block. First major governance layer for agent fleets in enterprise.
+
+Half of this is usable today (Decision 1.1, Code 2, Perception, HorizonDB). Half is Frontier preview with no date (Workspaces, Autopilot, Business Analytics). Start with the half you can touch.
+
+---
+
+## OpenAI GPT-6.2 Astra and Sol — Launched to mixed reception
+
+November 17. Both rolling out to ChatGPT Work, Codex, API. OpenAI says better results on demanding tasks with fewer output tokens. API pricing not yet published.
+
+Reception from power users: negative. VentureBeat called it "essentially unusable." Complaints about regressions in instruction following, increased verbosity, worse practical coding than GPT-6.1 Terra ($1/$5 per M tokens) or even GPT-6 Astra. Some users actively downgrading.
+
+GPT-6.1 Terra (October 26, $1/$5, 1.05M context) remains the practical workhorse for coding.
+
+---
+
+## Agent Name Service (ANS) — Linux Foundation project for agent identity
+
+Announced week of Nov 17 as LF project. DNS-anchored records + certificate signals to register, publish, verify agent identities. 11 early supporters. Open standard, cross-vendor.
+
+Complementary to Entra Agent ID: ANS is open, protocol-level; Entra is Microsoft-ecosystem. First LF project specifically for agent identity. Critical for multi-agent systems where agents from different vendors/orgs interact — parallel to how DNS/TLS enabled web trust.
+
+---
+
+## What I'm seeing
+
+The pattern is clear: **verification over trust, governance over autonomy**.
+
+- LetThemBuild (Nov 14): multiple models checking each other with receipts
+- Devin Bots (Nov 17): manager agent with human only at decision points
+- Entra Agent ID (Nov 17): directory identity + permissions per agent
+- ANS (Nov 17): open protocol for cross-vendor agent verification
+
+The model layer (GPT-6.2) is shipping faster but getting worse for practical work. The orchestration layer is where the real movement is.
+
+---
+
+## KB entities created/updated
+
+Created entity cards in `~/Documents/knowledge_bases/ai_tools/entities/`:
+- `devin-bots` (new, Nov 17)
+- `microsoft-entra-agent-id` (new, Nov 17)
+- `gpt-6.2-astra` (new, Nov 17)
+- `gpt-6.2-sol` (new, Nov 17)
+- `agent-name-service-ans` (new, Nov 17)
+
+Updated:
+- `microsoft-copilot-autopilot` (Ignite 2026: Frontier rollout, Entra ID, Work IQ)
+- `microsoft-copilot-code` (Ignite 2026: GA coming weeks, Managed Runtime GA)
+- `claude-code-2026` (Nov updates: Code Mode for agent teams, sandbox, Remote Control streaming)
