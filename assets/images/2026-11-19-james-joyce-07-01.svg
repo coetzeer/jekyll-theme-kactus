@@ -1,0 +1,169 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#161b22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lightGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f78166;stop-opacity:0" />
+      <stop offset="50%" style="stop-color:#f78166;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#f78166;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient id="railGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#58a6ff;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#58a6ff;stop-opacity:0.3" />
+    </linearGradient>
+    <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#f78166;stop-opacity:0.4" />
+      <stop offset="70%" style="stop-color:#f78166;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#f78166;stop-opacity:0" />
+    </radialGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#skyGradient)"/>
+
+  <!-- Subtle atmospheric texture -->
+  <g opacity="0.03">
+    <rect x="0" y="0" width="1200" height="630" fill="#ffffff"/>
+  </g>
+
+  <!-- Wet cobblestone street suggestion -->
+  <path d="M0,420 Q300,400 600,420 Q900,440 1200,420 L1200,630 L0,630 Z" fill="#1a1f2e" opacity="0.6"/>
+
+  <!-- Rail tracks disappearing into mist -->
+  <g stroke="url(#railGradient)" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M200,450 L1000,450" stroke-dasharray="20,10"/>
+    <path d="M180,480 L1020,480" stroke-dasharray="20,10"/>
+    <!-- Sleepers -->
+    <g stroke="#30363d" stroke-width="1">
+      <line x1="200" y1="450" x2="180" y2="480"/>
+      <line x1="320" y1="450" x2="300" y2="480"/>
+      <line x1="440" y1="450" x2="420" y2="480"/>
+      <line x1="560" y1="450" x2="540" y2="480"/>
+      <line x1="680" y1="450" x2="660" y2="480"/>
+      <line x1="800" y1="450" x2="780" y2="480"/>
+      <line x1="920" y1="450" x2="900" y2="480"/>
+      <line x1="1000" y1="450" x2="980" y2="480"/>
+    </g>
+  </g>
+
+  <!-- Christmas light chandeliers on Grafton Street -->
+  <g filter="url(#softGlow)">
+    <!-- Left chandelier -->
+    <g transform="translate(200,200)">
+      <ellipse cx="0" cy="0" rx="40" ry="8" fill="#f78166" opacity="0.3"/>
+      <ellipse cx="0" cy="0" rx="30" ry="6" fill="#f78166" opacity="0.5"/>
+      <circle cx="-25" cy="0" r="4" fill="#fff8e7"/>
+      <circle cx="-10" cy="-3" r="3" fill="#fff8e7"/>
+      <circle cx="5" cy="2" r="3.5" fill="#fff8e7"/>
+      <circle cx="20" cy="-1" r="4" fill="#fff8e7"/>
+      <circle cx="30" cy="3" r="2.5" fill="#fff8e7"/>
+      <!-- Strings -->
+      <line x1="-30" y1="-8" x2="-25" y2="0" stroke="#30363d" stroke-width="1"/>
+      <line x1="-15" y1="-8" x2="-10" y2="-3" stroke="#30363d" stroke-width="1"/>
+      <line x1="0" y1="-8" x2="5" y2="2" stroke="#30363d" stroke-width="1"/>
+      <line x1="15" y1="-8" x2="20" y2="-1" stroke="#30363d" stroke-width="1"/>
+      <line x1="25" y1="-8" x2="30" y2="3" stroke="#30363d" stroke-width="1"/>
+    </g>
+
+    <!-- Center chandelier (larger) -->
+    <g transform="translate(600,160)">
+      <ellipse cx="0" cy="0" rx="60" ry="10" fill="#a371f7" opacity="0.25"/>
+      <ellipse cx="0" cy="0" rx="50" ry="8" fill="#a371f7" opacity="0.4"/>
+      <circle cx="-40" cy="-2" r="5" fill="#f0e6ff"/>
+      <circle cx="-22" cy="4" r="4" fill="#f0e6ff"/>
+      <circle cx="-5" cy="-3" r="5" fill="#f0e6ff"/>
+      <circle cx="12" cy="2" r="4" fill="#f0e6ff"/>
+      <circle cx="28" cy="-1" r="5" fill="#f0e6ff"/>
+      <circle cx="42" cy="3" r="4" fill="#f0e6ff"/>
+      <circle cx="-30" cy="8" r="3" fill="#f0e6ff" opacity="0.7"/>
+      <circle cx="0" cy="10" r="3.5" fill="#f0e6ff" opacity="0.7"/>
+      <circle cx="35" cy="8" r="3" fill="#f0e6ff" opacity="0.7"/>
+      <!-- Strings -->
+      <line x1="-45" y1="-10" x2="-40" y2="-2" stroke="#30363d" stroke-width="1"/>
+      <line x1="-27" y1="-10" x2="-22" y2="4" stroke="#30363d" stroke-width="1"/>
+      <line x1="-10" y1="-10" x2="-5" y2="-3" stroke="#30363d" stroke-width="1"/>
+      <line x1="7" y1="-10" x2="12" y2="2" stroke="#30363d" stroke-width="1"/>
+      <line x1="23" y1="-10" x2="28" y2="-1" stroke="#30363d" stroke-width="1"/>
+      <line x1="37" y1="-10" x2="42" y2="3" stroke="#30363d" stroke-width="1"/>
+    </g>
+
+    <!-- Right chandelier -->
+    <g transform="translate(1000,200)">
+      <ellipse cx="0" cy="0" rx="40" ry="8" fill="#58a6ff" opacity="0.3"/>
+      <ellipse cx="0" cy="0" rx="30" ry="6" fill="#58a6ff" opacity="0.5"/>
+      <circle cx="-25" cy="1" r="4" fill="#e6f4ff"/>
+      <circle cx="-10" cy="-2" r="3" fill="#e6f4ff"/>
+      <circle cx="5" cy="3" r="3.5" fill="#e6f4ff"/>
+      <circle cx="20" cy="0" r="4" fill="#e6f4ff"/>
+      <circle cx="30" cy="-2" r="2.5" fill="#e6f4ff"/>
+      <!-- Strings -->
+      <line x1="-30" y1="-8" x2="-25" y2="1" stroke="#30363d" stroke-width="1"/>
+      <line x1="-15" y1="-8" x2="-10" y2="-2" stroke="#30363d" stroke-width="1"/>
+      <line x1="0" y1="-8" x2="5" y2="3" stroke="#30363d" stroke-width="1"/>
+      <line x1="15" y1="-8" x2="20" y2="0" stroke="#30363d" stroke-width="1"/>
+      <line x1="25" y1="-8" x2="30" y2="-2" stroke="#30363d" stroke-width="1"/>
+    </g>
+  </g>
+
+  <!-- Reflections on wet cobblestones -->
+  <g opacity="0.15" transform="translate(0,420) scale(1, -0.3)">
+    <g transform="translate(200, -200)">
+      <ellipse cx="0" cy="0" rx="40" ry="8" fill="#f78166" opacity="0.5"/>
+    </g>
+    <g transform="translate(600, -160)">
+      <ellipse cx="0" cy="0" rx="60" ry="10" fill="#a371f7" opacity="0.4"/>
+    </g>
+    <g transform="translate(1000, -200)">
+      <ellipse cx="0" cy="0" rx="40" ry="8" fill="#58a6ff" opacity="0.5"/>
+    </g>
+  </g>
+
+  <!-- Mist/fog layer -->
+  <ellipse cx="600" cy="500" rx="800" ry="150" fill="#0d1117" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.5;0.6" dur="8s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Title text -->
+  <text x="600" y="120" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="0.5px">The Drizzle Remembers</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="175" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" fill="#8b949e" text-anchor="middle" font-weight="300">What We Forget — Dublin, 19 November 2026</text>
+
+  <!-- Divider line -->
+  <line x1="500" y1="195" x2="700" y2="195" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Date/weather line -->
+  <text x="600" y="220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#6e7681" text-anchor="middle">7.7°C · Moderate drizzle · Wind 4.7 km/h · 07:01 CET</text>
+
+  <!-- Cyclist silhouette -->
+  <g transform="translate(850, 380)" opacity="0.4">
+    <ellipse cx="0" cy="0" rx="15" ry="25" fill="#ffffff"/>
+    <ellipse cx="-8" cy="20" rx="6" ry="12" fill="#ffffff"/>
+    <ellipse cx="8" cy="20" rx="6" ry="12" fill="#ffffff"/>
+    <line x1="-15" y1="5" x2="-25" y2="-10" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <line x1="15" y1="5" x2="25" y2="-10" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="0" cy="-18" r="8" fill="#ffffff"/>
+    <!-- Bike wheels -->
+    <circle cx="-22" cy="35" r="18" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+    <circle cx="22" cy="35" r="18" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+  </g>
+
+  <!-- Fox silhouette on embankment -->
+  <g transform="translate(150, 390)" opacity="0.3">
+    <path d="M0,0 Q-10,-15 -5,-30 Q0,-35 5,-30 Q10,-15 0,0" fill="#f78166"/>
+    <ellipse cx="8" cy="-28" rx="4" ry="6" fill="#f78166"/>
+    <ellipse cx="12" cy="-32" rx="2" ry="3" fill="#1a1f2e"/>
+    <path d="M-5,-30 Q-15,-40 -10,-50" fill="none" stroke="#f78166" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
