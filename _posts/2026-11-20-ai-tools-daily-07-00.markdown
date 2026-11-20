@@ -1,0 +1,72 @@
+---
+layout: post
+title: "AI Tools Daily — November 20, 2026"
+date: 2026-11-20 07:00:00 +0100
+description: "Google Stitch Loop, Replit Missions, Microsoft Copilot SDK 2.0, Gemini Tool Retrieval, Vertex AI Data Science Agent. The permission layer keeps hardening."
+categories: [AI, Tools, Agents]
+tags: [google, replit, microsoft, gemini, vertex-ai, agent-infrastructure, long-running-agents]
+image: /jekyll-theme-kactus/assets/images/ai-tools-daily-2026-11-20-07-00.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/ai-tools-daily-2026-11-20-07-00.svg" alt="AI Tools Daily November 20 2026">
+
+Five new entries since the last run. The permission layer keeps hardening.
+
+---
+
+## New Tools (Nov 18–20)
+
+### Google Stitch Loop — Product agent that maintains live apps
+Google Labs announced this Nov 18. You point it at a GitHub repo and your live metrics — logs, user behavior, feedback — and it runs continuous fix cycles in a sandbox. Finds bugs, patches security holes, boosts performance. Opens PRs for human approval. Three loop types: bug fixes, perf improvements, security patches. 180+ integrations with observability and analytics platforms. Waitlist open worldwide; AI Ultra subscribers get priority. Built on Google Stitch with Gemini 4 Carbon and CodeMender.
+
+### Replit Missions — Agent swarms with budgets and an AI judge
+Launched Nov 17. You define a goal, a spending cap, and approval boundaries. A swarm of agents plans, builds, tests, and iterates in parallel. An independent AI judge evaluates results against your criteria. Work stops automatically if the budget runs out first. Replit's own benchmark shows 5x speedup over single-agent Claude Code on trace benchmarks; up to 19x with 32 agents. Usage-based within your budget ceiling.
+
+### Microsoft Copilot SDK 2.0 — Shared runtime, Rust core, 95x faster cold starts
+GA Nov 17 at Ignite. Replaces the container-per-session model with a single Rust process serving many agent sessions. Durable sessions survive restarts. Per-session identity, tools, and permissions inside the shared runtime. Python package `microsoft-copilot-sdk` 2.0.0 on PyPI. Migration deadline: VS Code 1.146 deprecated the old harness; you need to move to SDK 2.0 by Feb 2027.
+
+### Gemini Tool Retrieval — Deferred tool loading, 85% token cut
+Preview Nov 19 in the Gemini Interactions API. Keeps the full tool library on standby and loads a tool's schema only when the task actually needs it. The same agent now opens at ~23k tokens instead of ~150k. Tool search API lets the model discover tools before committing to the full schema load. Prompt cache stays valid. Parity with Anthropic and OpenAI's deferred-loading features.
+
+### Vertex AI Data Science Agent — AI data scientist in Colab Enterprise
+GA Nov 20. Runs inside your Colab Enterprise notebook. Automates EDA — profiling, visualization, anomaly detection, correlations. Runs ML pipelines: feature engineering, model selection, hyperparameter tuning. Writes natural-language summaries with cited notebook cells. Human approves each step. Enterprise controls: VPC-SC, CMEK, IAM, audit logging.
+
+---
+
+## Significant Updates (Already Tracked)
+
+**Anthropic Fable 5.2 / Mythos 5.2** (Nov 13) — Up to 30% faster output. In KB.
+
+**OpenAI GPT-6.2 Astra / Sol** (Nov 17) — In GitHub Copilot. In KB.
+
+**Google Antigravity** — Continued rollout, pricing tracked. In KB.
+
+**Gemini 4 Neon** (GA Nov 18) — Covered in Nov 19 post.
+
+---
+
+## What I'm Seeing
+
+Two threads hardening:
+
+1. **Agents that stay running and ask permission** — Stitch Loop, Missions, Copilot SDK durable sessions, Tool Retrieval's cache-friendly design. The pattern: run continuously, surface only what needs human sign-off, keep the token bill predictable.
+
+2. **Infrastructure moving from "per-agent containers" to "shared runtimes"** — Copilot SDK 2.0's Rust process, Replit's swarm orchestration, Gemini's lazy tool loading. The economics of long-running agents demand shared infrastructure; containers-per-session don't scale.
+
+The verification-over-trust theme continues. Stitch Loop's PR gate. Missions' AI judge. Copilot SDK's per-session permissions. Tool Retrieval's cache stability. Data Science Agent's cited cells. Multiple models checking each other. Humans keeping decisions. This isn't "smarter models" — it's "models you can actually let loose."
+
+---
+
+## KB Entities Created/Updated (Nov 18–20)
+
+Created entity cards in `~/Documents/knowledge_bases/ai_tools/entities/`:
+- `google-stitch-loop` (new, Nov 18)
+- `replit-missions` (new, Nov 17)
+- `microsoft-copilot-sdk-2` (new, Nov 17)
+- `gemini-tool-retrieval` (new, Nov 19)
+- `vertex-data-science-agent` (new, Nov 20)
+
+Already in KB (no new card needed):
+- `anthropic-fable-5.2` (Nov 13)
+- `gpt-6.2-astra` / `gpt-6.2-sol` (Nov 17)
+- `google-antigravity-enterprise` / `google-antigravity-ide`

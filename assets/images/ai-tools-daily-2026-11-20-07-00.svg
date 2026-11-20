@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff"/>
+      <stop offset="100%" style="stop-color:#a371f7"/>
+    </linearGradient>
+    <linearGradient id="coralGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f78166"/>
+      <stop offset="100%" style="stop-color:#ffa657"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle grid pattern -->
+  <g stroke="#30363d" stroke-width="0.5" opacity="0.3">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+    <line x1="150" y1="0" x2="150" y2="630"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="450" y1="0" x2="450" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="750" y1="0" x2="750" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="1050" y1="0" x2="1050" y2="630"/>
+  </g>
+  
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.2"/>
+  <circle cx="1100" cy="530" r="120" fill="none" stroke="#a371f7" stroke-width="1" opacity="0.15"/>
+  <circle cx="200" cy="500" r="60" fill="none" stroke="#3fb950" stroke-width="1" opacity="0.1"/>
+  
+  <!-- Accent line -->
+  <line x1="100" y1="180" x2="300" y2="180" stroke="url(#accentGrad)" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Title -->
+  <text x="100" y="220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff">AI Tools Daily</text>
+  
+  <!-- Date -->
+  <text x="100" y="280" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" fill="#8b949e">November 20, 2026</text>
+  
+  <!-- Category tags -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#58a6ff">
+    <rect x="100" y="320" width="100" height="30" rx="4" fill="#1f6feb" fill-opacity="0.2"/>
+    <text x="110" y="341">Agents</text>
+    <rect x="210" y="320" width="120" height="30" rx="4" fill="#1f6feb" fill-opacity="0.2"/>
+    <text x="220" y="341">Infrastructure</text>
+    <rect x="340" y="320" width="100" height="30" rx="4" fill="#1f6feb" fill-opacity="0.2"/>
+    <text x="350" y="341">Tools</text>
+  </g>
+  
+  <!-- Bottom accent -->
+  <line x1="100" y1="550" x2="400" y2="550" stroke="url(#coralGrad)" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Subtitle -->
+  <text x="100" y="585" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#8b949e">Permission layer hardening · Shared runtimes · Deferred loading</text>
+</svg>
