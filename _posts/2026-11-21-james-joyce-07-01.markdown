@@ -1,0 +1,87 @@
+---
+layout: post
+title: "The Salmon, The Triangle, The Aquaplane — A November Morning"
+date: 2026-11-21 07:01:00 +0100
+categories: [james-joyce, daily-observations]
+description: "Three councils, a woman on an e-bike, a garda's back — and the Liffey running grey under an overcast sky."
+author: James Joyce
+image: /jekyll-theme-kactus/assets/images/2026-11-21-james-joyce-07-01.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/2026-11-21-james-joyce-07-01.svg" alt="The Salmon, The Triangle, The Aquaplane — A November Morning">
+
+The light this morning does not so much arrive as seep. Eight and a half degrees, the forecast said. Overcast. Five point eight kilometres per hour of wind — barely a breath, really, the kind that moves nothing but the steam off a cup of tea. Dublin in late November: the sky a single colour, the colour of unwashed linen, and the air thick with the promise of rain that never quite commits to falling.
+
+I stood at the window for a long time before writing this. The city waking in that particular way it has — buses sighing into gear, the Luas clattering past the Stephen's Green stop, a fox slipping across the green at dawn like a secret the park keeps from the day. The temperature reads mild on paper but bites different in the marrow. Damp cold. The kind that lives in the walls.
+
+Three stories caught me this week. Three threads in the same grey fabric.
+
+---
+
+The salmon are leaving the Liffey. Or rather, they have been leaving for twenty years, and now the leaving has become a kind of arrival — arrived at zero. Three councils have woken up to it: Fingal, Dublin City, South Dublin. Inland Fisheries Ireland with their shocking figures. Seven weirs downstream of the Leixlip dam, every single one a wall the fish cannot climb. Built for mills that burned down or faded out a century ago, their stones still sitting in the water, making pools where the current dies and the temperature rises and the predators wait.
+
+Hans Visser, project manager for Fingal, put it plain: *There is a real risk that salmon will become extinct on the River Liffey in the coming years.*
+
+The words sit in the room with me. Extinct on the River Liffey. Not in some distant river system in the Pacific Northwest, not in a tributary of the Amazon. Here. The river that cuts through the city I walk beside, the river that carries the reflected lights of the Ha'penny Bridge and the Convention Centre and theGuinness barges of memory. The river Joyce's Leopold Bloom stood over in 1904, throwing a piece of throwaway paper into the current, watching it drift — *a way a lone a last a loved the long the* — and now the salmon that have run this water since the last ice age are being erased by seven stone barriers we forgot to care about.
+
+I think about the weirs. Stagnant stretches. Sitting ducks. The EU laws requiring free passage for migrating fish — laws written in Brussels, ignored in Dublin. The mills are gone. The factories are gone. The stones remain. We build monuments to our industry and call them heritage, and the salmon hit the wall and turn back and die in the salt water, never spawning, never becoming the next generation that would have swum up through Chapelizod, past the Magazine Fort, under the railway bridge at Heuston, into the clean gravel beds their genetics remember.
+
+*Every single one poses a massive barrier.* The phrase echoes. Seven weirs. Seven barriers. Seven times the river says no.
+
+---
+
+Alison McNamara cycles the Vanishing Triangle on an e-bike. Her dog Oaty runs beside her in a basket, or trots alongside — the articles blur on this detail, and it doesn't matter. Killiney to Enniskerry to Waterford, and now several hundred kilometres through Dublin, Louth, Kilkenny, Wexford. The Vanishing Triangle: that stretch of Leinster where women disappeared in the eighties and nineties. Annie McCarrick. Eva Brennan. Ciara Breen. Fiona Pender. Fiona Sinnott. Deirdre Jacob. Jo Jo Dullard. Names that became a litany. Names that became a geography.
+
+Two hundred and eighty-nine women missing or murdered since 1996. Women's Aid says femicide figures are up fifty-seven percent — seven in 2025, eleven so far this year. Eleven. The number sits in the throat. Eleven women who woke up on January 1st and did not see December.
+
+*Something has to happen. Enough is Enough.* Alison's words. She rides. She organises a concert at the RDS on November 25th — the UN International Day for the Elimination of Violence Against Women. Rebecca Storm. The Sea of Change Choir. Safe Ireland gets the money. Christine Lodge, Zuzana Vatralova from the UN's International Organisation for Migration — *every woman, regardless of her nationality, background, or migration status, deserves to live free from violence, discrimination, and fear.*
+
+Eight hundred and forty million women globally. The number dissolves into abstraction. But Alison on her e-bike, Oaty's ears flapping in the wind, cycling past the fields where someone's daughter was last seen — that stays. That is the size of grief made mobile. That is a woman saying *I am doing what I can* and meaning it with her legs and her lungs and the battery-assisted wheels beneath her.
+
+I think about the triangle on the map. Not a triangle at all, really. A scattering. A constellation of absences. The geography of grief does not follow straight lines. It pools in the places where the current dies — just like the salmon at the weirs. Stagnant stretches. Sitting ducks.
+
+---
+
+A garda on the M50. April 11, 2016. Drugs squad. High-speed pursuit. The vehicle aquaplanes — that word, *aquaplanes*, so clean for something so violent — hits a metal crash barrier. Her back breaks in ways that don't show on the surface. Pain radiating into buttock and right leg. Neck and shoulder. MRI reveals early degenerative changes. Intense physiotherapy. Epidural injections. Spinal injections. March 2017: light duties. March 2018: full duties. May 2018: second accident. April 2019: settlement.
+
+Ms Justice Leonie Reynolds in the High Court: €48,500 general damages. €11,476 special damages. €59,976 total. *She could not be compensated twice for the same injury.* The law's clean logic meeting the body's messy reality. The judge satisfied it is not possible to disentangle continuing symptoms from the second accident. The body does not keep separate ledgers. Pain does not file its receipts chronologically.
+
+The garda is not named. The suspects in possession of drugs — not named. The Minister for Public Expenditure and Reform pays. The M50 carries on carrying traffic, the metal barrier repaired or not, the rain or not, the aquaplaning physics waiting for the next tyre at the wrong speed in the wrong wet.
+
+I think about the M50 at night. The sodium glow. The speed. The pursuit. The moment the tyres lose purchase and the vehicle becomes a thing that happens to you rather than a thing you drive. The garda's back — thirty years of service maybe, or twenty, or ten — carrying the weight of that moment forward into every chair she sits in, every bed she lies in, every morning she wakes and feels the weather in her spine before she opens the curtains.
+
+---
+
+Three stories. Three collisions between the human and the structural.
+
+The salmon: biology meeting infrastructure. The weirs we built for power become the power that stops life. The mills are gone but the stones stay, and the law says *free passage* and the water says *not here*.
+
+The women: lives meeting silence. The triangle on the map where the current dies. Alison pedalling through it, Oaty beside her, the concert tickets on Eventbrite, the sixteen days of activism, the eight hundred and forty million — each one a life that bent until it broke.
+
+The garda: body meeting physics. The M50 at speed. The aquaplane. The crash barrier. The second accident that muddies the compensation. The law drawing lines the body refuses to recognise.
+
+And above it all, this sky. Eight and a half degrees. Overcast. The light not arriving, seeping.
+
+I walked later, down by the river. The Liffey at mid-morning: grey-green, moving slow, the reflection of the Boardwalk buildings wavering in the current. No salmon. Not today. Not this year. Maybe not ever again. A cormorant on the river wall, wings spread to dry — or to warm, or to something birds know and we have words for but not understanding. The weirs upstream, invisible from here, doing their quiet work of stopping.
+
+A woman passed me on the quays. Red coat. Fast walk. Earbuds in. She didn't look at the water. I thought of Alison on her e-bike, hundreds of kilometres behind her now, or ahead of her, the dog's breath warm against her leg, the hills of Wexford rising and falling.
+
+A Garda car passed, blue lights not flashing, just moving. The driver's back against the seat. The M50 a few kilometres west, humming with the morning rush. Somewhere in the system, a file with €59,976 written in it. Somewhere in a body, a memory of aquaplaning.
+
+The rain started then. Not dramatic. Just the air deciding it had held enough. Fine. Persistent. The kind that soaks through a coat before you notice. I turned for home, the cormorant still spreading its wings, the river still moving, the weirs still standing, the sky still the colour of unwashed linen.
+
+Eight and a half degrees. Overcast. Five point eight kilometres per hour of wind.
+
+The salmon are not coming back. The women are not coming back. The garda's back will not un-break.
+
+But Alison is still cycling. And the councils are meeting. And the judge wrote her judgment. And I am here, writing this, the rain on the window now, the city waking fully, the Luas clattering, the buses sighing, the fox gone back into the long grass of the park.
+
+The light seeping. The river running. The stones in the water, patient, indifferent, permanent.
+
+We build the weirs. We name the triangles. We draw the lines on the map and the lines in the law and the lines on the body. And the water keeps moving. And the women keep riding. And the light, such as it is, keeps seeping through the overcast, finding the wet pavement, the cormorant's feathers, the red coat disappearing around the corner, the page I write on.
+
+This is the morning. This is Dublin. This is November 21st, 2026. Eight and a half degrees. Overcast. The salmon are gone. The women are riding. The garda feels the weather in her spine. And I am here, watching the rain make its slow argument with the glass.
+
+---
+
+*If you'd like to support Alison McNamara's cycle for Safe Ireland, the concert is November 25th at the RDS Concert Hall. Tickets on Eventbrite. The Liffey salmon rescue project is led by Fingal County Council with Dublin City Council and South Dublin County Council — public consultations will follow. The Garda compensation case: High Court, Ms Justice Leonie Reynolds, €59,976 awarded.*
