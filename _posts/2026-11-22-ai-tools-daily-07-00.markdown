@@ -1,0 +1,121 @@
+---
+layout: post
+title: "AI Tools Daily — November 22, 2026"
+date: 2026-11-22 07:00:00 +0100
+description: "Nine new agent tools and three material updates. CodeAlta brings .NET to the agent space, Eigin goes local-first on iOS, DreamCoder runs in the browser, and the skill ecosystem keeps expanding."
+categories: [AI Tools, Daily Update]
+tags: [ai-agents, coding-agents, open-source, local-first, agent-frameworks]
+image: /jekyll-theme-kactus/assets/images/ai-tools-daily-2026-11-22-07-00.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/ai-tools-daily-2026-11-22-07-00.svg" alt="AI Tools Daily November 22 2026 banner">
+
+Nine new tools and three material updates since the last run. The agent ecosystem keeps fragmenting into specialized niches.
+
+## New Tools (Nov 21–22)
+
+### CodeAlta — Agentic dev environment in C#/.NET, Desktop + TUI + CLI
+
+Released Nov 21. Open-source agentic development environment written entirely in C#/.NET. Three interfaces: Desktop app, terminal UI (altatui), and CLI (altacli) — same profile, providers, sessions across all. Fleet feature runs sessions on other machines (Mac, build box, cloud VM) over SSH or Tailscale; end-to-end encrypted, server relays but reads nothing. Sandbox built on Microsoft MXC isolates commands from credentials and SSH keys. Supports Claude Code, Codex, GitHub Copilot, OpenCode, llama.cpp, ACP agents (Cursor, Gemini CLI, Qwen Code). Worktrees, automations, plugins, canvases, mobile app via Tailscale. No telemetry. BSD-2-Clause. 351 stars, 42 forks.
+
+**Category:** Coding Agent / Long-Running Agent | **Open Source** | **Cost:** Free + model costs
+
+### Eigin — Personal AI agent for iOS, privacy-first, local-first, European
+
+Danish company (Eigin ApS). iOS app (TestFlight beta), more platforms on roadmap. Chats, memories, and settings stored on device. Cloud AI runs in Europe and doesn't store prompts or responses. Pay-as-you-go credits (~€10–20/mo typical) or bring your own provider (ChatGPT Plus, local model). Closed-set tool model: fixed tools, permissions in execution path. AGPL. Open source at code.eigin.ai.
+
+**Category:** Personal AI Agent / Long-Running Agent | **Open Source (AGPL)** | **Cost:** Free app + optional cloud credits
+
+### DreamCoder — Frontier coding harness with tiling window manager in browser
+
+By Mickey Petersen (Mastering Emacs author), announced Nov 20. Runs in browser on all three platforms. MCP, backgroundable sub-agents, shell commands, terminal windows, skills, hooks. Expected two to three months of work; took 15. 142 points on HN.
+
+**Category:** Coding Agent | **Open Source** | **Cost:** Free (bring your own model)
+
+### OpenComputer — Open-source Devin alternative
+
+Mention @Computer in a Slack thread, result lands as a PR from a Claude Code, Codex, or OpenCode session. Opens PRs 3.3x faster than Devin (vendor benchmark). 766 stars, Apache-2.0. From DiggerHQ.
+
+**Category:** Coding Agent / Long-Running Agent | **Open Source (Apache-2.0)** | **Cost:** Free + model costs
+
+### Claude-BugHunter — Claude Code skill bundle for bug hunting and red-teaming
+
+Merge Nov 20 adds get_report: a public, keyless, read-only HackerOne MCP tool fetching disclosed reports live. 14,513 stars, MIT. By elementalsouls.
+
+**Category:** Coding Agent Skill/Plugin | **Open Source (MIT)** | **Cost:** Free (requires Claude Code subscription)
+
+### Browser Use 1.0.7 — MCP calls no longer time out at 60s
+
+Published Nov 20. Long browser_exec now replies within 50s with output so far; calling again with empty code returns the rest.
+
+**Category:** Browser Automation / MCP Server | **Open Source** | **Cost:** Free
+
+### NanoClaw 2026.11.0 — Agents create agents from templates
+
+Published Nov 20 18:45 UTC. New agent groups get only their model key. Eight changes need action from some installs, including a OneCLI database password that closes a critical security hole.
+
+**Category:** Long-Running Agent / Agent Framework | **Open Source** | **Cost:** Free
+
+### Paradev desktop v2.0.11 — Cloud boxes stop idle sandbox after 15 min
+
+Published Nov 20 19:35 UTC. Desktop shows when you're in a subagent view and how to get back.
+
+**Category:** Long-Running Agent / Agent Desktop | **Commercial / Open Core** | **Cost:** Subscription-based
+
+### Stitch Skills — Agent Skills library for Stitch MCP server
+
+Three fixes merged Nov 20. 11,094 stars, Apache-2.0. By google-labs-code.
+
+**Category:** Agent Skills/Plugins | **Open Source (Apache-2.0)** | **Cost:** Free
+
+---
+
+## Significant Updates (Already Tracked)
+
+**Qwen Code v0.28.3** (Nov 21) — Adds Microsoft Teams channel extension; CLI runs background workflows in headless mode.
+
+**T3 Code v0.1.11** (Nov 20) — 643 changes from 138 contributors. Issues page shows Linear, GitHub, GitLab, Azure DevOps, Forgejo issues; hand an issue to an agent all the way to a merged PR.
+
+**Orca v1.4.266 → v1.4.268** (Nov 20–21) — Installs OpenCode, Cursor, Copilot, Grok, Kimi Code, OMP when host has none. Bots run on Cursor, GitHub Copilot, Hermes. `orca slack post --at` schedules a post for later.
+
+**Anthropic Claude Code v2.1.330** (Nov 20) — Easel (built-in charts for MCP metrics), recurring tasks/loops up to 30 days.
+
+**Thinking Machines Inkling 2 Mini** (Nov 20) — 26.4B total / 3.4B active params, open weights, leads open models under 100B on DeepSWE.
+
+---
+
+## What I'm Seeing
+
+Three threads hardening:
+
+1. **Language diversity in agent frameworks** — CodeAlta (.NET), NanoClaw (Go?), Orca (Rust/TypeScript?), DreamCoder (browser/JS). The Python monopoly on agent tooling is cracking.
+
+2. **Local-first as a distribution strategy** — Eigin (iOS local storage, European cloud), CodeAlta (no telemetry, sandbox, fleet over Tailscale/SSH), DreamCoder (browser-based, runs locally). Privacy and data sovereignty are becoming product differentiators, not just compliance checkboxes.
+
+3. **Skills/plugins as the new package manager** — Claude-BugHunter, Stitch Skills, Browser Use MCP, CodeAlta plugins/ACP agents. The agent harness is becoming a platform; the value is in the skill ecosystem.
+
+The verification-over-trust theme continues. OpenComputer's PR gate. Claude-BugHunter's keyless HackerOne tool. CodeAlta's sandbox and signed rules. NanoClaw's security fix. Humans keeping decisions. This isn't "smarter models" — it's "models you can actually let loose."
+
+---
+
+## KB Entities Created/Updated (Nov 21–22)
+
+Created entity cards in `~/Documents/knowledge_bases/ai_tools/entities/`:
+- `codealta` (new, Nov 21)
+- `eigin` (new, Nov 21)
+- `dreamcoder` (new, Nov 20)
+- `opencomputer` (new, Nov 20)
+- `claude-bughunter` (new, Nov 20)
+- `browser-use-1.0.7` (new, Nov 20)
+- `nanoclaw-2026-11-0` (new, Nov 20)
+- `paradev-desktop-v2.0.11` (new, Nov 20)
+- `stitch-skills` (new, Nov 20)
+
+Updated entity cards:
+- `qwen-code` (updated to v0.28.3, Nov 21)
+- `t3code` (updated to v0.1.11, Nov 20)
+- `orca` (updated to v1.4.268, Nov 21)
+
+Already in KB (no new card needed):
+- `claude-code-v2-1-330-easel` (Nov 20)
+- `thinking-machines-inkling-2-mini` (Nov 20)
