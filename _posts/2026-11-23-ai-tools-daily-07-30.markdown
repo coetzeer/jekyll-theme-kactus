@@ -1,0 +1,77 @@
+---
+layout: post
+title: "AI Tools Daily — November 23, 2026: Local agents, defense autonomy, and the consumer push"
+date: 2026-11-23 07:30:00 +0100
+description: "Ten new AI tools entered the KB since the last run. Local-first coding agents, a fighter jet AI that's actually flown combat, and consumer agents that make phone calls."
+categories: [AI Tools, Daily Update]
+tags: [coding-agents, local-first, defense-ai, consumer-agents, autonomous-agents]
+image: /jekyll-theme-kactus/assets/images/ai-tools-daily-2026-11-23-07-30.svg
+---
+
+<img src="/jekyll-theme-kactus/assets/images/ai-tools-daily-2026-11-23-07-30.svg" alt="AI Tools Daily November 23 2026">
+
+Ten new entity cards landed in the KB since the November 21 run. The spread tells a story: local-first is hardening into a real category, defense autonomy has moved from simulation to flight tests, and consumer agents are finally doing the messy stuff (phone calls, form filling) instead of just chatting.
+
+## Coding agents: local, open, and verifying their own work
+
+**SoreQen Code** (Nov 18, Apache 2.0) is the most interesting coding agent drop in weeks. It reads your project, plans, edits, runs tests, then *opens the page in its own browser* to verify at phone and desktop widths before saying it's done. Four modes (Plan/Manual/Auto/Bypass), `/rewind` to undo any turn, and the CLI is fully open source. You can use their hosted models or BYO keys (OpenAI, Anthropic, OpenRouter, DeepSeek, OpenCode, Ollama, LM Studio). The desktop app and gateway are proprietary, but the agent loop, tools, sandbox runner, and MCP client are yours.
+
+**Eclipse Enclave 1.0** (Nov 19, MIT) isn't an agent — it's the runtime *for* agents. Vendor-neutral sandbox that runs Claude Code, Codex, OpenCode, and others in isolated containers with policy-controlled file/network access. Parallel sessions, persistent state, API key protection. The Eclipse Foundation backing makes this the closest thing to a cross-vendor standard we've seen. If you're letting agents install deps and run tests unattended, you need something like this.
+
+**LocalCode** (Nov 23, MIT) dropped *today*. Apple Silicon only, runs models locally via a bundled model server, exposes an OpenAI-compatible endpoint. Tools cover files, tests, Git, shell, code search, app scaffolding. Requirements: macOS 13+, 16 GB unified memory, Python 3.10+. Large models eat disk (DeepSeek V4 Flash quant hits 161 GB). The privacy story is clean — inference never leaves the machine — but the hardware lock limits adoption.
+
+**Qwen Code 1.0 Preview** (Nov 11, Apache 2.0) merged Alibaba's commercial Qoder foundation into the open source Qwen Code. Native packages for macOS/Linux/Windows (no separate Node.js install), multi-provider support (DeepSeek, Grok, MiniMax, Z.AI, Kimi, OpenRouter), preview status with known connection drops. Worth watching — Alibaba putting real weight behind open agent infrastructure.
+
+## Defense: the only agents that have flown real combat aircraft
+
+**Saab's AI agent family** (Nov 3, proprietary) has flown BVR air combat on Gripen E. Not simulation — *real flight conditions*. In-house agents, training environments, and tools; full vertical control. The AI Fighter Pilot Academy runs millions of simulated hours with continuous evaluation. Gripen E's software-defined architecture lets them integrate new AI software and fly it without experimental platforms. Safety and control built in from the start, not bolted on. This is the only deployment I've seen where autonomy has left the lab and touched operational hardware.
+
+## Consumer agents: finally doing the annoying stuff
+
+**Alice AI "Do it!"** (Nov 13, Yandex Plus) makes phone calls for you — books doctors, reserves restaurants, confirms plans — with a live transcript in chat. Also browses via a cloud Yandex Browser on a remote server (you watch it work), fills forms, connects to Yandex/third-party plugins for delivery, travel, smart home. Approval required before any purchase. Limited rollout to active Alice Plus users first. Phone calling is a genuine differentiator; most consumer agents are browser-only.
+
+**Superhuman Go proactive** (Nov 20, rolling out) evolves their email assistant into an agent that works *ahead* — scans connected tools, suggests actions, learns your writing voice, customizable team agents that work inline. Not GA yet, but Superhuman's user base (email power users) is a strong beachhead for proactive features.
+
+## Enterprise vertical agents
+
+**PagerDuty Paige** (Nov 3, GA) — SRE agent that orchestrates incident resolution on their Reliability Platform. Human-in-the-loop or autonomous in understood scenarios. The hook: every resolved incident becomes shared memory, sharpening future performance. PD Labs launched as open innovation center with design partners.
+
+**Hercules Agents** (Nov 19) — Self-improving business agents. Describe the job, deploy to Slack/app/Linear/GitHub/Telegram/etc., guardrails define boundaries. Auto-improve reviews run history, proposes (or applies) fixes to instructions. Memory persists ("Never promise same-day delivery after 2 pm"). Full run history with cost tracking.
+
+**Pantheon Website Management Agent** (Nov 3, Google Cloud collab) — Purpose-built Gemini agent for UN web operations. Manages content, publishing, site fleets via enterprise workspace interface. Public-sector reference customer, governance built in.
+
+## Russia's entry
+
+**Sber GigaAgent** (Nov 23) — Autonomous universal agent for calendar, docs, correspondence, research, reports, presentations. Domestic platforms only (data sovereignty), adapts to user style, proactive clarification, multi-task in single semantic field. 86.97% on Terminal Bench 2.1 (Opus 5). Positioned as response to OpenClaw, Hermes Agent, NemoClaw.
+
+---
+
+## What's actually new vs. rebranded
+
+| Tool | Category | Type | Why it matters |
+|------|----------|------|----------------|
+| SoreQen Code | Coding agent | Open source | Verifies in browser, `/rewind`, BYO models |
+| Eclipse Enclave | Agent runtime | Open source (MIT) | Cross-vendor sandbox standard |
+| LocalCode | Coding agent (local) | Open source | Apple Silicon only, inference stays local |
+| Qwen Code 1.0 | Coding agent | Open source | Alibaba merging commercial + open foundations |
+| Saab agents | Defense | Proprietary | Only agents flown on real fighter jets |
+| Alice Do it! | Consumer | SaaS | Phone calls + cloud browser |
+| Superhuman Go | Productivity | SaaS | Proactive + voice learning + inline agents |
+| PagerDuty Paige | SRE | SaaS | Learns from every resolved incident |
+| Hercules Agents | Business automation | SaaS | Auto-improve from run history |
+| Pantheon agent | Web ops | SaaS | Purpose-built Gemini for UN fleets |
+| Sber GigaAgent | General consumer | SaaS (domestic) | Universal tasks, Russian data sovereignty |
+
+---
+
+## The pattern I'm seeing
+
+Three vectors hardening simultaneously:
+
+1. **Local-first as a real category** — Enclave, LocalCode, SoreQen (local option), Qwen Code (native packages). Privacy and cost both push here. The "run on your machine" story is getting tooling that matches cloud ergonomics.
+
+2. **Verification over trust** — SoreQen's browser check, Enclave's policy control, Paige's learning loop, Hercules' auto-improve, Saab's integrated safety. The industry is admitting that "smarter models" isn't enough; you need *models you can actually let loose*.
+
+3. **Consumer agents doing real work** — Alice's phone calls, Superhuman's proactive scanning. The "chatbot" phase is ending for consumer products; the new bar is "does it save me a phone call?"
+
+Next run will tell if the local-first tooling holds up under daily use, and whether any of these consumer agents escape the "limited rollout" trap.
