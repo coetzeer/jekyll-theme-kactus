@@ -1,4 +1,4 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
@@ -9,51 +9,81 @@
       <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#a371f7;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0" />
-      <stop offset="50%" style="stop-color:#58a6ff;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#58a6ff;stop-opacity:0" />
-    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
   
   <!-- Background -->
   <rect width="1200" height="630" fill="url(#bgGrad)"/>
   
-  <!-- Subtle geometric elements -->
-  <circle cx="100" cy="100" r="80" fill="none" stroke="#30363d" stroke-width="1" opacity="0.3"/>
-  <circle cx="1100" cy="530" r="120" fill="none" stroke="#30363d" stroke-width="1" opacity="0.2"/>
-  <rect x="50" y="500" width="200" height="1" fill="url(#lineGrad)"/>
-  <rect x="950" y="80" width="200" height="1" fill="url(#lineGrad)"/>
+  <!-- Subtle geometric pattern -->
+  <g stroke="#30363d" stroke-width="0.5" opacity="0.3">
+    <line x1="0" y1="157.5" x2="1200" y2="157.5"/>
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="472.5" x2="1200" y2="472.5"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+  </g>
   
-  <!-- Central decorative line -->
-  <line x1="600" y1="200" x2="600" y2="430" stroke="#30363d" stroke-width="1" opacity="0.5"/>
-  <circle cx="600" cy="315" r="3" fill="#58a6ff" opacity="0.6"/>
-  <circle cx="600" cy="315" r="8" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.3"/>
-  <circle cx="600" cy="315" r="15" fill="none" stroke="#a371f7" stroke-width="1" opacity="0.2"/>
+  <!-- Decorative circles -->
+  <circle cx="150" cy="150" r="80" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.15"/>
+  <circle cx="1050" cy="480" r="120" fill="none" stroke="#a371f7" stroke-width="1" opacity="0.1"/>
+  <circle cx="600" cy="315" r="200" fill="none" stroke="#58a6ff" stroke-width="0.5" opacity="0.08"/>
+  
+  <!-- Drizzle lines -->
+  <g stroke="#58a6ff" stroke-width="1" opacity="0.4">
+    <line x1="200" y1="100" x2="215" y2="130"/>
+    <line x1="350" y1="80" x2="365" y2="110"/>
+    <line x1="500" y1="120" x2="515" y2="150"/>
+    <line x1="700" y1="90" x2="715" y2="120"/>
+    <line x1="850" y1="110" x2="865" y2="140"/>
+    <line x1="1000" y1="85" x2="1015" y2="115"/>
+    <line x1="150" y1="400" x2="165" y2="430"/>
+    <line x1="400" y1="420" x2="415" y2="450"/>
+    <line x1="650" y1="380" x2="665" y2="410"/>
+    <line x1="900" y1="410" x2="915" y2="440"/>
+    <line x1="1100" y1="390" x2="1115" y2="420"/>
+  </g>
   
   <!-- Title -->
-  <text x="600" y="260" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" 
-        font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="-0.5px">
-    Seven Degrees and the Weight of Memory
+  <text x="600" y="280" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="48" font-weight="bold" fill="#ffffff" 
+        text-anchor="middle" letter-spacing="0.5px">
+    The Light Drizzle Remembers
   </text>
   
-  <!-- Subtitle -->
-  <text x="600" y="330" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" 
-        font-size="24" fill="#8b949e" text-anchor="middle" letter-spacing="0.3px">
-    A November morning in Dublin
+  <text x="600" y="335" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="48" font-weight="bold" fill="#ffffff" 
+        text-anchor="middle" letter-spacing="0.5px">
+    What the Sun Forgot
   </text>
   
-  <!-- Category/date line -->
-  <text x="600" y="370" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" 
-        font-size="18" fill="#58a6ff" text-anchor="middle" opacity="0.8">
-    James Joyce · Daily Observations · 14 November 2026
+  <!-- Subtitle line -->
+  <line x1="400" y1="360" x2="800" y2="360" stroke="url(#accentGrad)" stroke-width="2"/>
+  
+  <!-- Category/date -->
+  <text x="600" y="395" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="24" fill="#8b949e" 
+        text-anchor="middle">
+    James Joyce • Daily Observations • 24 Nov 2026
   </text>
   
   <!-- Bottom accent -->
-  <line x1="400" y1="500" x2="800" y2="500" stroke="url(#accentGrad)" stroke-width="2" opacity="0.6"/>
-  <line x1="400" y1="502" x2="800" y2="502" stroke="#30363d" stroke-width="1" opacity="0.3"/>
-  
-  <!-- Small decorative dots -->
-  <circle cx="550" cy="500" r="2" fill="#58a6ff" opacity="0.6"/>
-  <circle cx="650" cy="500" r="2" fill="#a371f7" opacity="0.6"/>
+  <g opacity="0.6">
+    <circle cx="300" cy="550" r="3" fill="#58a6ff"/>
+    <circle cx="350" cy="550" r="2" fill="#a371f7"/>
+    <circle cx="400" cy="550" r="3" fill="#58a6ff"/>
+    <circle cx="800" cy="550" r="3" fill="#58a6ff"/>
+    <circle cx="850" cy="550" r="2" fill="#a371f7"/>
+    <circle cx="900" cy="550" r="3" fill="#58a6ff"/>
+  </g>
 </svg>
