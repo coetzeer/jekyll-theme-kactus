@@ -1,0 +1,83 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#a371f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f78166;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0" />
+      <stop offset="50%" style="stop-color:#58a6ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#58a6ff;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+
+  <!-- Subtle grid pattern -->
+  <g stroke="#21262d" stroke-width="1" opacity="0.3">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+    <line x1="100" y1="0" x2="100" y2="630"/>
+    <line x1="200" y1="0" x2="200" y2="630"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="500" y1="0" x2="500" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="700" y1="0" x2="700" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+    <line x1="1100" y1="0" x2="1100" y2="630"/>
+  </g>
+
+  <!-- Decorative circles -->
+  <circle cx="150" cy="150" r="80" fill="none" stroke="#58a6ff" stroke-width="2" opacity="0.15"/>
+  <circle cx="1050" cy="480" r="120" fill="none" stroke="#a371f7" stroke-width="2" opacity="0.1"/>
+  <circle cx="900" cy="120" r="60" fill="none" stroke="#f78166" stroke-width="1.5" opacity="0.2"/>
+  <circle cx="300" cy="550" r="40" fill="none" stroke="#3fb950" stroke-width="1.5" opacity="0.15"/>
+
+  <!-- Top accent line -->
+  <line x1="0" y1="0" x2="1200" y2="0" stroke="url(#accentGradient)" stroke-width="4"/>
+
+  <!-- Title -->
+  <text x="600" y="280" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff">
+    AI Tools Daily
+  </text>
+
+  <!-- Date -->
+  <text x="600" y="340" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" fill="#8b949e">
+    November 26, 2026
+  </text>
+
+  <!-- Divider line -->
+  <line x1="400" y1="370" x2="800" y2="370" stroke="url(#lineGradient)" stroke-width="2"/>
+
+  <!-- Category tags -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#8b949e">
+    <text x="600" y="410" text-anchor="middle">
+      <tspan fill="#58a6ff">███</tspan> 5 new Claude Code wrappers
+      <tspan dx="40" fill="#a371f7">███</tspan> Security runtime
+      <tspan dx="40" fill="#f78166">███</tspan> Multi-agent CLI
+    </text>
+    <text x="600" y="445" text-anchor="middle">
+      <tspan fill="#3fb950">███</tspan> Meta Muse Code GA
+      <tspan dx="40" fill="#58a6ff">███</tspan> AWS Kiro Bots GA
+    </text>
+  </g>
+
+  <!-- Bottom accent line -->
+  <line x1="0" y1="630" x2="1200" y2="630" stroke="url(#accentGradient)" stroke-width="4"/>
+
+  <!-- Small decorative elements -->
+  <rect x="550" y="500" width="100" height="3" rx="1.5" fill="#58a6ff" opacity="0.3"/>
+  <rect x="575" y="510" width="50" height="2" rx="1" fill="#a371f7" opacity="0.2"/>
+</svg>
