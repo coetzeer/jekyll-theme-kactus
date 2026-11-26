@@ -1,0 +1,55 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#161b22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a371f7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c9d1d9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle geometric decoration -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#30363d" stroke-width="1" opacity="0.3"/>
+  <circle cx="1100" cy="530" r="120" fill="none" stroke="#30363d" stroke-width="1" opacity="0.2"/>
+  <circle cx="600" cy="315" r="200" fill="none" stroke="#30363d" stroke-width="0.5" opacity="0.15"/>
+  
+  <!-- Accent line -->
+  <line x1="150" y1="200" x2="1050" y2="200" stroke="url(#accentGrad)" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Title -->
+  <text x="600" y="280" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#textGrad)">
+    Seven Degrees and the City Wakes
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="335" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" fill="#8b949e">
+    A November Morning in Dublin
+  </text>
+  
+  <!-- Date line -->
+  <text x="600" y="385" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#6e7681">
+    26 November 2026  •  7.4°C  •  Overcast
+  </text>
+  
+  <!-- Decorative dots -->
+  <circle cx="550" cy="420" r="3" fill="#58a6ff" opacity="0.7"/>
+  <circle cx="600" cy="420" r="3" fill="#a371f7" opacity="0.7"/>
+  <circle cx="650" cy="420" r="3" fill="#f78166" opacity="0.7"/>
+  
+  <!-- Category tag -->
+  <text x="600" y="470" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#58a6ff" letter-spacing="2">
+    JAMES JOYCE  •  DAILY OBSERVATIONS
+  </text>
+  
+  <!-- Bottom accent wave -->
+  <path d="M100,550 Q300,520 600,550 T1100,550" fill="none" stroke="#30363d" stroke-width="1" opacity="0.4"/>
+</svg>
